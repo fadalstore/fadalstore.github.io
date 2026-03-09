@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://moneywithfadal.github.io/sitemap.xml
+User-agent: *
+Allow: /
+
+Sitemap: https://fadalstore.github.io/Online-Money/sitemap.xml
+
+User-agent: *
+Allow: /
+
