@@ -1,156 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="canonical" href="https://moneywithfadal.github.io/">
-
+<title>Fadal Store</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Money With Fadal - Make Money Online</title>
-
-<meta name="description" content="Learn how to make money online, freelancing, blogging, AI tools and online business ideas.">
-
-<meta name="keywords" content="make money online, freelancing, blogging, passive income, online business">
-
-<meta name="author" content="Money With Fadal">
-
-<meta name="robots" content="index, follow">
-
-<meta charset="UTF-8">
-<title>MoneyWithFadal - Make Money Online</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
 body{
-font-family: Arial, sans-serif;
-background:#f4f4f4;
-margin:0;
-}
-
-header{
-background:#111;
-color:white;
-padding:25px;
+font-family: Arial;
+background:#f2f2f2;
 text-align:center;
-}
-
-nav{
-background:#222;
-padding:12px;
-text-align:center;
-}
-
-nav a{
-color:white;
-margin:0 15px;
-text-decoration:none;
-font-weight:bold;
 }
 
 .container{
-max-width:1000px;
+background:white;
+width:80%;
 margin:auto;
 padding:20px;
+border-radius:10px;
 }
 
-.card{
-background:white;
-padding:20px;
-margin:15px 0;
-border-radius:8px;
-box-shadow:0 2px 10px rgba(0,0,0,0.1);
+h1{
+color:#333;
 }
 
-.card a{
-text-decoration:none;
-color:#1a73e8;
-font-size:20px;
-font-weight:bold;
-}
-
-footer{
-background:#111;
+.article{
+display:block;
+margin:8px;
+padding:10px;
+background:#007bff;
 color:white;
-text-align:center;
-padding:20px;
-margin-top:40px;
+text-decoration:none;
+border-radius:5px;
+}
+
+.article:hover{
+background:#0056b3;
 }
 </style>
+
 </head>
 
 <body>
 
-<header>
-<h1>MoneyWithFadal</h1>
-<p>Learn how to make money online</p>
-</header>
-
-<nav>
-<a href="index.html">Home</a>
-<a href="#">AI Tools</a>
-<a href="#">Apps</a>
-<a href="#">Freelancing</a>
-<a href="#">Contact</a>
-</nav>
-
 <div class="container">
 
-<div class="card"><a href="article1.html">How to Make Money Online for Beginners</a></div>
-<div class="card"><a href="article2.html">15 Easy Ways to Make Money Online</a></div>
-<div class="card"><a href="article3.html">How to Make $100 Per Day Online</a></div>
-<div class="card"><a href="article4.html">Best Side Hustles From Home</a></div>
-<div class="card"><a href="article5.html">How Students Can Make Money Online</a></div>
+<h1>Fadal Store</h1>
+<p>Online Money Articles</p>
 
-<div class="card"><a href="article6.html">How to Make Money With AI Tools</a></div>
-<div class="card"><a href="article7.html">Best AI Tools to Make Money</a></div>
-<div class="card"><a href="article8.html">How to Sell AI Images</a></div>
-<div class="card"><a href="article9.html">AI Content Writing for Money</a></div>
-<div class="card"><a href="article10.html">AI Side Hustles That Pay</a></div>
-
-<div class="card"><a href="article11.html">10 Best Apps That Pay Real Money</a></div>
-<div class="card"><a href="article12.html">Apps That Pay to Watch Videos</a></div>
-<div class="card"><a href="article13.html">Best Survey Apps That Pay</a></div>
-<div class="card"><a href="article14.html">Apps That Pay $50 Per Day</a></div>
-<div class="card"><a href="article15.html">Mobile Apps That Pay Instantly</a></div>
-
-<div class="card"><a href="article16.html">Best Freelancing Websites</a></div>
-<div class="card"><a href="article17.html">Freelancing With No Experience</a></div>
-<div class="card"><a href="article18.html">How to Make Money on Fiverr</a></div>
-<div class="card"><a href="article19.html">Freelance Jobs on Upwork</a></div>
-<div class="card"><a href="article20.html">Top Freelancing Skills</a></div>
-
-<div class="card"><a href="article21.html">Make Money Using Your Phone</a></div>
-<div class="card"><a href="article22.html">Apps That Pay You Daily</a></div>
-<div class="card"><a href="article23.html">Earn Money Without Laptop</a></div>
-<div class="card"><a href="article24.html">Smartphone Money Ideas</a></div>
-<div class="card"><a href="article25.html">Passive Income Apps</a></div>
-
-<div class="card"><a href="article26.html">Start a Money Making Blog</a></div>
-<div class="card"><a href="article27.html">Affiliate Marketing Guide</a></div>
-<div class="card"><a href="article28.html">Make Money on Social Media</a></div>
-<div class="card"><a href="article29.html">Best Online Jobs</a></div>
-<div class="card"><a href="article30.html">Build Passive Income Online</a></div>
+<div id="articles"></div>
 
 </div>
-<body>
 
-<h1>Money With Fadal</h1>
-<p>Learn the best ways to make money online.</p>
+<script>
 
-<h2>Latest Articles</h2>
+for(let i=1;i<=30;i++){
+document.getElementById("articles").innerHTML += 
+'<a class="article" href="Online-Money/article'+i+'.html">Article '+i+'</a>';
+}
 
-<ul>
-<li><a href="article1.html">How to Make Money Online</a></li>
-<li><a href="article2.html">Best Freelancing Websites</a></li>
-<li><a href="article3.html">Passive Income Ideas</a></li>
-<li><a href="article4.html">Online Jobs for Beginners</a></li>
-<li><a href="article5.html">Make Money with AI</a></li>
-</ul>
-
-</body>
-<footer>
-<p>© 2026 MoneyWithFadal</p>
-</footer>
+</script>
 
 </body>
 </html>
