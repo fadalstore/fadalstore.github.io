@@ -293,7 +293,7 @@
                 <h2>🗺️ Macluumaadka Sitemap</h2>
                 <div class="info-box">
                     <strong>Sitemap URL-ka:</strong><br>
-                    <code>https://fadalstore.github.io/Online-Money/sitemap.xml</code>
+                    <code>https://fadalstore.github.io/sitemap.xml</code>
                     <br><br>
                     <strong>Sida loo cusboonaysiiyo Google Search Console:</strong><br>
                     1. Tag <a href="https://search.google.com/search-console" target="_blank">Google Search Console</a><br>
@@ -419,7 +419,7 @@ function generateHTML() {
         return;
     }
 
-    const canonicalUrl = `https://fadalstore.github.io/Online-Money/${filename}`;
+    const canonicalUrl = `https://fadalstore.github.io/${filename}`;
 
     let sectionsHTML = '';
     for (let i = 1; i <= sectionCount; i++) {
@@ -558,7 +558,7 @@ function buildArticleList() {
         list.appendChild(li);
 
         const sli = document.createElement('li');
-        sli.innerHTML = `<a href="https://fadalstore.github.io/Online-Money/article${i}.html" target="_blank">🔗 article${i}.html</a> <span class="badge">✅ Sitemap</span>`;
+        sli.innerHTML = `<a href="https://fadalstore.github.io/article${i}.html" target="_blank">🔗 article${i}.html</a> <span class="badge">✅ Sitemap</span>`;
         slist.appendChild(sli);
     }
 }
