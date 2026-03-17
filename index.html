@@ -9,6 +9,8 @@
   <meta name="keywords" content="make money online, financial freedom, side hustle, online business, freelancing, blogging, affiliate marketing 2026">
   <link rel="canonical" href="https://fadalstore.github.io/">
   <link rel="alternate" type="application/rss+xml" title="Fadal Store RSS Feed" href="https://fadalstore.github.io/rss.xml">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="shortcut icon" href="favicon.svg">
   <meta name="author" content="Fadal Store">
   <meta name="robots" content="index, follow">
   <meta property="og:type" content="website">
@@ -386,6 +388,7 @@
   <a href="apps.html">Apps That Pay</a>
   <a href="freelancing.html">Freelancing Intro</a>
   <a href="make-money-online.html">Make Money Online</a>
+  <a href="partnerstack.html" style="color:#7c3aed;font-weight:700;">💰 PartnerStack Affiliate Guide</a>
   <a href="privacy-policy.html">Privacy Policy</a>
   <a href="terms-of-service.html">Terms of Service</a>
 </nav>
@@ -718,6 +721,15 @@
         </div>
       </a>
 
+      <a href="partnerstack.html" class="article-card" style="border:2px solid #a855f7;">
+        <img src="https://images.unsplash.com/photo-1553484771-371a605b060b?w=600&h=340&fit=crop&q=80" alt="PartnerStack Affiliate Program" loading="lazy">
+        <div class="article-card-body">
+          <span class="article-num" style="background:linear-gradient(135deg,#5b21b6,#a855f7);color:#fff;">💰 AFFILIATE</span>
+          <h4>PartnerStack: Earn $3,000+/Month with SaaS Recurring Commissions</h4>
+          <div class="article-read">Read Guide</div>
+        </div>
+      </a>
+
     </div>
 
     <div class="ad-block">[ Google AdSense – Bottom Advertisement ]</div>
@@ -847,6 +859,24 @@
   hamburger.addEventListener('click', () => mobileNav.classList.contains('open') ? closeNav() : openNav());
   navClose.addEventListener('click', closeNav);
   overlay.addEventListener('click', closeNav);
+
+  // Subscribe button logic
+  function handleSubscribe(inputEl, btnEl, wrapperEl) {
+    var email = inputEl.value.trim();
+    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!email) { inputEl.style.border='2px solid #f87171'; inputEl.focus(); return; }
+    if (!emailRegex.test(email)) { inputEl.style.border='2px solid #f87171'; inputEl.placeholder='Please enter a valid email'; inputEl.value=''; return; }
+    inputEl.style.border='';
+    wrapperEl.innerHTML = '<div style="text-align:center;padding:16px 0;"><div style="font-size:2rem;margin-bottom:8px;">✅</div><strong style="font-size:1rem;color:#16a34a;">Thank you! You\'re subscribed.</strong><p style="font-size:.85rem;color:#6b7280;margin-top:6px;">Check your inbox for our latest guides.</p></div>';
+  }
+  document.querySelectorAll('.hero-form, .newsletter-widget, .footer-newsletter').forEach(function(form) {
+    var input = form.querySelector('input[type="email"], input:not([type])');
+    var btn = form.querySelector('button');
+    if (input && btn) {
+      btn.addEventListener('click', function() { handleSubscribe(input, btn, form); });
+      input.addEventListener('keydown', function(e) { if (e.key === 'Enter') handleSubscribe(input, btn, form); });
+    }
+  });
 </script>
 </body>
 </html>
