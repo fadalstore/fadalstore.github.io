@@ -31,7 +31,13 @@
     { url: 'article27.html', title: 'Web Development Freelancing: $10,000+/Month',             img: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=400&h=220&fit=crop' },
     { url: 'article28.html', title: 'Financial Freedom Blueprint 2026',                        img: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=400&h=220&fit=crop' },
     { url: 'article29.html', title: 'Side Hustle to Full-Time Income: Replace 9-to-5',         img: 'https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=400&h=220&fit=crop' },
-    { url: 'article30.html', title: 'How to Make Money Online in 2026: 30 Proven Methods',     img: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=400&h=220&fit=crop' }
+    { url: 'article30.html', title: 'How to Make Money Online in 2026: 30 Proven Methods',     img: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=400&h=220&fit=crop' },
+    { url: 'article31.html', title: 'How to Start a Website with Hostinger in 2026',           img: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=220&fit=crop' },
+    { url: 'article32.html', title: 'Advanced Amino Formula Review 2026',                      img: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=220&fit=crop' },
+    { url: 'article33.html', title: '50 Best Online Courses in 2026: Most In-Demand Skills',   img: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=400&h=220&fit=crop' },
+    { url: 'article34.html', title: 'Free Digital Marketing Course 2026: Complete A–Z Guide',  img: 'https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=400&h=220&fit=crop' },
+    { url: 'article35.html', title: 'How to Make $500/Day Online in 2026 – Proven System',     img: 'https://images.unsplash.com/photo-1579621970795-87facc2f976d?w=400&h=220&fit=crop' },
+    { url: 'article36.html', title: 'The Independent Backyard Book – Save $1,000+/Month',      img: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=220&fit=crop' }
   ];
 
   function currentArticle() {
