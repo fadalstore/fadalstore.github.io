@@ -135,19 +135,20 @@
   </div>
 
   <!-- Contact Form -->
-  <div class="content-card">
+  <div class="content-card" id="contact-form-card">
     <h2>Send a Message</h2>
+    <p style="color:var(--muted);font-size:.9rem;margin-bottom:18px;">Fill in the form below and click Send — your email client will open with your message pre-filled, ready to send directly to our team.</p>
     <div class="form-group">
-      <label>Your Name</label>
-      <input type="text" placeholder="John Doe">
+      <label for="cf-name">Your Name *</label>
+      <input id="cf-name" type="text" placeholder="John Doe" required>
     </div>
     <div class="form-group">
-      <label>Email Address</label>
-      <input type="email" placeholder="you@example.com">
+      <label for="cf-email">Email Address *</label>
+      <input id="cf-email" type="email" placeholder="you@example.com" required>
     </div>
     <div class="form-group">
-      <label>Subject</label>
-      <select>
+      <label for="cf-subject">Subject</label>
+      <select id="cf-subject">
         <option>General Question</option>
         <option>Article Suggestion</option>
         <option>Advertising / Partnership</option>
@@ -156,11 +157,17 @@
       </select>
     </div>
     <div class="form-group">
-      <label>Message</label>
-      <textarea placeholder="Write your message here…"></textarea>
+      <label for="cf-message">Message *</label>
+      <textarea id="cf-message" placeholder="Write your message here…"></textarea>
     </div>
-    <button class="submit-btn" type="button">Send Message →</button>
-    <p style="font-size:.78rem;color:var(--muted);margin-top:12px;text-align:center">We respond within 24–48 hours. For fastest response use WhatsApp.</p>
+    <button class="submit-btn" type="button" id="cf-submit">Send Message →</button>
+    <div id="cf-success" style="display:none;text-align:center;padding:18px;background:#f0fff4;border-radius:10px;border:2px solid #86efac;margin-top:12px;">
+      <div style="font-size:2rem;margin-bottom:6px;">✅</div>
+      <strong style="color:#16a34a;font-size:1rem;">Message sent! We'll reply within 24–48 hours.</strong>
+      <p style="font-size:.85rem;color:#6b7280;margin-top:6px;">Thank you for reaching out to Fadal Store.</p>
+    </div>
+    <p style="font-size:.78rem;color:var(--muted);margin-top:12px;text-align:center">We respond to all messages within 24–48 hours. For the fastest response, use WhatsApp.</p>
+    <p style="font-size:.82rem;color:var(--muted);margin-top:8px;text-align:center">Or email us directly: <a href="mailto:fadalstore7@gmail.com" style="color:var(--primary);font-weight:700;">fadalstore7@gmail.com</a></p>
   </div>
 </div>
 
@@ -183,6 +190,21 @@
   function off(){m.classList.remove('open');o.classList.remove('open');h.classList.remove('open');document.body.style.overflow='';}
   h.addEventListener('click',()=>m.classList.contains('open')?off():on());
   c.addEventListener('click',off);o.addEventListener('click',off);
+
+  document.getElementById('cf-submit').addEventListener('click', function() {
+    var name = document.getElementById('cf-name').value.trim();
+    var email = document.getElementById('cf-email').value.trim();
+    var subject = document.getElementById('cf-subject').value;
+    var message = document.getElementById('cf-message').value.trim();
+    if (!name) { document.getElementById('cf-name').focus(); document.getElementById('cf-name').style.border='2px solid #f87171'; return; }
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { document.getElementById('cf-email').focus(); document.getElementById('cf-email').style.border='2px solid #f87171'; return; }
+    if (!message) { document.getElementById('cf-message').focus(); document.getElementById('cf-message').style.border='2px solid #f87171'; return; }
+    var body = 'Name: ' + name + '\nEmail: ' + email + '\n\nMessage:\n' + message;
+    var mailtoLink = 'mailto:fadalstore7@gmail.com?subject=' + encodeURIComponent('[Fadal Store] ' + subject + ' from ' + name) + '&body=' + encodeURIComponent(body);
+    window.location.href = mailtoLink;
+    document.getElementById('cf-success').style.display = 'block';
+    document.getElementById('cf-submit').style.display = 'none';
+  });
 </script>
 </body>
 </html>
