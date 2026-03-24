@@ -4,7 +4,8 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-  <url><loc>https://fadalstore.github.io/</loc><lastmod>2026-03-17</lastmod><changefreq>weekly</changefreq><priority>1.00</priority></url>
+  <url><loc>https://fadalstore.github.io/</loc><lastmod>2026-03-24</lastmod><changefreq>weekly</changefreq><priority>1.00</priority></url>
+  <url><loc>https://fadalstore.github.io/article37.html</loc><lastmod>2026-03-24</lastmod><changefreq>monthly</changefreq><priority>0.98</priority></url>
   <url><loc>https://fadalstore.github.io/partnerstack.html</loc><lastmod>2026-03-17</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
   <url><loc>https://fadalstore.github.io/article1.html</loc><lastmod>2026-03-14</lastmod><changefreq>monthly</changefreq><priority>0.90</priority></url>
   <url><loc>https://fadalstore.github.io/article2.html</loc><lastmod>2026-03-14</lastmod><changefreq>monthly</changefreq><priority>0.90</priority></url>
