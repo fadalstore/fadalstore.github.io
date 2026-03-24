@@ -148,34 +148,90 @@
     .related-card-body p{font-size:.82rem;font-weight:700;color:var(--text);line-height:1.4;margin:0;}
     .related-card-body span{font-size:.75rem;color:var(--primary);font-weight:600;margin-top:4px;display:block;}
 
+  
+  /* ===== FADAL STORE STANDARD HEADER/FOOTER ===== */
+  .fs-topbar{background:#5b21b6;color:#fff;text-align:center;padding:8px 20px;font-size:.82rem;font-weight:500;letter-spacing:.02em;}
+  .fs-topbar a{color:#84cc16;text-decoration:none;font-weight:700;}
+  .fs-site-header{background:#fff;border-bottom:1px solid #e5e7eb;position:sticky;top:0;z-index:1000;box-shadow:0 2px 12px rgba(91,33,182,.08);}
+  .fs-header-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 24px;height:66px;}
+  .fs-logo{display:flex;align-items:center;gap:10px;text-decoration:none !important;}
+  .fs-logo-icon{width:42px;height:42px;border-radius:10px;background:linear-gradient(135deg,#5b21b6,#a855f7);display:flex;align-items:center;justify-content:center;font-weight:900;color:#fff;font-size:1.1rem;letter-spacing:-1px;flex-shrink:0;}
+  .fs-logo-text{font-weight:800;font-size:1.2rem;color:#5b21b6;letter-spacing:-.5px;}
+  .fs-logo-text span{color:#a855f7;}
+  .fs-desktop-nav{display:flex;align-items:center;gap:6px;}
+  .fs-desktop-nav a{padding:8px 14px;border-radius:8px;text-decoration:none !important;font-weight:600;font-size:.92rem;color:#1e1b4b !important;transition:background .2s,color .2s;}
+  .fs-desktop-nav a:hover{background:#f3f0ff;color:#5b21b6 !important;}
+  .fs-header-cta{background:linear-gradient(135deg,#5b21b6,#a855f7);color:#fff !important;padding:9px 20px;border-radius:25px;font-weight:700;font-size:.88rem;text-decoration:none !important;margin-left:8px;white-space:nowrap;transition:opacity .2s;}
+  .fs-header-cta:hover{opacity:.88;text-decoration:none !important;}
+  .fs-hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:6px;border:none;background:none;}
+  .fs-hamburger span{display:block;width:24px;height:2.5px;background:#5b21b6;border-radius:2px;transition:all .3s;}
+  .fs-hamburger.open span:nth-child(1){transform:translateY(7.5px) rotate(45deg);}
+  .fs-hamburger.open span:nth-child(2){opacity:0;}
+  .fs-hamburger.open span:nth-child(3){transform:translateY(-7.5px) rotate(-45deg);}
+  .fs-mobile-nav{display:none;position:fixed;top:0;right:-100%;width:80%;max-width:320px;height:100vh;background:#fff;z-index:2000;box-shadow:-4px 0 30px rgba(0,0,0,.15);padding:24px;transition:right .35s cubic-bezier(.4,0,.2,1);overflow-y:auto;}
+  .fs-mobile-nav.open{right:0;}
+  .fs-mobile-nav-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:28px;}
+  .fs-mobile-nav-close{font-size:1.6rem;cursor:pointer;color:#6b7280;background:none;border:none;}
+  .fs-mobile-nav a{display:block;padding:13px 16px;border-radius:10px;text-decoration:none !important;font-weight:600;color:#1e1b4b !important;font-size:1rem;margin-bottom:4px;}
+  .fs-mobile-nav a:hover{background:#f3f0ff;color:#5b21b6 !important;}
+  .fs-mobile-nav-divider{height:1px;background:#e5e7eb;margin:16px 0;}
+  .fs-mobile-nav-section{font-size:.78rem;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:.08em;padding:0 16px 8px;}
+  .fs-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:1500;}
+  .fs-overlay.open{display:block;}
+  .fs-site-footer{background:#0f0528;color:rgba(255,255,255,.75);margin-top:0;}
+  .fs-footer-inner{max-width:1200px;margin:0 auto;padding:40px 24px;display:flex;flex-direction:column;gap:20px;}
+  .fs-footer-brand{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
+  .fs-footer-desc{font-size:.88rem;line-height:1.7;max-width:400px;}
+  .fs-footer-links-row{display:flex;gap:28px;flex-wrap:wrap;}
+  .fs-footer-links-row a{font-size:.88rem;color:rgba(255,255,255,.6);text-decoration:none;font-weight:500;transition:color .2s;}
+  .fs-footer-links-row a:hover{color:#84cc16;}
+  .fs-footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding:18px 24px;max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;}
+  .fs-footer-bottom p{font-size:.83rem;color:rgba(255,255,255,.55);}
+  .fs-footer-bottom-links{display:flex;gap:20px;}
+  .fs-footer-bottom-links a{font-size:.83rem;color:rgba(255,255,255,.45);text-decoration:none;}
+  .fs-footer-bottom-links a:hover{color:#84cc16;}
+  @media(max-width:768px){.fs-desktop-nav,.fs-header-cta{display:none !important;}.fs-hamburger{display:flex !important;}.fs-mobile-nav{display:block;}}
+
   </style>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9732596199385216" crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="topbar">🔥 <a href="article25.html">New: Making Money with AI Tools in 2026 – 20 Proven Strategies →</a></div>
-<header class="site-header">
-  <div class="header-inner">
-    <a href="index.html" class="s-logo"><div class="s-logo-icon">FS</div><span class="s-logo-text">Fadal <span>Store</span></span></a>
-    <nav class="desktop-nav">
+
+<!-- FS Topbar -->
+<div class="fs-topbar">🔥 New: <a href="article35.html">Make $500/Day Online in 2026 – The Proven System That Actually Works →</a></div>
+
+<!-- FS Site Header -->
+<header class="fs-site-header">
+  <div class="fs-header-inner">
+    <a href="index.html" class="fs-logo">
+      <div class="fs-logo-icon">FS</div>
+      <span class="fs-logo-text">Fadal <span>Store</span></span>
+    </a>
+    <nav class="fs-desktop-nav">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
     </nav>
-    <a href="index.html#newsletter" class="header-cta">Subscribe Free →</a>
-    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    <a href="index.html#newsletter" class="fs-header-cta">Subscribe Free →</a>
+    <button class="fs-hamburger" id="fsHamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>
-<div class="s-overlay" id="sOverlay"></div>
-<nav class="s-mobile-nav" id="sMobileNav">
-  <div class="s-mobile-nav-header">
-    <a href="index.html" class="s-logo"><div class="s-logo-icon">FS</div><span class="s-logo-text">Fadal <span>Store</span></span></a>
-    <button class="s-mobile-nav-close" id="sNavClose">✕</button>
+<div class="fs-overlay" id="fsOverlay"></div>
+<nav class="fs-mobile-nav" id="fsMobileNav">
+  <div class="fs-mobile-nav-header">
+    <a href="index.html" class="fs-logo">
+      <div class="fs-logo-icon">FS</div>
+      <span class="fs-logo-text">Fadal <span>Store</span></span>
+    </a>
+    <button class="fs-mobile-nav-close" id="fsNavClose">✕</button>
   </div>
-  <a href="index.html">Home</a>
+  <a href="index.html">🏠 Home</a>
   <a href="about.html">About</a>
   <a href="contact.html">Contact</a>
-  <div class="s-mobile-nav-divider"></div>
-  <div class="s-mobile-nav-section">All Articles</div>
+  <div class="fs-mobile-nav-divider"></div>
+  <div class="fs-mobile-nav-section">All Articles</div>
   <a href="article1.html">Freelancing Guide</a>
   <a href="article2.html">Blogging for Profit</a>
   <a href="article3.html">YouTube Monetization</a>
@@ -206,15 +262,14 @@
   <a href="article28.html">Financial Freedom</a>
   <a href="article29.html">Side Hustle to Full-Time</a>
   <a href="article30.html">Make Money Online Guide</a>
-  <div class="s-mobile-nav-divider"></div>
-  <div class="s-mobile-nav-section">More Pages</div>
-  <a href="ai-tools.html">AI Tools</a>
-  <a href="apps.html">Apps That Pay</a>
-  <a href="freelancing.html">Freelancing Intro</a>
-  <a href="make-money-online.html">Make Money Online</a>
-  <a href="privacy-policy.html">Privacy Policy</a>
-  <a href="terms-of-service.html">Terms of Service</a>
+  <a href="article31.html">Hostinger Web Hosting</a>
+  <a href="article32.html">Advanced Amino Formula</a>
+  <a href="article33.html">More Guides</a>
+  <a href="article34.html">More Guides</a>
+  <a href="article35.html">Make $500/Day Online</a>
+  <a href="article36.html">Independent Backyard Book</a>
 </nav>
+
 <div class="container">
   <a href="index.html" class="back-link">&larr; Back to Home</a>
   <div class="adsense-placeholder">[ AdSense Top Ad ]</div>
@@ -376,19 +431,7 @@
   <div class="related-section"><h3>📖 Related Articles You May Like</h3><div class="related-grid"><a href="article17.html" class="related-card"><img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=220&fit=crop" alt="Graphic Design Business: $8,000/Month" loading="lazy"><div class="related-card-body"><p>Graphic Design Business: $8,000/Month</p><span>Read Guide →</span></div></a><a href="article9.html" class="related-card"><img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400&h=220&fit=crop" alt="Selling Digital Products: 90%+ Profit Margins" loading="lazy"><div class="related-card-body"><p>Selling Digital Products: 90%+ Profit Margins</p><span>Read Guide →</span></div></a><a href="article10.html" class="related-card"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=220&fit=crop" alt="Print on Demand: $5,000/Month Without Inventory" loading="lazy"><div class="related-card-body"><p>Print on Demand: $5,000/Month Without Inventory</p><span>Read Guide →</span></div></a><a href="article22.html" class="related-card"><img src="https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?w=400&h=220&fit=crop" alt="Instagram Income Guide: $15,000/Month" loading="lazy"><div class="related-card-body"><p>Instagram Income Guide: $15,000/Month</p><span>Read Guide →</span></div></a></div></div>
   <div class="adsense-placeholder">[ AdSense Bottom Ad ]</div>
 </div>
-<footer class="site-footer">
-  <div class="footer-bottom">
-    <div class="footer-bottom-inner">
-      <p>Copyright &copy; 2026 <strong style="color:#fff">Fadal Store</strong> | Powered by Fadal Store</p>
-      <div class="footer-links-bar">
-        <a href="privacy-policy.html">Privacy Policy</a>
-        <a href="terms-of-service.html">Terms</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-      </div>
-    </div>
-  </div>
-</footer>
+
 <script type="text/javascript">
     var app_url = 'https://adfly.site/';
     var app_api_token = '72c93dc12ea4fff0cd63c346f9a998e33acd0dd6';
@@ -399,5 +442,49 @@
 <script src="https://www.profitablecpmratenetwork.com/ujajx9rnky?key=9f841e54fdc53c4c1cf6ec2f43eee03b"></script>
 <script src="features.js"></script>
 <script src="https://pl28941215.profitablecpmratenetwork.com/53/73/99/53739933d377f9748a50c5a15b1e5024.js"></script>
+
+<!-- FS Site Footer -->
+<footer class="fs-site-footer">
+  <div class="fs-footer-inner">
+    <div>
+      <div class="fs-footer-brand">
+        <div class="fs-logo-icon">FS</div>
+        <span class="fs-logo-text" style="color:#fff;">Fadal <span style="color:#a855f7;">Store</span></span>
+      </div>
+      <p class="fs-footer-desc">Your ultimate guide to financial freedom, online business, and making money online in 2026.</p>
+    </div>
+    <div class="fs-footer-links-row">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms-of-service.html">Terms of Service</a>
+    </div>
+  </div>
+  <div class="fs-footer-bottom">
+    <p>© 2026 Fadal Store. All rights reserved.</p>
+    <div class="fs-footer-bottom-links">
+      <a href="privacy-policy.html">Privacy</a>
+      <a href="terms-of-service.html">Terms</a>
+      <a href="sitemap.xml">Sitemap</a>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+(function(){
+  var ham = document.getElementById('fsHamburger');
+  var nav = document.getElementById('fsMobileNav');
+  var overlay = document.getElementById('fsOverlay');
+  var close = document.getElementById('fsNavClose');
+  function openNav(){if(ham)ham.classList.add('open');if(nav)nav.classList.add('open');if(overlay)overlay.classList.add('open');document.body.style.overflow='hidden';}
+  function closeNav(){if(ham)ham.classList.remove('open');if(nav)nav.classList.remove('open');if(overlay)overlay.classList.remove('open');document.body.style.overflow='';}
+  if(ham)ham.addEventListener('click',openNav);
+  if(close)close.addEventListener('click',closeNav);
+  if(overlay)overlay.addEventListener('click',closeNav);
+})();
+</script>
+
 </body>
 </html>
