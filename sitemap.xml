@@ -1,56 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
     <loc>https://fadalstore.github.io/</loc>
-    <lastmod>2026-03-22</lastmod>
-    <priority>1.00</priority>
+    <lastmod>2026-03-25</lastmod>
+    <priority>1.0</priority>
   </url>
-
-  <url><loc>https://fadalstore.github.io/article1.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article2.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article3.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article4.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article5.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article6.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article7.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article8.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article9.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article10.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article11.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article12.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article13.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article14.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article15.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article16.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article17.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article18.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article19.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article20.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article21.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article22.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article23.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article24.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article25.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article26.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article27.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article28.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article29.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article30.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article31.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article32.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article33.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article34.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article35.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/article36.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-
-  <url><loc>https://fadalstore.github.io/ai-tools.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/apps.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/freelancing.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/make-money-online.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/about.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/contact.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/privacy-policy.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-  <url><loc>https://fadalstore.github.io/terms-of-service.html</loc><lastmod>2026-03-22</lastmod><priority>0.80</priority></url>
-
+  <url>
+    <loc>https://fadalstore.github.io/article1.html</loc>
+    <lastmod>2026-03-22</lastmod>
+    <priority>0.8</priority>
+  </url>
 </urlset>
