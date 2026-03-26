@@ -1,0 +1,18 @@
+Hambalyo! Guul weyn ayaad gaartay maadaama aad dhibcaha SEO ka dhigtay 100/100. Sidoo kale, dhibcahaaga kale ee Performance (91), Accessibility (96), iyo Best Practices (96) dhammaantood waxay ku jiraan aagga cagaaran (Green Zone), taas oo ka dhigan in website-kaagu uu hadda yahay mid u diyaarsan tartanka makiinadaha wax raadiya sida Google.
+Halkan waa dhowr qodob oo aad ku sii qurxin karto maadaama aad hadda isticmaalayso HTML caadi ah:
+1. Performance: TBT (Total Blocking Time)
+Weli waxaa jira 230 ms oo ah "Blocking Time," taas oo ka dhalata JavaScript-ka badan ee bogga saaran.
+ * Diagnostics: Warbixintu waxay sheegtay in weli aad badbaadin karto 308 KiB haddii aad iska saarto JavaScript-ka aan la isticmaalin.
+ * Talo: Maadaama aad iska deysay Jekyll, hubi haddii ay jiraan scripts aad ku dhex tirtay koodka HTML-ka oo aan hadda loo baahnayn.
+2. Sawirada (Image Optimization)
+Dhibcahaaga LCP (Largest Contentful Paint) waa 2.9s, waana mid aad u fiican.
+ * Savings: Waxaad weli badbaadin kartaa 92 KiB haddii aad sawirada u beddesho nooca WebP.
+ * Action: Hubi in sawirka ugu weyn ee bogga uu leeyahay sifaadkan: <img src="sawirka.webp" fetchpriority="high">. Tani waxay ka dhigaysaa inuu soo baxo xitaa ka hor 2.9 ilbiriqsi.
+3. Accessibility: Contrast (Dhibcaha: 96)
+Weli waxaa jira hal dhibic oo yar oo xagga midabka ah.
+ * Ciladda: Waxaa jira meelo qoraalka iyo midabka hoos yaal (background) uusan farqigoodu weynayn, taas oo dadka aragga ku dhiban ku adkayn karta.
+ * Xalka: Hubi haddii aad leedahay qoraal cawl (grey) ah oo saaran meel caddaan ah, ka dhig madow ama midab xooggan si uu si fudud u akhrismo.
+4. Best Practices (Dhibcaha: 96)
+Waxaa jira "Browser errors" yar yar oo weli lagu arkayo console-ka.
+ * Talo: Mar haddii aad dhibcaha SEO 100 gaarsiisay, waxaad hadda diiradda saari kartaa nadiifinta koodka JavaScript-ka ee khaladaadka keenaya si aad halkan na 100 uga dhigto.
+Ma jeclaan lahayd inaan kuu diyaariyo qoraal "Sitemap.xml" ah oo aad GitHub-ka ku dhex riddo si Google ay si dhaqso ah ugu ogaato maqaalladaada cusub?
