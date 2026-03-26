@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fadal Store – Financial Freedom & Online Business Hub</title>
   <meta name="google-adsense-account" content="ca-pub-9732596199385216">
-  <meta name="description" content="Fadal Store is your ultimate guide to financial freedom, online business, side hustles, and making money online. 30+ in-depth guides for 2026.">
+  <meta name="description" content="Fadal Store is your ultimate guide to financial freedom, online business, side hustles, and making money online. 40+ in-depth guides for 2026.">
   <meta name="keywords" content="make money online, financial freedom, side hustle, online business, freelancing, blogging, affiliate marketing 2026">
   <link rel="canonical" href="https://fadalstore.github.io/">
   <link rel="alternate" type="application/rss+xml" title="Fadal Store RSS Feed" href="https://fadalstore.github.io/rss.xml">
@@ -18,8 +18,6 @@
   <link rel="dns-prefetch" href="https://fonts.gstatic.com">
   <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
   <link rel="dns-prefetch" href="https://www.googletagmanager.com">
-  <link rel="dns-prefetch" href="https://images.unsplash.com">
-  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1551434678-e076c223a692?w=900&h=500&fit=crop&q=80&fm=webp&auto=format" fetchpriority="high">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Fadal Store – Financial Freedom & Online Business Hub">
   <meta property="og:description" content="Your ultimate resource for making money online, side hustles, financial freedom, and online business guides for 2026.">
@@ -32,280 +30,606 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Fadal Store","url":"https://fadalstore.github.io/","description":"Financial Freedom and Online Business Hub","potentialAction":{"@type":"SearchAction","target":"https://fadalstore.github.io/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"></noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
   <style>
+    /* ===== BLOGGER STYLE THEME ===== */
     :root {
-      --primary: #5b21b6;
-      --primary2: #7c3aed;
-      --accent: #a855f7;
-      --green: #84cc16;
-      --dark: #0f0528;
-      --text: #1e1b4b;
-      --muted: #4b5563;
-      --border: #e5e7eb;
-      --bg: #f9fafb;
-      --white: #ffffff;
-      --card-shadow: 0 4px 24px rgba(91,33,182,0.10);
-      --radius: 12px;
+      --orange: #ff6b35;
+      --orange2: #e55a25;
+      --dark: #1a1a2e;
+      --text: #333;
+      --muted: #666;
+      --light: #f5f5f5;
+      --white: #fff;
+      --border: #e0e0e0;
+      --sidebar-bg: #fafafa;
+      --link: #c0392b;
     }
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-    body { font-family: 'Inter', 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; font-size: 16px; }
+    body { font-family: 'Roboto', Arial, sans-serif; background: #f0f0f0; color: var(--text); font-size: 15px; line-height: 1.6; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { color: var(--orange); }
+    img { max-width: 100%; height: auto; display: block; }
 
     /* ===== TOPBAR ===== */
-    .topbar { background: var(--primary); color: #fff; text-align: center; padding: 8px 20px; font-size: 0.82rem; font-weight: 500; letter-spacing: 0.02em; }
-    .topbar a { color: var(--green); text-decoration: none; font-weight: 700; }
+    .topbar {
+      background: var(--dark);
+      color: #fff;
+      text-align: center;
+      padding: 7px 20px;
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+    .topbar a { color: #ffd700; font-weight: 700; }
+    .topbar a:hover { color: #fff; }
 
     /* ===== HEADER ===== */
-    header {
-      background: #fff;
-      border-bottom: 1px solid var(--border);
-      position: sticky; top: 0; z-index: 1000;
-      box-shadow: 0 2px 12px rgba(91,33,182,0.08);
+    .site-header {
+      background: linear-gradient(135deg, #c0392b 0%, #e74c3c 50%, #ff6b35 100%);
+      padding: 28px 0 22px;
+      text-align: center;
+      position: relative;
     }
-    .header-inner {
-      max-width: 1200px; margin: 0 auto;
-      display: flex; align-items: center; justify-content: space-between;
-      padding: 0 24px; height: 66px;
+    .site-header-inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+    .site-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(1.9rem, 5vw, 3rem);
+      font-weight: 800;
+      color: #fff;
+      letter-spacing: -0.5px;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.2);
     }
-    .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
-    .logo-icon {
-      width: 42px; height: 42px; border-radius: 10px;
-      background: linear-gradient(135deg, var(--primary), var(--accent));
-      display: flex; align-items: center; justify-content: center;
-      font-weight: 900; color: #fff; font-size: 1.1rem; letter-spacing: -1px;
+    .site-title span { color: #ffd700; }
+    .site-desc {
+      color: rgba(255,255,255,0.88);
+      font-size: 0.92rem;
+      margin-top: 6px;
+      font-weight: 400;
     }
-    .logo-text { font-weight: 800; font-size: 1.2rem; color: var(--primary); letter-spacing: -0.5px; }
-    .logo-text span { color: var(--accent); }
 
-    /* Desktop nav */
-    .desktop-nav { display: flex; align-items: center; gap: 6px; }
-    .desktop-nav a {
-      padding: 8px 14px; border-radius: 8px; text-decoration: none;
-      font-weight: 600; font-size: 0.92rem; color: var(--text);
+    /* ===== NAVBAR ===== */
+    .navbar {
+      background: #222;
+      border-bottom: 3px solid var(--orange);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    .navbar-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+    .navbar-links {
+      display: flex;
+      gap: 0;
+    }
+    .navbar-links a {
+      display: block;
+      color: #ddd;
+      font-size: 0.86rem;
+      font-weight: 500;
+      padding: 13px 16px;
       transition: background 0.2s, color 0.2s;
+      border-right: 1px solid #333;
     }
-    .desktop-nav a:hover, .desktop-nav a.active { background: #f3f0ff; color: var(--primary); }
-    .nav-dropdown { position: relative; }
-    .nav-dropdown > a::after { content: " ▾"; font-size: 0.75rem; }
-    .dropdown-menu {
-      display: none; position: absolute; top: calc(100% + 8px); left: 0;
-      background: #fff; border: 1px solid var(--border); border-radius: var(--radius);
-      box-shadow: 0 8px 30px rgba(0,0,0,0.12); min-width: 260px; z-index: 200;
-      padding: 8px;
+    .navbar-links a:first-child { border-left: 1px solid #333; }
+    .navbar-links a:hover, .navbar-links a.active {
+      background: var(--orange);
+      color: #fff;
     }
-    .nav-dropdown:hover .dropdown-menu { display: block; }
-    .dropdown-menu a {
-      display: block; padding: 9px 14px; border-radius: 8px;
-      font-size: 0.88rem; color: var(--text); font-weight: 500;
+    .navbar-search {
+      display: flex;
+      align-items: center;
+      gap: 0;
     }
-    .dropdown-menu a:hover { background: #f3f0ff; color: var(--primary); }
-    .header-cta {
-      background: linear-gradient(135deg, var(--primary), var(--accent));
-      color: #fff; padding: 9px 20px; border-radius: 25px;
-      font-weight: 700; font-size: 0.88rem; text-decoration: none;
-      margin-left: 8px; transition: opacity 0.2s; white-space: nowrap;
+    .navbar-search input {
+      padding: 7px 12px;
+      border: none;
+      border-radius: 4px 0 0 4px;
+      font-size: 0.83rem;
+      outline: none;
+      width: 160px;
+      background: #3a3a3a;
+      color: #fff;
     }
-    .header-cta:hover { opacity: 0.88; }
+    .navbar-search input::placeholder { color: #aaa; }
+    .navbar-search button {
+      background: var(--orange);
+      color: #fff;
+      border: none;
+      padding: 7px 12px;
+      border-radius: 0 4px 4px 0;
+      cursor: pointer;
+      font-size: 0.85rem;
+    }
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 10px 0;
+    }
+    .hamburger span {
+      display: block;
+      width: 24px;
+      height: 2.5px;
+      background: #ddd;
+      border-radius: 2px;
+      transition: all 0.3s;
+    }
+    @media (max-width: 768px) {
+      .navbar-links { display: none; }
+      .navbar-search { display: none; }
+      .hamburger { display: flex; }
+      .navbar-links.open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #222;
+        z-index: 999;
+        border-top: 1px solid #333;
+      }
+      .navbar-links.open a {
+        border-right: none;
+        border-left: none;
+        border-bottom: 1px solid #333;
+        padding: 14px 20px;
+      }
+    }
 
-    /* Hamburger */
-    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 6px; border: none; background: none; }
-    .hamburger span { display: block; width: 24px; height: 2.5px; background: var(--primary); border-radius: 2px; transition: all 0.3s; }
-    .hamburger.open span:nth-child(1) { transform: translateY(7.5px) rotate(45deg); }
-    .hamburger.open span:nth-child(2) { opacity: 0; }
-    .hamburger.open span:nth-child(3) { transform: translateY(-7.5px) rotate(-45deg); }
-
-    /* Mobile nav */
-    .mobile-nav {
-      display: none; position: fixed; top: 0; right: -100%; width: 80%; max-width: 320px;
-      height: 100vh; background: #fff; z-index: 2000;
-      box-shadow: -4px 0 30px rgba(0,0,0,0.15); padding: 24px;
-      transition: right 0.35s cubic-bezier(0.4,0,0.2,1); overflow-y: auto;
+    /* ===== BREAKING NEWS BAR ===== */
+    .breaking-bar {
+      background: var(--orange);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 0;
+      overflow: hidden;
     }
-    .mobile-nav.open { right: 0; }
-    .mobile-nav-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 28px; }
-    .mobile-nav-close { font-size: 1.6rem; cursor: pointer; color: var(--muted); background: none; border: none; }
-    .mobile-nav a {
-      display: block; padding: 13px 16px; border-radius: 10px; text-decoration: none;
-      font-weight: 600; color: var(--text); font-size: 1rem; margin-bottom: 4px;
+    .breaking-label {
+      background: #c0392b;
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 8px 14px;
+      white-space: nowrap;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      flex-shrink: 0;
+    }
+    .breaking-ticker {
+      padding: 8px 18px;
+      font-size: 0.82rem;
+      font-weight: 500;
+    }
+    .breaking-ticker a { color: #fff; font-weight: 700; text-decoration: underline; }
+    .breaking-ticker a:hover { color: #ffd700; }
+
+    /* ===== LAYOUT ===== */
+    .site-wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 24px 20px;
+      display: grid;
+      grid-template-columns: 1fr 300px;
+      gap: 28px;
+    }
+    @media (max-width: 900px) {
+      .site-wrap { grid-template-columns: 1fr; }
+      .sidebar { display: none; }
+    }
+
+    /* ===== FEATURED POST (Big card at top) ===== */
+    .featured-section { margin-bottom: 28px; }
+    .featured-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--orange);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .featured-label::after {
+      content: '';
+      flex: 1;
+      height: 2px;
+      background: var(--border);
+    }
+    .featured-card {
+      background: var(--white);
+      border-radius: 4px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      text-decoration: none !important;
+      transition: box-shadow 0.2s;
+    }
+    .featured-card:hover { box-shadow: 0 6px 20px rgba(0,0,0,0.14); }
+    .featured-card img { width: 100%; height: 280px; object-fit: cover; }
+    .featured-card-body { padding: 28px 24px; display: flex; flex-direction: column; justify-content: center; }
+    .post-badge {
+      display: inline-block;
+      background: var(--orange);
+      color: #fff;
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 3px 10px;
+      border-radius: 2px;
+      margin-bottom: 12px;
+    }
+    .featured-card-body h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--dark);
+      line-height: 1.35;
+      margin-bottom: 12px;
+    }
+    .featured-card-body p {
+      font-size: 0.9rem;
+      color: var(--muted);
+      line-height: 1.65;
+      margin-bottom: 16px;
+    }
+    .post-meta {
+      font-size: 0.78rem;
+      color: #999;
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .read-more-btn {
+      display: inline-block;
+      margin-top: 14px;
+      background: var(--orange);
+      color: #fff;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 9px 20px;
+      border-radius: 3px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      align-self: flex-start;
       transition: background 0.2s;
     }
-    .mobile-nav a:hover { background: #f3f0ff; color: var(--primary); }
-    .mobile-nav-divider { height: 1px; background: var(--border); margin: 16px 0; }
-    .mobile-nav-section { font-size: 0.78rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; padding: 0 16px 8px; }
-    .overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.4); z-index: 1500; }
-    .overlay.open { display: block; }
-
-    /* ===== HERO ===== */
-    .hero {
-      background: linear-gradient(135deg, #3b0764 0%, #5b21b6 40%, #7c3aed 70%, #a855f7 100%);
-      color: #fff; padding: 80px 24px 100px; position: relative; overflow: hidden;
+    .read-more-btn:hover { background: var(--orange2); color: #fff; }
+    @media (max-width: 640px) {
+      .featured-card { grid-template-columns: 1fr; }
+      .featured-card img { height: 200px; }
     }
-    .hero::before {
-      content: ''; position: absolute; top: -60px; right: -80px;
-      width: 400px; height: 400px; border-radius: 50%;
-      background: rgba(168,85,247,0.25); filter: blur(60px);
+
+    /* ===== SECTION HEADING ===== */
+    .section-title {
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #444;
+      margin-bottom: 18px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
     }
-    .hero::after {
-      content: ''; position: absolute; bottom: -80px; left: -60px;
-      width: 350px; height: 350px; border-radius: 50%;
-      background: rgba(91,33,182,0.3); filter: blur(80px);
+    .section-title::before {
+      content: '';
+      width: 4px;
+      height: 18px;
+      background: var(--orange);
+      border-radius: 2px;
     }
-    .hero-inner { max-width: 760px; margin: 0 auto; text-align: center; position: relative; z-index: 1; }
-    .hero-badge {
-      display: inline-block; background: rgba(255,255,255,0.15);
-      border: 1px solid rgba(255,255,255,0.3); border-radius: 25px;
-      padding: 6px 18px; font-size: 0.82rem; font-weight: 700;
-      letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 20px;
-      color: #d8b4fe;
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
     }
-    .hero h1 {
-      font-size: clamp(2rem, 5vw, 3.4rem); font-weight: 900; line-height: 1.15;
-      margin-bottom: 20px; letter-spacing: -0.5px;
+
+    /* ===== POST GRID ===== */
+    .post-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+      margin-bottom: 28px;
     }
-    .hero h1 span { color: #84cc16; }
-    .hero-sub { font-size: 1.1rem; opacity: 0.88; margin-bottom: 36px; line-height: 1.75; max-width: 580px; margin-left: auto; margin-right: auto; }
-
-    /* Newsletter form */
-    .hero-form { display: flex; gap: 10px; max-width: 520px; margin: 0 auto 28px; }
-    .hero-form input {
-      flex: 1; padding: 14px 18px; border-radius: 10px;
-      border: 2px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.12);
-      color: #fff; font-size: 0.96rem; font-family: inherit; outline: none;
-      transition: border-color 0.2s;
+    @media (max-width: 560px) {
+      .post-grid { grid-template-columns: 1fr; }
     }
-    .hero-form input::placeholder { color: rgba(255,255,255,0.6); }
-    .hero-form input:focus { border-color: var(--green); background: rgba(255,255,255,0.18); }
-    .hero-form button {
-      padding: 14px 26px; background: var(--green); color: #1a2e05;
-      border: none; border-radius: 10px; font-weight: 800; font-size: 0.96rem;
-      cursor: pointer; font-family: inherit; transition: opacity 0.2s; white-space: nowrap;
+
+    .post-card {
+      background: var(--white);
+      border-radius: 4px;
+      overflow: hidden;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+      text-decoration: none !important;
+      display: flex;
+      flex-direction: column;
+      transition: box-shadow 0.2s, transform 0.2s;
+      position: relative;
     }
-    .hero-form button:hover { opacity: 0.88; }
-    .hero-stats { display: flex; justify-content: center; gap: 36px; flex-wrap: wrap; }
-    .hero-stat { text-align: center; }
-    .hero-stat strong { display: block; font-size: 1.7rem; font-weight: 900; color: var(--green); }
-    .hero-stat span { font-size: 0.8rem; opacity: 0.8; text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600; }
+    .post-card:hover { box-shadow: 0 6px 20px rgba(0,0,0,0.13); transform: translateY(-2px); }
+    .post-card img { width: 100%; height: 180px; object-fit: cover; }
+    .post-card-body { padding: 16px; flex: 1; display: flex; flex-direction: column; }
+    .post-card-body .post-badge { margin-bottom: 8px; }
+    .post-card-body h3 {
+      font-size: 0.97rem;
+      font-weight: 700;
+      color: var(--dark);
+      line-height: 1.4;
+      margin-bottom: 8px;
+      flex: 1;
+    }
+    .post-card:hover h3 { color: var(--orange); }
+    .post-card-meta {
+      font-size: 0.73rem;
+      color: #aaa;
+      margin-top: 8px;
+    }
+    .post-card-read {
+      font-size: 0.76rem;
+      font-weight: 700;
+      color: var(--orange);
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .post-card-read::after { content: '→'; }
 
-    /* ===== FEATURED BADGES ===== */
-    .featured-bar { background: var(--white); border-bottom: 1px solid var(--border); padding: 18px 24px; }
-    .featured-bar-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; gap: 24px; flex-wrap: wrap; }
-    .featured-label { font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); white-space: nowrap; }
-    .badge-list { display: flex; gap: 12px; flex-wrap: wrap; }
-    .badge { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 6px 16px; font-size: 0.82rem; font-weight: 700; color: var(--muted); }
+    /* NEW badge */
+    .new-badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: #e74c3c;
+      color: #fff;
+      font-size: 0.65rem;
+      font-weight: 800;
+      padding: 3px 8px;
+      border-radius: 2px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
 
-    /* ===== MAIN CONTENT ===== */
-    .site-body { max-width: 1200px; margin: 0 auto; padding: 50px 24px 60px; display: grid; grid-template-columns: 1fr 320px; gap: 40px; }
-    @media (max-width: 900px) { .site-body { grid-template-columns: 1fr; } .sidebar { display: none; } }
+    /* ===== AD UNIT ===== */
+    .ad-unit {
+      background: var(--white);
+      border: 1px dashed var(--border);
+      border-radius: 4px;
+      text-align: center;
+      padding: 10px;
+      margin: 20px 0;
+      font-size: 0.72rem;
+      color: #bbb;
+    }
 
-    /* Section heading */
-    .section-heading { display: flex; align-items: center; justify-content: space-between; margin-bottom: 28px; }
-    .section-heading h2 { font-size: 1.5rem; font-weight: 800; color: var(--text); position: relative; padding-left: 16px; }
-    .section-heading h2::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: linear-gradient(180deg, var(--primary), var(--accent)); border-radius: 2px; }
-    .view-all { font-size: 0.85rem; font-weight: 700; color: var(--primary2); text-decoration: none; padding: 6px 14px; border: 2px solid var(--primary2); border-radius: 20px; transition: all 0.2s; }
-    .view-all:hover { background: var(--primary2); color: #fff; }
-
-    /* Featured post — big card */
-    .featured-post { border-radius: var(--radius); overflow: hidden; background: var(--white); box-shadow: var(--card-shadow); margin-bottom: 32px; text-decoration: none; color: inherit; display: block; transition: transform 0.2s, box-shadow 0.2s; }
-    .featured-post:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(91,33,182,0.15); }
-    .featured-post img { width: 100%; height: 280px; object-fit: cover; }
-    .featured-post-body { padding: 24px; }
-    .post-cat { display: inline-block; background: #f3f0ff; color: var(--primary); font-size: 0.74rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; padding: 4px 10px; border-radius: 4px; margin-bottom: 10px; }
-    .featured-post h3 { font-size: 1.45rem; font-weight: 800; line-height: 1.3; color: var(--text); margin-bottom: 10px; }
-    .featured-post p { color: var(--muted); font-size: 0.94rem; line-height: 1.65; margin-bottom: 14px; }
-    .post-meta { font-size: 0.8rem; color: var(--muted); font-weight: 500; display: flex; gap: 16px; flex-wrap: wrap; }
-    .post-meta span::before { margin-right: 4px; }
-
-    /* Article grid */
-    .article-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; margin-bottom: 40px; }
-    .article-card { background: var(--white); border-radius: var(--radius); overflow: hidden; box-shadow: var(--card-shadow); text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: transform 0.2s, box-shadow 0.2s; }
-    .article-card:hover { transform: translateY(-5px); box-shadow: 0 12px 36px rgba(91,33,182,0.15); }
-    .article-card img { width: 100%; height: 178px; object-fit: cover; }
-    .article-card-body { padding: 16px; flex: 1; display: flex; flex-direction: column; }
-    .article-card h3 { font-size: 0.96rem; font-weight: 700; line-height: 1.4; color: var(--text); margin-bottom: 8px; flex: 1; }
-    .article-card h3:hover { color: var(--primary); }
-    .article-read { font-size: 0.8rem; font-weight: 700; color: var(--primary2); margin-top: 12px; display: flex; align-items: center; gap: 4px; }
-    .article-read::after { content: '→'; }
-    .article-num { font-size: 0.73rem; font-weight: 700; background: linear-gradient(135deg, var(--primary), var(--accent)); color: #fff; padding: 3px 9px; border-radius: 4px; margin-bottom: 8px; display: inline-block; }
-
-    /* Adsense */
-    .ad-block { background: linear-gradient(135deg, #f3f0ff 0%, #faf5ff 100%); border: 2px dashed var(--accent); text-align: center; padding: 32px 20px; margin: 28px 0; color: var(--primary); font-weight: 700; border-radius: 10px; font-size: 0.9rem; }
+    /* ===== PAGINATION ===== */
+    .pagination {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin: 24px 0;
+    }
+    .pagination a, .pagination span {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      border: 1px solid var(--border);
+      background: #fff;
+      border-radius: 3px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text);
+      transition: all 0.2s;
+    }
+    .pagination a:hover, .pagination .active {
+      background: var(--orange);
+      border-color: var(--orange);
+      color: #fff;
+    }
 
     /* ===== SIDEBAR ===== */
-    .sidebar { display: flex; flex-direction: column; gap: 28px; }
-    .sidebar-widget { background: var(--white); border-radius: var(--radius); padding: 22px; box-shadow: var(--card-shadow); }
-    .sidebar-widget h3 { font-size: 1rem; font-weight: 800; color: var(--text); margin-bottom: 16px; padding-bottom: 10px; border-bottom: 2px solid #f3f0ff; }
-    .newsletter-widget { background: linear-gradient(135deg, var(--primary), var(--accent)); color: #fff; }
-    .newsletter-widget h3 { color: #fff; border-color: rgba(255,255,255,0.2); }
-    .newsletter-widget p { font-size: 0.88rem; opacity: 0.9; margin-bottom: 14px; }
-    .newsletter-widget input { width: 100%; padding: 10px 14px; border-radius: 8px; border: none; margin-bottom: 10px; font-family: inherit; font-size: 0.9rem; }
-    .newsletter-widget button { width: 100%; padding: 10px; background: var(--green); color: #1a2e05; border: none; border-radius: 8px; font-weight: 800; font-size: 0.92rem; cursor: pointer; font-family: inherit; }
-    .popular-list { list-style: none; }
-    .popular-list li { padding: 10px 0; border-bottom: 1px solid var(--border); }
-    .popular-list li:last-child { border-bottom: none; }
-    .popular-list a { text-decoration: none; font-size: 0.88rem; font-weight: 600; color: var(--text); line-height: 1.4; display: block; }
-    .popular-list a:hover { color: var(--primary); }
-    .popular-list .pop-num { font-weight: 900; color: var(--accent); font-size: 0.8rem; }
-    .category-list { list-style: none; }
-    .category-list li a { text-decoration: none; color: var(--text); font-weight: 600; font-size: 0.9rem; display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--border); }
-    .category-list li:last-child a { border-bottom: none; }
-    .category-list li a:hover { color: var(--primary); }
-    .cat-count { background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 2px 8px; font-size: 0.75rem; font-weight: 700; color: var(--muted); }
+    .sidebar { display: flex; flex-direction: column; gap: 20px; }
+    .widget {
+      background: var(--white);
+      border-radius: 4px;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+      overflow: hidden;
+    }
+    .widget-title {
+      background: #222;
+      color: #fff;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      padding: 10px 16px;
+      border-left: 4px solid var(--orange);
+    }
+    .widget-body { padding: 16px; }
 
-    /* ===== STATS BAR ===== */
-    .stats-bar { background: linear-gradient(135deg, var(--primary), var(--accent)); color: #fff; padding: 40px 24px; }
-    .stats-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 28px; text-align: center; }
-    .stat-item strong { display: block; font-size: 2.4rem; font-weight: 900; color: var(--green); }
-    .stat-item span { font-size: 0.85rem; font-weight: 600; opacity: 0.9; text-transform: uppercase; letter-spacing: 0.06em; }
+    /* Subscribe widget */
+    .subscribe-widget { background: linear-gradient(135deg, #c0392b, #e74c3c); }
+    .subscribe-widget .widget-title { background: rgba(0,0,0,0.2); border-left: 4px solid #ffd700; }
+    .subscribe-widget .widget-body { padding: 16px; }
+    .subscribe-widget p { font-size: 0.83rem; color: rgba(255,255,255,0.9); margin-bottom: 12px; }
+    .subscribe-widget input {
+      width: 100%;
+      padding: 9px 12px;
+      border: none;
+      border-radius: 3px;
+      font-size: 0.83rem;
+      margin-bottom: 8px;
+      outline: none;
+    }
+    .subscribe-widget button {
+      width: 100%;
+      background: #ffd700;
+      color: #222;
+      border: none;
+      padding: 9px;
+      border-radius: 3px;
+      font-weight: 700;
+      font-size: 0.82rem;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      transition: opacity 0.2s;
+    }
+    .subscribe-widget button:hover { opacity: 0.88; }
+
+    /* Popular posts */
+    .popular-post {
+      display: flex;
+      gap: 10px;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--border);
+      text-decoration: none !important;
+    }
+    .popular-post:last-child { border-bottom: none; }
+    .popular-post img { width: 66px; height: 52px; object-fit: cover; border-radius: 3px; flex-shrink: 0; }
+    .popular-post-info h4 { font-size: 0.82rem; font-weight: 700; color: var(--dark); line-height: 1.35; }
+    .popular-post:hover h4 { color: var(--orange); }
+    .popular-post-info span { font-size: 0.71rem; color: #aaa; }
+    .pop-num-big {
+      min-width: 28px;
+      height: 28px;
+      background: var(--orange);
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 800;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    /* Labels/Categories */
+    .label-list { display: flex; flex-wrap: wrap; gap: 6px; }
+    .label-tag {
+      display: inline-block;
+      background: var(--light);
+      color: #555;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 5px 12px;
+      border-radius: 2px;
+      border: 1px solid var(--border);
+      transition: all 0.2s;
+      text-decoration: none !important;
+    }
+    .label-tag:hover { background: var(--orange); color: #fff; border-color: var(--orange); }
+
+    /* About widget */
+    .about-widget-img {
+      width: 70px;
+      height: 70px;
+      background: linear-gradient(135deg, #c0392b, #ff6b35);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+      font-weight: 900;
+      color: #fff;
+      margin: 0 auto 12px;
+    }
+    .about-widget p { font-size: 0.82rem; color: var(--muted); text-align: center; line-height: 1.6; }
+
+    /* ===== STATS BANNER ===== */
+    .stats-section {
+      background: linear-gradient(135deg, #1a1a2e, #222);
+      color: #fff;
+      padding: 28px 20px;
+      margin: 0;
+    }
+    .stats-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      text-align: center;
+    }
+    .stats-inner div strong { display: block; font-size: 1.8rem; font-weight: 800; color: var(--orange); }
+    .stats-inner div span { font-size: 0.8rem; color: rgba(255,255,255,0.7); margin-top: 2px; }
+    @media (max-width: 600px) { .stats-inner { grid-template-columns: repeat(2, 1fr); } }
 
     /* ===== FOOTER ===== */
-    footer { background: #0f0528; color: rgba(255,255,255,0.75); }
-    .footer-top { max-width: 1200px; margin: 0 auto; padding: 56px 24px 40px; display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.4fr; gap: 40px; }
-    @media (max-width: 768px) { .footer-top { grid-template-columns: 1fr 1fr; } }
-    @media (max-width: 500px) { .footer-top { grid-template-columns: 1fr; } }
-    .footer-brand .logo-text { color: #fff; font-size: 1.3rem; }
-    .footer-brand .logo-icon { background: linear-gradient(135deg, var(--primary), var(--accent)); }
-    .footer-brand p { font-size: 0.88rem; line-height: 1.7; margin: 14px 0; }
-    .social-links { display: flex; gap: 10px; }
-    .social-links a {
-      width: 36px; height: 36px; border-radius: 50%;
-      border: 1px solid rgba(255,255,255,0.2);
-      display: flex; align-items: center; justify-content: center;
-      text-decoration: none; font-size: 1rem; color: rgba(255,255,255,0.7);
-      transition: background 0.2s, border-color 0.2s;
+    .site-footer {
+      background: #1a1a2e;
+      color: #aaa;
+      padding: 40px 20px 0;
     }
-    .social-links a:hover { background: var(--primary); border-color: var(--primary); color: #fff; }
-    .footer-col h4 { font-size: 0.85rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em; color: #fff; margin-bottom: 18px; }
+    .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 36px;
+      padding-bottom: 36px;
+      border-bottom: 1px solid #333;
+    }
+    @media (max-width: 700px) {
+      .footer-inner { grid-template-columns: 1fr; }
+    }
+    .footer-brand p { font-size: 0.83rem; margin-top: 10px; line-height: 1.7; }
+    .footer-brand .footer-logo {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: #fff;
+    }
+    .footer-brand .footer-logo span { color: #ffd700; }
+    .footer-social { display: flex; gap: 12px; margin-top: 14px; }
+    .footer-social a {
+      width: 36px; height: 36px;
+      background: #333;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      transition: background 0.2s;
+    }
+    .footer-social a:hover { background: var(--orange); }
+    .footer-col h4 { color: #fff; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 2px solid var(--orange); display: inline-block; }
     .footer-col ul { list-style: none; }
-    .footer-col ul li { margin-bottom: 10px; }
-    .footer-col ul li a { text-decoration: none; font-size: 0.88rem; color: rgba(255,255,255,0.65); transition: color 0.2s; }
-    .footer-col ul li a:hover { color: var(--green); }
-    .footer-newsletter input { width: 100%; padding: 10px 14px; border-radius: 8px; background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.15); color: #fff; font-family: inherit; font-size: 0.9rem; margin-bottom: 10px; outline: none; }
-    .footer-newsletter input::placeholder { color: rgba(255,255,255,0.4); }
-    .footer-newsletter button { width: 100%; padding: 10px; background: var(--green); color: #1a2e05; border: none; border-radius: 8px; font-weight: 800; font-size: 0.9rem; cursor: pointer; font-family: inherit; }
-    .footer-bottom { border-top: 1px solid rgba(255,255,255,0.08); }
-    .footer-bottom-inner { max-width: 1200px; margin: 0 auto; padding: 18px 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
-    .footer-bottom p { font-size: 0.83rem; }
-    .footer-bottom-links { display: flex; gap: 20px; }
-    .footer-bottom-links a { font-size: 0.83rem; color: rgba(255,255,255,0.55); text-decoration: none; }
-    .footer-bottom-links a:hover { color: var(--green); }
-
-    /* Mobile responsive tweaks */
-    @media (max-width: 768px) {
-      .desktop-nav, .header-cta { display: none; }
-      .hamburger { display: flex; }
-      .mobile-nav { display: block; }
-      .hero { padding: 56px 20px 72px; }
-      .hero-form { flex-direction: column; }
-      .hero-stats { gap: 20px; }
-      .article-grid { grid-template-columns: 1fr; }
-      .featured-post img { height: 200px; }
+    .footer-col ul li { margin-bottom: 8px; }
+    .footer-col ul li a { color: #aaa; font-size: 0.83rem; }
+    .footer-col ul li a:hover { color: var(--orange); }
+    .footer-bottom {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 16px 0;
+      font-size: 0.78rem;
     }
-    @media (max-width: 480px) {
-      .featured-bar-inner { flex-direction: column; align-items: flex-start; }
-    }
+    .footer-bottom a { color: #aaa; }
+    .footer-bottom a:hover { color: var(--orange); }
   </style>
 <script type="text/javascript" data-cfasync="false">
 /*<![CDATA[/* */
@@ -315,698 +639,665 @@
 </head>
 <body>
 
-<!-- Topbar -->
-<div class="topbar">🤖 NEW: <a href="article40.html">17 Ways to Make Money with AI in 2026 – Up to <div class="topbar">🤖 NEW: <a href="5K/Month →</a></div>
+<!-- TOPBAR -->
+<div class="topbar">
+  🔥 NEW: <a href="article40.html">17 Ways to Make Money with AI in 2026 – Up to $15K/Month →</a>
+</div>
 
-<!-- Header -->
-<header>
-  <div class="header-inner">
-    <a href="index.html" class="logo">
-      <div class="logo-icon">FS</div>
-      <span class="logo-text">Fadal <span>Store</span></span>
-    </a>
-    <nav class="desktop-nav">
-      <a href="index.html" class="active">Home</a>
-      <div class="nav-dropdown">
-        <a href="#">Articles</a>
-        <div class="dropdown-menu">
-          <a href="article1.html">Freelancing Guide</a>
-          <a href="article2.html">Blogging for Profit</a>
-          <a href="article3.html">YouTube Monetization</a>
-          <a href="article4.html">Affiliate Marketing</a>
-          <a href="article5.html">Dropshipping 2026</a>
-          <a href="article6.html">Amazon FBA</a>
-          <a href="article37.html" style="color:#7c3aed;font-weight:700;">🤖 AI Automation Agency Course</a>
-          <a href="article25.html">AI Tools Income</a>
-          <a href="article19.html">Passive Income Blueprint</a>
-          <a href="article28.html">Financial Freedom</a>
-        </div>
-      </div>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-    <a href="#newsletter" class="header-cta">Subscribe Free →</a>
-    <button class="hamburger" id="hamburger" aria-label="Open menu">
-      <span></span><span></span><span></span>
-    </button>
+<!-- SITE HEADER -->
+<header class="site-header">
+  <div class="site-header-inner">
+    <div class="site-title">Fadal <span>Store</span></div>
+    <div class="site-desc">Financial Freedom · Online Business · Make Money Online · AI Tools · Side Hustles</div>
   </div>
 </header>
 
-<!-- Overlay -->
-<div class="overlay" id="overlay"></div>
-
-<!-- Mobile Nav -->
-<nav class="mobile-nav" id="mobileNav">
-  <div class="mobile-nav-header">
-    <a href="index.html" class="logo" style="text-decoration:none">
-      <div class="logo-icon">FS</div>
-      <span class="logo-text">Fadal <span>Store</span></span>
-    </a>
-    <button class="mobile-nav-close" id="navClose">✕</button>
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="navbar-inner">
+    <div class="navbar-links" id="navLinks">
+      <a href="index.html" class="active">🏠 Home</a>
+      <a href="make-money-online.html">Make Money</a>
+      <a href="freelancing.html">Freelancing</a>
+      <a href="ai-tools.html">AI Tools</a>
+      <a href="apps.html">Best Apps</a>
+      <a href="partnerstack.html">Affiliate</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="navbar-search">
+      <input type="text" placeholder="Search guides..." aria-label="Search" id="searchInput">
+      <button onclick="handleSearch()">🔍</button>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
   </div>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="contact.html">Contact</a>
-  <div class="mobile-nav-divider"></div>
-  <div class="mobile-nav-section">All Articles</div>
-  <a href="article1.html">Freelancing Guide</a>
-  <a href="article2.html">Blogging for Profit</a>
-  <a href="article3.html">YouTube Monetization</a>
-  <a href="article4.html">Affiliate Marketing</a>
-  <a href="article5.html">Dropshipping 2026</a>
-  <a href="article6.html">Amazon FBA</a>
-  <a href="article7.html">Social Media Career</a>
-  <a href="article8.html">Online Tutoring</a>
-  <a href="article9.html">Digital Products</a>
-  <a href="article10.html">Print on Demand</a>
-  <a href="article11.html">Online Investing</a>
-  <a href="article12.html">Email Marketing</a>
-  <a href="article13.html">SEO Guide 2026</a>
-  <a href="article14.html">Fiverr Success</a>
-  <a href="article15.html">Upwork Mastery</a>
-  <a href="article16.html">Copywriting Career</a>
-  <a href="article17.html">Graphic Design Business</a>
-  <a href="article18.html">Virtual Assistant</a>
-  <a href="article19.html">Passive Income</a>
-  <a href="article20.html">E-Commerce Success</a>
-  <a href="article21.html">TikTok Monetization</a>
-  <a href="article22.html">Instagram Income</a>
-  <a href="article23.html">Podcast Monetization</a>
-  <a href="article24.html">Remote Work Jobs</a>
-  <a href="article25.html">AI Tools Income</a>
-  <a href="article26.html">Stock Photography</a>
-  <a href="article27.html">Web Development</a>
-  <a href="article28.html">Financial Freedom</a>
-  <a href="article29.html">Side Hustle to Full-Time</a>
-  <a href="article30.html">Make Money Online Guide</a>
-  <a href="article31.html">Start a Website 2026</a>
-  <a href="article33.html">Best Online Courses 2026</a>
-  <a href="article34.html">Free Digital Marketing Course</a>
-  <a href="article39.html" style="color:#5b21b6;font-weight:700;">🤖 15 Best AI Tools for Creators 2026</a>
-  <a href="article38.html" style="color:#15803d;font-weight:700;">🇸🇴 Withdraw to Somalia (EVC Plus, Premier Bank)</a>
-  <a href="article37.html" style="color:#7c3aed;font-weight:700;">🤖 AI Automation Agency Course (FREE)</a>
-  <a href="article35.html" style="color:#a855f7;font-weight:700;">💰 Make $500/Day Online</a>
-  <a href="article36.html" style="color:#3B5FC4;font-weight:700;">📗 Independent Backyard Book</a>
-  <div class="mobile-nav-divider"></div>
-  <div class="mobile-nav-section">More Pages</div>
-  <a href="ai-tools.html">AI Tools</a>
-  <a href="apps.html">Apps That Pay</a>
-  <a href="freelancing.html">Freelancing Intro</a>
-  <a href="make-money-online.html">Make Money Online</a>
-  <a href="partnerstack.html" style="color:#7c3aed;font-weight:700;">💰 PartnerStack Affiliate Guide</a>
-  <a href="privacy-policy.html">Privacy Policy</a>
-  <a href="terms-of-service.html">Terms of Service</a>
 </nav>
 
-<!-- Hero -->
-<section class="hero">
-  <div class="hero-inner">
-    <div class="hero-badge">🌟 Financial Freedom Hub 2026</div>
-    <h1>Your Guide to <span>Making Money Online</span> and Achieving Financial Freedom</h1>
-    <p class="hero-sub">Step-by-step guides on freelancing, blogging, affiliate marketing, dropshipping, passive income, and every proven way to build wealth online in 2026.</p>
-    <div class="hero-form" id="newsletter">
-      <input type="email" placeholder="Enter your email address…" aria-label="Email address">
-      <button type="button">SUBSCRIBE FREE</button>
-    </div>
-    <div class="hero-stats">
-      <div class="hero-stat"><strong>39+</strong><span>In-Depth Guides</span></div>
-      <div class="hero-stat"><strong>5,000+</strong><span>Words Per Article</span></div>
-      <div class="hero-stat"><strong>100%</strong><span>Free to Read</span></div>
-    </div>
-  </div>
-</section>
-
-<!-- Featured Bar -->
-<div class="featured-bar">
-  <div class="featured-bar-inner">
-    <span class="featured-label">Topics Covered:</span>
-    <div class="badge-list">
-      <span class="badge">Freelancing</span>
-      <span class="badge">Blogging</span>
-      <span class="badge">YouTube</span>
-      <span class="badge">Affiliate Marketing</span>
-      <span class="badge">Dropshipping</span>
-      <span class="badge">AI Tools</span>
-      <span class="badge">Passive Income</span>
-      <span class="badge">Financial Freedom</span>
-    </div>
+<!-- BREAKING NEWS BAR -->
+<div class="breaking-bar">
+  <div class="breaking-label">🔥 Trending</div>
+  <div class="breaking-ticker">
+    <a href="article40.html">NEW: 17 Proven Ways to Make Money with AI in 2026 ($3K–$15K/Month)</a>
+    &nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="article39.html">15 Best AI Tools for Content Creators 2026 – Free & Paid</a>
+    &nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="article37.html">Free AI Automation Agency Course: Zero to $10,000/Month</a>
   </div>
 </div>
 
-<!-- Main Body -->
-<div class="site-body">
-  <!-- Main Column -->
+<!-- MAIN LAYOUT -->
+<div class="site-wrap">
+
+  <!-- MAIN COLUMN -->
   <main>
+    <!-- Ad unit -->
     <div id="container-01033729790a4db87a47b2d3c7a68337"></div>
 
-    <!-- Featured Article -->
-    <div class="section-heading">
-      <h2>Featured Article</h2>
-    </div>
-    <a href="article28.html" class="featured-post">
-      <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=900&h=500&fit=crop&q=80&fm=webp&auto=format" alt="Financial Freedom Blueprint 2026" loading="eager" fetchpriority="high" decoding="async" width="900" height="500">
-      <div class="featured-post-body">
-        <span class="post-cat">Financial Freedom</span>
-        <h3>Financial Freedom Blueprint 2026: The Proven Plan to Escape the Rat Race</h3>
-        <p>Your complete step-by-step plan to achieve financial independence. Learn how to eliminate debt, build multiple income streams, invest strategically, and reach freedom in 4–7 years.</p>
-        <div class="post-meta">
-          <span>📅 March 2026</span>
-          <span>⏱ 18 min read</span>
-          <span>✍ Fadal Store</span>
-        </div>
-      </div>
-    </a>
-
-    <!-- A-ADS Ad Unit -->
-    <!-- BEGIN AADS AD UNIT 2431382 -->
-    <div id="frame" style="width: 100%;margin: auto;position: relative; z-index: 99998;">
-      <iframe data-aa='2431382' src='//acceptable.a-ads.com/2431382/?size=Adaptive' title="Advertisement" loading="lazy"
-                        style='border:0; padding:0; width:70%; height:auto; overflow:hidden;display: block;margin: auto'></iframe>
-    </div>
-    <!-- END AADS AD UNIT 2431382 -->
-
-    <!-- Latest Articles -->
-    <div class="section-heading">
-      <h2>All Guides</h2>
-      <a href="#all-articles" class="view-all">View All</a>
-    </div>
-
-    <div class="article-grid" id="all-articles">
-
-      <a href="article40.html" class="article-card" style="border:2px solid #059669;position:relative;overflow:visible;">
-        <span style="position:absolute;top:-12px;left:16px;background:linear-gradient(135deg,#059669,#10b981);color:#fff;font-size:.72rem;font-weight:800;padding:4px 12px;border-radius:99px;letter-spacing:.08em;z-index:2;">💰 NEW – AI MONEY GUIDE 2026</span>
-        <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="How to make money with AI tools in 2026 - 17 proven methods" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">MAKE MONEY WITH AI 2026</span>
-          <h3>How to Make Money with AI in 2026: 17 Proven Methods ($3K–$15K/Month)</h3>
-          <div class="article-read">Read Full Guide →</div>
+    <!-- FEATURED POST -->
+    <div class="featured-section">
+      <div class="featured-label">⭐ Featured Post</div>
+      <a href="article40.html" class="featured-card">
+        <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=700&h=420&fit=crop&q=80" alt="Make money with AI in 2026 - 17 proven methods" loading="eager">
+        <div class="featured-card-body">
+          <span class="post-badge">🤖 AI Money Guide</span>
+          <h2>How to Make Money with AI in 2026: 17 Proven Methods ($3K–$15K/Month)</h2>
+          <p>Real people are earning thousands per month using AI tools. This complete guide covers 17 proven methods — AI freelancing, faceless YouTube, digital products, automation, and more — with step-by-step instructions to start today.</p>
+          <div class="post-meta">
+            <span>📅 March 26, 2026</span>
+            <span>⏱ 18 min read</span>
+          </div>
+          <span class="read-more-btn">Read Full Guide</span>
         </div>
       </a>
+    </div>
 
-      <a href="article39.html" class="article-card" style="border:2px solid #5b21b6;position:relative;overflow:visible;">
-        <span style="position:absolute;top:-12px;left:16px;background:linear-gradient(135deg,#5b21b6,#a855f7);color:#fff;font-size:.72rem;font-weight:800;padding:4px 12px;border-radius:99px;letter-spacing:.08em;z-index:2;">🤖 NEW – AI TOOLS 2026</span>
-        <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="15 Best AI tools for content creators in 2026 - free and paid" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">AI TOOLS GUIDE 2026</span>
+    <!-- LATEST GUIDES -->
+    <div class="section-title">Latest Guides</div>
+    <div class="post-grid">
+
+      <a href="article39.html" class="post-card">
+        <span class="new-badge">NEW</span>
+        <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=500&h=280&fit=crop&q=80" alt="Best AI Tools for Content Creators 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">AI Tools</span>
           <h3>15 Best AI Tools for Content Creators in 2026 – Free & Paid, Tested & Ranked</h3>
-          <div class="article-read">Read Full Guide →</div>
+          <div class="post-card-meta">📅 Mar 25, 2026 · ⏱ 16 min</div>
+          <div class="post-card-read">Read Guide</div>
         </div>
       </a>
 
-      <a href="article38.html" class="article-card" style="border:2px solid #15803d;position:relative;overflow:visible;">
-        <span style="position:absolute;top:-12px;left:16px;background:linear-gradient(135deg,#15803d,#16a34a);color:#fff;font-size:.72rem;font-weight:800;padding:4px 12px;border-radius:99px;letter-spacing:.08em;z-index:2;">🇸🇴 NEW – SOMALIA GUIDE</span>
-        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="How to withdraw money from Upwork and PartnerStack to Somalia EVC Plus Premier Bank 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">PAYMENT GUIDE 2026</span>
-          <h3>How to Withdraw Money from Upwork, PartnerStack & Fiverr to Somalia – EVC Plus, Premier Bank, Waafi</h3>
-          <div class="article-read">Read Full Guide →</div>
+      <a href="article38.html" class="post-card">
+        <span class="new-badge">NEW</span>
+        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=500&h=280&fit=crop&q=80" alt="Withdraw money to Somalia 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge" style="background:#15803d;">Somalia Guide</span>
+          <h3>How to Withdraw Money from Upwork, PartnerStack & Fiverr to Somalia – EVC Plus, Premier Bank</h3>
+          <div class="post-card-meta">📅 Mar 2026 · ⏱ 12 min</div>
+          <div class="post-card-read">Read Guide</div>
         </div>
       </a>
 
-      <a href="article37.html" class="article-card" style="border:2px solid #7c3aed;position:relative;overflow:visible;">
-        <span style="position:absolute;top:-12px;left:16px;background:linear-gradient(135deg,#5b21b6,#7c3aed);color:#fff;font-size:.72rem;font-weight:800;padding:4px 12px;border-radius:99px;letter-spacing:.08em;z-index:2;">🤖 FREE COURSE 2026</span>
-        <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="AI Automation Agency Course 2026 - Start and Scale to $10,000/Month" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">AI AUTOMATION AGENCY</span>
-          <h3>How to Start an AI Automation Agency in 2026 – Free Complete Course Zero to $10,000/Month</h3>
-          <div class="article-read">Start Free Course</div>
+      <a href="article37.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=500&h=280&fit=crop&q=80" alt="AI Automation Agency Course" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge" style="background:#7c3aed;">Free Course</span>
+          <h3>How to Start an AI Automation Agency in 2026 – Free Course: Zero to $10,000/Month</h3>
+          <div class="post-card-meta">📅 Mar 2026 · ⏱ 20 min</div>
+          <div class="post-card-read">Start Free Course</div>
         </div>
       </a>
 
-      <a href="article36.html" class="article-card" style="border:2px solid #15803d;position:relative;overflow:visible;">
-        <span style="position:absolute;top:-12px;left:16px;background:linear-gradient(135deg,#14532d,#15803d);color:#fff;font-size:.72rem;font-weight:800;padding:4px 12px;border-radius:99px;letter-spacing:.08em;z-index:2;">📗 BESTSELLER 2026</span>
-        <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Independent Backyard Book – Self-Sufficient Living 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">SELF-SUFFICIENT LIVING</span>
-          <h3>The Independent Backyard Book – Save $1,000+/Month and Live Free in 2026</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article35.html" class="article-card" style="border:2px solid #a855f7;position:relative;overflow:visible;">
-        <span style="position:absolute;top:-12px;left:16px;background:linear-gradient(135deg,#5b21b6,#a855f7);color:#fff;font-size:.72rem;font-weight:800;padding:4px 12px;border-radius:99px;letter-spacing:.08em;z-index:2;">🔥 NEW &amp; TRENDING</span>
-        <img src="https://images.unsplash.com/photo-1579621970795-87facc2f976d?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Make $500/Day Online 2026 – Proven System" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">MAKE MONEY ONLINE</span>
+      <a href="article35.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1579621970795-87facc2f976d?w=500&h=280&fit=crop&q=80" alt="Make $500 per day online" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Make Money</span>
           <h3>How to Make $500/Day Online in 2026 – The Proven System That Actually Works</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article1.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Freelancing Guide 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">FREELANCING</span>
-          <h3>Freelancing for Beginners: The Complete 2026 Guide to Earning $5,000/Month</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article2.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Blogging for Profit 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">BLOGGING</span>
-          <h3>How to Start a Profitable Blog in 2026: Zero to $10,000/Month</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article3.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="YouTube Monetization 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">YOUTUBE</span>
-          <h3>YouTube Channel Monetization: Complete 2026 Guide to $8,000+/Month</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article4.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Affiliate Marketing 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">AFFILIATE</span>
-          <h3>Affiliate Marketing Mastery: How to Earn $15,000/Month Promoting Products</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article5.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Dropshipping 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">DROPSHIPPING</span>
-          <h3>Dropshipping in 2026: Build a $50,000/Month Online Store from Scratch</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article6.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Amazon FBA 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">AMAZON FBA</span>
-          <h3>Amazon FBA in 2026: Complete Guide to Building a Six-Figure Business</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article7.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Social Media Career" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">SOCIAL MEDIA</span>
-          <h3>Social Media Marketing Career: Get Paid $5,000–$15,000/Month Managing Accounts</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article8.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Online Tutoring Business" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">COACHING</span>
-          <h3>Online Tutoring and Coaching: Earn $10,000/Month Teaching What You Know</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article9.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Digital Products Passive Income" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">DIGITAL PRODUCTS</span>
-          <h3>Selling Digital Products: Ebooks, Templates & Courses for 90%+ Profit Margins</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article10.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Print on Demand 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">PRINT ON DEMAND</span>
-          <h3>Print on Demand 2026: Earn $5,000/Month Selling Custom Products Without Inventory</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article11.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Online Investing Beginners" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">INVESTING</span>
-          <h3>Online Investing for Beginners 2026: Build Wealth Starting with $100</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article12.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Email Marketing 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">EMAIL MARKETING</span>
-          <h3>Email Marketing Mastery 2026: Build a Profitable List and Earn $8,000+/Month</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article13.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="SEO Guide 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">SEO</span>
-          <h3>SEO in 2026: The Complete Guide to Ranking on Google Page One</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article14.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Fiverr Success Guide" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">FIVERR</span>
-          <h3>Fiverr Success Blueprint 2026: From New Seller to $10,000/Month Top Rated</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article15.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Upwork Mastery 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">UPWORK</span>
-          <h3>Upwork Mastery 2026: Win High-Paying Contracts and Earn $12,000+/Month</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article16.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Copywriting Career 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">COPYWRITING</span>
-          <h3>Copywriting Career 2026: Earn $100–$200/Hour Writing Persuasive Content</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article17.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Graphic Design Business" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">DESIGN</span>
-          <h3>Graphic Design Business 2026: Earn $8,000/Month with Your Creative Skills</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article18.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Virtual Assistant Business 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">VIRTUAL ASSISTANT</span>
-          <h3>Virtual Assistant Business 2026: Scale to $5,000+/Month Working Remotely</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article19.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Passive Income Blueprint 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">PASSIVE INCOME</span>
-          <h3>Passive Income Blueprint 2026: 15 Proven Streams That Generate Money 24/7</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article20.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="E-Commerce Success 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">E-COMMERCE</span>
-          <h3>E-Commerce Success in 2026: Complete Guide from Store Launch to Seven Figures</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article21.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="TikTok Monetization 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">TIKTOK</span>
-          <h3>TikTok Monetization Guide 2026: Turn Your Videos into $10,000+/Month</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article22.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Instagram Income Guide 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">INSTAGRAM</span>
-          <h3>Instagram Income Guide 2026: From Zero Followers to $15,000/Month</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article23.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Podcast Monetization 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">PODCASTING</span>
-          <h3>Podcast Monetization 2026: Build a Six-Figure Podcasting Business</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article24.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Remote Work Jobs 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">REMOTE WORK</span>
-          <h3>Remote Work Jobs in 2026: Find and Land Your Perfect Work-From-Home Career</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article25.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Making Money with AI 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">AI TOOLS</span>
-          <h3>Making Money with AI Tools in 2026: 20 Profitable Strategies</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article26.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Stock Photography Income" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">STOCK MEDIA</span>
-          <h3>Stock Photography & Video: Earn $3,000+/Month Selling Your Visual Content</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article27.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Web Development Freelancing 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">WEB DEV</span>
-          <h3>Web Development Freelancing 2026: Earn $10,000+/Month Building Websites</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article29.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Side Hustle to Full Time 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">SIDE HUSTLE</span>
-          <h3>Side Hustle to Full-Time Income 2026: Replace Your 9-to-5 in 12 Months</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article30.html" class="article-card">
-        <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Make Money Online 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num">FEATURED</span>
-          <h3>How to Make Money Online in 2026: 30 Proven Methods for Financial Freedom</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="partnerstack.html" class="article-card" style="border:2px solid #a855f7;">
-        <img src="https://images.unsplash.com/photo-1553484771-371a605b060b?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="PartnerStack Affiliate Program" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num" style="background:linear-gradient(135deg,#5b21b6,#a855f7);color:#fff;">💰 AFFILIATE</span>
-          <h3>PartnerStack: Earn $3,000+/Month with SaaS Recurring Commissions</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article31.html" class="article-card" style="border:2px solid #673DE6;">
-        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="How to Start a Website with Hostinger 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num" style="background:linear-gradient(135deg,#673DE6,#9B6DFF);color:#fff;">🌐 WEB HOSTING</span>
-          <h3>How to Start a Website with Hostinger 2026: Complete Step-by-Step Guide</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article32.html" class="article-card" style="border:2px solid #27ae60;">
-        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Advanced Amino Formula Review 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num" style="background:linear-gradient(135deg,#27ae60,#1abc9c);color:#fff;">💪 HEALTH REVIEW</span>
-          <h3>Advanced Amino Formula Review 2026: Does It Really Stop Muscle Loss? Complete Guide</h3>
-          <div class="article-read">Read Review</div>
-        </div>
-      </a>
-
-      <a href="article33.html" class="article-card" style="border:2px solid #5b21b6;">
-        <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="50 Best Online Courses 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num" style="background:linear-gradient(135deg,#5b21b6,#a855f7);color:#fff;">🎓 EDUCATION</span>
-          <h3>50 Best Online Courses in 2026: Most In-Demand Skills (Free & Paid) – Complete Guide</h3>
-          <div class="article-read">Read Guide</div>
-        </div>
-      </a>
-
-      <a href="article34.html" class="article-card" style="border:2px solid #e74c3c;">
-        <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=600&h=340&fit=crop&q=80&fm=webp&auto=format" alt="Free Digital Marketing Course 2026" loading="lazy">
-        <div class="article-card-body">
-          <span class="article-num" style="background:linear-gradient(135deg,#e74c3c,#c0392b);color:#fff;">🎓 FREE COURSE</span>
-          <h3>Free Digital Marketing Course 2026: Complete A–Z Guide – Better Than Any Paid Course</h3>
-          <div class="article-read">Start Free Course</div>
+          <div class="post-card-meta">📅 Mar 2026 · ⏱ 14 min</div>
+          <div class="post-card-read">Read Guide</div>
         </div>
       </a>
 
     </div>
 
-    <!-- Adsterra Native Banner – Bottom -->
+    <!-- Ad unit -->
+    <div class="ad-unit">
+      <iframe data-aa='2431382' src='//acceptable.a-ads.com/2431382/?size=Adaptive' title="Advertisement" loading="lazy"
+        style='border:0; padding:0; width:100%; height:auto; overflow:hidden;display:block;'></iframe>
+    </div>
+
+    <!-- ALL GUIDES SECTION -->
+    <div class="section-title">All Guides — Make Money Online</div>
+    <div class="post-grid">
+
+      <a href="article28.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=500&h=280&fit=crop&q=80" alt="Financial Freedom Blueprint 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Financial Freedom</span>
+          <h3>Financial Freedom Blueprint 2026: Proven Plan to Escape the Rat Race</h3>
+          <div class="post-card-meta">⏱ 18 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article1.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=280&fit=crop&q=80" alt="Freelancing for Beginners 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Freelancing</span>
+          <h3>Freelancing for Beginners: Complete 2026 Guide to Earning $5,000/Month</h3>
+          <div class="post-card-meta">⏱ 15 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article4.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=280&fit=crop&q=80" alt="Affiliate Marketing 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Affiliate Marketing</span>
+          <h3>Affiliate Marketing 2026: Earn $15,000/Month with the Right Strategy</h3>
+          <div class="post-card-meta">⏱ 16 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article2.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=500&h=280&fit=crop&q=80" alt="Blogging for Profit 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Blogging</span>
+          <h3>Start a Blog That Makes Money in 2026: Zero to $10,000/Month Complete Guide</h3>
+          <div class="post-card-meta">⏱ 14 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article19.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=500&h=280&fit=crop&q=80" alt="Passive Income Blueprint 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Passive Income</span>
+          <h3>Passive Income Blueprint 2026: 15 Proven Streams That Generate Money 24/7</h3>
+          <div class="post-card-meta">⏱ 17 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article3.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=500&h=280&fit=crop&q=80" alt="YouTube Monetization 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">YouTube</span>
+          <h3>YouTube Monetization Guide 2026: Complete Blueprint from Zero to $10,000/Month</h3>
+          <div class="post-card-meta">⏱ 15 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article25.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=500&h=280&fit=crop&q=80" alt="Making Money with AI Tools 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">AI Tools</span>
+          <h3>Making Money with AI Tools in 2026: 20 Profitable Strategies</h3>
+          <div class="post-card-meta">⏱ 14 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article5.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&h=280&fit=crop&q=80" alt="Dropshipping 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">E-Commerce</span>
+          <h3>Dropshipping in 2026: The Complete Guide from Zero to $50,000/Month</h3>
+          <div class="post-card-meta">⏱ 16 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article6.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1553484771-371a605b060b?w=500&h=280&fit=crop&q=80" alt="Amazon FBA 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Amazon FBA</span>
+          <h3>Amazon FBA 2026: Launch Your Product and Scale to $100K/Month</h3>
+          <div class="post-card-meta">⏱ 18 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article13.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=500&h=280&fit=crop&q=80" alt="SEO Guide 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">SEO</span>
+          <h3>SEO Guide 2026: Rank #1 on Google and Drive Unlimited Free Traffic</h3>
+          <div class="post-card-meta">⏱ 20 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article14.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=280&fit=crop&q=80" alt="Fiverr Success 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Fiverr</span>
+          <h3>Fiverr Success Guide 2026: Earn $5,000+/Month as a Top-Rated Seller</h3>
+          <div class="post-card-meta">⏱ 13 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article15.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=500&h=280&fit=crop&q=80" alt="Upwork Mastery 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Upwork</span>
+          <h3>Upwork Mastery 2026: Win High-Paying Clients and Earn $8,000/Month</h3>
+          <div class="post-card-meta">⏱ 14 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article21.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=500&h=280&fit=crop&q=80" alt="TikTok Monetization 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">TikTok</span>
+          <h3>TikTok Monetization Guide 2026: Turn Your Videos into $10,000+/Month</h3>
+          <div class="post-card-meta">⏱ 13 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article22.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=500&h=280&fit=crop&q=80" alt="Instagram Income 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Instagram</span>
+          <h3>Instagram Income Guide 2026: From Zero Followers to $15,000/Month</h3>
+          <div class="post-card-meta">⏱ 14 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article9.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&h=280&fit=crop&q=80" alt="Digital Products 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Digital Products</span>
+          <h3>Sell Digital Products in 2026: Earn $10,000/Month with Zero Inventory</h3>
+          <div class="post-card-meta">⏱ 15 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article29.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=500&h=280&fit=crop&q=80" alt="Side Hustle to Full Time 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Side Hustle</span>
+          <h3>Side Hustle to Full-Time Income 2026: Replace Your 9-to-5 in 12 Months</h3>
+          <div class="post-card-meta">⏱ 16 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article30.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=500&h=280&fit=crop&q=80" alt="Make Money Online 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Make Money Online</span>
+          <h3>How to Make Money Online in 2026: 30 Proven Methods for Financial Freedom</h3>
+          <div class="post-card-meta">⏱ 22 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article20.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=280&fit=crop&q=80" alt="E-Commerce Success 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">E-Commerce</span>
+          <h3>E-Commerce Success in 2026: Complete Guide from Store Launch to Seven Figures</h3>
+          <div class="post-card-meta">⏱ 17 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article24.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=500&h=280&fit=crop&q=80" alt="Remote Work Jobs 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Remote Work</span>
+          <h3>Remote Work Jobs in 2026: Find and Land Your Perfect Work-From-Home Career</h3>
+          <div class="post-card-meta">⏱ 13 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article12.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=500&h=280&fit=crop&q=80" alt="Email Marketing 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Email Marketing</span>
+          <h3>Email Marketing Mastery 2026: Build a List and Earn $8,000/Month on Autopilot</h3>
+          <div class="post-card-meta">⏱ 14 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article16.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=280&fit=crop&q=80" alt="Copywriting Career 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Copywriting</span>
+          <h3>Copywriting Career 2026: Earn $10,000+/Month Writing Words That Sell</h3>
+          <div class="post-card-meta">⏱ 15 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article11.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=500&h=280&fit=crop&q=80" alt="Online Investing 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Investing</span>
+          <h3>Online Investing for Beginners 2026: Grow Your Money from $100 to $100,000</h3>
+          <div class="post-card-meta">⏱ 16 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article31.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=280&fit=crop&q=80" alt="Start a Website 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Web Hosting</span>
+          <h3>How to Start a Website with Hostinger 2026: Complete Step-by-Step Guide</h3>
+          <div class="post-card-meta">⏱ 12 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article33.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=500&h=280&fit=crop&q=80" alt="Best Online Courses 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Education</span>
+          <h3>50 Best Online Courses in 2026: Most In-Demand Skills (Free & Paid)</h3>
+          <div class="post-card-meta">⏱ 18 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article34.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=500&h=280&fit=crop&q=80" alt="Free Digital Marketing Course 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge" style="background:#e74c3c;">Free Course</span>
+          <h3>Free Digital Marketing Course 2026: Complete A–Z Guide – Better Than Paid Courses</h3>
+          <div class="post-card-meta">⏱ 20 min read</div>
+          <div class="post-card-read">Start Free Course</div>
+        </div>
+      </a>
+
+      <a href="partnerstack.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1553484771-371a605b060b?w=500&h=280&fit=crop&q=80" alt="PartnerStack Affiliate" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge" style="background:#7c3aed;">Affiliate</span>
+          <h3>PartnerStack: Earn $3,000+/Month with SaaS Recurring Commissions</h3>
+          <div class="post-card-meta">⏱ 14 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article36.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=500&h=280&fit=crop&q=80" alt="Independent Backyard Book" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge" style="background:#15803d;">Self-Sufficient</span>
+          <h3>The Independent Backyard Book – Save $1,000+/Month and Live Free in 2026</h3>
+          <div class="post-card-meta">⏱ 13 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article32.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=280&fit=crop&q=80" alt="Advanced Amino Formula Review" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge" style="background:#27ae60;">Health Review</span>
+          <h3>Advanced Amino Formula Review 2026: Does It Really Stop Muscle Loss?</h3>
+          <div class="post-card-meta">⏱ 10 min read</div>
+          <div class="post-card-read">Read Review</div>
+        </div>
+      </a>
+
+      <a href="article10.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=280&fit=crop&q=80" alt="Print on Demand 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Print on Demand</span>
+          <h3>Print on Demand in 2026: How to Earn $5,000+/Month Selling Custom Products</h3>
+          <div class="post-card-meta">⏱ 14 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article17.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=500&h=280&fit=crop&q=80" alt="Graphic Design Business 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Design</span>
+          <h3>Graphic Design Business 2026: Earn $8,000/Month with Your Creative Skills</h3>
+          <div class="post-card-meta">⏱ 14 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article18.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=500&h=280&fit=crop&q=80" alt="Virtual Assistant 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Virtual Assistant</span>
+          <h3>Virtual Assistant Business 2026: Scale to $5,000+/Month Working Remotely</h3>
+          <div class="post-card-meta">⏱ 13 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article23.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=500&h=280&fit=crop&q=80" alt="Podcast Monetization 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Podcasting</span>
+          <h3>Podcast Monetization 2026: Build a Six-Figure Podcasting Business</h3>
+          <div class="post-card-meta">⏱ 14 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article26.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=500&h=280&fit=crop&q=80" alt="Stock Photography Income" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Stock Media</span>
+          <h3>Stock Photography & Video: Earn $3,000+/Month Selling Your Visual Content</h3>
+          <div class="post-card-meta">⏱ 12 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+      <a href="article27.html" class="post-card">
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=500&h=280&fit=crop&q=80" alt="Web Development Freelancing 2026" loading="lazy">
+        <div class="post-card-body">
+          <span class="post-badge">Web Dev</span>
+          <h3>Web Development Freelancing 2026: Earn $10,000+/Month Building Websites</h3>
+          <div class="post-card-meta">⏱ 15 min read</div>
+          <div class="post-card-read">Read Guide</div>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- Ad unit bottom -->
     <div id="container-01033729790a4db87a47b2d3c7a68337-2"></div>
   </main>
 
-  <!-- Sidebar -->
+  <!-- SIDEBAR -->
   <aside class="sidebar">
-    <div class="sidebar-widget newsletter-widget">
-      <h3>📧 Get Free Guides</h3>
-      <p>Join thousands of readers getting weekly guides on making money online and achieving financial freedom.</p>
-      <input type="email" placeholder="Your email address…" aria-label="Email">
-      <button type="button">SUBSCRIBE FREE</button>
-    </div>
 
-    <div class="sidebar-widget">
-      <h3>🔥 Most Popular</h3>
-      <ul class="popular-list">
-        <li><span class="pop-num">#1</span> <a href="article25.html">Making Money with AI Tools in 2026</a></li>
-        <li><span class="pop-num">#2</span> <a href="article1.html">Freelancing for Beginners: $5,000/Month</a></li>
-        <li><span class="pop-num">#3</span> <a href="article19.html">Passive Income Blueprint: 15 Streams</a></li>
-        <li><span class="pop-num">#4</span> <a href="article28.html">Financial Freedom Blueprint 2026</a></li>
-        <li><span class="pop-num">#5</span> <a href="article4.html">Affiliate Marketing: $15,000/Month</a></li>
-        <li><span class="pop-num">#6</span> <a href="article2.html">Start a Blog: Zero to $10,000/Month</a></li>
-      </ul>
-    </div>
-
-    <div class="sidebar-widget">
-      <h3>📂 Categories</h3>
-      <ul class="category-list">
-        <li><a href="#">Freelancing <span class="cat-count">4</span></a></li>
-        <li><a href="#">Blogging & SEO <span class="cat-count">3</span></a></li>
-        <li><a href="#">E-Commerce <span class="cat-count">3</span></a></li>
-        <li><a href="#">Social Media <span class="cat-count">3</span></a></li>
-        <li><a href="#">Passive Income <span class="cat-count">3</span></a></li>
-        <li><a href="#">Investing <span class="cat-count">2</span></a></li>
-        <li><a href="#">AI Tools <span class="cat-count">1</span></a></li>
-        <li><a href="#">Remote Work <span class="cat-count">2</span></a></li>
-      </ul>
-    </div>
-
-    <!-- Adsterra Native Banner – Sidebar -->
-    <div id="container-01033729790a4db87a47b2d3c7a68337-3"></div>
-  </aside>
-</div>
-
-<!-- Stats Bar -->
-<section class="stats-bar">
-  <div class="stats-inner">
-    <div class="stat-item"><strong>30+</strong><span>Comprehensive Guides</span></div>
-    <div class="stat-item"><strong>5,000+</strong><span>Words Per Article</span></div>
-    <div class="stat-item"><strong>100%</strong><span>Free to Access</span></div>
-    <div class="stat-item"><strong>2026</strong><span>Always Up to Date</span></div>
-  </div>
-</section>
-
-<!-- Footer -->
-<footer>
-  <div class="footer-top">
-    <div class="footer-brand">
-      <a href="index.html" class="logo" style="text-decoration:none; margin-bottom:14px; display:inline-flex;">
-        <div class="logo-icon">FS</div>
-        <span class="logo-text" style="color:#fff">Fadal <span style="color:#a855f7">Store</span></span>
-      </a>
-      <p>Your ultimate resource for financial freedom, online business, and making money in the digital economy. In-depth guides updated for 2026.</p>
-      <div class="social-links" style="margin-top:16px">
-        <a href="https://www.facebook.com/fadal33357?mibextid=wwXIfr" aria-label="Facebook" target="_blank" rel="noopener">📘</a>
-        <a href="#" aria-label="Twitter">🐦</a>
-        <a href="#" aria-label="Instagram">📸</a>
-        <a href="https://youtube.com/@hiig-c4c?si=2MBM3_fbT7Ozju4b" aria-label="YouTube" target="_blank" rel="noopener">▶️</a>
+    <!-- Subscribe Widget -->
+    <div class="widget subscribe-widget" id="newsletter">
+      <div class="widget-title">📧 Get Free Guides</div>
+      <div class="widget-body">
+        <p>Join thousands of readers getting weekly guides on making money online and financial freedom.</p>
+        <input type="email" placeholder="Your email address…" aria-label="Email" id="sidebarEmail">
+        <button type="button" id="sidebarBtn">SUBSCRIBE FREE</button>
       </div>
     </div>
 
+    <!-- Popular Posts Widget -->
+    <div class="widget">
+      <div class="widget-title">🔥 Most Popular</div>
+      <div class="widget-body">
+        <a href="article40.html" class="popular-post">
+          <div class="pop-num-big">1</div>
+          <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=100&h=70&fit=crop&q=70" alt="Make money with AI" loading="lazy">
+          <div class="popular-post-info">
+            <h4>17 Ways to Make Money with AI in 2026</h4>
+            <span>⏱ 18 min</span>
+          </div>
+        </a>
+        <a href="article1.html" class="popular-post">
+          <div class="pop-num-big">2</div>
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=100&h=70&fit=crop&q=70" alt="Freelancing" loading="lazy">
+          <div class="popular-post-info">
+            <h4>Freelancing for Beginners: $5,000/Month</h4>
+            <span>⏱ 15 min</span>
+          </div>
+        </a>
+        <a href="article19.html" class="popular-post">
+          <div class="pop-num-big">3</div>
+          <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=100&h=70&fit=crop&q=70" alt="Passive Income" loading="lazy">
+          <div class="popular-post-info">
+            <h4>Passive Income Blueprint: 15 Proven Streams</h4>
+            <span>⏱ 17 min</span>
+          </div>
+        </a>
+        <a href="article28.html" class="popular-post">
+          <div class="pop-num-big">4</div>
+          <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=100&h=70&fit=crop&q=70" alt="Financial Freedom" loading="lazy">
+          <div class="popular-post-info">
+            <h4>Financial Freedom Blueprint 2026</h4>
+            <span>⏱ 18 min</span>
+          </div>
+        </a>
+        <a href="article4.html" class="popular-post">
+          <div class="pop-num-big">5</div>
+          <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=100&h=70&fit=crop&q=70" alt="Affiliate Marketing" loading="lazy">
+          <div class="popular-post-info">
+            <h4>Affiliate Marketing: Earn $15,000/Month</h4>
+            <span>⏱ 16 min</span>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- About Widget -->
+    <div class="widget">
+      <div class="widget-title">ℹ️ About This Blog</div>
+      <div class="widget-body" style="text-align:center;">
+        <div class="about-widget-img">FS</div>
+        <p><strong>Fadal Store</strong> is your ultimate guide to financial freedom, online business, and making money in the digital economy. 40+ in-depth guides, always updated for 2026.</p>
+        <a href="about.html" style="display:inline-block;margin-top:12px;background:var(--orange);color:#fff;font-size:0.8rem;font-weight:700;padding:8px 18px;border-radius:3px;text-transform:uppercase;">Learn More</a>
+      </div>
+    </div>
+
+    <!-- Labels/Categories Widget -->
+    <div class="widget">
+      <div class="widget-title">📂 Topics / Labels</div>
+      <div class="widget-body">
+        <div class="label-list">
+          <a href="make-money-online.html" class="label-tag">Make Money Online</a>
+          <a href="freelancing.html" class="label-tag">Freelancing</a>
+          <a href="ai-tools.html" class="label-tag">AI Tools</a>
+          <a href="article4.html" class="label-tag">Affiliate Marketing</a>
+          <a href="article19.html" class="label-tag">Passive Income</a>
+          <a href="article5.html" class="label-tag">Dropshipping</a>
+          <a href="article6.html" class="label-tag">Amazon FBA</a>
+          <a href="article13.html" class="label-tag">SEO</a>
+          <a href="article2.html" class="label-tag">Blogging</a>
+          <a href="article3.html" class="label-tag">YouTube</a>
+          <a href="article21.html" class="label-tag">TikTok</a>
+          <a href="article9.html" class="label-tag">Digital Products</a>
+          <a href="article11.html" class="label-tag">Investing</a>
+          <a href="article24.html" class="label-tag">Remote Work</a>
+          <a href="article28.html" class="label-tag">Financial Freedom</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ad in sidebar -->
+    <div id="container-01033729790a4db87a47b2d3c7a68337-3"></div>
+
+  </aside>
+</div>
+
+<!-- STATS SECTION -->
+<section class="stats-section">
+  <div class="stats-inner">
+    <div><strong>40+</strong><span>In-Depth Guides</span></div>
+    <div><strong>5,000+</strong><span>Words Per Article</span></div>
+    <div><strong>100%</strong><span>Free to Read</span></div>
+    <div><strong>2026</strong><span>Always Up to Date</span></div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="footer-logo">Fadal <span>Store</span></div>
+      <p>Your ultimate resource for financial freedom, online business, and making money in the digital economy. In-depth guides updated for 2026.</p>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/fadal33357?mibextid=wwXIfr" target="_blank" rel="noopener" aria-label="Facebook">📘</a>
+        <a href="https://youtube.com/@hiig-c4c?si=2MBM3_fbT7Ozju4b" target="_blank" rel="noopener" aria-label="YouTube">▶️</a>
+        <a href="#" aria-label="Twitter">🐦</a>
+        <a href="#" aria-label="Instagram">📸</a>
+      </div>
+    </div>
     <div class="footer-col">
-      <h3>Learn</h3>
+      <h4>Learn</h4>
       <ul>
         <li><a href="article1.html">Freelancing Guide</a></li>
         <li><a href="article2.html">Blogging for Profit</a></li>
         <li><a href="article3.html">YouTube Monetization</a></li>
         <li><a href="article4.html">Affiliate Marketing</a></li>
         <li><a href="article13.html">SEO Guide 2026</a></li>
-        <li><a href="article25.html">AI Tools Income</a></li>
+        <li><a href="article40.html">Make Money with AI</a></li>
         <li><a href="article19.html">Passive Income</a></li>
       </ul>
     </div>
-
     <div class="footer-col">
-      <h3>Business</h3>
+      <h4>More</h4>
       <ul>
         <li><a href="article5.html">Dropshipping</a></li>
         <li><a href="article6.html">Amazon FBA</a></li>
         <li><a href="article9.html">Digital Products</a></li>
-        <li><a href="article20.html">E-Commerce</a></li>
-        <li><a href="article10.html">Print on Demand</a></li>
         <li><a href="article28.html">Financial Freedom</a></li>
-        <li><a href="article29.html">Side Hustle → Full Time</a></li>
+        <li><a href="partnerstack.html">PartnerStack Affiliate</a></li>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="terms-of-service.html">Terms of Service</a></li>
       </ul>
     </div>
-
-    <div class="footer-col footer-newsletter">
-      <h3>Subscribe to Our Newsletter</h3>
-      <p style="font-size:0.85rem; margin-bottom:12px; opacity:0.75">Get the latest guides and strategies delivered to your inbox every week. Free forever.</p>
-      <input type="email" placeholder="Email address *" aria-label="Email">
-      <button type="button">SUBSCRIBE</button>
-      <p style="font-size:0.76rem; margin-top:10px; opacity:0.55">No spam. Unsubscribe anytime.</p>
-    </div>
   </div>
-
   <div class="footer-bottom">
-    <div class="footer-bottom-inner">
-      <p>Copyright &copy; 2026 <strong style="color:#fff">Fadal Store</strong> | Powered by Fadal Store</p>
-      <div class="footer-bottom-links">
-        <a href="privacy-policy.html">Privacy Policy</a>
-        <a href="terms-of-service.html">Terms of Service</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-      </div>
+    <span>© 2026 <strong style="color:#fff">Fadal Store</strong>. All Rights Reserved.</span>
+    <div style="display:flex;gap:16px;">
+      <a href="privacy-policy.html">Privacy</a>
+      <a href="terms-of-service.html">Terms</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="sitemap.xml">Sitemap</a>
     </div>
   </div>
 </footer>
 
 <script>
+  // Mobile hamburger
   const hamburger = document.getElementById('hamburger');
-  const mobileNav = document.getElementById('mobileNav');
-  const overlay = document.getElementById('overlay');
-  const navClose = document.getElementById('navClose');
-  function openNav() { mobileNav.classList.add('open'); overlay.classList.add('open'); hamburger.classList.add('open'); document.body.style.overflow='hidden'; }
-  function closeNav() { mobileNav.classList.remove('open'); overlay.classList.remove('open'); hamburger.classList.remove('open'); document.body.style.overflow=''; }
-  hamburger.addEventListener('click', () => mobileNav.classList.contains('open') ? closeNav() : openNav());
-  navClose.addEventListener('click', closeNav);
-  overlay.addEventListener('click', closeNav);
+  const navLinks = document.getElementById('navLinks');
+  hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
 
-  // Subscribe button logic
-  function handleSubscribe(inputEl, btnEl, wrapperEl) {
-    var email = inputEl.value.trim();
-    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!email) { inputEl.style.border='2px solid #f87171'; inputEl.focus(); return; }
-    if (!emailRegex.test(email)) { inputEl.style.border='2px solid #f87171'; inputEl.placeholder='Please enter a valid email'; inputEl.value=''; return; }
-    inputEl.style.border='';
-    wrapperEl.innerHTML = '<div style="text-align:center;padding:16px 0;"><div style="font-size:2rem;margin-bottom:8px;">✅</div><strong style="font-size:1rem;color:#16a34a;">Thank you! You\'re subscribed.</strong><p style="font-size:.85rem;color:#6b7280;margin-top:6px;">Check your inbox for our latest guides.</p></div>';
+  // Search
+  function handleSearch() {
+    const q = document.getElementById('searchInput').value.trim();
+    if (q) window.open('https://www.google.com/search?q=site:fadalstore.github.io+' + encodeURIComponent(q), '_blank');
   }
-  document.querySelectorAll('.hero-form, .newsletter-widget, .footer-newsletter').forEach(function(form) {
-    var input = form.querySelector('input[type="email"], input:not([type])');
-    var btn = form.querySelector('button');
-    if (input && btn) {
-      btn.addEventListener('click', function() { handleSubscribe(input, btn, form); });
-      input.addEventListener('keydown', function(e) { if (e.key === 'Enter') handleSubscribe(input, btn, form); });
-    }
+  document.getElementById('searchInput').addEventListener('keydown', e => { if (e.key === 'Enter') handleSearch(); });
+
+  // Subscribe
+  const sidebarEmail = document.getElementById('sidebarEmail');
+  const sidebarBtn = document.getElementById('sidebarBtn');
+  sidebarBtn.addEventListener('click', function() {
+    var email = sidebarEmail.value.trim();
+    var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!email || !re.test(email)) { sidebarEmail.style.border = '2px solid red'; sidebarEmail.focus(); return; }
+    sidebarEmail.parentElement.innerHTML = '<div style="text-align:center;padding:12px 0;color:#ffd700;font-weight:700;">✅ You\'re subscribed! Check your inbox.</div>';
   });
 </script>
 <script defer src="features.js"></script>
@@ -1030,6 +1321,5 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-WMP8QFNS');</script>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMP8QFNS"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager -->
 </body>
 </html>
