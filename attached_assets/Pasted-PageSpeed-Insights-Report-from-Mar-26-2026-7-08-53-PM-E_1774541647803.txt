@@ -1,0 +1,182 @@
+PageSpeed Insights
+Report from Mar 26, 2026, 7:08:53 PM
+
+Enter a valid URL
+
+smartphone
+Mobile
+
+computer
+Desktop
+
+Discover what your real users are experiencing
+No Data
+
+Diagnose performance issues
+95
+Performance
+96
+Accessibility
+96
+Best Practices
+92
+SEO
+95
+FCP
++9
+LCP
++22
+TBT
++29
+CLS
++25
+SI
++10
+Performance
+Values are estimated and may vary. The performance score is calculated directly from these metrics.See calculator.
+0–49
+50–89
+90–100
+Final Screenshot
+
+METRICS
+Expand view
+First Contentful Paint
+1.7 s
+Largest Contentful Paint
+2.6 s
+Total Blocking Time
+120 ms
+Cumulative Layout Shift
+0.006
+Speed Index
+1.7 s
+Captured at Mar 26, 2026 at 7:08 PM GMT+3
+Emulated Moto G Power with Lighthouse 13.0.1
+Single page session
+Initial page load
+Slow 4G throttling
+Using HeadlessChromium 145.0.7632.159 with lr
+View Treemap
+Screenshot
+Screenshot
+Screenshot
+Screenshot
+Screenshot
+Screenshot
+Screenshot
+Screenshot
+Show audits relevant to:
+
+All
+
+FCP
+
+LCP
+
+TBT
+
+CLS
+INSIGHTS
+Improve image delivery Est savings of 92 KiB
+Forced reflow
+Use efficient cache lifetimes Est savings of 84 KiB
+Layout shift culprits
+LCP breakdown
+3rd parties
+These insights are also available in the Chrome DevTools Performance Panel - record a trace to view more detailed information.
+DIAGNOSTICS
+Reduce unused JavaScript Est savings of 308 KiB
+Minify CSS Est savings of 2 KiB
+Avoid long main-thread tasks 3 long tasks found
+User Timing marks and measures 12 user timings
+More information about the performance of your application. These numbers don't directly affect the Performance score.
+PASSED AUDITS (17)
+Show
+96
+Accessibility
+These checks highlight opportunities to improve the accessibility of your web app. Automatic detection can only detect a subset of issues and does not guarantee the accessibility of your web app, so manual testing is also encouraged.
+CONTRAST
+Background and foreground colors do not have a sufficient contrast ratio.
+These are opportunities to improve the legibility of your content.
+BEST PRACTICES
+Identical links have the same purpose.
+These items highlight common accessibility best practices.
+ADDITIONAL ITEMS TO MANUALLY CHECK (10)
+Show
+These items address areas which an automated testing tool cannot cover. Learn more in our guide on conducting an accessibility review.
+PASSED AUDITS (20)
+Show
+NOT APPLICABLE (38)
+Show
+96
+Best Practices
+GENERAL
+Browser errors were logged to the console
+Errors logged to the console indicate unresolved problems. They can come from network request failures and other browser concerns. Learn more about this errors in console diagnostic audit
+  Show 3rd-party resources (9)
+Source
+Description
+GitHub Utility 1st Party
+https://fadalstore.github.io:1:0
+Access to link element resource at 'https://6.adsco.re:2087/' from origin 'https://fadalstore.github.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+https://fadalstore.github.io:1:0
+Access to link element resource at 'https://6.adsco.re/' from origin 'https://fadalstore.github.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+AdScore Ad 
+https://6.adsco.re:2087:1:0
+Failed to load resource: net::ERR_FAILED
+https://6.adsco.re:1:0
+Failed to load resource: net::ERR_FAILED
+https://c.adsco.re:1:0
+Failed to load resource: the server responded with a status of 403 (Forbidden)
+https://c.adsco.re:1:0
+Failed to load resource: the server responded with a status of 403 (Forbidden)
+jhnwr.com
+/400/10755117?oo=1&sw_version=v1.802.0-s&oaid=080305e…&st=true:1:0(jhnwr.com)
+Failed to load resource: the server responded with a status of 403 (Forbidden)
+flusteredexam.com
+…4AOET/AI2YNKzOMs:1:0(flusteredexam.com)
+Failed to load resource: the server responded with a status of 404 (Not Found)
+profitablecpmratenetwork.com
+…99/5373993….js:1:0(pl28941215.profitablecpmratenetwork.com)
+Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+/ujajx9rnky?key=9f841e5…:1:0(www.profitablecpmratenetwork.com)
+Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+/0103372…/invoke.js:1:0(pl28941196.profitablecpmratenetwork.com)
+Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+TRUST AND SAFETY
+Ensure CSP is effective against XSS attacks
+Use a strong HSTS policy
+Ensure proper origin isolation with COOP
+Mitigate clickjacking with XFO or CSP
+Mitigate DOM-based XSS with Trusted Types
+PASSED AUDITS (12)
+Show
+NOT APPLICABLE (2)
+Show
+92
+SEO
+These checks ensure that your page is following basic search engine optimization advice. There are many additional factors Lighthouse does not score here that may affect your search ranking, including performance on Core Web Vitals. Learn more about Google Search Essentials.
+CONTENT BEST PRACTICES
+Links do not have descriptive text 1 link found
+Descriptive link text helps search engines understand your content. Learn how to make links more accessible.
+Link destination
+Link Text
+GitHub Utility 1st Party
+/about.html(fadalstore.github.io)
+LEARN MORE
+Format your HTML in a way that enables crawlers to better understand your app’s content.
+ADDITIONAL ITEMS TO MANUALLY CHECK (1)
+Show
+Run these additional validators on your site to check additional SEO best practices.
+PASSED AUDITS (9)
+Hide
+Page isn’t blocked from indexing
+Document has a <title> element
+Document has a meta description
+Page has successful HTTP status code
+Links are crawlable
+robots.txt is valid
+Image elements have [alt] attributes
+Document has a valid hreflang
+Document has a valid rel=canonical
