@@ -80,7 +80,14 @@ Workflow: `Start application` runs `npx serve . -l 5000`
 - All articles: JSON-LD Article + FAQPage schema
 - Sitemap: `https://fadalstore.github.io/sitemap.xml`
 - Meta tags: OG, Twitter Card, robots, canonical on all pages
-- All pages in English for global Google ranking
+- index.html & partnerstack.html: Local SEO keywords added (Somalia, Somaliland, Hargeisa)
+- partnerstack.html: keyword "partnerstack affiliate network saas" added to meta
+
+## Af-Soomaali Content
+
+- `partnerstack-somali.html` — Full Somali-language article: "Sidee Looga Shaqeeyaa PartnerStack Adoo Jooga Hargeysa?" (targets 93% Somali audience, local SEO)
+- partnerstack.html — Somali summary section added at bottom (Af-Soomaali kooban)
+- index.html topbar updated to highlight the new Somali article
 
 ## Deployment
 
