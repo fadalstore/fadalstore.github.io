@@ -156,6 +156,13 @@
     .share-pin{background:#e60023;color:#fff;}
     .share-tg{background:#0088cc;color:#fff;}
 
+    /* COMMENT SECTION */
+    .comment-section{margin:30px 0 10px;padding:32px 36px;background:#fff;border-radius:16px;border:2px solid #e2e8f0;box-shadow:0 4px 20px rgba(0,0,0,0.06);}
+    .comment-section h3{font-size:1.3rem;color:var(--dark);margin-bottom:6px;border:none;padding:0;}
+    .comment-section .cs-sub{color:#64748b;font-size:.9rem;margin-bottom:24px;}
+    #disqus_thread a{color:#7c3aed!important;}
+    @media(max-width:700px){.comment-section{padding:20px 16px;}}
+
     /* KEY TAKEAWAY */
     .key-takeaway{background:#fffbeb;border-left:5px solid var(--orange);padding:20px 24px;border-radius:10px;margin:28px 0;}
     .key-takeaway h4{color:var(--orange);margin-top:0;margin-bottom:12px;}
@@ -549,6 +556,26 @@
     <a href="https://www.facebook.com/sharer/sharer.php?u=https://fadalstore.github.io/article51.html" target="_blank" class="share-btn share-fb">👍 Facebook</a>
     <a href="https://twitter.com/intent/tweet?text=Klap.app%20waa%20AI%20tool%20aad%20u%20fiican%20-%20video%20dhaadheer%20ugu%20beddela%20clips%20viral%20ah!%20Bilaash%20tijaabi%3A&url=https://fadalstore.github.io/article51.html" target="_blank" class="share-btn share-tw">🐦 Twitter/X</a>
     <a href="https://pinterest.com/pin/create/button/?url=https://fadalstore.github.io/article51.html&description=Klap.app%20AI%20Video%20Tool%20-%20Somali%20Guide" target="_blank" class="share-btn share-pin">📌 Pinterest</a>
+  </div>
+
+  <!-- COMMENT SECTION -->
+  <div class="comment-section">
+    <h3>💬 Faallada iyo Su'aalaha</h3>
+    <p class="cs-sub">Su'aal ma qabtaa ama wax ka tijaabisay? Wax ka qor hoose — waxaan kuu jawaabi doonaa sida ugu dhaqsaha badan. Faalladaada muhiim ayay noogu tahay!</p>
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function() {
+      this.page.url = "https://fadalstore.github.io/article51.html";
+      this.page.identifier = "article51.html";
+    };
+    (function() {
+      var d = document, s = d.createElement("script");
+      s.src = "https://fadalstore.disqus.com/embed.js";
+      s.setAttribute("data-timestamp", +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Fadlan JavaScript u shid si aad faallada u aragto.</noscript>
   </div>
 
 </div>

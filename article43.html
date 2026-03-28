@@ -95,7 +95,20 @@
     footer{background:var(--dark);color:#94a3b8;text-align:center;padding:28px 0;margin-top:60px;}
     footer a{color:var(--primary);}
     footer p{margin:6px 0;}
-    @media(max-width:700px){.container{padding:22px 16px;margin:15px auto;}h1.article-title{font-size:1.55rem;}h2{font-size:1.3rem;}.stat-grid{grid-template-columns:repeat(2,1fr);}.lang-grid{grid-template-columns:1fr;}.prog-nav a{padding:10px 6px;font-size:.72rem;}}
+
+    .share-section{background:var(--light);border:2px solid var(--border);border-radius:14px;padding:24px;margin:36px 0 20px;text-align:center;}
+    .share-section h3{color:var(--dark);font-size:1.05rem;margin-bottom:16px;border:none;padding:0;}
+    .share-btn{display:inline-block;padding:10px 18px;border-radius:8px;font-weight:700;font-size:.83rem;margin:5px;text-decoration:none!important;transition:all .2s;color:#fff;}
+    .share-btn:hover{opacity:.85;transform:translateY(-2px);text-decoration:none!important;color:#fff;}
+    .s-wa{background:#25d366;}.s-tg{background:#0088cc;}.s-fb{background:#1877f2;}
+    .s-tw{background:#000;}.s-pin{background:#e60023;}.s-li{background:#0077b5;}
+
+    .comment-section{margin:30px 0 10px;padding:32px 36px;background:#fff;border-radius:16px;border:2px solid var(--border);box-shadow:0 4px 20px rgba(0,0,0,0.06);}
+    .comment-section h3{font-size:1.3rem;color:var(--dark);margin-bottom:6px;padding:0;border:none;}
+    .comment-section .cs-sub{color:#64748b;font-size:.9rem;margin-bottom:24px;}
+    #disqus_thread a{color:var(--primary)!important;}
+
+    @media(max-width:700px){.container{padding:22px 16px;margin:15px auto;}h1.article-title{font-size:1.55rem;}h2{font-size:1.3rem;}.stat-grid{grid-template-columns:repeat(2,1fr);}.lang-grid{grid-template-columns:1fr;}.prog-nav a{padding:10px 6px;font-size:.72rem;}.comment-section{padding:20px 16px;}}
 </style>
 </head>
 <body>
@@ -191,6 +204,33 @@ app.post("/api/posts", authenticate, async (req, res) => {
     res.status(400).json({ error: err.message });
   }
 });</div><h2>5. Stage 4: Tools and Deployment (Months 9–12)</h2><p>Git, GitHub, deployment platforms, Docker basics, and CI/CD pipelines separate professional developers from hobbyists. Learn these early — not as an afterthought.</p><ul><li><strong>Git:</strong> Version control. Absolutely non-negotiable. Learn on day one.</li><li><strong>Vercel / Railway / Render:</strong> Deploy your apps in minutes. Use these first.</li><li><strong>Docker:</strong> Containerize applications. Increasingly expected even at junior level in 2026.</li><li><strong>GitHub Actions:</strong> Automated testing and deployment (CI/CD).</li></ul><h2>6. Salaries by Specialization</h2><table><thead><tr><th>Role</th><th>Entry Level</th><th>Mid Level</th><th>Senior Level</th></tr></thead><tbody><tr><td>Frontend Developer</td><td>$65K–$85K</td><td>$90K–$120K</td><td>$130K–$170K</td></tr><tr><td>Backend Developer</td><td>$70K–$90K</td><td>$95K–$130K</td><td>$140K–$180K</td></tr><tr><td>Full-Stack Developer</td><td>$75K–$95K</td><td>$100K–$140K</td><td>$150K–$200K</td></tr><tr><td>React Developer</td><td>$78K–$98K</td><td>$105K–$140K</td><td>$150K–$190K</td></tr></tbody></table><div class="key-takeaway"><h4>🎯 The Web Dev Roadmap in Summary</h4><ul><li>Month 0–2: HTML, CSS, JavaScript basics — build 3 static websites</li><li>Month 2–4: React.js and advanced JavaScript — 2 interactive web apps</li><li>Month 4–7: Node.js, Express, PostgreSQL — first full-stack app</li><li>Month 7–9: Git, deployment, Docker, security — deploy everything</li><li>Month 6+: Build portfolio and start applying for jobs simultaneously</li><li>Consistency beats intensity — 2 focused hours daily beats weekend marathons</li></ul></div><div class="cta-box"><h3>🗺️ Start Your Web Dev Journey!</h3><p>Read our detailed guides for Python, JavaScript, React, and Node.js.</p><a href="programming.html">View All Programming Guides →</a></div>
+<div class="share-section">
+<h3>📤 Maqaalkan Adigu Waxaad Uga Faa'iideysataa — Asxaabkaagana U Dir!</h3>
+<a href="https://wa.me/?text=Maqaal%20waxtar%20leh%3A%20Web Development Roadmap 2026: Step-by-Step Guide%20https://fadalstore.github.io/article43.html" target="_blank" class="share-btn s-wa">💬 WhatsApp</a>
+<a href="https://t.me/share/url?url=https://fadalstore.github.io/article43.html&text=Web%20Development%20Roadmap%202026%3A%20Step-by-Step%20Guide" target="_blank" class="share-btn s-tg">✈️ Telegram</a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://fadalstore.github.io/article43.html" target="_blank" class="share-btn s-fb">👍 Facebook</a>
+<a href="https://twitter.com/intent/tweet?text=Web%20Development%20Roadmap%202026%3A%20Step-by-Step%20Guide&url=https://fadalstore.github.io/article43.html" target="_blank" class="share-btn s-tw">🐦 Twitter/X</a>
+<a href="https://pinterest.com/pin/create/button/?url=https://fadalstore.github.io/article43.html&description=Web%20Development%20Roadmap%202026%3A%20Step-by-Step%20Guide" target="_blank" class="share-btn s-pin">📌 Pinterest</a>
+</div>
+<div class="comment-section">
+<h3>💬 Faallada iyo Su'aalaha</h3>
+<p class="cs-sub">Su'aal ma qabtaa? Wax ka qor hoose — waxaan kuu jawaabi doonaa sida ugu dhaqsaha badan. Faalladaada muhiim ayay noogu tahay!</p>
+<div id="disqus_thread"></div>
+<script>
+var disqus_config = function() {
+  this.page.url = "https://fadalstore.github.io/article43.html";
+  this.page.identifier = "article43.html";
+};
+(function() {
+  var d = document, s = d.createElement("script");
+  s.src = "https://fadalstore.disqus.com/embed.js";
+  s.setAttribute("data-timestamp", +new Date());
+  (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Fadlan JavaScript u shid si aad faallada u aragto.</noscript>
+</div>
+
 </div>
 
   <footer>

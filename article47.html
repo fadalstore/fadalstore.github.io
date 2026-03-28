@@ -95,7 +95,20 @@
     footer{background:var(--dark);color:#94a3b8;text-align:center;padding:28px 0;margin-top:60px;}
     footer a{color:var(--primary);}
     footer p{margin:6px 0;}
-    @media(max-width:700px){.container{padding:22px 16px;margin:15px auto;}h1.article-title{font-size:1.55rem;}h2{font-size:1.3rem;}.stat-grid{grid-template-columns:repeat(2,1fr);}.lang-grid{grid-template-columns:1fr;}.prog-nav a{padding:10px 6px;font-size:.72rem;}}
+
+    .share-section{background:var(--light);border:2px solid var(--border);border-radius:14px;padding:24px;margin:36px 0 20px;text-align:center;}
+    .share-section h3{color:var(--dark);font-size:1.05rem;margin-bottom:16px;border:none;padding:0;}
+    .share-btn{display:inline-block;padding:10px 18px;border-radius:8px;font-weight:700;font-size:.83rem;margin:5px;text-decoration:none!important;transition:all .2s;color:#fff;}
+    .share-btn:hover{opacity:.85;transform:translateY(-2px);text-decoration:none!important;color:#fff;}
+    .s-wa{background:#25d366;}.s-tg{background:#0088cc;}.s-fb{background:#1877f2;}
+    .s-tw{background:#000;}.s-pin{background:#e60023;}.s-li{background:#0077b5;}
+
+    .comment-section{margin:30px 0 10px;padding:32px 36px;background:#fff;border-radius:16px;border:2px solid var(--border);box-shadow:0 4px 20px rgba(0,0,0,0.06);}
+    .comment-section h3{font-size:1.3rem;color:var(--dark);margin-bottom:6px;padding:0;border:none;}
+    .comment-section .cs-sub{color:#64748b;font-size:.9rem;margin-bottom:24px;}
+    #disqus_thread a{color:var(--primary)!important;}
+
+    @media(max-width:700px){.container{padding:22px 16px;margin:15px auto;}h1.article-title{font-size:1.55rem;}h2{font-size:1.3rem;}.stat-grid{grid-template-columns:repeat(2,1fr);}.lang-grid{grid-template-columns:1fr;}.prog-nav a{padding:10px 6px;font-size:.72rem;}.comment-section{padding:20px 16px;}}
 </style>
 </head>
 <body>
@@ -219,6 +232,33 @@ print(classification_report(y_test, predictions))
 # Feature importance
 for feat, imp in zip(X.columns, model.feature_importances_):
     print(f"  {feat}: {imp:.3f}")</div><h2>7. ML Algorithms Comparison</h2><table><thead><tr><th>Algorithm</th><th>Type</th><th>Best Use Case</th><th>Complexity</th></tr></thead><tbody><tr><td>Linear Regression</td><td>Supervised</td><td>Predicting continuous values</td><td>Low</td></tr><tr><td>Logistic Regression</td><td>Supervised</td><td>Binary classification</td><td>Low</td></tr><tr><td>Random Forest</td><td>Supervised</td><td>High-accuracy classification/regression</td><td>Medium</td></tr><tr><td>XGBoost</td><td>Supervised</td><td>Competition-winning tabular data</td><td>Medium</td></tr><tr><td>K-Means</td><td>Unsupervised</td><td>Customer segmentation</td><td>Low</td></tr><tr><td>Neural Networks</td><td>Supervised</td><td>Images, text, complex patterns</td><td>High</td></tr></tbody></table><h2>8. Data Science Projects to Build</h2><ol class="step-list"><li><strong>House Price Prediction:</strong> The classic first ML project. Use the Ames Housing or Kaggle dataset. Linear regression and random forest. Learn feature engineering and cross-validation.</li><li><strong>Customer Churn Prediction:</strong> Predict which customers will cancel. Binary classification, handle imbalanced classes, interpret business impact of predictions.</li><li><strong>Sentiment Analysis:</strong> Classify product reviews using NLP. Use Scikit-learn for traditional ML or Hugging Face transformers for state-of-the-art results.</li><li><strong>Stock Data Exploration:</strong> Fetch with yfinance, calculate technical indicators, visualize trends, build a simple prediction model. Shows time series analysis skills.</li><li><strong>Recommendation System:</strong> Collaborative filtering for movie or product recommendations. The algorithm powering Netflix and Amazon. Impressive portfolio piece.</li></ol><div class="key-takeaway"><h4>🎯 Data Science Learning Path</h4><ul><li>Python fundamentals first — if not already known, spend 4-6 weeks</li><li>NumPy and Pandas mastery — 3-4 weeks of daily practice with real datasets</li><li>Matplotlib and Seaborn — 1-2 weeks to create professional visualizations</li><li>Statistics fundamentals — mean, median, standard deviation, probability, distributions</li><li>Scikit-learn ML algorithms — start with linear models, progress to ensemble methods</li><li>Build 5 complete projects including one with real data from Kaggle</li></ul></div><div class="cta-box"><h3>🤖 Start Your Data Science Journey!</h3><p>Begin with our Python guide, then come back for Pandas and ML.</p><a href="article41.html">Learn Python First →</a></div>
+<div class="share-section">
+<h3>📤 Maqaalkan Adigu Waxaad Uga Faa'iideysataa — Asxaabkaagana U Dir!</h3>
+<a href="https://wa.me/?text=Maqaal%20waxtar%20leh%3A%20Data Science and Machine Learning with Python 2026%20https://fadalstore.github.io/article47.html" target="_blank" class="share-btn s-wa">💬 WhatsApp</a>
+<a href="https://t.me/share/url?url=https://fadalstore.github.io/article47.html&text=Data%20Science%20and%20Machine%20Learning%20with%20Python%202026" target="_blank" class="share-btn s-tg">✈️ Telegram</a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://fadalstore.github.io/article47.html" target="_blank" class="share-btn s-fb">👍 Facebook</a>
+<a href="https://twitter.com/intent/tweet?text=Data%20Science%20and%20Machine%20Learning%20with%20Python%202026&url=https://fadalstore.github.io/article47.html" target="_blank" class="share-btn s-tw">🐦 Twitter/X</a>
+<a href="https://pinterest.com/pin/create/button/?url=https://fadalstore.github.io/article47.html&description=Data%20Science%20and%20Machine%20Learning%20with%20Python%202026" target="_blank" class="share-btn s-pin">📌 Pinterest</a>
+</div>
+<div class="comment-section">
+<h3>💬 Faallada iyo Su'aalaha</h3>
+<p class="cs-sub">Su'aal ma qabtaa? Wax ka qor hoose — waxaan kuu jawaabi doonaa sida ugu dhaqsaha badan. Faalladaada muhiim ayay noogu tahay!</p>
+<div id="disqus_thread"></div>
+<script>
+var disqus_config = function() {
+  this.page.url = "https://fadalstore.github.io/article47.html";
+  this.page.identifier = "article47.html";
+};
+(function() {
+  var d = document, s = d.createElement("script");
+  s.src = "https://fadalstore.disqus.com/embed.js";
+  s.setAttribute("data-timestamp", +new Date());
+  (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Fadlan JavaScript u shid si aad faallada u aragto.</noscript>
+</div>
+
 </div>
 
   <footer>

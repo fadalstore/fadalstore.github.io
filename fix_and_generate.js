@@ -77,7 +77,20 @@ const STYLE = `
     footer{background:var(--dark);color:#94a3b8;text-align:center;padding:28px 0;margin-top:60px;}
     footer a{color:var(--primary);}
     footer p{margin:6px 0;}
-    @media(max-width:700px){.container{padding:22px 16px;margin:15px auto;}h1.article-title{font-size:1.55rem;}h2{font-size:1.3rem;}.stat-grid{grid-template-columns:repeat(2,1fr);}.lang-grid{grid-template-columns:1fr;}.prog-nav a{padding:10px 6px;font-size:.72rem;}}
+
+    .share-section{background:var(--light);border:2px solid var(--border);border-radius:14px;padding:24px;margin:36px 0 20px;text-align:center;}
+    .share-section h3{color:var(--dark);font-size:1.05rem;margin-bottom:16px;border:none;padding:0;}
+    .share-btn{display:inline-block;padding:10px 18px;border-radius:8px;font-weight:700;font-size:.83rem;margin:5px;text-decoration:none!important;transition:all .2s;color:#fff;}
+    .share-btn:hover{opacity:.85;transform:translateY(-2px);text-decoration:none!important;color:#fff;}
+    .s-wa{background:#25d366;}.s-tg{background:#0088cc;}.s-fb{background:#1877f2;}
+    .s-tw{background:#000;}.s-pin{background:#e60023;}.s-li{background:#0077b5;}
+
+    .comment-section{margin:30px 0 10px;padding:32px 36px;background:#fff;border-radius:16px;border:2px solid var(--border);box-shadow:0 4px 20px rgba(0,0,0,0.06);}
+    .comment-section h3{font-size:1.3rem;color:var(--dark);margin-bottom:6px;padding:0;border:none;}
+    .comment-section .cs-sub{color:#64748b;font-size:.9rem;margin-bottom:24px;}
+    #disqus_thread a{color:var(--primary)!important;}
+
+    @media(max-width:700px){.container{padding:22px 16px;margin:15px auto;}h1.article-title{font-size:1.55rem;}h2{font-size:1.3rem;}.stat-grid{grid-template-columns:repeat(2,1fr);}.lang-grid{grid-template-columns:1fr;}.prog-nav a{padding:10px 6px;font-size:.72rem;}.comment-section{padding:20px 16px;}}
 `;
 
 const NAV = `
@@ -130,7 +143,37 @@ function wrapPage(title, desc, url, img, body, keywords) {
     '  <style>' + STYLE + '</style>\n' +
     '</head>\n<body>\n' +
     NAV + '\n' +
-    '<div class="container">\n' + body + '\n</div>\n' +
+    '<div class="container">\n' + body + '\n' +
+
+    '<div class="share-section">\n' +
+    '<h3>📤 Maqaalkan Adigu Waxaad Uga Faa\'iideysataa — Asxaabkaagana U Dir!</h3>\n' +
+    '<a href="https://wa.me/?text=' + encodeURIComponent('Maqaal waxtar leh: ') + title + '%20https://fadalstore.github.io/' + url + '" target="_blank" class="share-btn s-wa">💬 WhatsApp</a>\n' +
+    '<a href="https://t.me/share/url?url=https://fadalstore.github.io/' + url + '&text=' + encodeURIComponent(title) + '" target="_blank" class="share-btn s-tg">✈️ Telegram</a>\n' +
+    '<a href="https://www.facebook.com/sharer/sharer.php?u=https://fadalstore.github.io/' + url + '" target="_blank" class="share-btn s-fb">👍 Facebook</a>\n' +
+    '<a href="https://twitter.com/intent/tweet?text=' + encodeURIComponent(title) + '&url=https://fadalstore.github.io/' + url + '" target="_blank" class="share-btn s-tw">🐦 Twitter/X</a>\n' +
+    '<a href="https://pinterest.com/pin/create/button/?url=https://fadalstore.github.io/' + url + '&description=' + encodeURIComponent(title) + '" target="_blank" class="share-btn s-pin">📌 Pinterest</a>\n' +
+    '</div>\n' +
+
+    '<div class="comment-section">\n' +
+    '<h3>💬 Faallada iyo Su\'aalaha</h3>\n' +
+    '<p class="cs-sub">Su\'aal ma qabtaa? Wax ka qor hoose — waxaan kuu jawaabi doonaa sida ugu dhaqsaha badan. Faalladaada muhiim ayay noogu tahay!</p>\n' +
+    '<div id="disqus_thread"></div>\n' +
+    '<script>\n' +
+    'var disqus_config = function() {\n' +
+    '  this.page.url = "https://fadalstore.github.io/' + url + '";\n' +
+    '  this.page.identifier = "' + url + '";\n' +
+    '};\n' +
+    '(function() {\n' +
+    '  var d = document, s = d.createElement("script");\n' +
+    '  s.src = "https://fadalstore.disqus.com/embed.js";\n' +
+    '  s.setAttribute("data-timestamp", +new Date());\n' +
+    '  (d.head || d.body).appendChild(s);\n' +
+    '})();\n' +
+    '</script>\n' +
+    '<noscript>Fadlan JavaScript u shid si aad faallada u aragto.</noscript>\n' +
+    '</div>\n' +
+
+    '\n</div>\n' +
     FOOTER + '\n' +
     '</body>\n</html>';
 }
