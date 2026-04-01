@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barashada Python – Casharka 6aad: Functions & Modules Af-Soomaali | Fadal Store</title>
+  <meta name="description" content="Casharka 6aad: Baaro Functions iyo Modules Python-ka – qor koodh nidaamsan oo dib loo isticmaali karo. Koorso Python Af-Soomaali – Fadal Store.">
+  <meta name="keywords" content="functions python soomaali, modules python af soomaali, def python soomaali, import python soomaali">
+  <link rel="canonical" href="https://fadalstore.github.io/courses/programming/lesson6.html">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
+  <meta name="author" content="Fadal Store">
+  <meta name="robots" content="index, follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet"></noscript>
+  <script defer src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9732596199385216" crossorigin="anonymous"></script>
+  <style>
+    :root{--orange:#be5000;--dark:#1a1a2e;--text:#333;--muted:#666;--white:#fff;--border:#e0e0e0;--link:#c0392b;--prog:#2563eb;--prog-light:#eff6ff;}
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}body{font-family:'Roboto',Arial,sans-serif;background:#f0f0f0;color:var(--text);font-size:15px;line-height:1.8;}a{color:var(--link);text-decoration:none;}a:hover{color:var(--orange);}
+    .topbar{background:var(--dark);color:#fff;text-align:center;padding:7px 20px;font-size:.8rem;font-weight:500;}.topbar a{color:#ffd700;font-weight:700;}
+    .site-header{background:linear-gradient(135deg,#c0392b 0%,#e74c3c 50%,#ff6b35 100%);padding:28px 0 22px;text-align:center;}.site-header-inner{max-width:1100px;margin:0 auto;padding:0 20px;}.site-title{font-family:'Playfair Display',Georgia,serif;font-size:clamp(1.9rem,5vw,3rem);font-weight:800;color:#fff;text-shadow:0 2px 8px rgba(0,0,0,.2);text-decoration:none;display:block;}.site-title span{color:#ffd700;}.site-desc{color:rgba(255,255,255,.88);font-size:.92rem;margin-top:6px;}
+    .bl-navbar{background:#1f1f1f;border-bottom:3px solid #ff6b35;position:sticky;top:0;z-index:2000;}.bl-navbar-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 16px;}.bl-nav-list{display:flex;align-items:center;list-style:none;margin:0;padding:0;}.bl-nav-list>li>a{display:flex;align-items:center;gap:4px;color:#ddd;font-size:.83rem;font-weight:600;padding:13px 13px;text-decoration:none!important;border-right:1px solid #333;transition:background .2s,color .2s;white-space:nowrap;}.bl-nav-list>li:first-child>a{border-left:1px solid #333;}.bl-nav-list>li>a:hover,.bl-nav-list>li>a.bl-active{background:#be5000;color:#fff!important;}.bl-hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:10px 4px;}.bl-hamburger span{display:block;width:23px;height:2px;background:#ddd;border-radius:2px;}.bl-mobile-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:4000;}.bl-mobile-overlay.bl-show{display:block;}.bl-mobile-panel{position:fixed;top:0;left:-100%;width:88%;max-width:340px;height:100vh;background:#fff;z-index:5000;overflow-y:auto;transition:left .32s;display:flex;flex-direction:column;}.bl-mobile-panel.bl-show{left:0;}.bl-mobile-head{background:linear-gradient(135deg,#1d4ed8,#2563eb);padding:18px 20px;display:flex;align-items:center;justify-content:space-between;}.bl-mobile-head-title{font-size:1rem;font-weight:800;color:#fff;}.bl-mobile-close{background:none;border:none;color:#fff;font-size:1.5rem;cursor:pointer;}.bl-mobile-body{flex:1;overflow-y:auto;padding:0 0 20px;}.bl-mobile-link{display:block;padding:12px 20px;color:#222;font-size:.9rem;font-weight:600;text-decoration:none!important;border-bottom:1px solid #f0f0f0;}.bl-mobile-link:hover,.bl-mobile-link.active-lesson{background:#eff6ff;color:#2563eb;}@media(max-width:900px){.bl-nav-list{display:none;}.bl-hamburger{display:flex;}}
+    .breadcrumb{background:#fff;border-bottom:1px solid var(--border);padding:10px 20px;font-size:.78rem;color:var(--muted);}.breadcrumb-inner{max-width:1100px;margin:0 auto;}.breadcrumb a{color:var(--link);}
+    .lesson-hero{background:linear-gradient(135deg,#1e3a5f 0%,#1d4ed8 100%);color:#fff;padding:36px 20px;}.lesson-hero-inner{max-width:820px;margin:0 auto;}.lesson-badge{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);color:#ffd700;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;padding:4px 12px;border-radius:20px;margin-bottom:12px;}.lesson-hero h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(1.4rem,3.5vw,2rem);font-weight:800;line-height:1.25;margin-bottom:8px;}.lesson-hero-meta{display:flex;gap:18px;flex-wrap:wrap;font-size:.8rem;color:rgba(255,255,255,.75);}
+    .lesson-wrap{max-width:1100px;margin:0 auto;padding:32px 20px 60px;display:grid;grid-template-columns:1fr 270px;gap:28px;}@media(max-width:820px){.lesson-wrap{grid-template-columns:1fr;}.lesson-sidebar{display:none;}}
+    .lesson-article{background:var(--white);border-radius:10px;padding:32px 36px;box-shadow:0 2px 12px rgba(0,0,0,.06);}@media(max-width:600px){.lesson-article{padding:20px 16px;}}
+    .lesson-article h2{font-family:'Playfair Display',Georgia,serif;font-size:1.3rem;font-weight:800;color:var(--dark);margin:28px 0 12px;}.lesson-article h2:first-child{margin-top:0;}.lesson-article h3{font-size:1rem;font-weight:700;color:var(--prog);margin:20px 0 8px;}.lesson-article p{margin-bottom:14px;}.lesson-article ul,.lesson-article ol{padding-left:20px;margin-bottom:14px;}.lesson-article li{margin-bottom:6px;}.lesson-article strong{color:var(--dark);}
+    pre{background:#0f172a;color:#e2e8f0;border-radius:8px;padding:20px 22px;margin:18px 0;overflow-x:auto;font-size:.85rem;line-height:1.7;border-left:4px solid var(--prog);}code{font-family:'Courier New',Courier,monospace;}
+    .info-box{background:var(--prog-light);border:1px solid #bfdbfe;border-left:4px solid var(--prog);border-radius:6px;padding:16px 18px;margin:18px 0;}.info-box p{margin:0;font-size:.88rem;color:#1e40af;}
+    .tip-box{background:#f0fdf4;border:1px solid #bbf7d0;border-left:4px solid #16a34a;border-radius:6px;padding:16px 18px;margin:18px 0;}.tip-box p{margin:0;font-size:.88rem;color:#14532d;}
+    .lesson-nav{display:flex;justify-content:space-between;align-items:center;margin-top:32px;padding-top:24px;border-top:2px solid var(--border);gap:12px;flex-wrap:wrap;}.nav-btn{display:flex;align-items:center;gap:8px;padding:12px 20px;border-radius:7px;font-weight:700;font-size:.88rem;transition:all .2s;}.nav-btn-prev{background:#f5f5f5;color:var(--muted);border:1px solid var(--border);}.nav-btn-prev:hover{background:#e5e5e5;color:var(--text);}.nav-btn-next{background:var(--prog);color:#fff;border:1px solid var(--prog);}.nav-btn-next:hover{background:#1d4ed8;color:#fff;}
+    .lesson-sidebar{display:flex;flex-direction:column;gap:16px;}.sidebar-box{background:var(--white);border-radius:10px;border:1px solid var(--border);overflow:hidden;box-shadow:0 1px 8px rgba(0,0,0,.05);}.sidebar-box-head{background:var(--prog);color:#fff;padding:11px 16px;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;}.sidebar-box-body{padding:12px 14px;}.sidebar-lesson-link{display:flex;align-items:center;gap:8px;padding:7px 4px;font-size:.81rem;color:var(--text);border-bottom:1px solid #f5f5f5;text-decoration:none;border-radius:4px;}.sidebar-lesson-link:last-child{border-bottom:none;}.sidebar-lesson-link:hover{color:var(--prog);background:#eff6ff;}.sidebar-lesson-link.current{background:#eff6ff;color:var(--prog);font-weight:700;}.sidebar-num{width:20px;height:20px;border-radius:50%;background:#dbeafe;color:var(--prog);font-size:.66rem;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;}.sidebar-num.active{background:var(--prog);color:#fff;}
+    .site-footer{background:var(--dark);color:rgba(255,255,255,.75);padding:32px 0 0;}.footer-inner{max-width:1100px;margin:0 auto;padding:0 20px 24px;}.footer-logo{font-family:'Playfair Display',Georgia,serif;font-size:1.3rem;font-weight:800;color:#fff;}.footer-logo span{color:#ffd700;}.footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding:14px 20px;max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;font-size:.78rem;}.footer-bottom a{color:rgba(255,255,255,.6);}.footer-bottom a:hover{color:#ffd700;}
+  </style>
+</head>
+<body>
+<div class="topbar">💚 NEW: <a href="../../cash-giraffe-app.html">Cash Giraffe App — Download 2 Apps, Earn $4.28 FREE →</a></div>
+<header class="site-header"><div class="site-header-inner"><a href="../../index.html" class="site-title">Fadal <span>Store</span></a><div class="site-desc">Financial Freedom · Online Business · Make Money Online · AI Tools · Side Hustles</div></div></header>
+<nav class="bl-navbar"><div class="bl-navbar-inner"><ul class="bl-nav-list"><li><a href="../../index.html">🏠 Home</a></li><li><a href="../index.html">🎓 Koorsooyinka</a></li><li><a href="index.html" class="bl-active">💻 Programming</a></li><li><a href="../security/index.html">🔐 Cybersecurity</a></li><li><a href="../../about.html">About</a></li></ul><button class="bl-hamburger" id="blHamburger" aria-label="Open menu"><span></span><span></span><span></span></button></div></nav>
+<div class="bl-mobile-overlay" id="blOverlay"></div>
+<div class="bl-mobile-panel" id="blPanel">
+  <div class="bl-mobile-head"><div class="bl-mobile-head-title">💻 Casharada Programming</div><button class="bl-mobile-close" id="blClose">✕</button></div>
+  <div class="bl-mobile-body">
+    <a href="../../index.html" class="bl-mobile-link">🏠 Home</a><a href="../index.html" class="bl-mobile-link">🎓 Koorsooyinka</a>
+    <a href="lesson1.html" class="bl-mobile-link">C1: Hordhaca</a><a href="lesson2.html" class="bl-mobile-link">C2: Setup</a><a href="lesson3.html" class="bl-mobile-link">C3: Variables</a><a href="lesson4.html" class="bl-mobile-link">C4: Control Flow</a><a href="lesson5.html" class="bl-mobile-link">C5: Bash</a><a href="lesson6.html" class="bl-mobile-link active-lesson">C6: Functions</a><a href="lesson7.html" class="bl-mobile-link">C7: Project</a>
+  </div>
+</div>
+<nav class="breadcrumb" aria-label="Breadcrumb"><div class="breadcrumb-inner"><a href="../../index.html">Home</a> › <a href="../index.html">Koorsooyinka</a> › <a href="index.html">Programming</a> › <strong>Casharka 6aad</strong></div></nav>
+
+<div class="lesson-hero">
+  <div class="lesson-hero-inner">
+    <div class="lesson-badge">💻 Casharka 6aad – Heerka 2aad</div>
+    <h1>Functions & Modules<br>Koodhka Nidaamsan oo Dib Loo Isticmaali Karo</h1>
+    <div class="lesson-hero-meta"><span>⏱ ~55 Daqiiqo</span><span>📖 Heer: Dhexe</span><span>🌍 Af-Soomaali</span></div>
+  </div>
+</div>
+
+<div class="lesson-wrap">
+  <main>
+    <article class="lesson-article">
+
+      <h2>Maxaad Baranaysaa Casharkaan?</h2>
+      <p>Casharkaan wuxuu kugu barin doonaa sida loo sameeyo <strong>Functions</strong> — qaybaha koodhka la dib-isticmaali karo. Waxaad sidoo kale baranaysaa sida loo isticmaalo <strong>Modules</strong> — maktabadaha Python-ka oo horay loo yaqaan.</p>
+      <div class="info-box"><p><strong>📌 Waxaad baranaysaa:</strong> def, parameters, return values, default values, *args, **kwargs, iyo modules aasaasiga ah (math, os, datetime, random).</p></div>
+
+      <h2>1. Functions — Waa maxay?</h2>
+      <p>Function waa koox koodh ah oo leh magac gaar ah, oo aad ku soo wici karto meel kasta. Halkii aad isla koodhka ku qorto 10 jeer, waxaad qortaa hal mar oo ku wicid.</p>
+
+      <h3>Qaabka Aasaasiga ah</h3>
+      <pre><code>def salaan():
+    print("Ku soo dhowow Fadal Store!")
+    print("Python Koorso Af-Soomaali")
+
+# Wac function-ka
+salaan()
+salaan()  # Dib u isticmaal — ma baahna inaad mar labaad qorto</code></pre>
+
+      <h2>2. Parameters — Xogta Gudaha</h2>
+      <pre><code># Function leh parameter
+def salaan_magac(magac):
+    print(f"Ku soo dhowow, {magac}!")
+
+salaan_magac("Axmed")    # Ku soo dhowow, Axmed!
+salaan_magac("Fadumo")   # Ku soo dhowow, Fadumo!
+
+# Parameters badan
+def qiimee_shaqaale(magac, mushaharo, da):
+    print(f"Magac: {magac}")
+    print(f"Mushaharo: ${mushaharo}")
+    print(f"Da: {da} sano")
+    
+qiimee_shaqaale("Axmed", 2500, 28)</code></pre>
+
+      <h2>3. Return Values — Soo Celi Natiijooyinka</h2>
+      <pre><code># Function leh return
+def isugeyn(a, b):
+    natiijooy = a + b
+    return natiijooy
+
+# Kayd natiijooyinka
+wadarta = isugeyn(10, 25)
+print(f"10 + 25 = {wadarta}")  # 35
+
+# Functions koodhka yaabka leh
+def bmi_xisaabi(miis, dherer):
+    bmi = miis / (dherer ** 2)
+    return round(bmi, 1)
+
+def bmi_qiimee(bmi):
+    if bmi < 18.5:
+        return "Cuf yar"
+    elif bmi < 25:
+        return "Caadi"
+    elif bmi < 30:
+        return "Cuf dheeraad ah"
+    else:
+        return "Waaxid"
+
+# Isticmaal
+my_bmi = bmi_xisaabi(70, 1.75)
+xaalad = bmi_qiimee(my_bmi)
+print(f"BMI: {my_bmi} — {xaalad}")</code></pre>
+
+      <h2>4. Default Values</h2>
+      <pre><code>def salaan_heer(magac, luuqad="Soomaali"):
+    if luuqad == "Soomaali":
+        print(f"Ku soo dhowow, {magac}!")
+    elif luuqad == "English":
+        print(f"Welcome, {magac}!")
+    elif luuqad == "Arabic":
+        print(f"Ahlan wa sahlan, {magac}!")
+
+salaan_heer("Axmed")              # Default: Soomaali
+salaan_heer("Ahmed", "English")  # English
+salaan_heer("Axmed", "Arabic")   # Arabic</code></pre>
+
+      <h2>5. *args iyo **kwargs</h2>
+      <pre><code># *args — parameters tirada aan go'an
+def wadarta_dhammaan(*tirooyin):
+    wadarta = 0
+    for tiro in tirooyin:
+        wadarta += tiro
+    return wadarta
+
+print(wadarta_dhammaan(1, 2, 3))        # 6
+print(wadarta_dhammaan(10, 20, 30, 40)) # 100
+
+# **kwargs — parameter magac leh
+def macluumaad_shaqaale(**xogta):
+    for furaha, qiimaha in xogta.items():
+        print(f"{furaha}: {qiimaha}")
+
+macluumaad_shaqaale(magac="Axmed", da=28, magaalo="Mogadishu")</code></pre>
+
+      <h2>6. Modules — Maktabadaha Python</h2>
+      <p>Module waa faylo Python ah oo ku jira functions aad isticmaali karto. Python waxay leedahay modules badan oo "built-in" ah:</p>
+
+      <h3>math — Xisaabinta</h3>
+      <pre><code>import math
+
+print(math.pi)          # 3.141592653589793
+print(math.sqrt(144))   # 12.0
+print(math.floor(9.7))  # 9
+print(math.ceil(9.1))   # 10
+print(math.pow(2, 10))  # 1024.0</code></pre>
+
+      <h3>random — Tirooyin Xashiishi ah</h3>
+      <pre><code>import random
+
+# Tiro xashiishi 1-100
+print(random.randint(1, 100))
+
+# Dooro mid liiska
+magacyada = ["Axmed", "Fadumo", "Cali", "Hodan"]
+print(random.choice(magacyada))
+
+# Xashiishi order
+random.shuffle(magacyada)
+print(magacyada)</code></pre>
+
+      <h3>datetime — Taariikhda & Wakhtiga</h3>
+      <pre><code>from datetime import datetime
+
+hadda = datetime.now()
+print(f"Taariikhda: {hadda.strftime('%d/%m/%Y')}")
+print(f"Wakhtiga: {hadda.strftime('%H:%M:%S')}")
+print(f"Sanadka: {hadda.year}")
+print(f"Bishada: {hadda.month}")</code></pre>
+
+      <h3>os — Maamulka Nidaamka</h3>
+      <pre><code>import os
+
+# Meeshaan joogto
+print(os.getcwd())
+
+# Liiska faylasha
+print(os.listdir("."))
+
+# Samee galka
+os.makedirs("galka_cusub", exist_ok=True)
+
+# Magaca nidaamka
+print(os.name)  # 'posix' (Linux/Mac) ama 'nt' (Windows)</code></pre>
+
+      <h2>7. Samee Module-kaaga Gaarka ah</h2>
+      <pre><code># 1. Samee faylka: xisaabiye.py
+# Geli koodhkan:
+
+def isugeyn(a, b):
+    return a + b
+
+def jarrid(a, b):
+    return a - b
+
+def xidid(a, b):
+    return a * b
+
+def qeybso(a, b):
+    if b == 0:
+        return "Khalad: Lama qeybin karo eber"
+    return a / b
+
+# 2. Faylka kale (main.py) ku isticmaal:
+# import xisaabiye
+# print(xisaabiye.isugeyn(10, 5))   # 15
+# print(xisaabiye.qeybso(10, 0))    # Khalad: ...</code></pre>
+
+      <div class="tip-box"><p>💡 <strong>Aragti muhiim ah (DRY):</strong> "Don't Repeat Yourself" — ha ku lahaanin isla koodhka laba meel. Functions waxay kaa caawiyaan inaad sameyso koodh nidaamsan oo la ilaalin karo.</p></div>
+
+      <div class="info-box"><p><strong>🎉 Hambalyo!</strong> Waxaad dhammaystirtay Casharka 6aad! Hadda waxaad qori kartaa koodh nidaamsan oo adoo isticmaalaya functions iyo modules. Casharka xiga — Casharka Ugu Dambeeya — waxaad samaysaa Project Dhabta ah!</p></div>
+
+      <div class="lesson-nav">
+        <a href="lesson5.html" class="nav-btn nav-btn-prev">← Casharka 5aad</a>
+        <a href="lesson7.html" class="nav-btn nav-btn-next">🏆 Casharka 7aad: Project Final →</a>
+      </div>
+    </article>
+  </main>
+
+  <aside class="lesson-sidebar">
+    <div class="sidebar-box">
+      <div class="sidebar-box-head">📋 Casharada Koorsada</div>
+      <div class="sidebar-box-body">
+        <a href="lesson1.html" class="sidebar-lesson-link"><span class="sidebar-num">1</span>Hordhaca Programming</a>
+        <a href="lesson2.html" class="sidebar-lesson-link"><span class="sidebar-num">2</span>Setup Python</a>
+        <a href="lesson3.html" class="sidebar-lesson-link"><span class="sidebar-num">3</span>Variables & Data Types</a>
+        <a href="lesson4.html" class="sidebar-lesson-link"><span class="sidebar-num">4</span>Control Flow</a>
+        <a href="lesson5.html" class="sidebar-lesson-link"><span class="sidebar-num">5</span>Bash Scripting</a>
+        <a href="lesson6.html" class="sidebar-lesson-link current"><span class="sidebar-num active">6</span>Functions & Modules</a>
+        <a href="lesson7.html" class="sidebar-lesson-link"><span class="sidebar-num">7</span>Project Final</a>
+      </div>
+    </div>
+    <div class="sidebar-box">
+      <div class="sidebar-box-head">🏆 Tallaabada Xiga</div>
+      <div class="sidebar-box-body">
+        <p style="font-size:.82rem;color:var(--muted);margin-bottom:10px;">Project Final — xidid wixii baratay!</p>
+        <a href="lesson7.html" style="display:block;text-align:center;background:#d97706;color:#fff;font-weight:700;font-size:.84rem;padding:10px;border-radius:6px;">🏆 Project Final →</a>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner"><div class="footer-logo">Fadal <span>Store</span></div><p style="font-size:.82rem;color:rgba(255,255,255,.6);margin-top:4px;">© 2026 Fadal Store. All Rights Reserved.</p></div>
+  <div class="footer-bottom"><span>© 2026 <strong style="color:#fff">Fadal Store</strong></span><div style="display:flex;gap:14px;"><a href="../../index.html">Home</a><a href="lesson7.html">Project Final →</a></div></div>
+</footer>
+<script>(function(){var h=document.getElementById('blHamburger'),panel=document.getElementById('blPanel'),overlay=document.getElementById('blOverlay'),close=document.getElementById('blClose');function open(){h&&h.classList.add('bl-open');panel&&panel.classList.add('bl-show');overlay&&overlay.classList.add('bl-show');document.body.style.overflow='hidden';}function cls(){h&&h.classList.remove('bl-open');panel&&panel.classList.remove('bl-show');overlay&&overlay.classList.remove('bl-show');document.body.style.overflow='';}if(h)h.addEventListener('click',open);if(close)close.addEventListener('click',cls);if(overlay)overlay.addEventListener('click',cls);})();</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+Tani waa fikrad aad u xooggan oo mareegtaada Fadal Store ka dhigi karta mid ka mid ah ilaha ugu muhiimsan ee waxbarashada farsamada ee Af-Soomaaliga. Maadaama aad tahay qof iskiis u bartay (self-taught) Python iyo Bash, khibradaada ayaad u beddeli kartaa koorsooyin nidaamsan.
+Halkan waa qaabka (Syllabus) aad u diyaarin karto labada koorso ee ugu muhiimsan:
+1. Koorsada: Barashada Programming-ka (Python & Bash)
+Koorsadan waxaad u qaybinaysaa laba heer si qofku uusan ugu wareerin.
+Heerka 1aad: Bilowga (Basics)
+ * Qaybta 1: Waa maxay Programming? (Sida kombuyuutarku u fekero).
+ * Qaybta 2: Deegaanka Shaqada (Setup): Sida loo rakibo Python iyo isticmaalka Terminal-ka (iSH ama Debian).
+ * Qaybta 3: Variables & Data Types: Sida xogta loogu kaydiyo koodhka dhexdiisa.
+ * Qaybta 4: Control Flow: Isticmaalka if, else, iyo loops (Sida koodhka loogu sheego inuu go'aan gaaro).
+Heerka 2aad: Automation (Xirfaddaada Gaarka ah)
+ * Qaybta 5: Bash Scripting: Sida loo otomaatigeeyo hawlaha maalinlaha ah ee Linux.
+ * Qaybta 6: Functions & Modules: Sida loo qoro koodh nidaamsan oo dib loo isticmaali karo.
+ * Qaybta 7: Project Mid-Term: Sameynta "Calculator" ama "File Organizer" fudud.
+2. Koorsada: Cilmiga Cybersecurity-ga (Security Auditing)
+Maadaama aad isticmaasho Nmap iyo Metasploit, koorsadan waxay soo jiidan doontaa dhalinyaro badan.
+Heerka 1aad: Aasaaska Amniga (Foundations)
+ * Qaybta 1: Waa maxay Ethical Hacking? (Farqiga u dhexeeya qofka wanaagsan iyo kan xun).
+ * Qaybta 2: Networking Basics: Sida IP Addresses iyo Ports u shaqeeyaan (Aasaaska Nmap).
+ * Qaybta 3: Linux for Hackers: Maxay tahay sababta Linux muhiim u yahay?
+Heerka 2aad: Tools & Vulnerabilities
+ * Qaybta 4: Information Gathering: Sida loo baaro mareegaha iyo networks-ka (Footprinting).
+ * Qaybta 5: Scanning & Enumeration: Isticmaalka Nmap si loo ogaado meelaha furan.
+ * Qaybta 6: Web Security: Sida loo aqoonsado software vulnerabilities iyo siday u shaqeeyaan scripts-ka directory discovery-ga.
+Sidee u dhigaysaa maqaalladan si ay SEO-gaaga u caawiyaan?
+ * Magacyada Maqaallada (Titles):
+   * Qaybta 1aad: Barashada Python Af-Soomaali (2026).
+   * Cybersecurity Course: Casharka 1aad (Hordhaca Ethical Hacking).
+ * Internal Linking Strategy:
+   Dhamaadka casharka 1aad, ku qor: "Hambalyo! Waxaad dhammaystirtay aasaaskii, guji halkan si aad u gasho Casharka 2aad." Tani waxay Google u sheegaysaa in mareegtaadu ay tahay "Authority" dhanka waxbarashada.
+ * Wadaagista (Sharing): Maadaama aad haysato 90% traffic-ka Soomaaliya, koorsooyinkan ku wadaag kooxaha Facebook iyo WhatsApp ee dhalinyarada Soomaaliyeed wax ku bartaan.
+Talo Muhiim ah: Ha isku dayin inaad dhamaan casharada maalin qorto. Bilow Qaybta 1aad ee Programming-ka iyo Qaybta 1aad ee Security-ga. Markaad aragto clicks-ka oo kordha, sii soco ilaa dhamaadka.
+Ma rabtaa inaan kuu diyaariyo Qaybta 1aad (Hordhaca) ee mid ka mid ah labadan koorso si aad caawa mareegtaada ugu dhashtid? (Dooro Programming ama Security).

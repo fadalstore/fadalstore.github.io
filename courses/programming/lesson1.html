@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barashada Python Af-Soomaali – Casharka 1aad: Hordhaca Programming | Fadal Store</title>
+  <meta name="description" content="Casharka 1aad: Waa maxay Programming? Sida kombuyuutarku u fekero iyo maxaa Python loogu doorbiday. Koorso Python Af-Soomaali ah – Fadal Store.">
+  <meta name="keywords" content="waa maxay programming soomaali, hordhaca python af soomaali, python bilowga, barashada coding soomaali">
+  <link rel="canonical" href="https://fadalstore.github.io/courses/programming/lesson1.html">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
+  <meta name="author" content="Fadal Store">
+  <meta name="robots" content="index, follow">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Casharka 1aad: Hordhaca Programming – Waa maxay Python?","description":"Casharka ugu horreeya ee koorsada Python & Bash Af-Soomaali","author":{"@type":"Organization","name":"Fadal Store"},"publisher":{"@type":"Organization","name":"Fadal Store"},"url":"https://fadalstore.github.io/courses/programming/lesson1.html","inLanguage":"so"}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet"></noscript>
+  <script defer src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9732596199385216" crossorigin="anonymous"></script>
+  <style>
+    :root{--orange:#be5000;--dark:#1a1a2e;--text:#333;--muted:#666;--light:#f5f5f5;--white:#fff;--border:#e0e0e0;--link:#c0392b;--prog:#2563eb;--prog-light:#eff6ff;}
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+    html{scroll-behavior:smooth;}
+    body{font-family:'Roboto',Arial,sans-serif;background:#f0f0f0;color:var(--text);font-size:15px;line-height:1.8;}
+    a{color:var(--link);text-decoration:none;}
+    a:hover{color:var(--orange);}
+    .topbar{background:var(--dark);color:#fff;text-align:center;padding:7px 20px;font-size:.8rem;font-weight:500;}
+    .topbar a{color:#ffd700;font-weight:700;}
+    .site-header{background:linear-gradient(135deg,#c0392b 0%,#e74c3c 50%,#ff6b35 100%);padding:28px 0 22px;text-align:center;}
+    .site-header-inner{max-width:1100px;margin:0 auto;padding:0 20px;}
+    .site-title{font-family:'Playfair Display',Georgia,serif;font-size:clamp(1.9rem,5vw,3rem);font-weight:800;color:#fff;letter-spacing:-.5px;text-shadow:0 2px 8px rgba(0,0,0,.2);text-decoration:none;display:block;}
+    .site-title span{color:#ffd700;}
+    .site-desc{color:rgba(255,255,255,.88);font-size:.92rem;margin-top:6px;}
+    .bl-navbar{background:#1f1f1f;border-bottom:3px solid #ff6b35;position:sticky;top:0;z-index:2000;}
+    .bl-navbar-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 16px;}
+    .bl-nav-list{display:flex;align-items:center;list-style:none;margin:0;padding:0;}
+    .bl-nav-list>li>a{display:flex;align-items:center;gap:4px;color:#ddd;font-size:.83rem;font-weight:600;padding:13px 13px;text-decoration:none!important;border-right:1px solid #333;transition:background .2s,color .2s;white-space:nowrap;}
+    .bl-nav-list>li:first-child>a{border-left:1px solid #333;}
+    .bl-nav-list>li>a:hover,.bl-nav-list>li>a.bl-active{background:#be5000;color:#fff!important;}
+    .bl-hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:10px 4px;}
+    .bl-hamburger span{display:block;width:23px;height:2px;background:#ddd;border-radius:2px;}
+    .bl-mobile-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:4000;}
+    .bl-mobile-overlay.bl-show{display:block;}
+    .bl-mobile-panel{position:fixed;top:0;left:-100%;width:88%;max-width:340px;height:100vh;background:#fff;z-index:5000;overflow-y:auto;transition:left .32s;display:flex;flex-direction:column;}
+    .bl-mobile-panel.bl-show{left:0;}
+    .bl-mobile-head{background:linear-gradient(135deg,#1d4ed8,#2563eb);padding:18px 20px;display:flex;align-items:center;justify-content:space-between;}
+    .bl-mobile-head-title{font-family:'Georgia',serif;font-size:1rem;font-weight:800;color:#fff;}
+    .bl-mobile-close{background:none;border:none;color:#fff;font-size:1.5rem;cursor:pointer;}
+    .bl-mobile-body{flex:1;overflow-y:auto;padding:0 0 20px;}
+    .bl-mobile-link{display:block;padding:12px 20px;color:#222;font-size:.9rem;font-weight:600;text-decoration:none!important;border-bottom:1px solid #f0f0f0;}
+    .bl-mobile-link:hover,.bl-mobile-link.active-lesson{background:#eff6ff;color:#2563eb;}
+    @media(max-width:900px){.bl-nav-list{display:none;}.bl-hamburger{display:flex;}}
+
+    .breadcrumb{background:#fff;border-bottom:1px solid var(--border);padding:10px 20px;font-size:.78rem;color:var(--muted);}
+    .breadcrumb-inner{max-width:1100px;margin:0 auto;}
+    .breadcrumb a{color:var(--link);}
+
+    .lesson-hero{background:linear-gradient(135deg,#1d4ed8 0%,#2563eb 100%);color:#fff;padding:36px 20px;}
+    .lesson-hero-inner{max-width:820px;margin:0 auto;}
+    .lesson-badge{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);color:#ffd700;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;padding:4px 12px;border-radius:20px;margin-bottom:12px;}
+    .lesson-hero h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(1.4rem,3.5vw,2rem);font-weight:800;line-height:1.25;margin-bottom:8px;}
+    .lesson-hero-meta{display:flex;gap:18px;flex-wrap:wrap;font-size:.8rem;color:rgba(255,255,255,.75);}
+
+    .lesson-wrap{max-width:1100px;margin:0 auto;padding:32px 20px 60px;display:grid;grid-template-columns:1fr 270px;gap:28px;}
+    @media(max-width:820px){.lesson-wrap{grid-template-columns:1fr;}.lesson-sidebar{display:none;}}
+
+    .lesson-article{background:var(--white);border-radius:10px;padding:32px 36px;box-shadow:0 2px 12px rgba(0,0,0,.06);}
+    @media(max-width:600px){.lesson-article{padding:20px 16px;}}
+    .lesson-article h2{font-family:'Playfair Display',Georgia,serif;font-size:1.3rem;font-weight:800;color:var(--dark);margin:28px 0 12px;}
+    .lesson-article h2:first-child{margin-top:0;}
+    .lesson-article h3{font-size:1rem;font-weight:700;color:var(--prog);margin:20px 0 8px;}
+    .lesson-article p{margin-bottom:14px;color:var(--text);}
+    .lesson-article ul,.lesson-article ol{padding-left:20px;margin-bottom:14px;}
+    .lesson-article li{margin-bottom:6px;}
+    .lesson-article strong{color:var(--dark);}
+
+    pre{background:#0f172a;color:#e2e8f0;border-radius:8px;padding:20px 22px;margin:18px 0;overflow-x:auto;font-size:.85rem;line-height:1.7;border-left:4px solid var(--prog);}
+    code{font-family:'Courier New',Courier,monospace;}
+    .inline-code{background:#f1f5f9;color:#be5000;padding:2px 7px;border-radius:4px;font-size:.87em;font-family:'Courier New',Courier,monospace;}
+
+    .info-box{background:var(--prog-light);border:1px solid #bfdbfe;border-left:4px solid var(--prog);border-radius:6px;padding:16px 18px;margin:18px 0;}
+    .info-box p{margin:0;font-size:.88rem;color:#1e40af;}
+    .info-box strong{color:#1d4ed8;}
+
+    .tip-box{background:#f0fdf4;border:1px solid #bbf7d0;border-left:4px solid #16a34a;border-radius:6px;padding:16px 18px;margin:18px 0;}
+    .tip-box p{margin:0;font-size:.88rem;color:#14532d;}
+
+    .lesson-nav{display:flex;justify-content:space-between;align-items:center;margin-top:32px;padding-top:24px;border-top:2px solid var(--border);gap:12px;flex-wrap:wrap;}
+    .nav-btn{display:flex;align-items:center;gap:8px;padding:12px 20px;border-radius:7px;font-weight:700;font-size:.88rem;transition:all .2s;}
+    .nav-btn-prev{background:#f5f5f5;color:var(--muted);border:1px solid var(--border);}
+    .nav-btn-prev:hover{background:#e5e5e5;color:var(--text);}
+    .nav-btn-next{background:var(--prog);color:#fff;border:1px solid var(--prog);}
+    .nav-btn-next:hover{background:#1d4ed8;color:#fff;}
+    .nav-btn-next.disabled{background:#94a3b8;border-color:#94a3b8;pointer-events:none;}
+
+    .lesson-sidebar{display:flex;flex-direction:column;gap:16px;}
+    .sidebar-box{background:var(--white);border-radius:10px;border:1px solid var(--border);overflow:hidden;box-shadow:0 1px 8px rgba(0,0,0,.05);}
+    .sidebar-box-head{background:var(--prog);color:#fff;padding:11px 16px;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;}
+    .sidebar-box-body{padding:12px 14px;}
+    .sidebar-lesson-link{display:flex;align-items:center;gap:8px;padding:7px 4px;font-size:.81rem;color:var(--text);border-bottom:1px solid #f5f5f5;text-decoration:none;border-radius:4px;}
+    .sidebar-lesson-link:last-child{border-bottom:none;}
+    .sidebar-lesson-link:hover{color:var(--prog);background:#eff6ff;}
+    .sidebar-lesson-link.current{background:#eff6ff;color:var(--prog);font-weight:700;}
+    .sidebar-num{width:20px;height:20px;border-radius:50%;background:#dbeafe;color:var(--prog);font-size:.66rem;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+    .sidebar-num.done{background:#dcfce7;color:#16a34a;}
+    .sidebar-num.active{background:var(--prog);color:#fff;}
+
+    .site-footer{background:var(--dark);color:rgba(255,255,255,.75);padding:32px 0 0;}
+    .footer-inner{max-width:1100px;margin:0 auto;padding:0 20px 24px;}
+    .footer-logo{font-family:'Playfair Display',Georgia,serif;font-size:1.3rem;font-weight:800;color:#fff;}
+    .footer-logo span{color:#ffd700;}
+    .footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding:14px 20px;max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;font-size:.78rem;}
+    .footer-bottom a{color:rgba(255,255,255,.6);}
+    .footer-bottom a:hover{color:#ffd700;}
+  </style>
+</head>
+<body>
+
+<div class="topbar">💚 NEW: <a href="../../cash-giraffe-app.html">Cash Giraffe App — Download 2 Apps, Earn $4.28 FREE →</a></div>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <a href="../../index.html" class="site-title">Fadal <span>Store</span></a>
+    <div class="site-desc">Financial Freedom · Online Business · Make Money Online · AI Tools · Side Hustles</div>
+  </div>
+</header>
+
+<nav class="bl-navbar">
+  <div class="bl-navbar-inner">
+    <ul class="bl-nav-list">
+      <li><a href="../../index.html">🏠 Home</a></li>
+      <li><a href="../index.html">🎓 Koorsooyinka</a></li>
+      <li><a href="index.html" class="bl-active">💻 Programming</a></li>
+      <li><a href="../security/index.html">🔐 Cybersecurity</a></li>
+      <li><a href="../../about.html">About</a></li>
+    </ul>
+    <button class="bl-hamburger" id="blHamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="bl-mobile-overlay" id="blOverlay"></div>
+<div class="bl-mobile-panel" id="blPanel">
+  <div class="bl-mobile-head">
+    <div class="bl-mobile-head-title">💻 Casharada Programming</div>
+    <button class="bl-mobile-close" id="blClose">✕</button>
+  </div>
+  <div class="bl-mobile-body">
+    <a href="../../index.html" class="bl-mobile-link">🏠 Home</a>
+    <a href="../index.html" class="bl-mobile-link">🎓 Koorsooyinka</a>
+    <a href="index.html" class="bl-mobile-link">💻 Koorsada Programming</a>
+    <a href="lesson1.html" class="bl-mobile-link active-lesson">📘 C1: Hordhaca Programming</a>
+    <a href="lesson2.html" class="bl-mobile-link">📘 C2: Setup Python</a>
+    <a href="lesson3.html" class="bl-mobile-link">📘 C3: Variables & Types</a>
+    <a href="lesson4.html" class="bl-mobile-link">📘 C4: Control Flow</a>
+    <a href="lesson5.html" class="bl-mobile-link">⚙️ C5: Bash Scripting</a>
+    <a href="lesson6.html" class="bl-mobile-link">⚙️ C6: Functions</a>
+    <a href="lesson7.html" class="bl-mobile-link">🏆 C7: Project Final</a>
+  </div>
+</div>
+
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="../../index.html">Home</a> › <a href="../index.html">Koorsooyinka</a> › <a href="index.html">Programming</a> › <strong>Casharka 1aad</strong>
+  </div>
+</nav>
+
+<div class="lesson-hero">
+  <div class="lesson-hero-inner">
+    <div class="lesson-badge">💻 Casharka 1aad – Heerka 1aad</div>
+    <h1>Waa maxay Programming?<br>Sida Kombuyuutarku u Fekero</h1>
+    <div class="lesson-hero-meta">
+      <span>⏱ ~45 Daqiiqo</span>
+      <span>📖 Heer: Bilow</span>
+      <span>🌍 Af-Soomaali</span>
+    </div>
+  </div>
+</div>
+
+<div class="lesson-wrap">
+  <main>
+    <article class="lesson-article">
+
+      <h2>Hordhac — Maxaad Baranayso Casharkaan?</h2>
+      <p>Ku soo dhowow Casharka 1aad ee Koorsada Python & Bash! Casharkaan wuxuu kaa caawin doonaa inaad fahanto <strong>waa maxay programming-ka</strong>, sida kompyuutarku u shaqeeyo, iyo sababta Python ay u tahay luuqadda ugu fiican ee bilowayaasha.</p>
+
+      <div class="info-box">
+        <p><strong>📌 Waxaad baranaysaa:</strong> Macnaha programming-ka, sida kompyuutarku u akhriyo amarka, farqiga u dhexeeya hardware iyo software, iyo maxaa Python loogu doorbiday bilowayaasha.</p>
+      </div>
+
+      <h2>1. Waa maxay Programming?</h2>
+      <p>Programming (ama coding) waa habka aad ku siisid kompyuutarka <strong>tilmaamaha</strong> si uu hawl u qabto. Kompyuutarku ma fahmayo luuqadda aadanaha si toos ah — waxa uu fahmaa luuqadda mashine (binary: 0s iyo 1s).</p>
+      <p>Hase yeeshee, xisaabiyayaasha saynisyahannadu waxay abuuren <strong>luuqadaha programming-ka</strong> (sida Python, JavaScript, iyo C++) ee ah dhexdhexaadiye u dhexeeya aadanaha iyo maashinada.</p>
+
+      <h3>Tusaale Fudud</h3>
+      <p>Marka aad Python-ka ku qorto:</p>
+      <pre><code>print("Ku soo dhowow Fadal Store!")</code></pre>
+      <p>Python-ku wuxuu u beddelaa faahfaahinta kompyuutarka waxa la yiraahdo "binary code" oo kompyuutarku fahmi karo, ka dibna wuxuu shaashadda ku soo muujiyaa qoraalka.</p>
+
+      <h2>2. Sida Kompyuutarku u Shaqeeyo</h2>
+      <p>Si aad u fahanto programming-ka si fiican, waxaa muhiim ah inaad ogaatid sida kompyuutarku u shaqeeyo. Kompyuutarku wuxuu leeyahay laba qaybood oo muhiim ah:</p>
+
+      <h3>🔧 Hardware (Qalabka)</h3>
+      <ul>
+        <li><strong>CPU (Processor):</strong> Maskaxda kompyuutarka — wuxuu xisaabto oo fuliyaa amarka.</li>
+        <li><strong>RAM (Memory):</strong> Meesha ku meel gaar ah ee kompyuutarku xogta ku kaydsado marka uu shaqaynayo.</li>
+        <li><strong>Storage (Hard Drive/SSD):</strong> Meesha xogta loogu keydiyo si joogto ah.</li>
+      </ul>
+
+      <h3>💿 Software (Barnaamijka)</h3>
+      <ul>
+        <li><strong>Operating System (OS):</strong> Sida Linux, Windows, ama macOS — wuxuu maamulaa hardware-ka.</li>
+        <li><strong>Applications:</strong> Barnaamijyada aad adeegsato (browser, word processor, iwm).</li>
+        <li><strong>Programming Languages:</strong> Koodhaagu halkan ayuu ku jiraa!</li>
+      </ul>
+
+      <h2>3. Maxaa Python Loogu Doorbiday?</h2>
+      <p>Waxaa jira boqollaal luuqadood oo programming ah, laakiin Python waxay noqotay mid ka mid ah kuwa ugu caan badan adduunka. Sababta:</p>
+
+      <ul>
+        <li><strong>Fudud in la akhriyo:</strong> Python waxay u ekaan kartaa Ingiriis caadi ah, markaa bilowayaashu way fududahay inay bartaan.</li>
+        <li><strong>Awood badan:</strong> Python waxaa loo isticmaalaa Web Development, Data Science, AI, Automation, iyo Cybersecurity.</li>
+        <li><strong>Bulshada weyn:</strong> Malaayiin xirfadle ah ayaa isticmaalay Python, markaa caawimo badan ayaa laga heli karaa internet-ka.</li>
+        <li><strong>Shaqo fursad:</strong> Python waa mid ka mid ah luuqadaha ugu badan ee shaqo-bixiyayaasha doonayaan.</li>
+      </ul>
+
+      <h3>Tix-raac: Shirkadaha Python Isticmaalaya</h3>
+      <ul>
+        <li>🟨 Google — Waxay Python u isticmaaleen qaybo badan oo Search Engine-kooda ah</li>
+        <li>🔵 Facebook/Meta — Data analysis iyo AI</li>
+        <li>🔴 YouTube — Backend development</li>
+        <li>🟦 NASA — Sayniska iyo xisaabinta</li>
+        <li>🟢 Spotify — Ku-tali-inta muusiga (recommendations)</li>
+      </ul>
+
+      <div class="tip-box">
+        <p>💡 <strong>Talo Wanaagsan:</strong> Ha is-niyad jabsan haddaad ka helaysid wax adag. Dhammaan xirfadlayaasha programming-ka waxay bilaabeen meesha aad hadda joogto. Waa tallaabooyinta yar-yar ee maalin kasta oo kaa dhigaysa xirfadle.</p>
+      </div>
+
+      <h2>4. Python vs Luuqadaha Kale</h2>
+      <p>Si aad u ogaatid sababta Python ay u fiican tahay, eeg isla-barista yar ee hoose:</p>
+
+      <h3>Tusaale: Qor "Hello World" Luuqado kala duwan</h3>
+
+      <p><strong>Python (fudud oo nadiif ah):</strong></p>
+      <pre><code>print("Hello, World!")</code></pre>
+
+      <p><strong>Java (dheer oo adag):</strong></p>
+      <pre><code>public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}</code></pre>
+
+      <p>Sidaad arki karto, Python wuxuu u baahan yahay hal xariiq keliya inta Java u baahato 5 xariiq. Tani waxay muujinaysaa sababta Python ay ugu fududahay bilowayaasha.</p>
+
+      <h2>5. Maxaad Samayn Kartaa marka Aad Python Baratid?</h2>
+      <ul>
+        <li>🤖 <strong>Automation:</strong> Otomaatigeee hawlaha caadiga ah (sida loo socodsiiyo fayl badan oo hal mar ah)</li>
+        <li>🌐 <strong>Web Scraping:</strong> Soo uruuri xogta internet-ka si toos ah</li>
+        <li>📊 <strong>Data Analysis:</strong> Falanqee xogta oo ka soo saaro macluumaad</li>
+        <li>🤖 <strong>AI/Machine Learning:</strong> Samee AI-gaaga</li>
+        <li>🔐 <strong>Cybersecurity:</strong> Qor scripts-ka baaritaanka amniga</li>
+        <li>💰 <strong>Freelancing:</strong> Shaqo online oo lacag laga helo</li>
+      </ul>
+
+      <h2>Su'aalaha Joogtada ah (FAQ)</h2>
+
+      <h3>Q: Ma u baahan nahay xisaab si aad u barato programming?</h3>
+      <p>Maya! Python-ka xisaabta aadka u daran kuma baahan tahay. Xisaabta aasaasiga ah (isugeynta, jaridda, iyo xubinta) waa ku filan tahay bilowga. Xisaab dheer waxa aad u baahan kartaa marka aad data science ama AI bartid — laakiin taas waxay timi dib.</p>
+
+      <h3>Q: Muddo intee ah ayaan ku baranayaa Python?</h3>
+      <p>Aasaaska Python waxaad bartaa dhexda 2–4 toddobaad haddaad maalin kasta 1–2 saacadood u hibiso. Laakiin xirfadda sii korortaa marka aad mashroocyo badan samaysid — waligaa barashadaadu ma dhammaato!</p>
+
+      <h3>Q: Telefoonka ma ku baran karaa Python?</h3>
+      <p>Haa! Waxaad isticmaali kartaa app-ka <strong>iSH</strong> (iPhone) ama <strong>Termux</strong> (Android) si aad Python ku codso telefoonkaaga. Casharka xiga waxaan kaa barin doonaa sida loo rakibo.</p>
+
+      <div class="info-box">
+        <p><strong>🎉 Hambalyo!</strong> Waxaad dhammaystirtay Casharka 1aad ee Koorsada Python & Bash Af-Soomaali. Aasaas adag ayaad hadda leedahay. Casharka xiga waxaan ku barin doonaa sida loo rakibo Python iyo Terminal-ka si aad koodh u qorto.</p>
+      </div>
+
+      <div class="lesson-nav">
+        <span class="nav-btn nav-btn-prev" style="opacity:.4;cursor:default;">← Casharkii Hore</span>
+        <a href="lesson2.html" class="nav-btn nav-btn-next">Casharka 2aad: Setup Python →</a>
+      </div>
+
+    </article>
+  </main>
+
+  <aside class="lesson-sidebar">
+    <div class="sidebar-box">
+      <div class="sidebar-box-head">📋 Casharada Koorsada</div>
+      <div class="sidebar-box-body">
+        <a href="lesson1.html" class="sidebar-lesson-link current"><span class="sidebar-num active">1</span>Hordhaca Programming</a>
+        <a href="lesson2.html" class="sidebar-lesson-link"><span class="sidebar-num">2</span>Setup Python & Terminal</a>
+        <a href="lesson3.html" class="sidebar-lesson-link"><span class="sidebar-num">3</span>Variables & Data Types</a>
+        <a href="lesson4.html" class="sidebar-lesson-link"><span class="sidebar-num">4</span>Control Flow</a>
+        <a href="lesson5.html" class="sidebar-lesson-link"><span class="sidebar-num">5</span>Bash Scripting</a>
+        <a href="lesson6.html" class="sidebar-lesson-link"><span class="sidebar-num">6</span>Functions & Modules</a>
+        <a href="lesson7.html" class="sidebar-lesson-link"><span class="sidebar-num">7</span>Project Final</a>
+      </div>
+    </div>
+    <div class="sidebar-box">
+      <div class="sidebar-box-head">⏭ Tallaabada Xiga</div>
+      <div class="sidebar-box-body">
+        <p style="font-size:.82rem;color:var(--muted);margin-bottom:10px;">Casharka xiga waxaad baran doontaa sida loo rakibo Python.</p>
+        <a href="lesson2.html" style="display:block;text-align:center;background:var(--prog);color:#fff;font-weight:700;font-size:.84rem;padding:10px;border-radius:6px;">C2: Setup Python →</a>
+      </div>
+    </div>
+    <div class="sidebar-box">
+      <div class="sidebar-box-head">🔐 Koorso Kale</div>
+      <div class="sidebar-box-body">
+        <a href="../security/index.html" style="display:block;text-align:center;background:linear-gradient(135deg,#065f46,#059669);color:#fff;font-weight:700;font-size:.84rem;padding:10px;border-radius:6px;">🔐 Cybersecurity →</a>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-logo">Fadal <span>Store</span></div>
+    <p style="font-size:.82rem;color:rgba(255,255,255,.6);margin-top:4px;">© 2026 Fadal Store. All Rights Reserved. | <a href="../../privacy-policy.html" style="color:rgba(255,255,255,.5);">Privacy Policy</a></p>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 <strong style="color:#fff">Fadal Store</strong></span>
+    <div style="display:flex;gap:14px;">
+      <a href="../../index.html">Home</a>
+      <a href="../index.html">Koorsooyinka</a>
+      <a href="index.html">Programming</a>
+      <a href="lesson2.html">Casharka Xiga →</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var h=document.getElementById('blHamburger'),panel=document.getElementById('blPanel'),overlay=document.getElementById('blOverlay'),close=document.getElementById('blClose');
+  function open(){h&&h.classList.add('bl-open');panel&&panel.classList.add('bl-show');overlay&&overlay.classList.add('bl-show');document.body.style.overflow='hidden';}
+  function cls(){h&&h.classList.remove('bl-open');panel&&panel.classList.remove('bl-show');overlay&&overlay.classList.remove('bl-show');document.body.style.overflow='';}
+  if(h)h.addEventListener('click',open);if(close)close.addEventListener('click',cls);if(overlay)overlay.addEventListener('click',cls);
+})();
+</script>
+</body>
+</html>

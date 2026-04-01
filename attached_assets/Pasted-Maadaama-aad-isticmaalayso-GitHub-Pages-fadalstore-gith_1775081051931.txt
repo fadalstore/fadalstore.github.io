@@ -1,0 +1,53 @@
+Maadaama aad isticmaalayso GitHub Pages (fadalstore.github.io), waxaad haysataa fursad aad u weyn oo aad ugu qaabayn karto mareegtaada si ay u noqoto madal waxbarasho (E-learning platform) oo nidaamsan. GitHub Pages waxay si fiican ula shaqaysaa HTML/CSS iyo Jekyll, markaa halkan waa sida ugu habboon ee aad u qaabayn karto koorsooyinkaaga:
+1. Qaabdhismeedka Galalka (File Structure)
+Si aad u ilaaliso nidaamka, ha isku dhex ridi koodhka. Samee galkaan (folders) gudaha GitHub:
+ * /courses/: Galkaan geli dhamaan maqaallada waxbarashada.
+ * /courses/programming/: Halkan geli casharada Python iyo Bash.
+ * /courses/security/: Halkan geli casharada Cybersecurity.
+ * /assets/img/: Halkan ku kaydi sawirrada AI-ga ee aad u samaysay cashar kasta.
+2. Naqshadda Bogga Hore (Homepage Design)
+Boggaaga hore waa inuu dadka u kala saaraa meelaha ay rabaan inay u socdaan. Isticmaal Cards ama Buttons waaweyn oo leh:
+ * [Course: Programming] -> Ku xir /courses/programming/index.html
+ * [Course: Cybersecurity] -> Ku xir /courses/security/index.html
+ * [AI Services] -> Ku xir adeegyadaada kale.
+3. Qaabaynta Cashar kasta (Lesson Layout)
+Cashar kasta (Lesson) waa inuu leeyahay saddex qaybood oo muhiim ah si qofku uusan u caajisin:
+ * Sidebar (Menu-ga dhinaca): Waxay tusaysaa liiska casharada (Casharka 1aad, 2aad, 3aad...). Tani waxay qofka ka caawinaysaa inuu ogaado halka uu marayo.
+ * Qaybta Koodhka (Code Blocks): Maadaama aad dhigaysid Programming, isticmaal tag-ga <pre><code> si koodhka Python ama Bash uu u muuqdo mid nadiif ah oo dadku koobiyeysan karaan.
+ * Navigation Buttons: Dhamaadka cashar kasta, dhig laba badhan:
+   * [← Casharkii Hore]
+   * [Casharka Xiga →]
+4. SEO iyo Metadata (Muhiim)
+Si Google (Search Console) uu si fiican ugu muujiyo casharadaada:
+ * Title Tag: Isticmaal cinwaan cad, tusaale: Python Programming Af-Soomaali - Casharka 1aad | Fadal Store.
+ * Breadcrumbs: Tani waa khadka yar ee sare ee u muuqda sidan: Home > Courses > Programming > Lesson 1. Waxay Google ka caawisaa inay fahanto nidaamka mareegtaada.
+5. Tusaale Koodhka (HTML Template) ee Casharka:
+Haddii aad gacanta ku dhisayso HTML, isticmaal qaabkan fudud:
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <title>Barashada Python - Casharka 1aad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav> </nav>
+    
+    <main>
+        <article>
+            <h1>Casharka 1aad: Hordhaca Python</h1>
+            <p>Kuwani waa aasaaska luuqadda Python...</p>
+            
+            <pre><code>print("Ku soo dhowow Fadal Store")</code></pre>
+            
+            <div class="navigation">
+                <a href="index.html">Koorsooyinka Ku laabo</a>
+                <a href="lesson2.html" class="next-btn">Casharka Xiga</a>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
+
+6. Xiriirinta (Engagement)
+Maadaama aad rabto in dadku wax bartaan, ku dar qayb Comments ah (waxaad isticmaali kartaa Disqus ama Giscus oo GitHub la shaqaysa) si ay ardaydu su'aalo kuugu weydiiyaan casharka hoostiisa.
+Talo: Ma u baahan tahay inaan kuu soo saaro koodhka CSS ee aad u isticmaali lahayd si badhamada (buttons) iyo sidebar-ku ay u noqdaan kuwa qurux badan oo mobile-ka ku habboon?

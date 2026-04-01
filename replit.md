@@ -83,6 +83,44 @@ Workflow: `Start application` runs `npx serve . -l 5000`
 - index.html & partnerstack.html: Local SEO keywords added (Somalia, Somaliland, Hargeisa)
 - partnerstack.html: keyword "partnerstack affiliate network saas" added to meta
 
+## E-Learning Platform (Koorsooyinka)
+
+Full e-learning hub targeting Somali-speaking audience. All courses in Af-Soomaali.
+
+### Structure
+- `courses/index.html` — E-learning catalog hub (links to both courses)
+- `courses/programming/index.html` — Programming course overview (7 lesson cards + stats)
+- `courses/security/index.html` — Cybersecurity course overview (6 lesson cards + ethical disclaimer)
+
+### Course 1: Python & Bash Programming (courses/programming/)
+- `lesson1.html` — Hordhaca Programming (Intro to Programming & Python)
+- `lesson2.html` — Setup Python (Install, IDE, Hello World)
+- `lesson3.html` — Variables & Data Types (strings, int, list, dict, tuple)
+- `lesson4.html` — Control Flow (if/else, while, for loops)
+- `lesson5.html` — Bash Scripting (automation, shell scripts)
+- `lesson6.html` — Functions & Modules (def, return, math, os, datetime)
+- `lesson7.html` — Project Final (Calculator + File Organizer)
+
+### Course 2: Cybersecurity & Ethical Hacking (courses/security/)
+- `lesson1.html` — Hordhaca Ethical Hacking (CIA Triad, white/black/grey hat)
+- `lesson2.html` — Networking Basics (IP, ports, TCP/UDP, DNS)
+- `lesson3.html` — Linux for Hackers (Kali, permissions, grep, /etc files)
+- `lesson4.html` — Information Gathering (WHOIS, DNS recon, theHarvester, Shodan, Google Dorking)
+- `lesson5.html` — Nmap Scanning (port scan types, NSE scripts, output formats)
+- `lesson6.html` — Web Security (OWASP Top 10, XSS, SQL Injection, Gobuster)
+
+### Design Tokens (Courses)
+- Programming: `--prog: #2563eb` (blue) — lesson hero `linear-gradient(135deg,#1e3a5f,#1d4ed8)`
+- Security: `--sec: #059669`, `--sec-dark: #065f46` — lesson hero `linear-gradient(135deg,#064e3b,#059669)`
+- Security course index hero: `linear-gradient(135deg,#064e3b 0%,#059669 60%,#34d399 100%)`
+
+### AdSense
+Publisher ID `ca-pub-9732596199385216` on all course pages.
+
+### Navigation
+- Main `index.html` navbar includes `🎓 Koorsooyinka` link to `courses/index.html`
+- All course lesson pages have sticky navbar, breadcrumb, sidebar with all lesson links, prev/next buttons
+
 ## Af-Soomaali Content
 
 - `partnerstack-somali.html` — Full Somali-language article: "Sidee Looga Shaqeeyaa PartnerStack Adoo Jooga Hargeysa?" (targets 93% Somali audience, local SEO)
