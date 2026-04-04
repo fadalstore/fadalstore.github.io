@@ -1,0 +1,63 @@
+# Site
+name: "Fadal Store"
+title: "Fadal Store"
+description: "Maqaallo, Tababaro iyo Agabka Ganacsiga Online-ka."
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: ""
+google_analytics: ''
+disqus: ''
+mailchimp-list: ''
+include: ["_pages", "maqaallo"]
+permalink: /:title/
+
+# Authors
+authors:
+  fadal:
+    name: Fadal
+    display_name: Fadal
+    avatar: 'assets/images/avatar.png'
+    email: contact@fadalstore.com
+    web: https://fadalstore.github.io
+    twitter: https://twitter.com/fadalstore
+    description: "Fadal waa khabiir ku takhasusay ganacsiga online-ka iyo horumarinta website-yada."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense
+adsense: "enabled"
+adsense-data-ad-client: "ca-pub-xxxxxxxxxxxxxxxx"
+adsense-data-ad-slot: "xxxxxxxxxx"
+
+# Lazy Images
+lazyimages: "enabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, backup_fadal, attached_assets, check_links.py, check_orphans.py, fix_and_generate.js, generate_articles.js, generate_english.js, generate_programming.js, generate_sitemap.py, package-lock.json, package.json, serve.json]
