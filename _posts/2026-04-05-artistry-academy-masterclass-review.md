@@ -2,7 +2,7 @@
 layout: post
 title: "Artistry Academy Masterclass Review 2026: The Makeup Secret Pros Hide (Honest Opinion)"
 author: fadal
-categories: [ Make Money Online ]
+categories: [ Reviews ]
 tags: [review, affiliate, makeup, online-courses, beauty]
 image: assets/images/artistry-academy-paula-callan.png
 description: "Honest Artistry Academy Masterclass review 2026 by Paula Callan. Is this makeup course worth it? 30 years of experience, 80 modules, lifetime access & 60-day money-back guarantee."

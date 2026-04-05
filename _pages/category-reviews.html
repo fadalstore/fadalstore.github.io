@@ -1,0 +1,19 @@
+---
+layout: default
+permalink: /category/reviews/
+title: "Reviews – Akhrinta Halabuurka"
+description: "Dhamaan Reviews-yada Fadal Store – Koorsooyinka, Alaabta, iyo Adeegyada online-ka. Akhri si aad uga go'aansato."
+---
+
+<div class="section-title">
+  <h2>⭐ <span>Reviews</span></h2>
+  <p class="text-muted">Dhamaan reviews-yada koorsooyinka, alaabta, iyo adeegyada online-ka</p>
+</div>
+
+<div class="row listrecent">
+  {% for post in site.posts %}
+    {% if post.categories contains "Reviews" or post.categories contains "reviews" %}
+      {% include postbox.html %}
+    {% endif %}
+  {% endfor %}
+</div>
