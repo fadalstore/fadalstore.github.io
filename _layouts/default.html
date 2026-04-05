@@ -8,6 +8,9 @@
 
 <title>{{ page.title }} | {{site.name}}</title>
 
+{% if page.canonical_url %}
+<link rel="canonical" href="{{ page.canonical_url }}" />
+{% endif %}
 {% seo %}
 
 {% if site.adsense == "enabled" and site.adsense-data-ad-client != "ca-pub-xxxxxxxxxxxxxxxx" %}
