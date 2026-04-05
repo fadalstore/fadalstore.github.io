@@ -10,7 +10,7 @@ google_analytics: ''
 disqus: ''
 mailchimp-list: ''
 include: ["_pages"]
-permalink: /:title/
+permalink: /:title.html
 
 # Authors
 authors:

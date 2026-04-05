@@ -51,6 +51,21 @@ Blog | Ku saabsan | Remote Work | Make Money Online | Programming | Cybersecurit
 - `/terms-of-service/` — `_pages/terms-of-service.md`
 - `/disclaimer/` — `_pages/disclaimer.md`
 
+## URL Structure (SEO - Muhiim)
+- Permalink format: `/:title.html` — articles are served at `/article1.html`, `/article2.html`, etc.
+- This matches the old plain-HTML site URLs that Google indexed
+- GitHub Pages also strips .html so `/article1` still works too
+
+## Missing Old Pages (Redirect Pages Created)
+The following pages existed in the old HTML site and are now redirect pages in `_pages/`:
+- `/freelancing.html` → redirects to `/article1.html`
+- `/make-money-online.html` → redirects to `/category/make-money-online/`
+- `/remote-work.html` → redirects to `/category/remote-work/`
+- `/programming.html` → redirects to `/category/programming/`
+- `/ai-tools.html` → redirects to `/article25.html`
+- `/apps.html` → redirects to `/category/make-money-online/`
+- `/contact.html` → real contact page
+
 ## Key Notes
 - Old website was plain HTML. Theme was migrated to Jekyll.
 - Restored old pages preserve original URLs so Google-indexed links still work.
