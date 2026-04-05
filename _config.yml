@@ -55,8 +55,8 @@ kramdown:
 
 # Adsense
 adsense: "enabled"
-adsense-data-ad-client: "ca-pub-xxxxxxxxxxxxxxxx"
-adsense-data-ad-slot: "xxxxxxxxxx"
+adsense-data-ad-client: "ca-pub-9732596199385216"
+adsense-data-ad-slot: "auto"
 
 # Lazy Images
 lazyimages: "enabled"
