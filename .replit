@@ -1,4 +1,4 @@
-modules = ["web", "nodejs-20"]
+modules = ["nodejs-20", "web", "ruby-3.2"]
 [agent]
 expertMode = true
 
@@ -26,7 +26,7 @@ outputType = "webview"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "npm start"
+args = "JEKYLL_NO_BUNDLER_REQUIRE=true jekyll serve --host 0.0.0.0 --port 5000"
 waitForPort = 5000
 
 [[ports]]

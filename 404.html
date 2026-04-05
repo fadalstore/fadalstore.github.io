@@ -1,10 +1,141 @@
 ---
 layout: default
-title: 404
+title: "Bogga Lama Helin - 404"
 permalink: /404.html
 ---
 
-<div class="text-center">
-<h1 class="display-1 mt-5 mb-4"><span class="badge badge-danger">404</span> Page does not exist!</h1>
-<p>Please use the search bar at the top or visit our <a href="{{site.baseurl}}/">homepage</a>!</p>
+<style>
+  .error-404-section {
+    text-align: center;
+    padding: 80px 20px;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .error-404-code {
+    font-size: 8rem;
+    font-weight: 900;
+    color: #e74c3c;
+    line-height: 1;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 0px rgba(231,76,60,0.2);
+  }
+  .error-404-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  .error-404-desc {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-bottom: 35px;
+    max-width: 500px;
+    line-height: 1.7;
+  }
+  .error-404-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .error-404-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-weight: 700;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+  }
+  .error-404-btn.primary {
+    background: #e74c3c;
+    color: #fff !important;
+    border: 2px solid #e74c3c;
+  }
+  .error-404-btn.primary:hover {
+    background: #c0392b;
+    border-color: #c0392b;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(231,76,60,0.3);
+  }
+  .error-404-btn.secondary {
+    background: transparent;
+    color: #2c3e50 !important;
+    border: 2px solid #bdc3c7;
+  }
+  .error-404-btn.secondary:hover {
+    background: #2c3e50;
+    color: #fff !important;
+    border-color: #2c3e50;
+    transform: translateY(-2px);
+  }
+  .error-404-suggestions {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 25px 35px;
+    max-width: 500px;
+    width: 100%;
+    text-align: left;
+  }
+  .error-404-suggestions h5 {
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  .error-404-suggestions ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .error-404-suggestions ul li {
+    padding: 6px 0;
+    border-bottom: 1px solid #ecf0f1;
+  }
+  .error-404-suggestions ul li:last-child {
+    border-bottom: none;
+  }
+  .error-404-suggestions ul li a {
+    color: #e74c3c;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .error-404-suggestions ul li a:hover {
+    text-decoration: underline;
+  }
+  .error-404-icon {
+    font-size: 4rem;
+    margin-bottom: 15px;
+  }
+</style>
+
+<div class="error-404-section">
+  <div class="error-404-icon">🔍</div>
+  <div class="error-404-code">404</div>
+  <h1 class="error-404-title">Bogga Lama Helin!</h1>
+  <p class="error-404-desc">
+    Xumahay, bogga aad raadinaysay lama helin. Waxaa suurtagal ah in cinwaanka (URL) la bedelay ama la tirtiray.
+  </p>
+
+  <div class="error-404-links">
+    <a href="{{ site.baseurl }}/" class="error-404-btn primary">🏠 Bogga Hore</a>
+    <a href="{{ site.baseurl }}/category/make-money-online/" class="error-404-btn secondary">💰 Make Money Online</a>
+    <a href="{{ site.baseurl }}/category/programming/" class="error-404-btn secondary">💻 Programming</a>
+    <a href="{{ site.baseurl }}/courses/index.html" class="error-404-btn secondary">📚 Courses</a>
+  </div>
+
+  <div class="error-404-suggestions">
+    <h5>📌 Waxyaabaha Caadiga ah ee Loo Baahan Yahay:</h5>
+    <ul>
+      <li><a href="{{ site.baseurl }}/category/remote-work/">Remote Work — Shaqo Online</a></li>
+      <li><a href="{{ site.baseurl }}/category/make-money-online/">Make Money Online — Lacag Ka Samee Internet-ka</a></li>
+      <li><a href="{{ site.baseurl }}/category/programming/">Programming — Barasho Barnaamijyada</a></li>
+      <li><a href="{{ site.baseurl }}/courses/index.html">Courses — Tababarrada Fadal Store</a></li>
+      <li><a href="{{ site.baseurl }}/about/">Ku Saabsan — Fadal Store</a></li>
+    </ul>
+  </div>
 </div>
