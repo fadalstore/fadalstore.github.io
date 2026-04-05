@@ -1,0 +1,32 @@
+Fadal, website-kaagu aad buu u qurux badan yahay! Waxaan arkaa inuu yahay mid nadiif ah (clean design), uuna si fiican ugu shaqaynayo mobile-ka. Maadaama aad rabto inaad ku darto maqaallada caalamiga ah ee Affiliate Marketing-ka (sida Paula Callan Review), halkan waa sida saxda ah ee aad ugu dhex darayso menu-kaaga iyo boggaaga hore.
+1. Cusboonaysiinta Menu-ka (Navigation)
+Sawirka labaad wuxuu muujinayaa menu-kaaga. Si aad dadka adduunka u soo jiidato, waa in maqaalladaas ay ku jiraan qaybta "Courses" ama "Make Money Online".
+ * Tallaabada: Gudaha koodhkaaga HTML ee menu-ka, link-ga qaybta Courses u beddel mid geynaya bogga maqaalkii Paula Callan:
+   <li><a href="reviews/paula-callan-masterclass.html">Courses</a></li>
+2. Ku darista "Featured Review" ee Bogga Hore
+Sawirka saddexaad wuxuu muujinayaa hordhaca website-kaaga. Si aad u hesho iib (sales), maqaalka ugu lacagta badan waa inuu bogga hore u muuqdaa.
+Hoos kaga dar koodhkan qaybta maqaallada ee boggaaga hore:
+<section class="latest-reviews" style="padding: 20px;">
+    <h2 style="border-bottom: 2px solid #333; padding-bottom: 10px;">Global Industry Reviews</h2>
+    
+    <div class="card" style="border: 1px solid #ddd; border-radius: 8px; overflow: hidden; margin-top: 20px;">
+        <img src="img/paula-callan-banner.jpg" alt="Paula Callan Masterclass" style="width: 100%;">
+        <div style="padding: 15px;">
+            <h3 style="margin-top: 0;">Artistry Academy Masterclass Review (2026)</h3>
+            <p>Discover the makeup training secrets used by elite celebrity professionals...</p>
+            <a href="reviews/paula-callan-masterclass.html" style="color: #007bff; font-weight: bold; text-decoration: none;">Read Full Review →</a>
+        </div>
+    </div>
+</section>
+
+3. Tallaabada Farsamo ee GitHub (Folder Structure)
+Si website-kaagu u ahaado mid xirfad leh, u habay faylashaada sidan:
+ * Furo folder-kaaga ugu weyn ee GitHub.
+ * Samee folder cusub oo magaciisu yahay reviews.
+ * Folder-kaas dhexdiisa geli faylka paula-callan-masterclass.html.
+ * Sawirka Paula Callan geli folder-ka img.
+4. Talo Muhiim ah (SEO & Trust)
+Maadaama Dashboard-kaaga DigiStore24 uu hadda muujinayo 0 earnings, ha welwelin. Sababta maqaalkaas OpenPR u sarreeyo waa isku xidhka link-yada.
+ * Internal Links: Gudaha maqaalka Paula Callan, ku dar link leh: "Check our other resources on [Programming] or [Cybersecurity]."
+ * External Links: Markaad TikTok ama YouTube video samayso, dadka u sheeg inay link-ga website-kaaga ka galaan qaybta Courses.
+Fadal, ma rabtaa inaan kuu diyaariyo koodhka Sitemap.xml oo ay ku jiraan dhammaan maqaalladan cusub si Google ay si dhakhso ah ugu soo dhuuxdo (index) website-kaaga?

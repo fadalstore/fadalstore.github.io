@@ -1,0 +1,43 @@
+Fadal, maadaama aad hadda rabto inaad u tartanto suuqa caalamka (Global Market) adigoo isticmaalaya maqaallo tayo leh oo la mid ah kuwa OpenPR, halkan waa tallaabooyinka farsamo ee aad raacayso si aad GitHub-kaaga ugu dhex dhisid:
+1. Structure-ka Folder-yada (Organization)
+Ha ku dhex daadinin dhammaan faylasha index.html. Si Google u fahanto in website-kaagu leeyahay qaybo kala duwan, u habay sidan:
+ * Folder cusub: Samee folder magaciisu yahay reviews.
+ * Faylka maqaalka: Ku dhex rido faylka paula-callan-masterclass.html (ama magac kasta oo English ah oo SEO leh).
+ * Sawirrada: Samee folder la yiraahdo img si aad ugu raddo sawirka Paula Callan iyo Dashboard-ka.
+2. Copy & Improve (Ha koobiyeyn kaliya)
+Markaad maqaal ka soo qaadanayso tartamayaasha sida OpenPR, ha dhigin sidooda oo kale (Duplicate content Google way ciqaabtaa). Samee saddexdan shay:
+ * Rewrite the Intro: Ka dhig mid adiga kuu gaar ah. Tusaale: "I spent 5 hours researching the Paula Callan Masterclass, and here is the truth."
+ * Add Your "Expert" Voice: Maadaama aad Python iyo Scripts taqaanno, ku dar: "As a technical developer, I checked the platform's user interface, and it's incredibly smooth on mobile."
+ * Use the Same Subheadings: Laakiin qoraalka hoos ku jira adigu si kooban u dhuux oo u qor (Paraphrasing).
+3. Ku dar "Schema Markup" (Secret Weapon)
+OpenPR iyo website-yada waaweyn waxay isticmaalaan JSON-LD Schema. Kani waa koodh qarsoon oo Google u sheega: "Kani waa 'Review' ee ku dar xiddigo (Stars) marka dadku Google ka raadinayaan."
+Ku dhex rid koodhkan qaybta <head> ee maqaalkaaga:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Course",
+    "name": "Artistry Academy Masterclass"
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4.8",
+    "bestRating": "5"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Fadal Jamac"
+  }
+}
+</script>
+
+4. Isku-xidhka Bogga Hore (Linking)
+Markaad maqaalka dhammaystirto, waa inaad dadka u tilmaantaa.
+ * Tag index.html.
+ * Qaybta "Latest Reviews" ku dar link u socda maqaalkan cusub.
+ * Isticmaal sawir yar (Thumbnail) iyo ciwaan soo jiidasho leh.
+5. Hubinta Labada Shay ee ugu Muhiimsan:
+ * Mobile Friendly: Maadaama aad mobile ku shaqaynayso, mar walba iska hubi in koodhka CSS ee aan ku siiyay uu yahay mid si fiican ugu muuqda talefanka.
+ * The Link: Hubi in link-gaaga DigiStore24 uu yahay midka saxda ah ee Fadal888 ku jiro si lacagtaadu aysan u lumin.
+Talo: Ma rabtaa inaan kuu diyaariyo koodhka Sitemap.xml oo cusub kaas oo maqaalkan ku jira, si aad Google ugu gudbiso (Submit) oo ay isla markiiba u aqoonsato?
