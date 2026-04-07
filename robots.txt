@@ -1,4 +1,18 @@
-User-agent: *
+User-Agent: *
 Allow: /
+Allow: /assets/
+Allow: /pagead/
+Allow: /googleads/
+Allow: /assets/images/
 
+# Ha xannibin CSS iyo JS muhiimka u ah design-ka
+Allow: /*.css$
+Allow: /*.js$
+
+# Ka saar boggaga gaarka ah ee aadan rabin in Google ay index-garayso
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_site/
+
+# Wadada saxda ah ee khariidadda website-kaaga
 Sitemap: https://fadalstore.github.io/sitemap.xml
