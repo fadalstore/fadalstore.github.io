@@ -5,23 +5,18 @@ archive: false
 post_class: post-template
 ---
 
-<!-- Begin Article
-================================================== -->
 <div class="container">
     <div class="row">
 
-        <!-- Post Share -->
         <div class="col-md-2 pl-0">
             {% include share.html %}
         </div>
 
-        <!-- Post -->
         {% assign author = site.authors[page.author] %}
 
         <div class="col-md-9 flex-first flex-md-unordered">
             <div class="mainheading">
 
-                <!-- Author Box -->
                 {% if page.author %}
                 <div class="row post-top-meta">
                     <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
@@ -46,32 +41,23 @@ post_class: post-template
                 </div>
                 {% endif %}
 
-                <!-- Post Title -->
                 <h1 class="posttitle">{{ page.title }}</h1>
 
             </div>
 
-            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
             {% if site.adsense == "enabled" %}
                 {% include adsense-under-header.html %}
             {% endif %}
-            <!-- End Adsense -->
 
-            <!-- Post Featured Image -->
             {% if page.image %}
-
             {% if site.lazyimages == "enabled" %}
             <img class="featured-image img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
             {% else %}
             <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
             {% endif %}
-
             {% endif %}
-            <!-- End Featured Image -->
 
-            <!-- Post Content -->
             <div class="article-post">
-                <!-- Toc if any -->
                 {% if page.toc %}
                     {% if page.beforetoc %}
                         <p><em>{{page.beforetoc}}</em></p>
@@ -81,18 +67,29 @@ post_class: post-template
                         {% include toc.html html=content %}
                     </div>
                 {% endif %}
-                <!-- End Toc -->
+                
                 {{content}}
+
+                <div style="background: #fdfdfd; padding: 25px; border-radius: 12px; border: 1px solid #eee; margin-top: 40px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+                    <h4 style="margin-bottom: 10px; font-weight: bold;">📖 Buugga: Kun iyo Guul</h4>
+                    <p style="font-size: 1rem; color: #555;">Baro sirta warshadaynta iyo ganacsiga Somaliland. Nuqulka PDF iyo Hard Copy hadda waa diyaar!</p>
+                    <a href="/books/kun-iyo-guul/" style="background: #111; color: #fff; padding: 10px 25px; border-radius: 6px; text-decoration: none; display: inline-block; margin-bottom: 20px; font-weight: bold;">Halkan ka iibso</a>
+                    
+                    <hr style="border: 0; border-top: 1px dashed #ddd; margin: 25px 0;">
+
+                    <div id="ad-frame" style="width: 100%; margin: auto;">
+                        <iframe data-aa='2431382' src='//acceptable.a-ads.com/2431382/?size=Adaptive'
+                                style='border:0; padding:0; width:100%; height:auto; overflow:hidden; display: block; margin: auto'></iframe>
+                    </div>
+                    </div>
             </div>
 
-            <!-- Rating -->
             {% if page.rating %}
             <div class="rating mb-4 d-flex align-items-center">
                 <strong class="mr-1">Rating:</strong> {% include star_rating.html %}
             </div>
             {% endif %}
 
-            <!-- Post Date -->
             <p>
             <small>
                 <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
@@ -102,33 +99,23 @@ post_class: post-template
                 </small>
             </p>
 
-            <!-- Post Categories -->
             <div class="after-post-cats">
                 <ul class="tags mb-4">
                     {% assign sortedCategories = page.categories | sort %}
                     {% for category in sortedCategories %}
-                    <li>
-                        <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a>
-                    </li>
+                    <li><a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a></li>
                     {% endfor %}
                 </ul>
             </div>
-            <!-- End Categories -->
-
-            <!-- Post Tags -->
             <div class="after-post-tags">
                 <ul class="tags">
                     {% assign sortedTags = page.tags | sort %}
                     {% for tag in sortedTags %}
-                    <li>
-                        <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tag | replace: " ","-" }}">#{{ tag }}</a>
-                    </li>
+                    <li><a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tag | replace: " ","-" }}">#{{ tag }}</a></li>
                     {% endfor %}
                 </ul>
             </div>
-            <!-- End Tags -->
 
-            <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
             {% if page.previous.url %}
             <a class="prev d-block col-md-6" href="{{ site.baseurl }}/{{page.previous.url}}"> &laquo; {{page.previous.title}}</a>
@@ -138,18 +125,11 @@ post_class: post-template
             {% endif %}
             <div class="clearfix"></div>
             </div>
-            <!-- End Categories -->
 
         </div>
-        <!-- End Post -->
-
     </div>
 </div>
-<!-- End Article
-================================================== -->
 
-<!-- Begin Comments
-================================================== -->
 {% if page.comments != false and site.disqus %}
     <div class="container">
         <div id="comments" class="row justify-content-center mb-5">
@@ -159,9 +139,3 @@ post_class: post-template
         </div>
     </div>
 {% endif %}
-<!--End Comments
-================================================== -->
-
-{% comment %}
-<!-- Review schema is now handled individually in each post to avoid generic 'Thing' type issues -->
-{% endcomment %}
