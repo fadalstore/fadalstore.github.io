@@ -8,7 +8,7 @@ baseurl: ""
 url: "https://fadalstore.github.io" # Halkan ayaan ka saxnay .com
 google_analytics: ''
 disqus: ''
-mailchimp-list: ''
+mailchimp-list: 'https://formspree.io/f/fadalstore@gmail.com'
 include: ["_pages"]
 permalink: /:title.html
 
