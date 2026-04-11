@@ -12,6 +12,7 @@
 <link rel="canonical" href="{{ page.canonical_url }}" />
 {% endif %}
 {% seo %}
+{% include open-graph.html %}
 
 {% if site.adsense == "enabled" and site.adsense_data_ad_client != "ca-pub-xxxxxxxxxxxxxxxx" %}
 <meta name="google-adsense-account" content="{{ site.adsense_data_ad_client }}">

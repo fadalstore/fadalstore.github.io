@@ -1,0 +1,35 @@
+{% comment %} Enhanced OG tags — supplements jekyll-seo-tag with missing fields {% endcomment %}
+
+{% if page.layout == "post" %}
+  {% if page.image contains "://" %}
+    {% assign og_image = page.image %}
+  {% elsif page.image %}
+    {% assign og_image = site.url | append: "/" | append: page.image %}
+  {% else %}
+    {% assign og_image = site.url | append: "/assets/images/logo.png" %}
+  {% endif %}
+{% else %}
+  {% assign og_image = site.url | append: "/assets/images/logo.png" %}
+{% endif %}
+
+<!-- OG Image Dimensions (not added by jekyll-seo-tag) -->
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ page.title | default: site.name | escape }}">
+
+<!-- Article Tags (for Facebook / social crawlers) -->
+{% if page.layout == "post" %}
+{% for category in page.categories %}
+<meta property="article:section" content="{{ category }}">
+{% endfor %}
+{% for tag in page.tags limit:6 %}
+<meta property="article:tag" content="{{ tag }}">
+{% endfor %}
+{% endif %}
+
+<!-- Twitter / X Creator Handle -->
+<meta name="twitter:creator" content="@fadalsheekh">
+<meta name="twitter:site" content="@fadalsheekh">
+
+<!-- Preload hero image for faster Telegram/WhatsApp preview rendering -->
+<link rel="preload" as="image" href="{{ og_image }}">
