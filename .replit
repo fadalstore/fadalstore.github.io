@@ -35,4 +35,5 @@ externalPort = 80
 
 [deployment]
 deploymentTarget = "static"
-publicDir = "."
+publicDir = "_site"
+build = ["bash", "-c", "JEKYLL_ENV=production bundle exec jekyll build"]

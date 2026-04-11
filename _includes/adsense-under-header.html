@@ -1,4 +1,4 @@
-{% if site.adsense == "enabled" and site.adsense_data_ad_client != "ca-pub-xxxxxxxxxxxxxxxx" %}
+{% if jekyll.environment == 'production' and site.adsense == "enabled" and site.adsense_data_ad_client != "ca-pub-xxxxxxxxxxxxxxxx" %}
 <div class="adsense-wrap my-3">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{site.adsense_data_ad_client}}"
      crossorigin="anonymous"></script>

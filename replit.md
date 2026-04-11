@@ -11,9 +11,14 @@ Fadal Store is a Somali-language blog and educational platform about online busi
 
 ## Running the App
 ```bash
-JEKYLL_NO_BUNDLER_REQUIRE=true jekyll serve --host 0.0.0.0 --port 5000
+bundle exec jekyll serve --host 0.0.0.0 --port 5000
 ```
-Note: The local bundler (2.0.1) is incompatible with Ruby 3.2 — use `JEKYLL_NO_BUNDLER_REQUIRE=true` to bypass it.
+The Replit workflow runs this command on port 5000.
+
+## Replit Configuration
+- Ruby 3.2 and Bundler are used with the locked gems in `Gemfile.lock`.
+- Publishing is configured as a static deployment with `JEKYLL_ENV=production bundle exec jekyll build`.
+- The published static output is `_site`, so source files and local configuration are not served publicly.
 
 ## Project Structure
 ```
@@ -42,9 +47,9 @@ Blog | Ku saabsan | Remote Work | Make Money Online | Programming | Cybersecurit
 
 ## AdSense
 - Include: `_includes/adsense-under-header.html`
-- Enabled in `default.html` layout — shows top & bottom of all pages
+- Enabled in production builds in `default.html` layout — shows top & bottom of all pages
 - Configured via `_config.yml`: `adsense-data-ad-client` and `adsense-data-ad-slot`
-- **Currently placeholder** — user must replace `ca-pub-xxxxxxxxxxxxxxxx` with real publisher ID to activate ads
+- Local Replit preview suppresses ad network requests to avoid third-party preview errors.
 
 ## Legal Pages (Jekyll Markdown in _pages/)
 - `/privacy-policy/` — `_pages/privacy-policy.md`
