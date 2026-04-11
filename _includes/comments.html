@@ -1,0 +1,83 @@
+<section class="comments-section mt-5 mb-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+
+                <h3 class="font-weight-bold mb-4" style="border-bottom: 2px solid #007bff; padding-bottom: 10px;">
+                    <i class="fa fa-comments mr-2" style="color:#007bff;"></i> Faallo Qor
+                </h3>
+
+                <div id="comment-success" class="alert alert-success d-none" role="alert">
+                    Mahadsanid! Faalladaada waa la helay. Waxaan dib kaaga soo jawaabi doonaa sida ugu dhakhsaha badan.
+                </div>
+                <div id="comment-error" class="alert alert-danger d-none" role="alert">
+                    Khalad ayaa dhacay. Fadlan mar kale isku day.
+                </div>
+
+                <form id="comment-form" action="{{ site.mailchimp-list }}" method="POST">
+                    <input type="hidden" name="_subject" value="Faallo Cusub - {{ page.title }}">
+                    <input type="hidden" name="_gotcha" style="display:none">
+                    <input type="hidden" name="Maqaal" value="{{ page.title }}">
+                    <input type="hidden" name="Xiriirinta" value="{{ page.url | absolute_url }}">
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="comment-name"><strong>Magacaaga <span style="color:red;">*</span></strong></label>
+                            <input type="text" class="form-control" id="comment-name" name="Magac" placeholder="Magacaaga geli" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="comment-email"><strong>Emailkaaga</strong> <small class="text-muted">(ikhtiyaari)</small></label>
+                            <input type="email" class="form-control" id="comment-email" name="Email" placeholder="email@tusaale.com">
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="comment-message"><strong>Faalladaada <span style="color:red;">*</span></strong></label>
+                        <textarea class="form-control" id="comment-message" name="Faallo" rows="5" placeholder="Faalladaada halkan ku qor..." required style="resize:vertical;"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary px-4">
+                        <i class="fa fa-paper-plane mr-1"></i> Dir Faalada
+                    </button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+(function() {
+    var form = document.getElementById('comment-form');
+    if (!form) return;
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        var btn = form.querySelector('button[type="submit"]');
+        var original = btn.innerHTML;
+        btn.innerHTML = '<i class="fa fa-spinner fa-spin mr-1"></i> La dirayaa...';
+        btn.disabled = true;
+        var data = new FormData(form);
+        fetch(form.action, {
+            method: 'POST',
+            body: data,
+            headers: { 'Accept': 'application/json' }
+        }).then(function(res) {
+            if (res.ok) {
+                document.getElementById('comment-success').classList.remove('d-none');
+                document.getElementById('comment-error').classList.add('d-none');
+                form.reset();
+                form.style.display = 'none';
+            } else {
+                document.getElementById('comment-error').classList.remove('d-none');
+                document.getElementById('comment-success').classList.add('d-none');
+                btn.innerHTML = original;
+                btn.disabled = false;
+            }
+        }).catch(function() {
+            document.getElementById('comment-error').classList.remove('d-none');
+            btn.innerHTML = original;
+            btn.disabled = false;
+        });
+    });
+})();
+</script>
