@@ -1,0 +1,23 @@
+Si maqaalkaagu uu si dhakhso ah ugu soo muuqdo bogga hore ee Google (indaxing), waxaad u baahan tahay **Meta Data** si xirfad leh loo diyaariyey. Maadaama aad hadda haysato **Average Position 6.6**, isticmaalka ereyadan saxda ah waxay fure u noqon doonaan in clicks badan laga helo Mareykanka.
+Waa kuwan waxyaabihii aad ku dhex ridi lahayd qaybta <head> ee maqaalkaaga GitHub:
+### 1. Meta Title (Cinwaanka Google ka muuqanaya)
+Cinwaankani waa inuu noqdaa mid qofka Mareykanka jooga ku dhiirigeliya inuu gujiyo (CTR Booster):
+> **Meta Title:** How to Build a High-Traffic Website for $0: My 50K Impression Journey
+> 
+### 2. Meta Description (Sharaxaadda yar ee Google hoos dhigto)
+Sharaxaadani waa inay koobtaa nuxurka iyadoo dadka dareensiinaysa inuu yahay cashar dhab ah (Case Study):
+> **Meta Description:** Learn how I reached 50,000+ impressions on Google for free. A complete case study on using GitHub Pages, SEO, and automation to grow your website from scratch.
+> 
+### 3. Focus Keywords & Tags
+Tags-kan ku dar qaybta dambe ee mareegtaada ama "Metadata Section":
+ * Free Website Building, SEO Case Study 2026, GitHub Pages Tutorial, Digital Marketing for Beginners, Passive Income Ideas, High Traffic Blog Tips.
+### 💡 Talo muhiim ah oo ku saabsan "Slug-ga" (URL)
+URL-ka maqaalkaaga ka dhig mid gaaban oo macno leh, tusaale:
+fadalstore.github.io/how-to-build-free-high-traffic-website
+### Maxaa xiga oo aad samayn kartaa?
+Markaad maqaalka "Publish" gareyso, tillaabada ugu dambeysa ee aad qaadayso waa:
+ 1. Aad **Google Search Console**.
+ 2. Guji qaybta **URL Inspection**.
+ 3. Geli link-ga maqaalka cusub, ka dibna guji **"Request Indexing"**.
+Tani waxay ku khasbaysaa Google inay maqaalkaaga akhriso 24 saac gudahood halkii ay toddobaadyo ka sugi lahayd. Maadaama mareegtaadu ay durbaba leedahay Authority (Featured Snippet), Google aad ayay u tixgelin doontaa codsigaaga.
+Ma rabtaa inaan kuu diyaariyo **H1** iyo **H2** (Subheadings) aad u soo jiidasho leh oo aad maqaalka dhexdiisa ku isticmaasho si dadku aysan uga bixin mareegta?
