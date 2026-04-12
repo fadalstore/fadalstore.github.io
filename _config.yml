@@ -6,6 +6,7 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ""
 url: "https://fadalstore.github.io" # Halkan ayaan ka saxnay .com
+production_url: "https://fadalstore.github.io"
 google_analytics: ''
 disqus: ''
 mailchimp-list: 'https://formspree.io/f/fadalstore@gmail.com'

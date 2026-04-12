@@ -8,7 +8,7 @@ permalink: /sitemap_priority.xml
 
   <!-- Homepage -->
   <url>
-    <loc>{{ site.url }}/</loc>
+    <loc>{{ site.production_url }}/</loc>
     <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -16,25 +16,25 @@ permalink: /sitemap_priority.xml
 
   <!-- Key Category Pages -->
   <url>
-    <loc>{{ site.url }}/category/seo-tips/</loc>
+    <loc>{{ site.production_url }}/category/seo-tips/</loc>
     <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/category/make-money-online/</loc>
+    <loc>{{ site.production_url }}/category/make-money-online/</loc>
     <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/category/reviews/</loc>
+    <loc>{{ site.production_url }}/category/reviews/</loc>
     <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/courses/</loc>
+    <loc>{{ site.production_url }}/courses/</loc>
     <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -61,13 +61,13 @@ permalink: /sitemap_priority.xml
     {% assign post_freq = "weekly" %}
   {% endif %}
   <url>
-    <loc>{{ site.url }}{{ post.url }}</loc>
+    <loc>{{ site.production_url }}{{ post.url }}</loc>
     <lastmod>{{ post.date | date: '%Y-%m-%d' }}</lastmod>
     <changefreq>{{ post_freq }}</changefreq>
     <priority>{{ post_priority }}</priority>
     {% if post.image %}
     <image:image>
-      <image:loc>{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.url }}/{{ post.image }}{% endif %}</image:loc>
+      <image:loc>{% if post.image contains "://" %}{{ post.image | xml_escape }}{% else %}{{ site.production_url }}/{{ post.image | xml_escape }}{% endif %}</image:loc>
       <image:title>{{ post.title | xml_escape }}</image:title>
     </image:image>
     {% endif %}
