@@ -117,6 +117,24 @@ Payoneer wuxuu kuu soo dira **Mastercard** aad dukaamada ku bixin karto, ama ban
 
 ---
 
+## 🎁 Template Bilaash — Sida aan Macmiilka Ugu Hesho Fiverr & Upwork
+
+Waxaan sameyay **template gaaban** oo aan adeegsado marka aan mashaaric cusub codsanayo Fiverr iyo Upwork. Template-kani wuxuu kaa caawinayaa inaad:
+
+- **Profile-kaaga** si sax ah u qoro
+- **Proposal** ku qoro si macmiilka uu ku jawaabo
+- **Gig title & description** oo buyers-ka soo jiita
+
+> *Boqolaal freelancer ayaa isticmaalay template-kan — hadda kuu bilaash ah.*
+
+<div style="text-align:center; margin: 24px 0;">
+  <a href="https://trianglerockers.com/1890076" target="_blank" rel="nofollow" style="background:#f26522; color:#fff; padding:14px 32px; border-radius:8px; font-size:18px; font-weight:bold; text-decoration:none; display:inline-block;">
+    📥 Template-ka Bilaash Soo Dego
+  </a>
+</div>
+
+---
+
 ## Khatimada
 
 Labaduba platform waa fiican — laakiin marka bilowga ah:
