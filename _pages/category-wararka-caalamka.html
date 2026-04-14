@@ -1,0 +1,27 @@
+---
+layout: default
+permalink: /category/wararka-caalamka/
+title: "Wararka Caalamka – Maqaallada"
+description: "Dhammaan maqaallada ku saabsan wararka caalamka, tignoolajiyada, iyo horumarka caalamiga ah."
+---
+
+<div class="section-title">
+  <h2>🌍 <span>Wararka Caalamka</span></h2>
+  <p class="text-muted">Dhammaan maqaallada ku saabsan wararka caalamka iyo tignoolajiyada</p>
+</div>
+
+<div class="row listrecent">
+  {% assign found_posts = false %}
+  {% for post in site.posts %}
+    {% if post.categories contains "Wararka Caalamka" or post.categories contains "wararka-caalamka" %}
+      {% include postbox.html %}
+      {% assign found_posts = true %}
+    {% endif %}
+  {% endfor %}
+  
+  {% if found_posts == false %}
+    <div class="col-md-12">
+      <p class="alert alert-info">Hadda ma jiraan maqaallo ku jira qaybtan. Dhowaan filo!</p>
+    </div>
+  {% endif %}
+</div>
