@@ -3,7 +3,7 @@ layout: post
 title: "Theo of Golden Review: Is Allen Levi’s Masterpiece a True Story?"
 author: fadal
 date: 2026-04-05
-categories: [reviews]
+categories: [ Reviews ]
 tags: [Allen Levi, Theo of Golden, Books, 2026 Trends]
 thumbnail: assets/images/theo-of-golden-cover.jpg
 image: assets/images/theo-of-golden-cover.jpg

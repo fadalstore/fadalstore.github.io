@@ -2,7 +2,7 @@
 layout: post
 title: "Fiverr vs Upwork 2026 — Midkee Badan Lacag Kaaga Soo Xaraa?"
 author: fadal
-categories: [Make Money Online]
+categories: [ Make Money Online ]
 tags: [fiverr, upwork, freelancing, lacag online, platforms]
 image: https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&auto=format&fit=crop&q=80
 description: "Barbar-dhig buuxa ee Fiverr iyo Upwork 2026. Midkee freelancer Soomaali ah u fiican? Lacagta, tartanka, iyo macmiilka — dhammaantood xaqiiqda ah."

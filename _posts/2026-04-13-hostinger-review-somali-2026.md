@@ -2,7 +2,7 @@
 layout: post
 title: "Hostinger Review 2026 Af-Soomaali — Ma Talo Baa? (La Tijaabiyay)"
 author: fadal
-categories: [Make Money Online]
+categories: [ Make Money Online ]
 tags: [hostinger, web hosting, website, blog, review]
 image: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&auto=format&fit=crop&q=80
 description: "Hostinger review buuxa 2026 Af-Soomaali. Qiimaha, xawliga, WordPress, iyo hadduu website-kaaga u fiicnaan doono. La tijaabiyay — xaqiiqda ayaan sheegayaa."
