@@ -1,31 +1,119 @@
 ---
 layout: null
+permalink: /sitemap.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- ===== Homepage ===== -->
   <url>
-    <loc>{{ site.production_url }}/</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <loc>{{ site.url }}/</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
-  {% for post in site.posts %}
-    <url>
-      <loc>{{ site.production_url }}{{ post.url }}</loc>
-      <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  {% endfor %}
-
+  <!-- ===== Static Pages ===== -->
   {% for page in site.pages %}
-    {% if page.url contains '.html' %}
+    {% if page.url contains '.html' and page.sitemap != false %}
     <url>
-      <loc>{{ site.production_url }}{{ page.url }}</loc>
+      <loc>{{ site.url }}{{ page.url }}</loc>
+      <lastmod>{{ site.time | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
+      <priority>{% if page.url == '/world-news.html' or page.url == '/courses/' %}0.8{% elsif page.url == '/about/' or page.url == '/contact/' %}0.6{% else %}0.5{% endif %}</priority>
     </url>
     {% endif %}
   {% endfor %}
+
+  <!-- ===== Category Archive Pages ===== -->
+  <url>
+    <loc>{{ site.url }}/category/make-money-online/</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}/category/seo-tips/</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}/category/remote-work/</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}/category/programming/</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}/category/cybersecurity/</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}/category/reviews/</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}/category/wararka-caalamka/</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}/category/general/</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ===== All Blog Posts ===== -->
+  {% for post in site.posts %}
+    {% assign post_priority = "0.6" %}
+    {% assign post_freq = "monthly" %}
+    {% if post.categories contains "SEO Tips" %}
+      {% assign post_priority = "0.9" %}
+      {% assign post_freq = "weekly" %}
+    {% elsif post.categories contains "Make Money Online" %}
+      {% assign post_priority = "0.8" %}
+      {% assign post_freq = "weekly" %}
+    {% elsif post.categories contains "Wararka Caalamka" %}
+      {% assign post_priority = "0.8" %}
+      {% assign post_freq = "weekly" %}
+    {% elsif post.categories contains "Reviews" %}
+      {% assign post_priority = "0.7" %}
+      {% assign post_freq = "monthly" %}
+    {% elsif post.categories contains "Programming" %}
+      {% assign post_priority = "0.7" %}
+      {% assign post_freq = "monthly" %}
+    {% elsif post.categories contains "Cybersecurity" %}
+      {% assign post_priority = "0.7" %}
+      {% assign post_freq = "monthly" %}
+    {% elsif post.categories contains "Remote Work" %}
+      {% assign post_priority = "0.7" %}
+      {% assign post_freq = "monthly" %}
+    {% endif %}
+  <url>
+    <loc>{{ site.url }}{{ post.url }}</loc>
+    <lastmod>{{ post.date | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
+    <changefreq>{{ post_freq }}</changefreq>
+    <priority>{{ post_priority }}</priority>
+    {% if post.image %}
+    <image:image>
+      <image:loc>{% if post.image contains "://" %}{{ post.image | xml_escape }}{% else %}{{ site.url }}{{ post.image | xml_escape }}{% endif %}</image:loc>
+      <image:title>{{ post.title | xml_escape }}</image:title>
+    </image:image>
+    {% endif %}
+  </url>
+  {% endfor %}
+
 </urlset>

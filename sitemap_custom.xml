@@ -3,75 +3,10 @@ layout: null
 permalink: /sitemap_priority.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-
-  <!-- Homepage -->
-  <url>
-    <loc>{{ site.production_url }}/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <!-- Key Category Pages -->
-  <url>
-    <loc>{{ site.production_url }}/category/seo-tips/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{{ site.production_url }}/category/make-money-online/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{{ site.production_url }}/category/reviews/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>{{ site.production_url }}/courses/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- All Posts with priority by category -->
-  {% for post in site.posts %}
-  {% assign post_priority = "0.6" %}
-  {% assign post_freq = "monthly" %}
-  {% if post.categories contains "SEO Tips" %}
-    {% assign post_priority = "0.9" %}
-    {% assign post_freq = "weekly" %}
-  {% endif %}
-  {% if post.categories contains "Make Money Online" %}
-    {% assign post_priority = "0.8" %}
-    {% assign post_freq = "weekly" %}
-  {% endif %}
-  {% if post.categories contains "Reviews" %}
-    {% assign post_priority = "0.7" %}
-    {% assign post_freq = "monthly" %}
-  {% endif %}
-  {% if post.url contains "artistry-academy" or post.url contains "how-to-build-free" %}
-    {% assign post_priority = "1.0" %}
-    {% assign post_freq = "weekly" %}
-  {% endif %}
-  <url>
-    <loc>{{ site.production_url }}{{ post.url }}</loc>
-    <lastmod>{{ post.date | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>{{ post_freq }}</changefreq>
-    <priority>{{ post_priority }}</priority>
-    {% if post.image %}
-    <image:image>
-      <image:loc>{% if post.image contains "://" %}{{ post.image | xml_escape }}{% else %}{{ site.production_url }}/{{ post.image | xml_escape }}{% endif %}</image:loc>
-      <image:title>{{ post.title | xml_escape }}</image:title>
-    </image:image>
-    {% endif %}
-  </url>
-  {% endfor %}
-
-</urlset>
+<!-- This file redirects to /sitemap.xml — the main sitemap -->
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>{{ site.url }}/sitemap.xml</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
+  </sitemap>
+</sitemapindex>
