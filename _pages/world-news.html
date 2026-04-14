@@ -1,0 +1,358 @@
+---
+layout: default
+permalink: /world-news.html
+title: "Wararka Caalamka — Qisooyin & Dhacdooyinka | Fadal Store"
+description: "Akhriso wararka ugu muhiimsan ee caalamka: siyaasad, dhaqaale, tknoolajiyad, iyo xaaladaha bani'aadanimo. La soco waxa ka dhacaya aduunka."
+---
+
+<style>
+.news-hero{background:linear-gradient(135deg,#0a0f1e,#1a2a4a);color:#fff;padding:56px 20px;text-align:center;border-radius:14px;margin-bottom:40px;position:relative;overflow:hidden;}
+.news-hero::before{content:'';position:absolute;top:-60px;right:-60px;width:240px;height:240px;background:rgba(239,68,68,.12);border-radius:50%;}
+.news-hero h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(2rem,5vw,3rem);font-weight:900;margin-bottom:12px;letter-spacing:-0.5px;}
+.news-hero p{color:rgba(255,255,255,.78);font-size:1.05rem;max-width:580px;margin:0 auto 20px;}
+.news-badge{display:inline-block;background:#ef4444;color:#fff;font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:20px;letter-spacing:.5px;text-transform:uppercase;margin-bottom:16px;}
+.news-live-dot{display:inline-block;width:8px;height:8px;background:#ef4444;border-radius:50%;margin-right:6px;animation:blink 1.2s infinite;}
+@keyframes blink{0%,100%{opacity:1;}50%{opacity:0.2;}}
+
+.news-section-title{font-family:'Playfair Display',Georgia,serif;font-size:1.45rem;font-weight:800;color:#1a1a2e;margin-bottom:6px;padding-bottom:10px;border-bottom:3px solid #ef4444;display:flex;align-items:center;gap:8px;}
+.news-section{margin-bottom:48px;}
+.news-section-sub{font-size:.85rem;color:#64748b;margin-bottom:22px;}
+
+/* Category Filter */
+.news-filter{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:32px;}
+.news-filter-btn{background:#f1f5f9;border:1px solid #e2e8f0;color:#475569;padding:7px 18px;border-radius:20px;font-size:.85rem;font-weight:600;cursor:pointer;transition:all .2s;text-decoration:none;}
+.news-filter-btn:hover,.news-filter-btn.active{background:#ef4444;border-color:#ef4444;color:#fff;text-decoration:none;}
+
+/* News Cards */
+.news-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px;}
+.news-card{background:#fff;border:1px solid #e8edf3;border-radius:14px;overflow:hidden;transition:box-shadow .2s,transform .2s;display:flex;flex-direction:column;}
+.news-card:hover{box-shadow:0 8px 28px rgba(0,0,0,.11);transform:translateY(-3px);}
+.news-card-img{width:100%;height:180px;object-fit:cover;background:#e2e8f0;}
+.news-card-img-placeholder{width:100%;height:180px;display:flex;align-items:center;justify-content:center;font-size:3.5rem;background:linear-gradient(135deg,#f1f5f9,#e2e8f0);}
+.news-card-body{padding:18px;flex:1;display:flex;flex-direction:column;}
+.news-card-cat{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px;padding:3px 10px;border-radius:12px;display:inline-block;width:fit-content;}
+.cat-siyaasad{background:#fef2f2;color:#dc2626;}
+.cat-dhaqaale{background:#f0fdf4;color:#16a34a;}
+.cat-teknoo{background:#eff6ff;color:#2563eb;}
+.cat-bulsho{background:#faf5ff;color:#7c3aed;}
+.cat-caafimaad{background:#fff7ed;color:#ea580c;}
+.cat-cilmi{background:#ecfeff;color:#0891b2;}
+.news-card-title{font-family:'Playfair Display',Georgia,serif;font-size:1.1rem;font-weight:800;color:#1a1a2e;margin-bottom:8px;line-height:1.35;}
+.news-card-desc{font-size:.875rem;color:#64748b;line-height:1.6;flex:1;}
+.news-card-footer{margin-top:14px;padding-top:12px;border-top:1px solid #f1f5f9;display:flex;justify-content:space-between;align-items:center;font-size:.78rem;color:#94a3b8;}
+.news-card-date{display:flex;align-items:center;gap:4px;}
+.news-read-btn{background:#1a2a4a;color:#fff;padding:5px 14px;border-radius:6px;font-size:.78rem;font-weight:600;text-decoration:none;transition:background .2s;}
+.news-read-btn:hover{background:#ef4444;color:#fff;text-decoration:none;}
+
+/* Featured News */
+.news-featured{background:#fff;border:1px solid #e8edf3;border-radius:16px;overflow:hidden;margin-bottom:48px;display:grid;grid-template-columns:1fr 1fr;gap:0;}
+@media(max-width:700px){.news-featured{grid-template-columns:1fr;}}
+.news-featured-img{background:linear-gradient(135deg,#1a2a4a,#0f172a);display:flex;align-items:center;justify-content:center;font-size:5rem;min-height:260px;}
+.news-featured-body{padding:30px 28px;display:flex;flex-direction:column;justify-content:center;}
+.news-featured-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#ef4444;margin-bottom:10px;}
+.news-featured-title{font-family:'Playfair Display',Georgia,serif;font-size:1.55rem;font-weight:900;color:#1a1a2e;line-height:1.3;margin-bottom:12px;}
+.news-featured-desc{font-size:.9rem;color:#64748b;line-height:1.65;margin-bottom:20px;}
+
+/* Stats bar */
+.news-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:40px;}
+@media(max-width:600px){.news-stats{grid-template-columns:repeat(2,1fr);}}
+.news-stat-card{background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:18px;text-align:center;}
+.news-stat-num{font-size:1.7rem;font-weight:900;color:#ef4444;display:block;}
+.news-stat-label{font-size:.78rem;color:#64748b;margin-top:4px;}
+
+/* Quote */
+.news-quote{background:linear-gradient(135deg,#1a2a4a,#0f172a);color:#fff;padding:32px;border-radius:14px;text-align:center;margin-bottom:48px;}
+.news-quote blockquote{font-family:'Playfair Display',Georgia,serif;font-size:1.3rem;font-style:italic;margin:0;line-height:1.6;color:rgba(255,255,255,.92);}
+.news-quote cite{display:block;margin-top:14px;font-size:.82rem;color:rgba(255,255,255,.55);}
+
+/* Topics */
+.topics-grid{display:flex;flex-wrap:wrap;gap:12px;}
+.topic-chip{display:flex;align-items:center;gap:8px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:12px 18px;font-size:.88rem;font-weight:600;color:#334155;transition:all .2s;text-decoration:none;}
+.topic-chip:hover{background:#1a2a4a;color:#fff;border-color:#1a2a4a;text-decoration:none;}
+.topic-chip span.icon{font-size:1.2rem;}
+
+/* CTA */
+.news-cta{background:linear-gradient(135deg,#ef4444,#b91c1c);color:#fff;padding:40px 28px;border-radius:16px;text-align:center;margin-top:48px;}
+.news-cta h3{font-family:'Playfair Display',Georgia,serif;font-size:1.6rem;font-weight:900;margin-bottom:10px;}
+.news-cta p{font-size:.95rem;color:rgba(255,255,255,.85);max-width:500px;margin:0 auto 22px;}
+.news-cta a{background:#fff;color:#b91c1c;padding:12px 30px;border-radius:8px;font-weight:700;font-size:.95rem;text-decoration:none;display:inline-block;transition:transform .2s;}
+.news-cta a:hover{transform:scale(1.04);text-decoration:none;}
+</style>
+
+<div class="container">
+
+  <!-- Hero -->
+  <div class="news-hero">
+    <span class="news-badge"><span class="news-live-dot"></span>La Socod</span>
+    <h1>🌍 Wararka Caalamka</h1>
+    <p>Qisooyin iyo dhacdooyinka ugu muhiimsan ee aduunka — siyaasad, dhaqaale, teknoolajiyad, iyo bulsho. Wax walba meel ayaad ka heli doontaa.</p>
+  </div>
+
+  <!-- Stats -->
+  <div class="news-stats">
+    <div class="news-stat-card">
+      <span class="news-stat-num">195</span>
+      <div class="news-stat-label">Waddan Aduunka</div>
+    </div>
+    <div class="news-stat-card">
+      <span class="news-stat-num">8B+</span>
+      <div class="news-stat-label">Dad Aduunka Deggan</div>
+    </div>
+    <div class="news-stat-card">
+      <span class="news-stat-num">2026</span>
+      <div class="news-stat-label">Sanad Xaaladaha Badan</div>
+    </div>
+    <div class="news-stat-card">
+      <span class="news-stat-num">24/7</span>
+      <div class="news-stat-label">Wararka Socda</div>
+    </div>
+  </div>
+
+  <!-- Filter -->
+  <div class="news-filter">
+    <a href="#dhammaan" class="news-filter-btn active">🌐 Dhammaan</a>
+    <a href="#siyaasad" class="news-filter-btn">🏛️ Siyaasad</a>
+    <a href="#dhaqaale" class="news-filter-btn">📈 Dhaqaale</a>
+    <a href="#teknoo" class="news-filter-btn">💻 Teknoolajiyad</a>
+    <a href="#bulsho" class="news-filter-btn">🤝 Bulsho</a>
+    <a href="#caafimaad" class="news-filter-btn">🏥 Caafimaad</a>
+    <a href="#cilmi" class="news-filter-btn">🔬 Cilmi-baaris</a>
+  </div>
+
+  <!-- Featured -->
+  <div id="dhammaan">
+    <div class="news-section-title">⭐ Warka Ugu Muhiimsan</div>
+    <p class="news-section-sub">Dhacdada ugu weyn ee caalamka haatan ka socota.</p>
+  </div>
+  <div class="news-featured">
+    <div class="news-featured-img">🌏</div>
+    <div class="news-featured-body">
+      <div class="news-featured-label">⭐ Featured • Abril 2026</div>
+      <div class="news-featured-title">AI Waxay Beddeleysa Dunida Shaqada — 300 Milyan Oo Shaqo Ay Khatar Ku Jiraan</div>
+      <div class="news-featured-desc">Goldman Sachs iyo IMF ayaa sheegay in 2026–2030 lagu baabi'in doono boqolaal milyan oo shaqo adduunka oo dhan, hase ahaatee shaqooyin cusub oo AI-related ah ayaa soo bixi doona. Qoysaska faqiirka ah ayaa ugu darran saameynta.</div>
+      <a href="/tech-news-april-2026.html" class="news-read-btn">Wax Dheeraad ah Akhri →</a>
+    </div>
+  </div>
+
+  <!-- Siyaasad -->
+  <div class="news-section" id="siyaasad">
+    <div class="news-section-title">🏛️ Siyaasad & Xaaladaha Adduunka</div>
+    <p class="news-section-sub">Xukuumadaha, doorashooyinka, iyo xaaladaha dagaalada.</p>
+    <div class="news-grid">
+
+      <div class="news-card">
+        <div class="news-card-img-placeholder">🇺🇸</div>
+        <div class="news-card-body">
+          <span class="news-card-cat cat-siyaasad">Siyaasad</span>
+          <div class="news-card-title">Maraykanka & Shiinaha — Dagaalka Ganacsiga 2026</div>
+          <div class="news-card-desc">Labada xoog ee ugu weyn aduunka ayaa weli ku jira xaaladda tariffs iyo xad-gudubka ganacsiga. Daldalayaasha yar-yar ayaa ugu badan saameynta.</div>
+          <div class="news-card-footer">
+            <div class="news-card-date">📅 Abril 2026</div>
+            <a href="#" class="news-read-btn">Akhri</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-img-placeholder">🌍</div>
+        <div class="news-card-body">
+          <span class="news-card-cat cat-siyaasad">Siyaasad</span>
+          <div class="news-card-title">Afrika — Doorashooyinka 2026 Iyo Mustaqbalka Dimuquraadiyada</div>
+          <div class="news-card-desc">Waddamada Afrika ee doorasho qabanayaa 2026: Nigeria, Kenya, iyo Ethiopia. Dad badan ayaa su'aal ka dheeraaya cadaaladda doorashooyinka.</div>
+          <div class="news-card-footer">
+            <div class="news-card-date">📅 Maarso 2026</div>
+            <a href="#" class="news-read-btn">Akhri</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-img-placeholder">🕊️</div>
+        <div class="news-card-body">
+          <span class="news-card-cat cat-siyaasad">Nabadaynta</span>
+          <div class="news-card-title">UN — Dadaallada Nabadaynta Gobalka Dhexe</div>
+          <div class="news-card-desc">Qaramada Midoobay waxay sii wadaan xaaladaha degdegga ah ee gargaarka bani'aadanimo. Dib u heshiisiintu waxay u baahan tahay dib u dhac.</div>
+          <div class="news-card-footer">
+            <div class="news-card-date">📅 Abril 2026</div>
+            <a href="#" class="news-read-btn">Akhri</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Dhaqaale -->
+  <div class="news-section" id="dhaqaale">
+    <div class="news-section-title">📈 Dhaqaale & Maaliyadda Caalamka</div>
+    <p class="news-section-sub">Suuqa, lacagta, iyo dhaqdaynta dhaqaale ee adduunka.</p>
+    <div class="news-grid">
+
+      <div class="news-card">
+        <div class="news-card-img-placeholder">💰</div>
+        <div class="news-card-body">
+          <span class="news-card-cat cat-dhaqaale">Dhaqaale</span>
+          <div class="news-card-title">Qiimaha Noloshada — Sicir-bararka Adduunka 2026</div>
+          <div class="news-card-desc">Dalalka badan sicir-bararka ayaa sii hooseeya ka dib markii bangiyada dhexe ee adduunka ay rates-ka faaiidada wax ka beddeleen. Laakiin weli baahi weyn ayaa jirta.</div>
+          <div class="news-card-footer">
+            <div class="news-card-date">📅 Abril 2026</div>
+            <a href="#" class="news-read-btn">Akhri</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-img-placeholder">₿</div>
+        <div class="news-card-body">
+          <span class="news-card-cat cat-dhaqaale">Crypto</span>
+          <div class="news-card-title">Bitcoin 2026 — Heerka Cusub Iyo Mustaqbalka</div>
+          <div class="news-card-desc">Bitcoin wuxuu gaadhay heer cusub 2026, iyada oo waddamada badan ay dawladda heerka dawladeed ku qaabileen maalgashiga crypto.</div>
+          <div class="news-card-footer">
+            <div class="news-card-date">📅 Maarso 2026</div>
+            <a href="#" class="news-read-btn">Akhri</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-img-placeholder">🏭</div>
+        <div class="news-card-body">
+          <span class="news-card-cat cat-dhaqaale">Warshadaha</span>
+          <div class="news-card-title">Shirkadaha Ugu Weyn Caalamka — Natiijooyinka Q1 2026</div>
+          <div class="news-card-desc">Apple, Microsoft, iyo Google ayaa soo bandhigay natiijooyinkooda Q1 2026. AI-ga ayaa ahaa waxa ugu badan dakhliga loogu sheegay.</div>
+          <div class="news-card-footer">
+            <div class="news-card-date">📅 Abril 2026</div>
+            <a href="#" class="news-read-btn">Akhri</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Teknoolajiyad -->
+  <div class="news-section" id="teknoo">
+    <div class="news-section-title">💻 Teknoolajiyad & Mustaqbalka</div>
+    <p class="news-section-sub">AI, robotics, internet, iyo cilmi-noolaynta cusub.</p>
+    <div class="news-grid">
+
+      <div class="news-card">
+        <div class="news-card-img-placeholder">🤖</div>
+        <div class="news-card-body">
+          <span class="news-card-cat cat-teknoo">AI</span>
+          <div class="news-card-title">GPT-5 Iyo AI-yada Cusub — Waxa Cusub 2026</div>
+          <div class="news-card-desc">Qalabka AI-ga 2026 wuxuu awoodi doonaa inuu xalli arrimaha caafimaadka, sharciga, iyo barashada si aad u dhaaftay tan hore. Xadka bini'aadanimo iyo mashiin ayaa noqonayaa mid xidhan.</div>
+          <div class="news-card-footer">
+            <div class="news-card-date">📅 Abril 2026</div>
+            <a href="/tech-news-april-2026.html" class="news-read-btn">Akhri</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-img-placeholder">🚀</div>
+        <div class="news-card-body">
+          <span class="news-card-cat cat-teknoo">Hawada</span>
+          <div class="news-card-title">SpaceX — Dadka Ugu Horreeya Ee Mars U Aadi Doona 2028</div>
+          <div class="news-card-desc">Elon Musk wuxuu xaqiijiyay inuu 2028 aadanaha ugu horreeya Mars u diri doono. Diyaargarowga wuu socday 2025–2026.</div>
+          <div class="news-card-footer">
+            <div class="news-card-date">📅 Febraayo 2026</div>
+            <a href="#" class="news-read-btn">Akhri</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-img-placeholder">🔋</div>
+        <div class="news-card-body">
+          <span class="news-card-cat cat-teknoo">Tamarta</span>
+          <div class="news-card-title">Tamarta Qorraxda — Heerka Ugu Jaban Taariikhda</div>
+          <div class="news-card-desc">Solar panels qiimaha waxay hoos u dhaceen 80% marka loo eego 2015. Hadda qoysas badan oo Afrika iyo Aasiya ah ayaa awoodan kara tamarta.</div>
+          <div class="news-card-footer">
+            <div class="news-card-date">📅 Maarso 2026</div>
+            <a href="#" class="news-read-btn">Akhri</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bulsho & Caafimaad -->
+  <div class="news-section" id="bulsho">
+    <div class="news-section-title">🤝 Bulsho, Caafimaad & Cilmi-baaris</div>
+    <p class="news-section-sub">Xaaladaha bani'aadanimo, caafimaadka adduunka, iyo ogaanshaha cusub.</p>
+    <div class="news-grid">
+
+      <div class="news-card">
+        <div class="news-card-img-placeholder">🏥</div>
+        <div class="news-card-body">
+          <span class="news-card-cat cat-caafimaad">Caafimaad</span>
+          <div class="news-card-title">Tallaalka Kansarka — Tijaabooyinka Ugu Waaweyn 2026</div>
+          <div class="news-card-desc">BioNTech iyo Moderna ayaa la sheegay inay 2026 gaari doonaan heerka 3aad ee tijaabooyinka tallaalka kansarka. Natiijooyin waa la sugi doonaa.</div>
+          <div class="news-card-footer">
+            <div class="news-card-date">📅 Jannaayo 2026</div>
+            <a href="#" class="news-read-btn">Akhri</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-img-placeholder">🌊</div>
+        <div class="news-card-body">
+          <span class="news-card-cat cat-bulsho">Deegaan</span>
+          <div class="news-card-title">Isbedelka Cimilada — Xaaladda 2026 Iyo Orodka Muddada</div>
+          <div class="news-card-desc">Warbixintii 2026 ee IPCC waxay tilmaamaysaa in in ka badan 40 waddan ay ku jiraan khatar baabi'inta deegaanka dhinaca barafka xiddigaha iyo biyo kordhinta badda.</div>
+          <div class="news-card-footer">
+            <div class="news-card-date">📅 Maarso 2026</div>
+            <a href="#" class="news-read-btn">Akhri</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-img-placeholder">🔬</div>
+        <div class="news-card-body">
+          <span class="news-card-cat cat-cilmi">Cilmi</span>
+          <div class="news-card-title">Cilmi-baaris Cusub — Dayuuradaha Biyaha Ka Shidaalka Qaata</div>
+          <div class="news-card-desc">NASA iyo shirkado gaar loo leeyahay ayaa tijaabiyay dayuuradihii ugu horreeya ee hydrogen ah 2025. 2026 ayay bilaabeen diyaarinta suuqa ganacsiga.</div>
+          <div class="news-card-footer">
+            <div class="news-card-date">📅 Febraayo 2026</div>
+            <a href="#" class="news-read-btn">Akhri</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Quote -->
+  <div class="news-quote">
+    <blockquote>"Ninkii wax ka aqoon waayay dunida ku wareegsan, guri ayuu ku xidnaa maskaxdiisa."</blockquote>
+    <cite>— Maahmaah Soomaali</cite>
+  </div>
+
+  <!-- Topics -->
+  <div class="news-section">
+    <div class="news-section-title">🗺️ Mawduucyada La Socdo</div>
+    <p class="news-section-sub">Dooro mawduuca aad xiisaynayso si aad u helid warbixin dheeraad ah.</p>
+    <div class="topics-grid">
+      <a href="#siyaasad" class="topic-chip"><span class="icon">🏛️</span> Siyaasadda Adduunka</a>
+      <a href="#dhaqaale" class="topic-chip"><span class="icon">📊</span> Dhaqaalaha Caalamka</a>
+      <a href="#teknoo" class="topic-chip"><span class="icon">🤖</span> Teknoolajiyad & AI</a>
+      <a href="#bulsho" class="topic-chip"><span class="icon">🌍</span> Bulsho & Dhaqanka</a>
+      <a href="#caafimaad" class="topic-chip"><span class="icon">💊</span> Caafimaadka Adduunka</a>
+      <a href="#cilmi" class="topic-chip"><span class="icon">🔬</span> Cilmi-baaris Cusub</a>
+      <a href="#" class="topic-chip"><span class="icon">⚽</span> Ciyaaraha & Fanka</a>
+      <a href="#" class="topic-chip"><span class="icon">✈️</span> Safarka & Warbixinta</a>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="news-cta">
+    <h3>📬 La Soco Wararka Cusub</h3>
+    <p>Ku biir bulshadeena Telegram si aad u hesho wararka ugu cusub ee caalamka iyo fursadaha ganacsiga online-ka.</p>
+    <a href="https://t.me/fadalsheekh" target="_blank" rel="nofollow">📲 Telegram Ku Biir Bilaash</a>
+  </div>
+
+</div>
