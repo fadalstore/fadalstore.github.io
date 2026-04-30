@@ -1,38 +1,32 @@
 ---
 layout: page
-title: "Disclaimer — Fadal Store"
+title: "Disclaimer | Mas'uuliyadda"
 permalink: /disclaimer/
 ---
 
-## Disclaimer
+# Disclaimer
 
-**Waqtiga Cusboonaysiinta:** Abriil 2026
+**Last Updated: April 2026**
 
-### Macluumaadka Guud
+The information provided by **Fadal Store** on [fadalstore.github.io](https://fadalstore.github.io) is for general informational and educational purposes only. All information on the site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the site.
 
-Fadal Store waa website-ka loogu talagalay macluumaad waxbarasho iyo xogta ganacsiga online-ka. Waxaan si daacad ah u bixinaa macluumaadkayaga, laakiin ma dhammaystirno in xog kasta oo aan bixino ay 100% saxantahay ama ay kugu habboon tahay xaaladaada gaarka ah.
+## 1. Professional Disclaimer
+The site cannot and does not contain professional financial or legal advice. The information is provided for general informational and educational purposes only and is not a substitute for professional advice. Accordingly, before taking any actions based upon such information, we encourage you to consult with the appropriate professionals. The use or reliance of any information contained on this site is solely at your own risk.
 
-### Earnings Disclaimer
+## 2. Affiliate Links Disclaimer
+This website may contain links to affiliate websites, and we receive an affiliate commission for any purchases made by you on the affiliate website using such links. Our affiliates include but are not limited to:
+*   Hostinger
+*   Fiverr
+*   Upwork
+*   Wettracked.io
 
-Waxaan ka hadlaa xog ku saabsan lacagta laga kasban karo online-ka. Tirooyinka iyo tusaalooyinka aan bixino waxay yihiin kuwo guud oo aan u adeegsano sharaxaad uun. **Ma hubin karo inaad adigu heli doonto isla natiijadaas.** Natiijooyinku waxay kala duwanaan karaan ku xiddan:
+We are a participant in the Google AdSense program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Google properties.
 
-- Dadaalkaga iyo waqtigaaga
-- Aqoontaada hore
-- Suuqyada aad ku shaqaynayso
-- Xaaladaha suuqa ee isbedelaya
-
-### Xiriirka Saddex-geeska (Affiliate Links)
-
-Fadal Store waxay isticmaashaa affiliate links. Tani macnaheedu waa in markii aad ka iibsato alaabtaas ama adeegga link-kayagu ku jira, aynu heli karno mushahar yar oo ah xad-gudubka. Kharashkaaga kuma badda waxba.
-
-### Macluumaadka Gaar-gaar ah
-
-Maqaallada Fadal Store ma aha la-talinta sharciga, caafimaadka, ama maaliyadda. Haddii aad u baahan tahay la-taliye xirfadeed, fadlan la xiriir mutadamiirka ku habboon.
-
-### Xiriirka Bogagga Kale
-
-Fadal Store waxay leeyihiin xiriirro (links) bogagga kale. Mas'uuliyadda waxa ku dhaca boggagga saddexaad uma lihid.
+## 3. External Links Disclaimer
+The Site may contain links to other websites or content belonging to or originating from third parties or links to websites and features in banners or other advertising. Such external links are not investigated, monitored, or checked for accuracy, adequacy, validity, reliability, availability, or completeness by us.
 
 ---
 
-**Su'aalo? La xiriir:** contact@fadalstore.com
+# Mas'uuliyadda (Somali)
+
+Macluumaadka ku jira Fadal Store waa uun waxbarasho iyo macluumaad guud. Ma bixino talo sharci ama mid maaliyadeed oo rasmi ah. Waxaan isticmaalnaa affiliate links iyo Google AdSense si aan u dakhli u soo saarno, taasoo macnaheedu yahay inaan heli karno komishaan haddii aad wax ka iibsato link-yadayada.
