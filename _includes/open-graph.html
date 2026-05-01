@@ -1,35 +1,42 @@
-{% comment %} Enhanced OG tags — supplements jekyll-seo-tag with missing fields {% endcomment %}
+{% comment %} Enhanced SEO & Social Media Meta Tags — Supplements jekyll-seo-tag {% endcomment %}
 
-{% if page.layout == "post" %}
+{% if page.image %}
   {% if page.image contains "://" %}
     {% assign og_image = page.image %}
-  {% elsif page.image %}
-    {% assign og_image = site.url | append: "/" | append: page.image %}
   {% else %}
-    {% assign og_image = site.url | append: "/assets/images/logo.png" %}
+    {% assign og_image = site.url | append: site.baseurl | append: "/" | append: page.image | replace: "//", "/" | replace: "https:/", "https://" %}
   {% endif %}
 {% else %}
-  {% assign og_image = site.url | append: "/assets/images/logo.png" %}
+  {% assign og_image = site.url | append: site.baseurl | append: "/assets/images/logo.png" | replace: "//", "/" | replace: "https:/", "https://" %}
 {% endif %}
 
-<!-- OG Image Dimensions (not added by jekyll-seo-tag) -->
+<!-- Social Media Image -->
+<meta property="og:image" content="{{ og_image }}">
+<meta property="og:image:secure_url" content="{{ og_image }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="{{ page.title | default: site.name | escape }}">
+<meta property="og:image:type" content="image/jpeg">
 
-<!-- Article Tags (for Facebook / social crawlers) -->
-{% if page.layout == "post" %}
-{% for category in page.categories %}
-<meta property="article:section" content="{{ category }}">
-{% endfor %}
-{% for tag in page.tags limit:6 %}
-<meta property="article:tag" content="{{ tag }}">
-{% endfor %}
-{% endif %}
-
-<!-- Twitter / X Creator Handle -->
+<!-- Twitter Card Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ og_image }}">
+<meta name="twitter:title" content="{{ page.title | default: site.name | escape }}">
+<meta name="twitter:description" content="{{ page.description | default: site.description | truncate: 160 | escape }}">
 <meta name="twitter:creator" content="@fadalsheekh">
 <meta name="twitter:site" content="@fadalsheekh">
 
-<!-- Preload hero image for faster Telegram/WhatsApp preview rendering -->
+<!-- Article Meta (for social crawlers) -->
+{% if page.layout == "post" %}
+  <meta property="og:type" content="article">
+  {% for category in page.categories %}
+    <meta property="article:section" content="{{ category }}">
+  {% endfor %}
+  {% for tag in page.tags limit:6 %}
+    <meta property="article:tag" content="{{ tag }}">
+  {% endfor %}
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+{% endif %}
+
+<!-- Performance: Preload hero image for faster preview rendering -->
 <link rel="preload" as="image" href="{{ og_image }}">

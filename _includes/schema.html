@@ -1,0 +1,32 @@
+{% if page.layout == "post" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ page.title | escape }}",
+  "image": [
+    "{% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.url }}{{ site.baseurl }}/{{ page.image }}{% endif %}"
+  ],
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  {% if page.last_modified_at %}
+  "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
+  {% else %}
+  "dateModified": "{{ page.date | date_to_xmlschema }}",
+  {% endif %}
+  "author": [{
+      "@type": "Person",
+      "name": "{{ site.authors[page.author].display_name | default: 'Fadal' }}",
+      "url": "{{ site.url }}{{ site.baseurl }}/about.html"
+    }],
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.name }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{ site.baseurl }}/assets/images/logo.png"
+    }
+  },
+  "description": "{{ page.description | default: site.description | truncate: 160 | escape }}"
+}
+</script>
+{% endif %}
