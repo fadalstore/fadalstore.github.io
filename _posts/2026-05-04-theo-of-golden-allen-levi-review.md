@@ -4,7 +4,7 @@ title: "Theo of Golden Review: Why Everyone is Talking About This Heartwarming N
 author: fadal
 categories: [ Reviews ]
 tags: [book review, Theo of Golden, Allen Levi, best books 2026, inspirational novels]
-image: https://m.media-amazon.com/images/I/71u9vY0mIOL._SL1500_.jpg
+image: assets/images/posts/theo-of-golden-cover.jpg
 description: "Discover why Theo of Golden by Allen Levi is the must-read novel of 2026. A heartwarming story of kindness, connection, and second chances."
 featured: true
 rating: 5
