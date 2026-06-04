@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "How to Make Money with Claude AI in 2026"
-permalink: /ebook-claude-ai/
+permalink: /ebook-claude-ai.html
 ---
 
 <div class="container" style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
