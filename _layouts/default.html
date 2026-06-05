@@ -1,18 +1,8 @@
 <!DOCTYPE html>
-<html lang="so">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="color-scheme" content="light dark">
-<script>
-(function(){
-  try{
-    var s = localStorage.getItem('fs_theme');
-    var t = s || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-    document.documentElement.setAttribute('data-theme', t);
-  }catch(e){}
-})();
-</script>
 
 <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
 
@@ -22,30 +12,17 @@
 <link rel="canonical" href="{{ page.canonical_url }}" />
 {% endif %}
 {% seo %}
-{% include open-graph.html %}
-{% include schema.html %}
 
-{% if jekyll.environment == 'production' and site.adsense == "enabled" and site.adsense_data_ad_client != "ca-pub-xxxxxxxxxxxxxxxx" %}
+{% if site.adsense == "enabled" and site.adsense_data_ad_client != "ca-pub-xxxxxxxxxxxxxxxx" %}
 <meta name="google-adsense-account" content="{{ site.adsense_data_ad_client }}">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense_data_ad_client }}" crossorigin="anonymous"></script>
 {% endif %}
 
-<link rel="preconnect" href="https://stackpath.bootstrapcdn.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-<link rel="preconnect" href="https://use.fontawesome.com" crossorigin>
-
-<link rel="preload" as="style" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"></noscript>
-
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i&display=swap" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i&display=swap"></noscript>
-
-<link rel="preload" as="style" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"></noscript>
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
 <link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
+
 <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
-<link href="{{ site.baseurl }}/assets/css/dark-mode.css" rel="stylesheet">
 <style>
 /* Course & Article Custom Styles */
 .highlight-box { background: #f0f9ff; border-left: 5px solid #0ea5e9; padding: 20px; margin: 20px 0; border-radius: 0 8px 8px 0; }
@@ -89,19 +66,10 @@
 @media (max-width: 768px) {
   .lesson-sidebar { width: 100%; }
 }
-/* Breadcrumb Navigation */
-.fadal-breadcrumb { margin: 0 0 18px 0; }
-.breadcrumb-list { display: flex; flex-wrap: wrap; align-items: center; list-style: none; padding: 8px 14px; margin: 0; background: #f8fafc; border-radius: 8px; border: 1px solid #e2e8f0; font-size: 0.82rem; gap: 2px; }
-.breadcrumb-item { white-space: nowrap; }
-.breadcrumb-item a { color: #2563eb; text-decoration: none; font-weight: 500; transition: color 0.2s; }
-.breadcrumb-item a:hover { color: #1d4ed8; text-decoration: underline; }
-.breadcrumb-item.active { color: #64748b; font-weight: 400; overflow: hidden; text-overflow: ellipsis; max-width: 260px; }
-.breadcrumb-sep { color: #94a3b8; font-size: 1rem; line-height: 1; padding: 0 2px; }
-@media (max-width: 576px) {
-  .breadcrumb-item.active { max-width: 160px; }
-  .breadcrumb-list { font-size: 0.78rem; padding: 6px 10px; }
-}
 </style>
+
+<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+<script src="https://gumroad.com/js/gumroad.js"></script>
 
 </head>
 
@@ -119,9 +87,11 @@ ga('send', 'pageview');
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body class="{{layout}}">
-<!-- AADS Ad -->
-{% include aads-ad.html %}
-<!-- End AADS Ad -->
+        <!-- defer loading of font and font awesome -->
+        <noscript id="deferred-styles">
+                <link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        </noscript>
 
 
 <!-- Begin Menu Navigation
@@ -171,10 +141,6 @@ ga('send', 'pageview');
                 </li>
 
                 <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/category/seo-tips/">SEO Tips</a>
-                </li>
-
-                <li class="nav-item">
                 <a class="nav-link" href="{{ site.baseurl }}/category/programming/">Programming</a>
                 </li>
 
@@ -183,15 +149,7 @@ ga('send', 'pageview');
                 </li>
 
                 <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/world-news.html">🌍 Wararka</a>
-                </li>
-
-                <li class="nav-item">
                 <a class="nav-link" href="{{ site.baseurl }}/category/reviews/">Reviews</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/category/wararka-caalamka/">Wararka Caalamka</a>
                 </li>
 
                 <li class="nav-item">
@@ -199,17 +157,7 @@ ga('send', 'pageview');
                 </li>
 
                 <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/search/">🔍 Raadi</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/daily/">📚 Maanta</a>
-                </li>
-
-                <li class="nav-item">
-                  <button type="button" id="fs-theme-toggle" class="nav-link btn btn-link" aria-label="Toggle dark mode" title="Toggle dark mode" style="background:transparent;border:0;padding:.5rem .75rem;cursor:pointer;font-size:1.1rem;line-height:1;">
-                    <span id="fs-theme-icon">🌙</span>
-                  </button>
+                <a class="nav-link" href="{{ site.baseurl }}/ebooks/">E-books</a>
                 </li>
 
                 {% include search-lunr.html %}
@@ -239,7 +187,7 @@ ga('send', 'pageview');
 </div>
 
 <!-- Adsense if enabled from _config.yml -->
-{% if jekyll.environment == 'production' and site.adsense == "enabled" and site.adsense_data_ad_client != "ca-pub-xxxxxxxxxxxxxxxx" %}
+{% if site.adsense == "enabled" and site.adsense_data_ad_client != "ca-pub-xxxxxxxxxxxxxxxx" %}
 <div class="my-3">
     {% include adsense-under-header.html %}
 </div>
@@ -248,114 +196,52 @@ ga('send', 'pageview');
 
 <!-- Content
 ================================================== -->
-<main id="main-content" class="main-content">
+<div class="main-content">
     {{ content }}
-</main>
+</div>
+
+<!-- AADS Ad -->
+<div class="my-4">
+    {% include aads-ad.html %}
+</div>
+<!-- End AADS Ad -->
 
 <!-- Adsense Bottom if enabled -->
-{% if jekyll.environment == 'production' and site.adsense == "enabled" and site.adsense_data_ad_client != "ca-pub-xxxxxxxxxxxxxxxx" %}
+{% if site.adsense == "enabled" and site.adsense_data_ad_client != "ca-pub-xxxxxxxxxxxxxxxx" %}
 <div class="my-4">
     {% include adsense-under-header.html %}
 </div>
 {% endif %}
 <!-- End Adsense Bottom -->
 
-{% if site.mailchimp-list %}
+{% if site.mailchimp-list and site.mailchimp-list != "" %}
 <!-- Bottom Alert Bar
 ================================================== -->
 <div class="alertbar">
         <div class="container text-center">
                 <span style="font-family:'Righteous',sans-serif;font-weight:900;font-size:1.1rem;">FS</span> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter
-        <form action="{{site.mailchimp-list}}" method="POST" class="wj-contact-form validate">
+        <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
             <div class="mc-field-group">
-            <input type="email" placeholder="Email" name="email" class="required email" id="mce-EMAIL" autocomplete="on" required>
-            <input type="submit" value="Subscribe" class="heart">
+            <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
+            <input type="submit" value="Subscribe" name="subscribe" class="heart">
             </div>
         </form>
+        </div>
+</div>
+{% else %}
+<!-- Bottom Alert Bar (Social Link fallback if no Mailchimp)
+================================================== -->
+<div class="alertbar">
+        <div class="container text-center">
+                <span style="font-family:'Righteous',sans-serif;font-weight:900;font-size:1.1rem;">FS</span> &nbsp; Nagala soco <b>Telegram-ka</b> si aadan u seegin maqaallada cusub
+                <div class="mt-2">
+                    <a href="https://t.me/fadalsheekh" target="_blank" class="btn btn-primary btn-sm" style="border-radius:20px; padding: 5px 25px; background-color: #0088cc; border: none;">Subscribe on Telegram</a>
+                </div>
         </div>
 </div>
 {% endif %}
     
 </div>
-
-<!-- Related Recent Posts Section (shows on content pages only)
-================================================== -->
-{% assign skip_pages = '/,/world-news.html,/posts.html,/categories/,/tags/,/contact.html,/privacy-policy.html,/disclaimer.html,/terms-of-service.html,/about.html,/sitemap.xml,' %}
-{% assign show_recent = true %}
-{% if page.layout == 'post' %}{% assign show_recent = false %}{% endif %}
-{% if page.url == '/' or page.url == '/index.html' %}{% assign show_recent = false %}{% endif %}
-{% if skip_pages contains page.url %}{% assign show_recent = false %}{% endif %}
-{% if page.hide_recent_posts %}{% assign show_recent = false %}{% endif %}
-
-{% if show_recent %}
-  {% comment %}Detect related category based on URL or page front matter{% endcomment %}
-  {% assign recent_cat = nil %}
-  {% if page.related_category %}
-    {% assign recent_cat = page.related_category %}
-  {% elsif page.url contains 'remote' or page.url contains 'job' or page.url contains 'productivity' or page.url contains 'mental' %}
-    {% assign recent_cat = "Remote Work" %}
-  {% elsif page.url contains 'affiliate' or page.url contains 'amazon' or page.url contains 'fiverr' or page.url contains 'partner' or page.url contains 'money' or page.url contains 'brand' or page.url contains 'cash' or page.url contains 'start-here' or page.url contains 'earn' or page.url contains 'income' or page.url contains 'giraffe' %}
-    {% assign recent_cat = "Make Money Online" %}
-  {% elsif page.url contains 'seo' or page.url contains 'tools' or page.url contains 'keyword' %}
-    {% assign recent_cat = "SEO Tips" %}
-  {% elsif page.url contains 'wararka' or page.url contains 'news' or page.url contains 'tech-news' %}
-    {% assign recent_cat = "Wararka Caalamka" %}
-  {% elsif page.url contains 'programming' or page.url contains 'code' or page.url contains 'python' %}
-    {% assign recent_cat = "Programming" %}
-  {% elsif page.url contains 'security' or page.url contains 'cyber' or page.url contains 'hack' %}
-    {% assign recent_cat = "Cybersecurity" %}
-  {% endif %}
-
-  {% if recent_cat %}
-    {% assign display_posts = site.posts | where_exp: "post", "post.categories contains recent_cat" | limit: 3 %}
-  {% else %}
-    {% assign display_posts = site.posts | limit: 3 %}
-  {% endif %}
-
-  {% if display_posts.size > 0 %}
-  <div style="background:#f8fafc;padding:52px 0 40px;border-top:1px solid #e2e8f0;">
-    <div class="container">
-      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:28px;flex-wrap:wrap;gap:12px;">
-        <div>
-          <h3 style="font-family:'Playfair Display',Georgia,serif;font-size:1.55rem;font-weight:800;color:#1a1a2e;margin:0 0 4px;">
-            ✍️ {% if recent_cat %}{{ recent_cat }} — {% endif %}Maqaallada Ugu Cusub
-          </h3>
-          <p style="color:#64748b;font-size:.88rem;margin:0;">Maqaallada kugula haboon ee ugu dambeeyay</p>
-        </div>
-        <a href="/" style="background:#1a2a4a;color:#fff;padding:8px 20px;border-radius:8px;font-size:.82rem;font-weight:700;text-decoration:none;white-space:nowrap;">Dhammaan Eeg →</a>
-      </div>
-      <div class="row">
-        {% for post in display_posts %}
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100 border-0" style="border-radius:14px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.07);transition:transform .2s,box-shadow .2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 10px 28px rgba(0,0,0,.13)'" onmouseout="this.style.transform='';this.style.boxShadow='0 2px 12px rgba(0,0,0,.07)'">
-            {% if post.image %}
-            <a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}" style="width:100%;height:175px;object-fit:cover;" loading="lazy"></a>
-            {% else %}
-            <a href="{{ post.url }}" style="display:block;width:100%;height:175px;background:linear-gradient(135deg,#1a2a4a,#0f172a);display:flex;align-items:center;justify-content:center;font-size:2.5rem;text-decoration:none;">📰</a>
-            {% endif %}
-            <div class="card-body" style="padding:18px 18px 14px;">
-              {% if post.categories.first %}
-              <span style="font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:#ef4444;display:block;margin-bottom:7px;">{{ post.categories.first }}</span>
-              {% endif %}
-              <h5 style="font-family:'Playfair Display',Georgia,serif;font-size:.98rem;font-weight:800;color:#1a1a2e;line-height:1.4;margin-bottom:10px;">
-                <a href="{{ post.url }}" style="color:inherit;text-decoration:none;">{{ post.title | truncate: 72 }}</a>
-              </h5>
-              {% if post.description %}
-              <p style="font-size:.8rem;color:#64748b;line-height:1.55;margin-bottom:12px;">{{ post.description | truncate: 90 }}</p>
-              {% endif %}
-              <div style="display:flex;justify-content:space-between;align-items:center;border-top:1px solid #f1f5f9;padding-top:10px;margin-top:auto;">
-                <small style="color:#94a3b8;font-size:.75rem;">📅 {{ post.date | date: "%b %-d, %Y" }}</small>
-                <a href="{{ post.url }}" style="background:#1a2a4a;color:#fff;padding:4px 13px;border-radius:6px;font-size:.73rem;font-weight:700;text-decoration:none;">Akhri →</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-  {% endif %}
-{% endif %}
 
 <!-- Categories Jumbotron
 ================================================== -->
@@ -390,14 +276,14 @@ ga('send', 'pageview');
             <div class="col-md-4 col-sm-6 mb-3 mb-md-0">
                 <h6 class="font-weight-bold mb-3">{{ site.name }}</h6>
                 <p class="small text-muted">{{ site.description }}</p>
-                <p class="small text-muted">📧 contact@fadalstore.com</p>
+                <p class="small text-muted">📧 fadalstore7@gmail.com</p>
                 <div class="mt-3">
                     {% assign author = site.authors.fadal %}
-                    {% if author.telegram %}<a href="{{ author.telegram }}" target="_blank" rel="noopener" class="mr-3" style="color:#0088cc;font-size:1.3rem;" title="Telegram" aria-label="Telegram"><i class="fab fa-telegram-plane" aria-hidden="true"></i></a>{% endif %}
-                    {% if author.facebook %}<a href="{{ author.facebook }}" target="_blank" rel="noopener" class="mr-3" style="color:#1877f2;font-size:1.3rem;" title="Facebook" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>{% endif %}
-                    {% if author.twitter %}<a href="{{ author.twitter }}" target="_blank" rel="noopener" class="mr-3" style="color:#1da1f2;font-size:1.3rem;" title="X / Twitter" aria-label="X / Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>{% endif %}
-                    {% if author.whatsapp %}<a href="{{ author.whatsapp }}" target="_blank" rel="noopener" class="mr-3" style="color:#25d366;font-size:1.3rem;" title="WhatsApp" aria-label="WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>{% endif %}
-                    {% if author.youtube %}<a href="{{ author.youtube }}" target="_blank" rel="noopener" class="mr-3" style="color:#ff0000;font-size:1.3rem;" title="YouTube" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>{% endif %}
+                    {% if author.telegram %}<a href="{{ author.telegram }}" target="_blank" rel="noopener" class="mr-3" style="color:#0088cc;font-size:1.3rem;" title="Telegram"><i class="fab fa-telegram-plane"></i></a>{% endif %}
+                    {% if author.facebook %}<a href="{{ author.facebook }}" target="_blank" rel="noopener" class="mr-3" style="color:#1877f2;font-size:1.3rem;" title="Facebook"><i class="fab fa-facebook-f"></i></a>{% endif %}
+                    {% if author.twitter %}<a href="{{ author.twitter }}" target="_blank" rel="noopener" class="mr-3" style="color:#1da1f2;font-size:1.3rem;" title="X / Twitter"><i class="fab fa-twitter"></i></a>{% endif %}
+                    {% if author.whatsapp %}<a href="{{ author.whatsapp }}" target="_blank" rel="noopener" class="mr-3" style="color:#25d366;font-size:1.3rem;" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>{% endif %}
+                    {% if author.youtube %}<a href="{{ author.youtube }}" target="_blank" rel="noopener" class="mr-3" style="color:#ff0000;font-size:1.3rem;" title="YouTube"><i class="fab fa-youtube"></i></a>{% endif %}
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 mb-3 mb-md-0">
@@ -408,17 +294,16 @@ ga('send', 'pageview');
                     <li class="mb-1"><a href="{{ site.baseurl }}/category/programming/" class="text-muted">💻 Programming</a></li>
                     <li class="mb-1"><a href="{{ site.baseurl }}/category/cybersecurity/" class="text-muted">🔐 Cybersecurity</a></li>
                     <li class="mb-1"><a href="{{ site.baseurl }}/category/reviews/" class="text-muted">⭐ Reviews</a></li>
-                    <li class="mb-1"><a href="{{ site.baseurl }}/category/wararka-caalamka/" class="text-muted">🌍 Wararka Caalamka</a></li>
                     <li class="mb-1"><a href="{{ site.baseurl }}/courses/" class="text-muted">📚 Courses</a></li>
                 </ul>
             </div>
             <div class="col-md-4 col-sm-6">
                 <h6 class="font-weight-bold mb-3">Bogagga</h6>
                 <ul class="list-unstyled small">
-<li class="mb-1"><a href="{{ site.baseurl }}/about.html" class="text-muted">ℹ️ Ku saabsan</a></li>
-	                    <li class="mb-1"><a href="{{ site.baseurl }}/privacy-policy.html" class="text-muted">🔒 Privacy Policy</a></li>
-	                    <li class="mb-1"><a href="{{ site.baseurl }}/disclaimer.html" class="text-muted">⚠️ Disclaimer</a></li>
-	                    <li class="mb-1"><a href="{{ site.baseurl }}/terms-of-service.html" class="text-muted">📄 Terms of Service</a></li>
+                    <li class="mb-1"><a href="{{ site.baseurl }}/about/" class="text-muted">ℹ️ Ku saabsan</a></li>
+                    <li class="mb-1"><a href="{{ site.baseurl }}/privacy-policy/" class="text-muted">🔒 Privacy Policy</a></li>
+                    <li class="mb-1"><a href="{{ site.baseurl }}/disclaimer/" class="text-muted">⚠️ Disclaimer</a></li>
+                    <li class="mb-1"><a href="{{ site.baseurl }}/terms-of-service/" class="text-muted">📄 Terms of Service</a></li>
                     <li class="mb-1"><a href="{{ site.baseurl }}/sitemap.xml" class="text-muted">🗺️ Sitemap</a></li>
                 </ul>
             </div>
@@ -442,100 +327,21 @@ ga('send', 'pageview');
 <!-- Scripts
 ================================================== -->
 
-<script defer src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-<script defer src="{{ site.baseurl }}/assets/js/mediumish.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<script src="{{ site.baseurl }}/assets/js/mediumish.js"></script>
 
 {% if site.lazyimages == "enabled" %}
-<script defer src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
+<script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
 {% endif %}
 
-<script defer src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
-
-<script>
-(function(){
-  function applyTheme(t){
-    document.documentElement.setAttribute('data-theme', t);
-    var icon = document.getElementById('fs-theme-icon');
-    if (icon) icon.textContent = t === 'dark' ? '☀️' : '🌙';
-    var btn = document.getElementById('fs-theme-toggle');
-    if (btn) btn.setAttribute('aria-pressed', t === 'dark' ? 'true' : 'false');
-  }
-  function init(){
-    var current = document.documentElement.getAttribute('data-theme') || 'light';
-    applyTheme(current);
-    var btn = document.getElementById('fs-theme-toggle');
-    if (!btn) return;
-    btn.addEventListener('click', function(){
-      var t = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-      try{ localStorage.setItem('fs_theme', t); }catch(e){}
-      applyTheme(t);
-    });
-    // Follow system if user hasn't chosen yet
-    if (window.matchMedia){
-      var mq = window.matchMedia('(prefers-color-scheme: dark)');
-      mq.addEventListener && mq.addEventListener('change', function(e){
-        if (!localStorage.getItem('fs_theme')) applyTheme(e.matches ? 'dark' : 'light');
-      });
-    }
-  }
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
-  else init();
-})();
-</script>
+<script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script> 
 
 {% if page.layout == 'post' and site.disqus %}
 <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
 {% endif %}
-
-	<!-- Monetag Smart Tag -->
-	<script>(function(s){s.dataset.zone='10755117',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
-	<!-- End Monetag -->
-
-	<!-- Monetag Floating Button -->
-	<style>
-	.monetag-floating-btn {
-	    position: fixed;
-	    bottom: 25px;
-	    right: 25px;
-	    background: linear-gradient(135deg, #ff4b2b, #ff416c);
-	    color: #fff !important;
-	    padding: 12px 24px;
-	    border-radius: 50px;
-	    font-weight: 800;
-	    text-decoration: none !important;
-	    box-shadow: 0 10px 25px rgba(255, 75, 43, 0.4);
-	    z-index: 9999;
-	    display: flex;
-	    align-items: center;
-	    gap: 10px;
-	    transition: all 0.3s ease;
-	    animation: pulse-animation 2s infinite;
-	}
-	.monetag-floating-btn:hover {
-	    transform: translateY(-5px) scale(1.05);
-	    box-shadow: 0 15px 30px rgba(255, 75, 43, 0.6);
-	    background: linear-gradient(135deg, #ff416c, #ff4b2b);
-	}
-	@keyframes pulse-animation {
-	    0% { box-shadow: 0 0 0 0 rgba(255, 75, 43, 0.7); }
-	    70% { box-shadow: 0 0 0 15px rgba(255, 75, 43, 0); }
-	    100% { box-shadow: 0 0 0 0 rgba(255, 75, 43, 0); }
-	}
-	@media (max-width: 768px) {
-	    .monetag-floating-btn {
-	        bottom: 20px;
-	        right: 20px;
-	        padding: 10px 20px;
-	        font-size: 0.9rem;
-	    }
-	}
-	</style>
-	<a href="https://omg10.com/4/10755133" target="_blank" rel="noopener" class="monetag-floating-btn">
-	    <span>🚀 Hel Fursad Lacag Sameyn Ah</span>
-	</a>
-	<!-- End Monetag Floating Button -->
 
 </body>
 </html>

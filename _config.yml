@@ -6,12 +6,9 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ""
 url: "https://fadalstore.github.io" # Halkan ayaan ka saxnay .com
-production_url: "https://fadalstore.github.io"
 google_analytics: ''
 disqus: ''
-newsletter_endpoint: 'https://api.web3forms.com/submit'
-newsletter_access_key: 'a9d001ab-ee63-457c-914d-c666604abca3'
-mailchimp-list: 'https://api.web3forms.com/submit'
+mailchimp-list: ''
 include: ["_pages"]
 permalink: /:title.html
 
@@ -36,17 +33,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-archives
-
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: archive
-  permalinks:
-    category: /category/:name/
-    tag: /tag/:name/
     
 # Pagination 
 paginate: 6

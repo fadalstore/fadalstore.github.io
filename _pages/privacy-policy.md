@@ -1,49 +1,57 @@
 ---
 layout: page
-title: "Privacy Policy | Siyaasadda Asturnaanta"
+title: "Privacy Policy — Fadal Store"
 permalink: /privacy-policy/
 ---
 
-# Privacy Policy
+## Siyaasadda Asturnaanta (Privacy Policy)
 
-**Last Updated: April 2026**
+**Cusboonaysiinta ugu dambeeyay:** Abriil 2026
 
-At **Fadal Store**, accessible from [fadalstore.github.io](https://fadalstore.github.io), one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Fadal Store and how we use it.
+### 1. Hordhac
 
-If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us at **contact@fadalstore.com**.
+Fadal Store ("annaga," "noo," ama "keena") waxay maamushaa website-ka fadalstore.github.io. Boggan wuxuu sharaxayaa siyaasadda asturnaantayada ee ku saabsan macluumaadka aan uruurino, isticmaalno, iyo shareyno marka aad booqato website-kayaga.
 
-## 1. Log Files
-Fadal Store follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.
+### 2. Xogta Aan Uruurino
 
-## 2. Cookies and Web Beacons
-Like any other website, Fadal Store uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
+**Xog aad nooga siinayso:**
+- Magacaaga iyo emailkaaga marka aad ku qoran tahay newsletter-ka
+- Faallooyinka aad naga reebto
 
-## 3. Google DoubleClick DART Cookie
-Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to www.website.com and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – [https://policies.google.com/technologies/ads](https://policies.google.com/technologies/ads)
+**Xog si toos ah loo uruuriyo:**
+- Cinwaanka IP-ga
+- Browser-ka noociisa
+- Boggaga aad booqatay
+- Waqtiga aad website-ka ku jirtay
 
-## 4. Google AdSense and Third-Party Advertising
-Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Fadal Store, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
+### 3. Sida Aan u Isticmaalno Xogta
 
-Note that Fadal Store has no access to or control over these cookies that are used by third-party advertisers.
+Waxaan u isticmaalnaa xogta si aan u:
+- Hagaajino website-ka
+- Ku soo dirno macluumaad cusub (newsletter)
+- Fahmno sida booqashooyinka u dhacaan (analytics)
+- Isticmaalka Google AdSense ee xayeysiisyada
 
-## 5. Third Party Privacy Policies
-Fadal Store's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
+### 4. Google AdSense
 
-You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.
+Fadal Store waxay isticmaashaa Google AdSense si loogu soo bandhigo xayeysiisyada. Google waxay isticmaashaa cookies si ay u soo bandhigto xayeysiisyada ku salaysan booqashadaada hore. Waxaad ka mamnuuci kartaa [Google Ads Settings](https://www.google.com/settings/ads).
 
-## 6. Children's Information
-Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.
+### 5. Google Analytics
 
-Fadal Store does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
+Waxaan isticmaalnaa Google Analytics si aan u fahmno sida dadku website-ka u isticmaasho. Xogtan waa arin guud oo aan lagu aqoon karin qofka.
 
----
+### 6. Cookies
 
-# Siyaasadda Asturnaanta (Somali)
+Website-kayagu wuxuu isticmaalaa cookies si loo hagaajiyo khibradaada booqashada. Waxaad cookies-ka joojin kartaa browser-kaaga settings-kiisa.
 
-**Cusboonaysiinta ugu dambeeyay: Abriil 2026**
+### 7. Xuquuqdaada
 
-Fadal Store waxay isticmaashaa Google AdSense si loogu soo bandhigo xayeysiisyada. Google waxay isticmaashaa cookies (gaar ahaan DART cookies) si ay u soo bandhigto xayeysiisyada ku salaysan booqashadaada hore ee website-kan iyo kuwa kale. Waxaad ka mamnuuci kartaa isticmaalka cookies-ka xayeysiiska ee Google adigoo booqanaya [Google Ads Settings](https://www.google.com/settings/ads).
+Waxaad xaq u leedahay inaad:
+- Ogaato xogta aan kugaga hayno
+- Codsato in la tirtiro xogta
+- Ogaato sida aan xogta u isticmaalno
 
-Waxaan uruurinaa xogta qalabka (IP address), nooca browser-ka, iyo boggaga aad booqatay si aan u hagaajino adeegayaga. Xogtaada lama iibiyo lamana la wadaago cid kale oo aan ahayn adeeg bixiyayaasha rasmiga ah sida Google.
+### 8. Xiriir Nala Soo Xidhiidh
 
-Haddii aad qabto su'aalo dheeraad ah, nagala soo xiriir: **contact@fadalstore.com**
+Su'aalo ku saabsan siyaasaddan? La xiriir:  
+📧 **fadalstore7@gmail.com**
