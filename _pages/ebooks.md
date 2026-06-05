@@ -80,41 +80,15 @@ permalink: /ebooks/
 Ku soo dhawaada qaybta **E-books** iyo Agabka Dijitaalka ah ee Fadal Store. Halkan waxaad ka heli kartaa buugaag iyo hageyaal dhamaystiran oo kugu caawinaya safarkaaga ganacsiga online-ka.
 
 <div class="ebook-grid">
-  <!-- E-book 1 -->
+  <!-- Kun iyo Guul -->
   <div class="ebook-card">
-    <img src="https://images.unsplash.com/photo-1589998059171-988d887df646?w=800&q=80" alt="Remote Work Guide" class="ebook-image">
+    <img src="{{ site.baseurl }}/assets/images/kun-iyo-guul-cover.jpg" alt="Kun iyo Guul" class="ebook-image">
     <div class="ebook-content">
-      <h3 class="ebook-title">Hagaha Shaqada Online-ka (Remote Work)</h3>
-      <p class="ebook-description">Baro sida loo helo shaqooyin caalami ah adiga oo jooga gurigaaga. Hagahan wuxuu ka kooban yahay 50+ website oo laga helo shaqo iyo sida loo qoro CV guulaysta.</p>
+      <h3 class="ebook-title">Kun iyo Guul</h3>
+      <p class="ebook-description">Dastuurka Warshadaynta Somaliland. Baro mustaqbalka warshadaynta iyo dhaqaalaha Somaliland.</p>
       <div class="ebook-footer">
-        <span class="ebook-price">$19.99</span>
-        <a class="gumroad-button" href="https://fadalstore.gumroad.com/l/remote-work-guide" data-gumroad-overlay-checkout="true">Iibso Hadda</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- E-book 2 -->
-  <div class="ebook-card">
-    <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&q=80" alt="YouTube Growth" class="ebook-image">
-    <div class="ebook-content">
-      <h3 class="ebook-title">YouTube Mastery 2026</h3>
-      <p class="ebook-description">Sida looga bilaabo YouTube eber ilaa 100,000 oo subscribers. Baro sirta algorithm-ka iyo sida lacag looga sameeyo adiga oo aan wejigaaga tusin.</p>
-      <div class="ebook-footer">
-        <span class="ebook-price">$24.99</span>
-        <a class="gumroad-button" href="https://fadalstore.gumroad.com/l/youtube-mastery" data-gumroad-overlay-checkout="true">Iibso Hadda</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- E-book 3 -->
-  <div class="ebook-card">
-    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80" alt="Digital Marketing" class="ebook-image">
-    <div class="ebook-content">
-      <h3 class="ebook-title">Barashada Digital Marketing</h3>
-      <p class="ebook-description">Hage dhamaystiran oo ku saabsan xayeysiisyada Facebook, Instagram iyo Google. Baro sida loo iibiyo badeecad kasta adiga oo isticmaalaya baraha bulshada.</p>
-      <div class="ebook-footer">
-        <span class="ebook-price">$14.99</span>
-        <a class="gumroad-button" href="https://fadalstore.gumroad.com/l/digital-marketing-somali" data-gumroad-overlay-checkout="true">Iibso Hadda</a>
+        <span class="ebook-price">WhatsApp</span>
+        <a class="gumroad-button" href="https://wa.me/message/B4E27ZTETP3CG1?text=Asc%20Fadal,%20waxaan%20rabaa%20PDF-ka%20buugga%20Kun%20iyo%20Guul" target="_blank">Iibso PDF</a>
       </div>
     </div>
   </div>
