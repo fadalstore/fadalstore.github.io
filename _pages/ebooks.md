@@ -80,6 +80,19 @@ permalink: /ebooks/
 Ku soo dhawaada qaybta **E-books** iyo Agabka Dijitaalka ah ee Fadal Store. Halkan waxaad ka heli kartaa buugaag iyo hageyaal dhamaystiran oo kugu caawinaya safarkaaga ganacsiga online-ka.
 
 <div class="ebook-grid">
+  <!-- Al Freelancer Starter Pack -->
+  <div class="ebook-card">
+    <img src="https://public-files.gumroad.com/f7knp8qbja4noid8sc16r7hk48j3" alt="Al Freelancer Starter Pack" class="ebook-image">
+    <div class="ebook-content">
+      <h3 class="ebook-title">Al Freelancer Starter Pack</h3>
+      <p class="ebook-description">Prompts, Emails & Pricing — Baro sida loo bilaabo freelancing iyo sida loo sameeyo lacag online-ka adiga oo isticmaalaya AI.</p>
+      <div class="ebook-footer">
+        <span class="ebook-price">$19</span>
+        <a class="gumroad-button" href="https://sheikhly74.gumroad.com/l/hmkqw" data-gumroad-overlay-checkout="true">Iibso Hadda</a>
+      </div>
+    </div>
+  </div>
+
   <!-- Kun iyo Guul -->
   <div class="ebook-card">
     <img src="{{ site.baseurl }}/assets/images/kun-iyo-guul-cover.jpg" alt="Kun iyo Guul" class="ebook-image">
