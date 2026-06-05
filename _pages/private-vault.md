@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Private Vault"
-permalink: /private-vault.html
+permalink: /private-vault/
 ---
 
 <div class="container" style="max-width: 600px; margin: 50px auto; padding: 20px; border: 1px solid #ddd; border-radius: 10px; background: #f9f9f9; text-align: center;">
