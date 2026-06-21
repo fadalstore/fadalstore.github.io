@@ -7,7 +7,7 @@ description: "Abuur faylkaaga llms.txt si AI-ga uu u fahmo website-kaaga. Waa aa
 
 <style>
     .generator-container {
-        max-width: 800px;
+        max-width: 900px;
         margin: 40px auto;
         background: #ffffff;
         padding: 40px;
@@ -22,15 +22,25 @@ description: "Abuur faylkaaga llms.txt si AI-ga uu u fahmo website-kaaga. Waa aa
     .gen-header h1 {
         font-family: 'Righteous', sans-serif;
         color: #1e293b;
-        font-size: 2.2rem;
+        font-size: 2.5rem;
         margin-bottom: 10px;
     }
     .gen-header p {
         color: #64748b;
         font-size: 1.1rem;
     }
+    .grid-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    @media (max-width: 768px) {
+        .grid-layout {
+            grid-template-columns: 1fr;
+        }
+    }
     .form-group {
-        margin-bottom: 24px;
+        margin-bottom: 20px;
     }
     .form-group label {
         display: block;
@@ -52,10 +62,6 @@ description: "Abuur faylkaaga llms.txt si AI-ga uu u fahmo website-kaaga. Waa aa
         box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
         outline: none;
     }
-    textarea.form-control {
-        min-height: 100px;
-        resize: vertical;
-    }
     .btn-generate {
         background: linear-gradient(135deg, #2563eb, #1d4ed8);
         color: white !important;
@@ -66,15 +72,32 @@ description: "Abuur faylkaaga llms.txt si AI-ga uu u fahmo website-kaaga. Waa aa
         font-size: 1.1rem;
         width: 100%;
         cursor: pointer;
-        transition: transform 0.1s, opacity 0.2s;
+        margin-top: 10px;
         box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
     }
-    .btn-generate:hover {
-        opacity: 0.95;
-        transform: translateY(-1px);
+    .info-card {
+        background: #f1f5f9;
+        padding: 20px;
+        border-radius: 12px;
+        height: fit-content;
     }
-    .btn-generate:active {
-        transform: translateY(0);
+    .info-card h4 {
+        font-weight: 800;
+        font-size: 1.1rem;
+        margin-bottom: 12px;
+        color: #1e293b;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .info-card ul {
+        padding-left: 20px;
+        margin-bottom: 0;
+    }
+    .info-card li {
+        font-size: 0.9rem;
+        color: #475569;
+        margin-bottom: 8px;
     }
     #outputSection {
         margin-top: 40px;
@@ -93,17 +116,6 @@ description: "Abuur faylkaaga llms.txt si AI-ga uu u fahmo website-kaaga. Waa aa
         flex-wrap: wrap;
         gap: 10px;
     }
-    .output-header h3 {
-        font-size: 1.1rem;
-        font-weight: 700;
-        margin: 0;
-        color: #1e293b;
-        flex: 1;
-    }
-    .button-group {
-        display: flex;
-        gap: 10px;
-    }
     .result-box {
         background: #1e293b;
         color: #34d399;
@@ -113,7 +125,6 @@ description: "Abuur faylkaaga llms.txt si AI-ga uu u fahmo website-kaaga. Waa aa
         font-size: 0.9rem;
         line-height: 1.5;
         overflow-x: auto;
-        position: relative;
         border: 1px solid #334155;
     }
     .btn-action {
@@ -123,46 +134,42 @@ description: "Abuur faylkaaga llms.txt si AI-ga uu u fahmo website-kaaga. Waa aa
         font-size: 0.85rem;
         font-weight: 700;
         cursor: pointer;
-        transition: background 0.2s;
         color: white !important;
         display: inline-flex;
         align-items: center;
         gap: 6px;
     }
-    .btn-copy {
-        background: #059669;
+    .btn-copy { background: #059669; }
+    .btn-download { background: #4f46e5; }
+    
+    .faq-section {
+        margin-top: 50px;
+        border-top: 1px solid #e2e8f0;
+        padding-top: 30px;
     }
-    .btn-copy:hover {
-        background: #047857;
+    .faq-item {
+        margin-bottom: 20px;
     }
-    .btn-download {
-        background: #4f46e5;
-    }
-    .btn-download:hover {
-        background: #4338ca;
-    }
-    .instructions {
-        margin-top: 40px;
-        padding: 25px;
-        background: #f8fafc;
-        border-radius: 12px;
-        border-left: 5px solid #2563eb;
-    }
-    .instructions h4 {
-        font-weight: 800;
-        font-size: 1.1rem;
-        margin-bottom: 12px;
+    .faq-item h5 {
+        font-weight: 700;
         color: #1e293b;
+        margin-bottom: 5px;
     }
-    .instructions ol {
-        padding-left: 20px;
-        margin-bottom: 0;
-    }
-    .instructions li {
-        margin-bottom: 8px;
-        color: #475569;
+    .faq-item p {
+        color: #64748b;
         font-size: 0.95rem;
     }
+    .example-btn {
+        background: #e2e8f0;
+        border: none;
+        padding: 4px 10px;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: 5px;
+    }
+    .example-btn:hover { background: #cbd5e1; }
 </style>
 
 <div class="generator-container">
@@ -171,53 +178,92 @@ description: "Abuur faylkaaga llms.txt si AI-ga uu u fahmo website-kaaga. Waa aa
         <p>U beddel website-kaaga mid AI-ga u saaxiib ah (AI-friendly)</p>
     </div>
 
-    <div class="space-y-6">
-        <div class="form-group">
-            <label for="siteName">Magaca Website-ka (Site Name)</label>
-            <input type="text" id="siteName" class="form-control" placeholder="Tusaale: Fadal Store">
+    <div class="grid-layout">
+        <div class="form-side">
+            <div class="form-group">
+                <label for="siteName">Magaca Website-ka</label>
+                <input type="text" id="siteName" class="form-control" placeholder="Tusaale: Fadal Store">
+                <button class="example-btn" onclick="fillExample()">Isticmaal Tusaale</button>
+            </div>
+
+            <div class="form-group">
+                <label for="description">Sharaxaad Kooban</label>
+                <textarea id="description" class="form-control" placeholder="Maxay dadku ka baran karaan halkan?"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="links">Link-yada Muhiimka ah</label>
+                <textarea id="links" class="form-control" placeholder="https://fadalstore.com/about&#10;https://fadalstore.com/courses" style="height: 100px;"></textarea>
+                <small class="text-muted">Hal link xariiq kasta.</small>
+            </div>
+
+            <button onclick="generateLLMS()" class="btn-generate">
+                <i class="fas fa-magic"></i> Abuur LLMS.txt
+            </button>
         </div>
 
-        <div class="form-group">
-            <label for="description">Sharaxaad Kooban (Brief Description)</label>
-            <textarea id="description" class="form-control" placeholder="Ka warran waxa website-kaagu qabto..."></textarea>
+        <div class="info-side">
+            <div class="info-card">
+                <h4><i class="fas fa-lightbulb"></i> Maxay tahay LLMS.txt?</h4>
+                <p style="font-size: 0.9rem; color: #475569;">Waa fayl cusub oo la mid ah <code>robots.txt</code>, laakiin loogu talagalay inuu AI-ga (sida Claude iyo ChatGPT) u sharxo xogta ugu muhiimsan ee website-kaaga.</p>
+                
+                <h4><i class="fas fa-check-circle"></i> Faa'iidooyinka:</h4>
+                <ul>
+                    <li>AI-ga ayaa si sax ah u fahmaya nuxurkaaga.</li>
+                    <li>Waxay fududaynaysaa in website-kaaga loo isticmaalo tixraac.</li>
+                    <li>Waxay kordhinaysaa "AI Search Visibility" (SEO-ga cusub).</li>
+                </ul>
+            </div>
         </div>
-
-        <div class="form-group">
-            <label for="links">Link-yada Muhiimka ah (Important Links)</label>
-            <textarea id="links" class="form-control" placeholder="https://fadalstore.com/about&#10;https://fadalstore.com/courses" style="height: 120px;"></textarea>
-            <small class="text-muted mt-1 d-block">Ku qor hal link xariiq kasta (one per line).</small>
-        </div>
-
-        <button onclick="generateLLMS()" class="btn-generate">Abuur (Generate) LLMS.txt</button>
     </div>
 
     <div id="outputSection">
         <div class="output-header">
-            <h3>Natiijada:</h3>
-            <div class="button-group">
+            <h3 style="font-weight: 800;">Natiijada:</h3>
+            <div class="button-group" style="display: flex; gap: 10px;">
                 <button onclick="copyToClipboard()" class="btn-action btn-copy" id="copyBtn">
-                    <i class="fas fa-copy"></i> Copy Code
+                    <i class="fas fa-copy"></i> Copy
                 </button>
                 <button onclick="downloadFile()" class="btn-action btn-download">
-                    <i class="fas fa-download"></i> Download .txt
+                    <i class="fas fa-download"></i> Download
                 </button>
             </div>
         </div>
         <pre id="outputCode" class="result-box"></pre>
         
-        <div class="instructions">
-            <h4>Sida loo isticmaalo:</h4>
-            <ol>
-                <li>Riix badhanka <strong>"Download .txt"</strong> si aad u hesho faylka.</li>
-                <li>Faylkan geli folder-kaaga weyn (root directory) ee website-ka.</li>
-                <li>Hubi in magaca faylku yahay <code>llms.txt</code>.</li>
-                <li>Hadda AI-yada sida Claude iyo ChatGPT waxay si fudud u fahmi karaan website-kaaga!</li>
-            </ol>
+        <div class="instructions" style="margin-top: 30px; background: #fffbeb; border-left-color: #f59e0b;">
+            <h4 style="color: #92400e;"><i class="fas fa-terminal"></i> Tallaabada Xigta:</h4>
+            <p style="font-size: 0.95rem; color: #92400e; margin-bottom: 0;">Faylkan geli <strong>root directory</strong> (folder-ka ugu weyn) ee website-kaaga. Hubi in link-gu yahay <code>yourdomain.com/llms.txt</code>.</p>
+        </div>
+    </div>
+
+    <div class="faq-section">
+        <h3 style="font-family: 'Righteous', sans-serif; margin-bottom: 25px;">Su'aalaha Badanaa La Isweydiiyo (FAQ)</h3>
+        
+        <div class="faq-item">
+            <h5>Xaggee baan dhigayaa faylkan?</h5>
+            <p>Faylka <code>llms.txt</code> waa in la dhigaa folder-ka ugu sareeya ee website-kaaga (public_html ama root). Haddii aad isticmaalayso GitHub Pages, ku rid folder-ka weyn.</p>
+        </div>
+
+        <div class="faq-item">
+            <h5>Ma qasab baa inaan link-yada oo dhan ku daro?</h5>
+            <p>Maya, ku dar kaliya link-yada ugu muhiimsan ee aad rabto in AI-gu akhriyo, sida bogga "About", "Services", ama "Documentation".</p>
+        </div>
+
+        <div class="faq-item">
+            <h5>Ma beddelayaa robots.txt?</h5>
+            <p>Maya, <code>robots.txt</code> wuxuu u sheegaa search engines-ka meesha ay geli karaan, halka <code>llms.txt</code> uu AI-ga u sharxayo waxa ku dhex jira website-ka.</p>
         </div>
     </div>
 </div>
 
 <script>
+    function fillExample() {
+        document.getElementById('siteName').value = "Fadal Store";
+        document.getElementById('description').value = "Mareeg loogu talagalay barashada Programming-ka, Remote Work, iyo sida lacag looga sameeyo online-ka.";
+        document.getElementById('links').value = "https://fadalstore.com/about\nhttps://fadalstore.com/courses\nhttps://fadalstore.com/ebooks";
+    }
+
     function generateLLMS() {
         const name = document.getElementById('siteName').value.trim() || "My Website";
         const desc = document.getElementById('description').value.trim() || "A professional website.";
@@ -239,20 +285,16 @@ description: "Abuur faylkaaga llms.txt si AI-ga uu u fahmo website-kaaga. Waa aa
 
         document.getElementById('outputCode').textContent = output;
         document.getElementById('outputSection').style.display = 'block';
-        
-        // Scroll to output
         document.getElementById('outputSection').scrollIntoView({ behavior: 'smooth' });
     }
 
     function copyToClipboard() {
         const text = document.getElementById('outputCode').textContent;
         const btn = document.getElementById('copyBtn');
-        
         navigator.clipboard.writeText(text).then(() => {
             const originalText = btn.innerHTML;
-            btn.innerHTML = '<i class="fas fa-check"></i> Lagu Koobiyeeyay!';
+            btn.innerHTML = '<i class="fas fa-check"></i> OK!';
             btn.style.background = "#047857";
-            
             setTimeout(() => {
                 btn.innerHTML = originalText;
                 btn.style.background = "#059669";
