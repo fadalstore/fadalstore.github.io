@@ -90,12 +90,19 @@ description: "Abuur faylkaaga llms.txt si AI-ga uu u fahmo website-kaaga. Waa aa
         justify-content: space-between;
         align-items: center;
         margin-bottom: 12px;
+        flex-wrap: wrap;
+        gap: 10px;
     }
     .output-header h3 {
         font-size: 1.1rem;
         font-weight: 700;
         margin: 0;
         color: #1e293b;
+        flex: 1;
+    }
+    .button-group {
+        display: flex;
+        gap: 10px;
     }
     .result-box {
         background: #1e293b;
@@ -109,18 +116,30 @@ description: "Abuur faylkaaga llms.txt si AI-ga uu u fahmo website-kaaga. Waa aa
         position: relative;
         border: 1px solid #334155;
     }
-    .btn-copy {
-        background: #059669;
-        color: white !important;
+    .btn-action {
         border: none;
         padding: 8px 16px;
         border-radius: 6px;
         font-size: 0.85rem;
         font-weight: 700;
         cursor: pointer;
+        transition: background 0.2s;
+        color: white !important;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+    }
+    .btn-copy {
+        background: #059669;
     }
     .btn-copy:hover {
         background: #047857;
+    }
+    .btn-download {
+        background: #4f46e5;
+    }
+    .btn-download:hover {
+        background: #4338ca;
     }
     .instructions {
         margin-top: 40px;
@@ -175,16 +194,23 @@ description: "Abuur faylkaaga llms.txt si AI-ga uu u fahmo website-kaaga. Waa aa
     <div id="outputSection">
         <div class="output-header">
             <h3>Natiijada:</h3>
-            <button onclick="copyToClipboard()" class="btn-copy" id="copyBtn">Copy Code</button>
+            <div class="button-group">
+                <button onclick="copyToClipboard()" class="btn-action btn-copy" id="copyBtn">
+                    <i class="fas fa-copy"></i> Copy Code
+                </button>
+                <button onclick="downloadFile()" class="btn-action btn-download">
+                    <i class="fas fa-download"></i> Download .txt
+                </button>
+            </div>
         </div>
         <pre id="outputCode" class="result-box"></pre>
         
         <div class="instructions">
             <h4>Sida loo isticmaalo:</h4>
             <ol>
-                <li>Riix badhanka <strong>"Copy Code"</strong> ee kore.</li>
-                <li>Gudaha folder-kaaga weyn (root directory) ee website-ka, ka samee fayl cusub oo la yiraahdo <code>llms.txt</code>.</li>
-                <li>Ku dhex rid (paste) koodkan aad koobiyeysay, ka dibna kaydi (save).</li>
+                <li>Riix badhanka <strong>"Download .txt"</strong> si aad u hesho faylka.</li>
+                <li>Faylkan geli folder-kaaga weyn (root directory) ee website-ka.</li>
+                <li>Hubi in magaca faylku yahay <code>llms.txt</code>.</li>
                 <li>Hadda AI-yada sida Claude iyo ChatGPT waxay si fudud u fahmi karaan website-kaaga!</li>
             </ol>
         </div>
@@ -223,14 +249,27 @@ description: "Abuur faylkaaga llms.txt si AI-ga uu u fahmo website-kaaga. Waa aa
         const btn = document.getElementById('copyBtn');
         
         navigator.clipboard.writeText(text).then(() => {
-            const originalText = btn.textContent;
-            btn.textContent = "Lagu Koobiyeeyay! ✅";
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-check"></i> Lagu Koobiyeeyay!';
             btn.style.background = "#047857";
             
             setTimeout(() => {
-                btn.textContent = originalText;
+                btn.innerHTML = originalText;
                 btn.style.background = "#059669";
             }, 2000);
         });
+    }
+
+    function downloadFile() {
+        const text = document.getElementById('outputCode').textContent;
+        const blob = new Blob([text], { type: 'text/plain' });
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'llms.txt';
+        document.body.appendChild(a);
+        a.click();
+        window.URL.revokeObjectURL(url);
+        document.body.removeChild(a);
     }
 </script>
