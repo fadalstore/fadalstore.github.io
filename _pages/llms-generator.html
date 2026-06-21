@@ -1,0 +1,236 @@
+---
+layout: default
+permalink: /llms-generator/
+title: "Free LLMS.txt Generator — Fadal Store"
+description: "Abuur faylkaaga llms.txt si AI-ga uu u fahmo website-kaaga. Waa aalad bilaash ah oo loogu talagalay horumariyayaasha iyo milkiilayaasha mareegaha."
+---
+
+<style>
+    .generator-container {
+        max-width: 800px;
+        margin: 40px auto;
+        background: #ffffff;
+        padding: 40px;
+        border-radius: 16px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+        border: 1px solid #e2e8f0;
+    }
+    .gen-header {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .gen-header h1 {
+        font-family: 'Righteous', sans-serif;
+        color: #1e293b;
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+    }
+    .gen-header p {
+        color: #64748b;
+        font-size: 1.1rem;
+    }
+    .form-group {
+        margin-bottom: 24px;
+    }
+    .form-group label {
+        display: block;
+        font-weight: 700;
+        margin-bottom: 8px;
+        color: #334155;
+        font-size: 0.95rem;
+    }
+    .form-control {
+        width: 100%;
+        padding: 12px 16px;
+        border: 2px solid #e2e8f0;
+        border-radius: 10px;
+        font-size: 1rem;
+        transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .form-control:focus {
+        border-color: #2563eb;
+        box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+        outline: none;
+    }
+    textarea.form-control {
+        min-height: 100px;
+        resize: vertical;
+    }
+    .btn-generate {
+        background: linear-gradient(135deg, #2563eb, #1d4ed8);
+        color: white !important;
+        border: none;
+        padding: 14px 28px;
+        border-radius: 10px;
+        font-weight: 800;
+        font-size: 1.1rem;
+        width: 100%;
+        cursor: pointer;
+        transition: transform 0.1s, opacity 0.2s;
+        box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+    }
+    .btn-generate:hover {
+        opacity: 0.95;
+        transform: translateY(-1px);
+    }
+    .btn-generate:active {
+        transform: translateY(0);
+    }
+    #outputSection {
+        margin-top: 40px;
+        display: none;
+        animation: fadeIn 0.4s ease-out;
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    .output-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+    .output-header h3 {
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin: 0;
+        color: #1e293b;
+    }
+    .result-box {
+        background: #1e293b;
+        color: #34d399;
+        padding: 20px;
+        border-radius: 12px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        overflow-x: auto;
+        position: relative;
+        border: 1px solid #334155;
+    }
+    .btn-copy {
+        background: #059669;
+        color: white !important;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 6px;
+        font-size: 0.85rem;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    .btn-copy:hover {
+        background: #047857;
+    }
+    .instructions {
+        margin-top: 40px;
+        padding: 25px;
+        background: #f8fafc;
+        border-radius: 12px;
+        border-left: 5px solid #2563eb;
+    }
+    .instructions h4 {
+        font-weight: 800;
+        font-size: 1.1rem;
+        margin-bottom: 12px;
+        color: #1e293b;
+    }
+    .instructions ol {
+        padding-left: 20px;
+        margin-bottom: 0;
+    }
+    .instructions li {
+        margin-bottom: 8px;
+        color: #475569;
+        font-size: 0.95rem;
+    }
+</style>
+
+<div class="generator-container">
+    <div class="gen-header">
+        <h1>LLMS.txt Generator</h1>
+        <p>U beddel website-kaaga mid AI-ga u saaxiib ah (AI-friendly)</p>
+    </div>
+
+    <div class="space-y-6">
+        <div class="form-group">
+            <label for="siteName">Magaca Website-ka (Site Name)</label>
+            <input type="text" id="siteName" class="form-control" placeholder="Tusaale: Fadal Store">
+        </div>
+
+        <div class="form-group">
+            <label for="description">Sharaxaad Kooban (Brief Description)</label>
+            <textarea id="description" class="form-control" placeholder="Ka warran waxa website-kaagu qabto..."></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="links">Link-yada Muhiimka ah (Important Links)</label>
+            <textarea id="links" class="form-control" placeholder="https://fadalstore.com/about&#10;https://fadalstore.com/courses" style="height: 120px;"></textarea>
+            <small class="text-muted mt-1 d-block">Ku qor hal link xariiq kasta (one per line).</small>
+        </div>
+
+        <button onclick="generateLLMS()" class="btn-generate">Abuur (Generate) LLMS.txt</button>
+    </div>
+
+    <div id="outputSection">
+        <div class="output-header">
+            <h3>Natiijada:</h3>
+            <button onclick="copyToClipboard()" class="btn-copy" id="copyBtn">Copy Code</button>
+        </div>
+        <pre id="outputCode" class="result-box"></pre>
+        
+        <div class="instructions">
+            <h4>Sida loo isticmaalo:</h4>
+            <ol>
+                <li>Riix badhanka <strong>"Copy Code"</strong> ee kore.</li>
+                <li>Gudaha folder-kaaga weyn (root directory) ee website-ka, ka samee fayl cusub oo la yiraahdo <code>llms.txt</code>.</li>
+                <li>Ku dhex rid (paste) koodkan aad koobiyeysay, ka dibna kaydi (save).</li>
+                <li>Hadda AI-yada sida Claude iyo ChatGPT waxay si fudud u fahmi karaan website-kaaga!</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+<script>
+    function generateLLMS() {
+        const name = document.getElementById('siteName').value.trim() || "My Website";
+        const desc = document.getElementById('description').value.trim() || "A professional website.";
+        const linksInput = document.getElementById('links').value.trim();
+        const links = linksInput ? linksInput.split('\n') : [];
+        
+        let output = `# ${name}\n\n> ${desc}\n\n## Important Links\n\n`;
+        
+        if (links.length > 0) {
+            links.forEach(link => {
+                const trimmedLink = link.trim();
+                if (trimmedLink) {
+                    output += `- [${trimmedLink}](${trimmedLink})\n`;
+                }
+            });
+        } else {
+            output += `- [Home Page]({{ site.url }})\n`;
+        }
+
+        document.getElementById('outputCode').textContent = output;
+        document.getElementById('outputSection').style.display = 'block';
+        
+        // Scroll to output
+        document.getElementById('outputSection').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function copyToClipboard() {
+        const text = document.getElementById('outputCode').textContent;
+        const btn = document.getElementById('copyBtn');
+        
+        navigator.clipboard.writeText(text).then(() => {
+            const originalText = btn.textContent;
+            btn.textContent = "Lagu Koobiyeeyay! ✅";
+            btn.style.background = "#047857";
+            
+            setTimeout(() => {
+                btn.textContent = originalText;
+                btn.style.background = "#059669";
+            }, 2000);
+        });
+    }
+</script>
