@@ -291,7 +291,7 @@ Katherine Lesker is a journalist in Golden who wants to write a story about Theo
 Our full **PDF Companion Guide** to *Theo of Golden* goes even deeper — with chapter-by-chapter summaries, a full Willa Francesca timeline, complete character profiles, key quote analysis, and 20 book club discussion questions.
 
 <div class="text-center my-5">
-  <a href="#" id="gumroad-link" class="btn btn-primary btn-lg" style="border-radius:30px; padding: 15px 40px; font-weight: bold; background-color: #2563eb; border: none; box-shadow: 0 4px 14px 0 rgba(37, 99, 235, 0.39);">
+  <a href="https://sheikhly74.gumroad.com/l/jiwcjq" class="btn btn-primary btn-lg" style="border-radius:30px; padding: 15px 40px; font-weight: bold; background-color: #2563eb; border: none; box-shadow: 0 4px 14px 0 rgba(37, 99, 235, 0.39);">
     📥 Download the Complete Theo of Golden Guide — PDF
   </a>
 </div>
