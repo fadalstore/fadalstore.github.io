@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "Se66xP9bTBb2bN8q8SYlP"
+uri = "file://attached_assets/Theo-of-Golden-Complete-Readers-Guide.docx"
+type = "word_document"
+title = "Theo of Golden — Complete Reader's Guide (Gumroad-ready .docx)"
