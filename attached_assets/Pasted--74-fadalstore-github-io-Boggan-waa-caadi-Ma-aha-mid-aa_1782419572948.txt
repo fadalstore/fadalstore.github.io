@@ -1,0 +1,101 @@
+
+74
+fadalstore.github.io
+Boggan waa caadi
+Ma aha mid aad u fool xun. Aan aragno sida aan u kordhin karno dhibcahaas. Hoos ka eeg kaarka dhibcahaaga oo hadda tallaabo qaado adoo abuuraya degel xawaare sare leh oo leh HubSpot CMS Bilaash ah.
+
+BANDHIGGA
+19/30​​
+SEO
+30/30​​
+MOOBAYL
+20/30​​
+AMNIGA
+5/10​​
+
+19/30​​
+Bandhigga
+Hagaajinta waxqabadka boggaaga internetka ayaa muhiim u ah kordhinta taraafikada, hagaajinta heerarka beddelka, abuurista tilmaamo badan, iyo kordhinta dakhliga.
+Hagaaji waxqabadka boggaaga internetka adiga oo adeegsanayacashar bilaash ah oo 15 daqiiqo ah
+CABBIRKA BOGGA
+2 MB
+Aad u dhakhso badan! Aad u fudud!
+Bogga bogga inta uu culus yahay, ayuu culaysku sii gaabiyaa. Si aad u hesho waxqabad wanaagsan, isku day inaad cabbirka bogga ka dhigto mid ka hooseeya 3MB.
+CODSIYADA BOGGA
+57
+Meel halis ah oo lagu hagaajin karo.
+Inta badan ee HTTP-ku codsado website-kaagu, ayuu si gaabis ah u noqonayaa. Isku day inaad yareyso tirada faylasha uu website-kaagu soo rogo.
+XAWAARAHA BOGGA
+6.9 SEC
+Waxaa laga yaabaa inaad isku daydo inaad wax yar kordhiso.
+Boggaga internetka ee ugu fiican waa inay noqdaan kuwo is-dhexgal ah 5.3 ilbiriqsi gudahood. Qof kasta oo gaabis ah oo booqdayaashu way ka tagi doonaan boggaaga, taasoo yaraynaysa beddelka iyo iibka.
+GUDUB
+KAYDINTA BIRAAWSARKA
+Wowee. Kaydinta shabakadu waa heer caalami ah.
+Kaydinta biraawsarka waxay dardar gelisaa boggaaga internetka iyadoo ku kaydinaysa waxyaabaha si joogto ah loo isticmaalo xusuusta maxalliga ah.
+GUDUB
+DIB-U-HAGAAJIN YAR OO BOGGA AH
+Toos u soco.
+Dib-u-hagaajin badan ayaa ka dhigi karta boggaaga inuu si gaabis ah u raro. Ujeedo inaadan ka badnayn hal dib-u-hagaajin.
+GUULDAREYSIGA
+CABBIRKA SAWIRKA
+Meel aan jirin.
+Sawirradu waxay qaadan karaan waqti dheer in la soo raro. Isticmaal sawirro jawaab celin leh ama SVGs si aad sawirradaada ugu hagaajiso cabbirro shaashado kala duwan.
+GUDUB
+JAVASCRIPT-KA YAR
+Ma jimicsi samaynaysay?
+Marka JavaScript-kaaga si sax ah loo cadaadiyo, waxay ka dhigaysaa website-kaaga inuu si dhakhso badan u shaqeeyo.
+GUDUB
+CSS YARAADAY
+Gaaban oo macaan.
+Marka CSS-kaaga si sax ah loo cadaadiyo, waxay ka dhigaysaa website-kaaga mid aad u dhaqso badan.
+
+30/30​​
+SEO
+Hagaajinta macluumaadkaaga bogga internetka ee raadinta waxay kaa caawineysaa inaad taraafikada dabiiciga ah u horseeddo boggaaga internetka. Waxaad tan ku samayn kartaa adigoo siinaya waayo-aragnimo aad u wanaagsan dadka iyo dadka wax ka baara shabakadda labadaba.
+Hagaaji Darajadaada SEO adoo isticmaalayaCashar bilaash ah oo 15 daqiiqo ah.
+GUDUB
+OGOLAANSHAHA TUSMADA
+Waa la aqbalay.
+Si bog uga soo muuqdo natiijooyinka raadinta, matoorada raadinta waa inay haystaan ​​​​oggolaansho ay ku kaydiyaan tusmadooda. Haddii aysan kaydin karin, isbeddello kale ma jiraan.
+GUDUB
+SHARAXAADDA META
+Bal eeg, waad tagtaa!
+Sharaxaadaha Meta waxay dadka u sheegaan waxa boggaagu ku saabsan yahay natiijooyinka raadinta.
+GUDUB
+WAXYAABAHA KU JIRA PLUGINS-KA
+*Sacab, sacab, sacab* Shaqo wanaagsan!
+Mashiinnada raadinta had iyo jeer ma fahmi karaan waxyaabaha ku tiirsan plugins-ka biraawsarka, sida Flash.
+GUDUB
+QORAAL XIRIIR SHARAXAAD AH
+Xiriiriyeyaashaadu macno ayay leeyihiin.
+Qoraal sharraxaad ah oo ku saabsan xiriirka ayaa ka caawiya booqdayaasha inay ogaadaan waxa ay arki doonaan haddii ay gujiyaan xiriirka. "Halkan guji" kama go'na.
+
+20/30​​
+Moobayl
+Taraafikada ka timaadda aaladaha moobaylka ayaa si xawli ah u koraysa. Mareegahaaga ku hagaaji moobaylka haddii kale waxaad waayi doontaa taraafikada qiimaha leh, tilmaamaha, iyo dakhliga.
+Hagaaji Waxqabadkaaga Moobaylka adiga oo adeegsanayaCashar bilaash ah oo 15-daqiiqo ah
+
+GUDUB
+CABBIRKA FARTA LA AKHRIN KARO
+Indhaha oo fudud.
+Booqdayaasha waxaa laga yaabaa inay ku adkaato akhrinta qoraallo yaryar, gaar ahaan aaladaha moobaylka. Waxaan kugula talineynaa ugu yaraan 12px.
+GUULDAREYSIGA
+TAABO BARTILMAAMEEDYADA
+Xaggee ayaan gujinayaa?
+Bogagga ku habboon moobaylka ayaa si fiican uga shaqeeya natiijooyinka raadinta. Hubi in walxaha is-dhexgalka sida badhamada iyo xiriiriyeyaasha aysan aad u yarayn ama aad isugu dhowayn.
+GUDUB
+JAWAAB CELIN LEH
+Cajiib! Waxaad diyaar u tahay inaad wajahdo mustaqbalka.
+Naqshad jawaab celin leh ayaa ku siinaysa koror ku yimaada qiimeynta raadinta ee aaladaha mobilada.
+
+5/10​​
+Amniga
+Mareeg ammaan ah oo ku qalabaysan shahaadada SSL oo ka xor ah nuglaansho hadda waa heerka caadiga ah ee internetka. Dadka iyo matoorada raadinta waxay jecel yihiin mareegaha amniga leh.
+Hagaaji Amniga Goobtaada adoo adeegsanayaCashar bilaash ah oo 15-daqiiqo ah
+HTTPS
+La hubiyay.
+HTTPS waxay ka ilaalisaa mareegaha weerarada waxayna siisaa booqdayaasha kalsooni ah in boggaagu yahay mid dhab ah oo la aamini karo.
+MAKTABADAHA JAVASCRIPT EE SUGAN
+Halkan ammaan kuma dareemayo.
+Kuwa wax soo galaya waxay ka faa'iideysan karaan maktabadaha JavaScript ee duugoobay. Isticmaalka nooca ugu dambeeyay ee maktabad kasta iyo cusbooneysiinta joogtada ah waxay kaa caawin doontaa inaad badqabto.
