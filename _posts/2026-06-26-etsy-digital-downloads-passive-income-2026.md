@@ -287,7 +287,7 @@ This article covers the strategy. The complete PDF guide goes deeper — with:
 ✅ **Bundle creation guide** with example bundles that sell  
 
 <div class="text-center my-5">
-  <a href="https://sheikhly74.gumroad.com/l/etsy-blueprint-2026" class="btn btn-primary btn-lg" style="border-radius:30px; padding: 15px 40px; font-weight: bold; background-color: #f97316; border: none; box-shadow: 0 4px 14px 0 rgba(249, 115, 22, 0.4); color: white;">
+  <a href="https://sheikhly74.gumroad.com/l/xocejp" class="btn btn-primary btn-lg" style="border-radius:30px; padding: 15px 40px; font-weight: bold; background-color: #f97316; border: none; box-shadow: 0 4px 14px 0 rgba(249, 115, 22, 0.4); color: white;">
     📥 Get the Complete Blueprint PDF — $9.99
   </a>
   <p class="small mt-2 text-muted">Instant download · 50+ pages · Step-by-step guide · 30-day action plan</p>
