@@ -6,3 +6,9 @@ id = "Se66xP9bTBb2bN8q8SYlP"
 uri = "file://attached_assets/Theo-of-Golden-Complete-Readers-Guide.docx"
 type = "word_document"
 title = "Theo of Golden — Complete Reader's Guide (Gumroad-ready .docx)"
+
+[[outputs]]
+id = "awpkiHvsjKmD8LBsp0W6H"
+uri = "file://assets/pdfs/etsy-digital-downloads-blueprint-2026.pdf"
+type = "pdf"
+title = "Etsy Digital Downloads Blueprint 2026 (PDF eBook)"
