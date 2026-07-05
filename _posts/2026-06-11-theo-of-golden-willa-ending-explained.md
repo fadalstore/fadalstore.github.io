@@ -64,3 +64,9 @@ Don't just read *Theo of Golden* — understand it, cherish it, and explore its 
 ## Conclusion
 
 *Theo of Golden* is a novel that stays with you long after the final page, precisely because its kindest character turns out to be its most quietly grieving one. With our companion guide, you can revisit every bestowal knowing exactly what it meant — and appreciate just how carefully Allen Levi built toward that final, aching reveal.
+
+<div style="background:#1a1a1a; color:#f5d76e; padding:24px; border-radius:12px; margin:32px 0; text-align:center;">
+  <h3 style="margin-top:0; color:#f5d76e;">💡 Ma Doonaysaa Inaad Lacag Ka Samayso Internet-ka?</h3>
+  <p style="color:#eee; font-size:16px;">Hel buugaag PDF ah oo ku saabsan sida AI loo isticmaalo si lacag looga sameeyo — bilaw maanta.</p>
+  <a href="https://fadalstore.github.io/ebooks/" style="display:inline-block; background:#f5d76e; color:#1a1a1a; padding:12px 28px; border-radius:8px; font-weight:bold; text-decoration:none; margin-top:8px;">Arag Ebooks-ka →</a>
+</div>

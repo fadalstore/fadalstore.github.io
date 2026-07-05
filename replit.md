@@ -1,89 +1,40 @@
-# Fadal Store — Jekyll Website
+# Fadal Store — Jekyll Blog
 
-## Overview
-Fadal Store is a Somali-language blog and educational platform about online business, remote work, programming, and cybersecurity. Built with Jekyll (Ruby static site generator) using the Mediumish theme.
+Jekyll blog site built on the [Mediumish theme](https://github.com/wowthemesnet/mediumish-theme-jekyll). Content focused on online business, AI tools, freelancing, and remote work — primarily in Somali.
 
-## Tech Stack
-- **Framework:** Jekyll 4.x (Ruby)
-- **Theme:** Mediumish (Bootstrap 4)
-- **Search:** Lunr.js (client-side)
-- **Server:** Jekyll serve on port 5000
+## Stack
 
-## Running the App
+- **Jekyll 4.4** (static site generator)
+- **Ruby 3.2** (runtime)
+- **Plugins:** jekyll-paginate, jekyll-feed, jekyll-seo-tag, jekyll-archives
+- **Hosting target:** GitHub Pages (`https://fadalstore.github.io`)
+
+## How to run
+
 ```bash
 bundle exec jekyll serve --host 0.0.0.0 --port 5000
 ```
-The Replit workflow runs this command on port 5000.
 
-## Replit Configuration
-- Ruby 3.2 and Bundler are used with the locked gems in `Gemfile.lock`.
-- Publishing is configured as a static deployment with `JEKYLL_ENV=production bundle exec jekyll build`.
-- The published static output is `_site`, so source files and local configuration are not served publicly.
+The "Start application" workflow runs this automatically.
 
-## Project Structure
-```
-_posts/          # 67+ blog posts covering freelancing, affiliate, AI, YouTube, programming, cybersecurity
-_pages/          # Static pages (about, contact, legal, legacy + utility pages below)
-_layouts/        # Jekyll layout templates (default.html, post.html, etc.)
-_includes/       # Reusable HTML components (adsense-under-header.html, etc.)
-_sass/           # SCSS stylesheets
-assets/          # CSS, JS, images
-courses/         # 3 full courses: Programming (7L), Cybersecurity (6L), Freelancing (6L)
-```
+## Key files
 
-## Utility Pages (New)
-- `/tools.html` — Qaladaadka ugu fiican: Fiverr, Upwork, Payoneer, Canva, ChatGPT, affiliate programs
-- `/start-here.html` — Tilmaamaha cusub soo galaya: 4 paths (cusub, freelancing, blog, AI) + FAQ
-- `/free-resources.html` — Agab bilaash: checklists (freelancer, blog, SEO), learning platforms, top articles
-- `/remote-jobs.html` — Shaqooyinka remote: platforms, job boards, pay table, tips
+| File/Folder | Purpose |
+|---|---|
+| `_config.yml` | Site settings, author profile, plugins |
+| `_posts/` | Blog posts (Markdown) |
+| `_pages/` | Static pages (about, ebooks, categories…) |
+| `_layouts/` | Page templates |
+| `_includes/` | Reusable HTML partials |
+| `sitemap.xml` | Custom sitemap (replaces jekyll-sitemap plugin) |
+| `assets/` | Images, CSS, JS |
 
-## Navigation (navbar)
-Blog | Ku saabsan | Remote Work | Make Money Online | Programming | Cybersecurity | Courses
+## Sitemap
 
-## Content
-- **53 blog posts** in `_posts/` covering: freelancing, affiliate marketing, dropshipping, YouTube, programming, cybersecurity etc.
-- **Cybersecurity post**: `_posts/2026-04-04-cybersecurity-guide.md` — populates the `/category/cybersecurity/` archive page
-- **12 legacy content pages** restored from old website zip (preserve Google-indexed URLs):
-  - amazon-kdp-2026.html, building-a-global-personal-brand.html, cash-giraffe-app.html
-  - essential-tools-for-remote-workers.html, finding-high-paying-remote-jobs-2026.html
-  - fiverr-seller-levels-2026.html, managing-productivity-mental-health.html
-  - partnerstack-somali.html, partnerstack.html, sir-cusub.html, tech-news-april-2026.html
-  - youtube-monetization-2026.html
-- **Google verification files** at root: google250c51e5fea180e9.html, googled378bcbdc246f969.html
+A custom `sitemap.xml` in the root generates the sitemap at build time. The `jekyll-sitemap` plugin is intentionally **not** used (custom file takes priority and has per-category priority/changefreq logic). Submit `https://fadalstore.github.io/sitemap.xml` to Google Search Console.
 
-## AdSense
-- Include: `_includes/adsense-under-header.html`
-- Enabled in production builds in `default.html` layout — shows top & bottom of all pages
-- Configured via `_config.yml`: `adsense-data-ad-client` and `adsense-data-ad-slot`
-- Local Replit preview suppresses ad network requests to avoid third-party preview errors.
+## User preferences
 
-## Legal Pages (Jekyll Markdown in _pages/)
-- `/privacy-policy/` — `_pages/privacy-policy.md`
-- `/terms-of-service/` — `_pages/terms-of-service.md`
-- `/disclaimer/` — `_pages/disclaimer.md`
-
-## URL Structure (SEO - Muhiim)
-- Permalink format: `/:title.html` — articles are served at `/article1.html`, `/article2.html`, etc.
-- This matches the old plain-HTML site URLs that Google indexed
-- GitHub Pages also strips .html so `/article1` still works too
-
-## Missing Old Pages (Redirect Pages Created)
-The following pages existed in the old HTML site and are now redirect pages in `_pages/`:
-- `/freelancing.html` → redirects to `/article1.html`
-- `/make-money-online.html` → redirects to `/category/make-money-online/`
-- `/remote-work.html` → redirects to `/category/remote-work/`
-- `/programming.html` → redirects to `/category/programming/`
-- `/ai-tools.html` → redirects to `/article25.html`
-- `/apps.html` → redirects to `/category/make-money-online/`
-- `/contact.html` → real contact page
-
-## Key Notes
-- Old website was plain HTML. Theme was migrated to Jekyll.
-- Restored old pages preserve original URLs so Google-indexed links still work.
-- Articles are tagged with categories: make-money-online, remote-work, Programming, Cybersecurity, General
-- Author: "fadal" with avatar, bio, and social links in `_config.yml`
-- Site URL: `https://fadalstore.com` (set in `_config.yml`)
-- sitemap.xml is auto-generated by jekyll-sitemap plugin (no static file)
-- Article and HowTo JSON-LD should not include `aggregateRating`; keep ratings only on valid review/product pages to avoid Google Search Console review snippet errors.
-- Legacy HTML pages with JSON-LD must use `<script type="application/ld+json">` and valid existing image/logo URLs.
-- Sitemaps use `production_url` from `_config.yml` so generated sitemap URLs remain `https://fadalstore.github.io` even when previewing locally.
+- Content language: Somali (with some English posts)
+- Monetization: Gumroad ebooks + Amazon affiliate links
+- CTA banners on Theo of Golden posts link to `/ebooks/` page

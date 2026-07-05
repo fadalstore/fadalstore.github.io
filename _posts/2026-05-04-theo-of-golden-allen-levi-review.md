@@ -77,4 +77,10 @@ beforetoc: "If you're looking for a book that restores your faith in humanity, l
     <p class="small mt-3 text-muted">Want the full ending breakdown? Read our <a href="https://fadalstore.github.io/theo-of-golden-willa-ending-explained.html">complete guide: Willa, Zila, and the ending explained</a>.</p>
 </div>
 
+<div style="background:#1a1a1a; color:#f5d76e; padding:24px; border-radius:12px; margin:32px 0; text-align:center;">
+  <h3 style="margin-top:0; color:#f5d76e;">💡 Ma Doonaysaa Inaad Lacag Ka Samayso Internet-ka?</h3>
+  <p style="color:#eee; font-size:16px;">Hel buugaag PDF ah oo ku saabsan sida AI loo isticmaalo si lacag looga sameeyo — bilaw maanta.</p>
+  <a href="https://fadalstore.github.io/ebooks/" style="display:inline-block; background:#f5d76e; color:#1a1a1a; padding:12px 28px; border-radius:8px; font-weight:bold; text-decoration:none; margin-top:8px;">Arag Ebooks-ka →</a>
+</div>
+
 </div>
