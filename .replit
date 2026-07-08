@@ -38,3 +38,6 @@ externalPort = 80
 deploymentTarget = "static"
 publicDir = "_site"
 build = ["bash", "-c", "JEKYLL_ENV=production bundle exec jekyll build"]
+
+[objectStorage]
+defaultBucketID = "replit-objstore-6bfbf57e-21c4-45cf-9fed-84f99b4542be"
