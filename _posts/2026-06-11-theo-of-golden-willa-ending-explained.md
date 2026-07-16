@@ -81,7 +81,7 @@ If you want the full textual evidence for this reading — plus the epilogue det
 </script>
 
 <div class="text-center my-5">
-  <a href="https://sheikhly74.gumroad.com/l/zvvqrl" class="btn btn-primary btn-lg" style="border-radius:30px; padding: 15px 40px; font-weight: bold; background-color: #2563eb; border: none; box-shadow: 0 4px 14px 0 rgba(37, 99, 235, 0.39);">
+  <a href="https://sheikhly74.gumroad.com/l/omalt" class="btn btn-primary btn-lg" style="border-radius:30px; padding: 15px 40px; font-weight: bold; background-color: #2563eb; border: none; box-shadow: 0 4px 14px 0 rgba(37, 99, 235, 0.39);">
     Get Your "Theo of Golden" Reader's Companion Now!
   </a>
 </div>
