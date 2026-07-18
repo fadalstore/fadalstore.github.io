@@ -12,7 +12,7 @@ description: "Discover why Theo of Golden by Allen Levi is the must-read novel o
 featured: true
 rating: 5
 toc: true
-canonical_url: "https://fadalstore.github.io/theo-of-golden-allen-levi-review.html"
+canonical_url: "https://fadalstore.github.io/theo-of-golden-allen-levi-comprehensive-review.html"
 beforetoc: "If you're looking for a book that restores your faith in humanity, look no further than Theo of Golden. This is my honest review of Allen Levi's masterpiece."
 ---
 

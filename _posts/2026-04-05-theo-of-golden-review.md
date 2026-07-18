@@ -14,7 +14,7 @@ featured: true
 hidden: false
 rating: 4.8
 toc: true
-canonical_url: "https://fadalstore.github.io/theo-of-golden-review.html"
+canonical_url: "https://fadalstore.github.io/theo-of-golden-allen-levi-comprehensive-review.html"
 ---
 
 <script type="application/ld+json">

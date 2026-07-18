@@ -9,6 +9,7 @@ image: assets/images/posts/theo-of-golden-cover.jpg
 description: "Who is Willa in Theo of Golden? Full character analysis of Willa Francesca, Ellen's lost daughter — plus the ending, Theo's true identity as Zila, and the Asher twist fully explained."
 featured: true
 toc: true
+canonical_url: "https://fadalstore.github.io/who-is-willa-in-theo-of-golden.html"
 ---
 
 <script type="application/ld+json">
