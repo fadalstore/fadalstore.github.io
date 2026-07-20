@@ -86,6 +86,12 @@ If you want the full textual evidence for this reading — plus the epilogue det
   </a>
 </div>
 
+## If You Liked This, Read Next
+
+Readers who finish *Theo of Golden* and immediately want another novel built around a hidden identity and an ending that reframes everything tend to land on the same recommendation: **The Housemaid** by Freida McFadden. Where Levi uses quiet generosity to conceal his central secret, McFadden uses a locked room and a unreliable narrator — but both novels operate on the same principle: the story you think you are reading is not the real story, and the final chapters make you want to go back to page one.
+
+If the Willa reveal caught you off guard, The Housemaid's ending will do the same thing. We have a full breakdown here: [The Housemaid — Complete Guide: Ending, Twists, and Everything Explained](/the-housemaid-complete-guide.html).
+
 ## Conclusion
 
 *Theo of Golden* is a novel that stays with you long after the final page, precisely because its kindest character turns out to be its most quietly grieving one. With our companion guide, you can revisit every bestowal knowing exactly what it meant — and appreciate just how carefully Allen Levi built toward that final, aching reveal.
