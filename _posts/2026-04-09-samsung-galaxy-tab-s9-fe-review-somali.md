@@ -14,29 +14,29 @@ beforetoc: "Haddii aad raadinayso tablet tayo leh oo qiimihiisu macquul yahay, S
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
-  "@type": "Product",
-  "name": "Samsung Galaxy Tab S9 FE",
-  "image": "https://fadalstore.github.io/assets/images/samsung-tab-s9-fe.jpg",
-  "description": "Samsung Galaxy Tab S9 FE waa tablet tayo sare leh oo leh shaashad 10.9-inch ah, biyo-diidnimo IP68, iyo S-Pen bilaash ah.",
-  "brand": {
-    "@type": "Brand",
-    "name": "Samsung"
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Product",
+    "name": "Samsung Galaxy Tab S9 FE",
+    "image": "https://fadalstore.github.io/assets/images/samsung-tab-s9-fe.jpg",
+    "brand": {
+      "@type": "Brand",
+      "name": "Samsung"
+    }
   },
-  "aggregateRating": {
-    "@type": "AggregateRating",
+  "reviewRating": {
+    "@type": "Rating",
     "ratingValue": "4.5",
     "bestRating": "5",
-    "worstRating": "1",
-    "ratingCount": "3200"
+    "worstRating": "1"
   },
-  "offers": {
-    "@type": "Offer",
-    "url": "https://amzn.to/3OtZqwI",
-    "priceCurrency": "USD",
-    "price": "349.00",
-    "availability": "https://schema.org/InStock"
-  }
+  "author": {
+    "@type": "Organization",
+    "name": "Fadal Store"
+  },
+  "datePublished": "2026-04-09",
+  "reviewBody": "Samsung Galaxy Tab S9 FE waa tablet tayo sare leh oo leh shaashad 10.9-inch ah, biyo-diidnimo IP68, iyo S-Pen bilaash ah. Aad baa loogu talinayaa ardayda iyo dadka shaqada online-ka ah qabta."
 }
 </script>
 

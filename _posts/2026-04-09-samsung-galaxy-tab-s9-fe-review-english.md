@@ -14,29 +14,29 @@ beforetoc: "If you're looking for a high-quality yet affordable tablet, the Sams
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
-  "@type": "Product",
-  "name": "Samsung Galaxy Tab S9 FE",
-  "image": "https://fadalstore.github.io/assets/images/samsung-tab-s9-fe.jpg",
-  "description": "The Samsung Galaxy Tab S9 FE is a high-quality tablet featuring a 10.9-inch display, IP68 water resistance, and a complimentary S-Pen.",
-  "brand": {
-    "@type": "Brand",
-    "name": "Samsung"
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Product",
+    "name": "Samsung Galaxy Tab S9 FE",
+    "image": "https://fadalstore.github.io/assets/images/samsung-tab-s9-fe.jpg",
+    "brand": {
+      "@type": "Brand",
+      "name": "Samsung"
+    }
   },
-  "aggregateRating": {
-    "@type": "AggregateRating",
+  "reviewRating": {
+    "@type": "Rating",
     "ratingValue": "4.5",
     "bestRating": "5",
-    "worstRating": "1",
-    "ratingCount": "3200"
+    "worstRating": "1"
   },
-  "offers": {
-    "@type": "Offer",
-    "url": "https://amzn.to/3OtZqwI",
-    "priceCurrency": "USD",
-    "price": "349.00",
-    "availability": "https://schema.org/InStock"
-  }
+  "author": {
+    "@type": "Organization",
+    "name": "Fadal Store"
+  },
+  "datePublished": "2026-04-09",
+  "reviewBody": "The Samsung Galaxy Tab S9 FE is a high-quality tablet featuring a 10.9-inch display, IP68 water resistance, and a complimentary S-Pen. Highly recommended for students and online professionals."
 }
 </script>
 

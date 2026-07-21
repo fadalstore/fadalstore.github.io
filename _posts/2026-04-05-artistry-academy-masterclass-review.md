@@ -16,44 +16,29 @@ canonical_url: "https://fadalstore.github.io/artistry-academy-masterclass-review
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
-  "@type": "Product",
-  "name": "Artistry Academy Masterclass",
-  "image": "https://fadalstore.github.io/assets/images/artistry-academy-paula-callan.png",
-  "description": "Professional makeup masterclass by Paula Callan with 80 modules and lifetime access",
-  "brand": {
-    "@type": "Brand",
-    "name": "Artistry Academy"
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Product",
+    "name": "Artistry Academy Masterclass",
+    "image": "https://fadalstore.github.io/assets/images/artistry-academy-paula-callan.png",
+    "brand": {
+      "@type": "Brand",
+      "name": "Artistry Academy"
+    }
   },
-  "aggregateRating": {
-    "@type": "AggregateRating",
+  "reviewRating": {
+    "@type": "Rating",
     "ratingValue": "4.8",
     "bestRating": "5",
-    "worstRating": "1",
-    "ratingCount": "154"
+    "worstRating": "1"
   },
-  "offers": {
-    "@type": "Offer",
-    "url": "https://artistry-academy.com/lp/#aff=fadalsheekh281f8",
-    "priceCurrency": "USD",
-    "price": "197.00",
-    "availability": "https://schema.org/InStock"
+  "author": {
+    "@type": "Organization",
+    "name": "Fadal Store"
   },
-  "review": {
-    "@type": "Review",
-    "author": {
-      "@type": "Person",
-      "name": "Fadal"
-    },
-    "datePublished": "2026-04-05",
-    "reviewRating": {
-      "@type": "Rating",
-      "ratingValue": "4.8",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
-    "reviewBody": "The Artistry Academy Masterclass by Paula Callan is a comprehensive professional makeup course with 80 modules, lifetime access, and a 60-day money-back guarantee. Highly recommended for aspiring artists and beauty enthusiasts."
-  }
+  "datePublished": "2026-04-05",
+  "reviewBody": "The Artistry Academy Masterclass by Paula Callan is a comprehensive professional makeup course with 80 modules, lifetime access, and a 60-day money-back guarantee. Highly recommended for aspiring artists and beauty enthusiasts."
 }
 </script>
 
