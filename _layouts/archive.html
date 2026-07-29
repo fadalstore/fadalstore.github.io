@@ -44,16 +44,21 @@ layout: default
 .archive-related a:hover{background:#1a2a4a;color:#fff;text-decoration:none;}
 </style>
 
+{% assign cat_posts = page.posts %}
+{% if cat_posts.size == 0 and page.category %}
+  {% assign cat_posts = site.categories[page.category] %}
+{% endif %}
+
 <div class="archive-hero">
   <h1>{{ cat_title }}</h1>
   <p>{{ cat_desc }}</p>
   <div class="archive-meta">
-    <span>📄 {{ page.posts | size }} maqaal</span>
+    <span>📄 {{ cat_posts | size }} maqaal</span>
     <span>✍️ Fadal Store</span>
   </div>
 </div>
 
-{% if page.posts.size > 0 %}
+{% if cat_posts.size > 0 %}
 <div class="archive-tip">
   💡 <strong>Talo:</strong> Maqaalladan dhammaantood bilaash ayaad akhrin kartaa. Halkan ka dooro waxa aad xiisaynayso.
 </div>
@@ -63,13 +68,13 @@ layout: default
 
 <section class="recent-posts">
 <div class="row listrecent">
-{% for post in page.posts %}
+{% for post in cat_posts %}
     {% include postbox.html %}
 {% endfor %}
 </div>
 </section>
 
-{% if page.posts.size == 0 %}
+{% if cat_posts.size == 0 %}
 <div style="text-align:center;padding:48px 20px;color:#64748b;">
   <div style="font-size:3rem;margin-bottom:16px;">📭</div>
   <p style="font-size:1rem;">Maqaallo weli laguma darin qaybtan. Dib u soo noqo!</p>
