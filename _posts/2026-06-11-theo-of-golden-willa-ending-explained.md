@@ -18,6 +18,20 @@ canonical_url: "https://fadalstore.github.io/theo-of-golden-willa-ending-explain
 
 **📖 Unravel the Mystery:** Have you finished Allen Levi's *Theo of Golden* and need the ending explained — or are you trying to understand who Willa really is and how she connects to Theo's secret? Here is the full picture.
 
+<!-- Gumroad Reader's Companion Banner -->
+<div class="my-5 p-4 border rounded shadow-sm" style="background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9 !important;">
+    <div class="row align-items-center">
+        <div class="col-md-8">
+            <h4 class="font-weight-bold mb-2">📚 Ma doonaysaa inaad si qoto dheer u fahanto Theo of Golden?</h4>
+            <p class="mb-0">Soo deji <strong>Reader's Companion</strong> — hage dhamaystiran oo ku saabsan dhammaadka buugga, sirta Willa, iyo su'aalaha kooxda buugaagta.</p>
+        </div>
+        <div class="col-md-4 text-center mt-3 mt-md-0">
+            <a href="https://sheikhly74.gumroad.com/l/omalt" target="_blank" class="btn btn-primary btn-lg" style="border-radius: 30px; background-color: #0ea5e9; border: none; padding: 10px 25px;">Hadda Hel PDF-ka</a>
+        </div>
+    </div>
+</div>
+<!-- End Gumroad Banner -->
+
 ## The Enduring Allure of *Theo of Golden*
 
 Allen Levi's *Theo of Golden* has resonated with countless readers, drawing them into the quiet, deeply layered world of Golden, Georgia. The novel is a tapestry of generosity, hidden grief, and the slow uncovering of a secret that recontextualizes everything that came before it. At its heart are two linked mysteries that readers can't stop discussing: who Willa is, and who Theo really turns out to be.
@@ -59,7 +73,7 @@ Don't just read *Theo of Golden* — understand it, cherish it, and explore its 
 
 This is the question the ending leaves most readers stuck on. The novel confirms that Willa — now known as Olivia Reese — arrives in Golden and is identified through the letter Theo left for her. What it does *not* give you is an on-page scene of Ellen and Willa actually meeting face to face. Willa's arrival happens through James Ponder's office, after Theo's death, and the story moves toward its epilogue without ever showing that embrace directly.
 
-Is that a loose thread, or intentional? Most careful readers land on intentional. Allen Levi spends the entire novel showing reunions and revelations happening quietly, through letters and intermediaries, rather than in dramatic face-to-face scenes — Theo's own reveal to Asher works the same way, through letters left behind rather than a conversation. Ellen and Willa's reunion is built to follow that same pattern: implied, set in motion, and left just outside the frame of the story, so the reader carries the hope of it rather than being handed a tidy resolution.
+Is that a loose thread, or intentional? Most careful readers land on intentional. (For a deeper look at this specific scene, see our new analysis: [Willa Ma La Kulantay Ellen? Dhammaadka Dhabta ah ee Theo of Golden]({{site.baseurl}}/theo-of-golden-willa-ellen-reunion.html)). Allen Levi spends the entire novel showing reunions and revelations happening quietly, through letters and intermediaries, rather than in dramatic face-to-face scenes — Theo's own reveal to Asher works the same way, through letters left behind rather than a conversation. Ellen and Willa's reunion is built to follow that same pattern: implied, set in motion, and left just outside the frame of the story, so the reader carries the hope of it rather than being handed a tidy resolution.
 
 If you want the full textual evidence for this reading — plus the epilogue detail that confirms Willa is alive and well years later — it's covered chapter-by-chapter in our [Willa & Ending Companion Guide](https://sheikhly74.gumroad.com/l/omalt).
 
