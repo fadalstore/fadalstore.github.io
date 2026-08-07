@@ -12,7 +12,7 @@ Marka akhristayaasha dhammeeyaan **Theo of Golden**, su'aasha ugu horreysa ee ay
 
 ## Jawaabta Kooban
 
-**Maya** — buugga si toos ah kuma tuso muuqaal Ellen iyo Willa (oo hadda loo yaqaan Olivia Reese) is dhex arkayaan. Waxa jira waxyaabo la xaqiijiyay:
+**Maya — buugga si toos ah kuma tuso muuqaal Ellen iyo Willa (oo hadda loo yaqaan [Olivia Reese]({{site.baseurl}}/theo-of-golden-who-is-olivia-reese.html)) is dhex arkayaan. Waxa jira waxyaabo la xaqiijiyay:
 
 - Olivia Reese ayaa James Ponder ku aaddaa xafiiskiisa, kadib dhimashadii Theo
 - Waxay wadataa warqad Theo horeba u soo diray, taasoo caddaynaysa in Theo laftiisu uu ka helay Willa isaga oo aan cidna u sheegin
