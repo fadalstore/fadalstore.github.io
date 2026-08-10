@@ -12,9 +12,7 @@
 
 <title>{{ page.title }} | {{site.name}}</title>
 
-{% if page.canonical_url %}
-<link rel="canonical" href="{{ page.canonical_url }}" />
-{% endif %}
+<link rel="canonical" href="{% if page.canonical_url %}{{ page.canonical_url }}{% else %}{{ site.url }}{{ page.url | replace:'index.html','' }}{% endif %}" />
 {% seo %}
 
 {% if site.adsense == "enabled" and site.adsense_data_ad_client != "ca-pub-xxxxxxxxxxxxxxxx" %}
@@ -297,14 +295,14 @@ ga('send', 'pageview');
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 mb-3 mb-md-0">
-                <h6 class="font-weight-bold mb-3">Maqaallada</h6>
+                <h6 class="font-weight-bold mb-3">Hageyaasha Ugu Muhiimsan</h6>
                 <ul class="list-unstyled small">
-                    <li class="mb-1"><a href="{{ site.baseurl }}/category/make-money-online/" class="text-muted">💰 Make Money Online</a></li>
-                    <li class="mb-1"><a href="{{ site.baseurl }}/category/remote-work/" class="text-muted">🌍 Remote Work</a></li>
-                    <li class="mb-1"><a href="{{ site.baseurl }}/category/programming/" class="text-muted">💻 Programming</a></li>
-                    <li class="mb-1"><a href="{{ site.baseurl }}/category/cybersecurity/" class="text-muted">🔐 Cybersecurity</a></li>
-                    <li class="mb-1"><a href="{{ site.baseurl }}/category/reviews/" class="text-muted">⭐ Reviews</a></li>
-                    <li class="mb-1"><a href="{{ site.baseurl }}/courses/" class="text-muted">📚 Courses</a></li>
+                    <li class="mb-1"><a href="{{ site.baseurl }}/amazon-kdp-2026.html" class="text-muted">📦 Amazon KDP Guide 2026</a></li>
+                    <li class="mb-1"><a href="{{ site.baseurl }}/partnerstack-somali.html" class="text-muted">🤝 PartnerStack Soomaali</a></li>
+                    <li class="mb-1"><a href="{{ site.baseurl }}/cash-giraffe-app.html" class="text-muted">📱 Cash Giraffe Review</a></li>
+                    <li class="mb-1"><a href="{{ site.baseurl }}/ai-tools.html" class="text-muted">🤖 Best AI Tools 2026</a></li>
+                    <li class="mb-1"><a href="{{ site.baseurl }}/fiverr-seller-levels-2026.html" class="text-muted">🟢 Fiverr Seller Levels</a></li>
+                    <li class="mb-1"><a href="{{ site.baseurl }}/youtube-monetization-2026.html" class="text-muted">🎥 YouTube Monetization</a></li>
                 </ul>
             </div>
             <div class="col-md-4 col-sm-6">

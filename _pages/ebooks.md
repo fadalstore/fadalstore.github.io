@@ -77,6 +77,10 @@ permalink: /ebooks/
   }
 </style>
 
+<!-- AADS Ad Unit 2451596 -->
+{% include aads-ad-2451596.html %}
+<!-- End AADS Ad Unit 2451596 -->
+
 Ku soo dhawaada qaybta **E-books** iyo Agabka Dijitaalka ah ee Fadal Store. Halkan waxaad ka heli kartaa buugaag iyo hageyaal dhamaystiran oo kugu caawinaya safarkaaga ganacsiga online-ka.
 
 <div class="ebook-grid">

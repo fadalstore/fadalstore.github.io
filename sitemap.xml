@@ -20,61 +20,13 @@ permalink: /sitemap.xml
     <url>
       <loc>{{ site.url }}{{ page.url }}</loc>
       <lastmod>{{ site.time | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>{% if page.url contains '/ebooks' or page.url contains '/courses' or page.url contains '/world-news' %}0.8{% elsif page.url contains '/about' or page.url contains '/contact' %}0.6{% else %}0.5{% endif %}</priority>
+      <changefreq>{% if page.url contains '/category/' %}weekly{% else %}monthly{% endif %}</changefreq>
+      <priority>{% if page.url contains '/category/' %}0.8{% elsif page.url contains '/ebooks' or page.url contains '/courses' or page.url contains '/world-news' %}0.8{% elsif page.url contains '/about' or page.url contains '/contact' %}0.6{% else %}0.5{% endif %}</priority>
     </url>
     {% endunless %}
   {% endfor %}
 
-  <!-- ===== Category Archive Pages ===== -->
-  <url>
-    <loc>{{ site.url }}/category/make-money-online/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/category/seo-tips/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/category/remote-work/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/category/programming/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/category/cybersecurity/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/category/reviews/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/category/wararka-caalamka/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/category/general/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
+  <!-- Category pages are handled dynamically in the loop below -->
 
   <!-- ===== All Blog Posts ===== -->
   {% for post in site.posts %}
