@@ -5,7 +5,7 @@ author: Fadal
 date: 2026-06-26
 categories: [AI, Freelancing, Make Money Online]
 tags: [AI Tools, Freelancer Income, Value-Based Pricing, AI Automation Agency]
-image: /assets/images/posts/ai-freelance-revolution-2026.jpg
+image: assets/images/posts/ai-freelance-revolution-2026.jpg
 description: "Learn how to escape the pricing paradox, build AI-powered systems, and triple your freelance income. The complete guide to the 2026 AI Freelance Revolution."
 ---
 
