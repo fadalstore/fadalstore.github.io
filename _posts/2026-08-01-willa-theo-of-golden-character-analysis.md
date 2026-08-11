@@ -6,12 +6,12 @@ date: 2026-08-01
 categories: [ Reviews, Books ]
 tags: [who is willa theo of golden, willa theo of golden, willa character analysis, did willa meet ellen, willa francesca, olivia reese theo of golden, theo of golden willa, allen levi, theo of golden ending, willa ellen reunion]
 image: assets/images/posts/theo-of-golden-cover.jpg
-og_image: https://fadalstore.github.io/assets/images/posts/theo-of-golden-cover.jpg
-twitter_image: https://fadalstore.github.io/assets/images/posts/theo-of-golden-cover.jpg
+og_image: https://fadalstore.online/assets/images/posts/theo-of-golden-cover.jpg
+twitter_image: https://fadalstore.online/assets/images/posts/theo-of-golden-cover.jpg
 description: "Who is Willa in Theo of Golden? Deep character analysis of Willa Francesca — her identity, her backstory, what she symbolizes in Allen Levi's novel, and the truth about whether she ever actually met her mother Ellen."
 featured: true
 toc: true
-canonical_url: "https://fadalstore.github.io/willa-theo-of-golden-character-analysis.html"
+canonical_url: "https://fadalstore.online/willa-theo-of-golden-character-analysis.html"
 ---
 
 <script type="application/ld+json">

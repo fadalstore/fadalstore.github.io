@@ -62,7 +62,7 @@ def make_cover(path="assets/images/etsy-digital-downloads-guide-cover.jpg"):
         draw.text((IW//2, 910+i*72), line, font=fs, fill="white", anchor="mm")
     draw.rectangle([(0,IH-180),(IW,IH-8)], fill="#0f172a")
     draw.text((IW//2,IH-110), "BY FADAL STORE",       font=ft, fill="#f97316", anchor="mm")
-    draw.text((IW//2,IH-65),  "fadalstore.github.io", font=ft, fill="#64748b", anchor="mm")
+    draw.text((IW//2,IH-65),  "fadalstore.online", font=ft, fill="#64748b", anchor="mm")
     img.save(path, quality=92)
     print(f"Cover saved -> {path}")
     return path
@@ -185,7 +185,7 @@ def build_pdf(cover_path):
         canvas.setFont("Helvetica-Bold", 8)
         canvas.setFillColor(SLATE)
         canvas.drawCentredString(W/2, H - 12*mm,
-            "Etsy Digital Downloads Blueprint 2026  |  fadalstore.github.io")
+            "Etsy Digital Downloads Blueprint 2026  |  fadalstore.online")
         canvas.setStrokeColor(ORANGE)
         canvas.setLineWidth(0.5)
         canvas.line(20*mm, H - 14*mm, W - 20*mm, H - 14*mm)
@@ -223,7 +223,7 @@ def build_pdf(cover_path):
     story.append(sp(12))
     story.append(Paragraph(
         "Copyright 2026 Fadal Store. All rights reserved. Personal use only. "
-        "Do not resell or redistribute. Visit fadalstore.github.io",
+        "Do not resell or redistribute. Visit fadalstore.online",
         S["copy"]))
     story.append(PageBreak())
 
@@ -515,7 +515,7 @@ def build_pdf(cover_path):
         "Start today. Create your first product this week. Every day you wait is a day of "
         "potential passive income left on the table. Good luck!"
     )
-    story += [sp(8), Paragraph("&mdash; Fadal Store Team | fadalstore.github.io", S["footer"])]
+    story += [sp(8), Paragraph("&mdash; Fadal Store Team | fadalstore.online", S["footer"])]
 
     doc.build(story, onFirstPage=first_page, onLaterPages=later_pages)
     print(f"PDF saved -> {out}")

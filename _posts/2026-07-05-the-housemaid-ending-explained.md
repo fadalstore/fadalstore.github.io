@@ -6,12 +6,12 @@ date: 2026-07-05
 categories: [ Reviews, Books ]
 tags: [The Housemaid, Freida McFadden, ending explained, psychological thriller, book twist, is Millie guilty]
 image: assets/images/posts/the-housemaid-cover.jpg
-og_image: https://fadalstore.github.io/assets/images/posts/the-housemaid-cover.jpg
-twitter_image: https://fadalstore.github.io/assets/images/posts/the-housemaid-cover.jpg
+og_image: https://fadalstore.online/assets/images/posts/the-housemaid-cover.jpg
+twitter_image: https://fadalstore.online/assets/images/posts/the-housemaid-cover.jpg
 description: "The Housemaid ending explained: Is Millie guilty? What really happened to Rachel? The full plot twist breakdown of Freida McFadden's bestselling thriller — including the movie adaptation with Sydney Sweeney."
 featured: true
 toc: true
-canonical_url: "https://fadalstore.github.io/the-housemaid-ending-explained.html"
+canonical_url: "https://fadalstore.online/the-housemaid-ending-explained.html"
 ---
 
 <script type="application/ld+json">
@@ -139,7 +139,7 @@ That is why readers can't stop talking about it. That is why the ending stays wi
 <div style="background:#1a1a1a; color:#f5d76e; padding:24px; border-radius:12px; margin:32px 0; text-align:center;">
   <h3 style="margin-top:0; color:#f5d76e;">💡 Ma Doonaysaa Inaad Lacag Ka Samayso Internet-ka?</h3>
   <p style="color:#eee; font-size:16px;">Hel buugaag PDF ah oo ku saabsan sida AI loo isticmaalo si lacag looga sameeyo — bilaw maanta.</p>
-  <a href="https://fadalstore.github.io/ebooks/" style="display:inline-block; background:#f5d76e; color:#1a1a1a; padding:12px 28px; border-radius:8px; font-weight:bold; text-decoration:none; margin-top:8px;">Arag Ebooks-ka →</a>
+  <a href="https://fadalstore.online/ebooks/" style="display:inline-block; background:#f5d76e; color:#1a1a1a; padding:12px 28px; border-radius:8px; font-weight:bold; text-decoration:none; margin-top:8px;">Arag Ebooks-ka →</a>
 </div>
 
 ## Conclusion
@@ -150,4 +150,4 @@ Whether she is guilty depends entirely on what you think justice is supposed to 
 
 ---
 
-*Enjoyed this breakdown? Read our full [The Housemaid Review →](https://fadalstore.github.io/the-housemaid-review.html) or explore our [Movie vs. Book comparison →](https://fadalstore.github.io/the-housemaid-movie-vs-book.html).*
+*Enjoyed this breakdown? Read our full [The Housemaid Review →](https://fadalstore.online/the-housemaid-review.html) or explore our [Movie vs. Book comparison →](https://fadalstore.online/the-housemaid-movie-vs-book.html).*

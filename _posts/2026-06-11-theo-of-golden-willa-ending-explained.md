@@ -6,12 +6,12 @@ date: 2026-06-11
 categories: [ Reviews, Books, Literature ]
 tags: [Theo of Golden, Allen Levi, Willa, book summary, ending explained, literary analysis]
 image: assets/images/posts/theo-of-golden-cover.jpg
-og_image: https://fadalstore.github.io/assets/images/posts/theo-of-golden-cover.jpg
-twitter_image: https://fadalstore.github.io/assets/images/posts/theo-of-golden-cover.jpg
+og_image: https://fadalstore.online/assets/images/posts/theo-of-golden-cover.jpg
+twitter_image: https://fadalstore.online/assets/images/posts/theo-of-golden-cover.jpg
 description: "Theo of Golden ending explained: who Willa really is, what happens to Theo, and the secret about Asher's father that recontextualizes the entire novel."
 featured: true
 toc: true
-canonical_url: "https://fadalstore.github.io/theo-of-golden-willa-ending-explained.html"
+canonical_url: "https://fadalstore.online/theo-of-golden-willa-ending-explained.html"
 ---
 
 ### Summary
@@ -113,5 +113,5 @@ If the Willa reveal caught you off guard, The Housemaid's ending will do the sam
 <div style="background:#1a1a1a; color:#f5d76e; padding:24px; border-radius:12px; margin:32px 0; text-align:center;">
   <h3 style="margin-top:0; color:#f5d76e;">💡 Ma Doonaysaa Inaad Lacag Ka Samayso Internet-ka?</h3>
   <p style="color:#eee; font-size:16px;">Hel buugaag PDF ah oo ku saabsan sida AI loo isticmaalo si lacag looga sameeyo — bilaw maanta.</p>
-  <a href="https://fadalstore.github.io/ebooks/" style="display:inline-block; background:#f5d76e; color:#1a1a1a; padding:12px 28px; border-radius:8px; font-weight:bold; text-decoration:none; margin-top:8px;">Arag Ebooks-ka →</a>
+  <a href="https://fadalstore.online/ebooks/" style="display:inline-block; background:#f5d76e; color:#1a1a1a; padding:12px 28px; border-radius:8px; font-weight:bold; text-decoration:none; margin-top:8px;">Arag Ebooks-ka →</a>
 </div>

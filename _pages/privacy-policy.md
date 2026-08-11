@@ -10,7 +10,7 @@ permalink: /privacy-policy/
 
 ### 1. Hordhac
 
-Fadal Store ("annaga," "noo," ama "keena") waxay maamushaa website-ka fadalstore.github.io. Boggan wuxuu sharaxayaa siyaasadda asturnaantayada ee ku saabsan macluumaadka aan uruurino, isticmaalno, iyo shareyno marka aad booqato website-kayaga.
+Fadal Store ("annaga," "noo," ama "keena") waxay maamushaa website-ka fadalstore.online. Boggan wuxuu sharaxayaa siyaasadda asturnaantayada ee ku saabsan macluumaadka aan uruurino, isticmaalno, iyo shareyno marka aad booqato website-kayaga.
 
 ### 2. Xogta Aan Uruurino
 

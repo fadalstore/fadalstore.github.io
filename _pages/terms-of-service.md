@@ -8,7 +8,7 @@ permalink: /terms-of-service/
 
 **Last Updated: April 2026**
 
-Welcome to **Fadal Store**! These terms and conditions outline the rules and regulations for the use of Fadal Store's Website, located at [fadalstore.github.io](https://fadalstore.github.io).
+Welcome to **Fadal Store**! These terms and conditions outline the rules and regulations for the use of Fadal Store's Website, located at [fadalstore.online](https://fadalstore.online).
 
 By accessing this website, we assume you accept these terms and conditions. Do not continue to use Fadal Store if you do not agree to take all of the terms and conditions stated on this page.
 

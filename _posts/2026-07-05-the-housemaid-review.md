@@ -6,13 +6,13 @@ date: 2026-07-05
 categories: [ Reviews, Books ]
 tags: [The Housemaid, Freida McFadden, book review, psychological thriller, bestseller 2025, Sydney Sweeney]
 image: assets/images/posts/the-housemaid-cover.jpg
-og_image: https://fadalstore.github.io/assets/images/posts/the-housemaid-cover.jpg
-twitter_image: https://fadalstore.github.io/assets/images/posts/the-housemaid-cover.jpg
+og_image: https://fadalstore.online/assets/images/posts/the-housemaid-cover.jpg
+twitter_image: https://fadalstore.online/assets/images/posts/the-housemaid-cover.jpg
 description: "The Housemaid review: Is Freida McFadden's bestselling thriller worth reading in 2026? Full plot analysis, character breakdown, and why the Sydney Sweeney film adaptation made the world fall in love with it all over again."
 featured: true
 rating: 4.9
 toc: true
-canonical_url: "https://fadalstore.github.io/the-housemaid-review.html"
+canonical_url: "https://fadalstore.online/the-housemaid-review.html"
 beforetoc: "If you are looking for a thriller that keeps you reading at 2am and delivers a final twist that recontextualizes everything — The Housemaid is the book."
 ---
 
@@ -104,7 +104,7 @@ Without giving away the specifics: the twist in *The Housemaid* is not a cheap "
 
 This is the mark of a genuinely well-constructed thriller. The clues were always there.
 
-> For the full ending breakdown — including "Is Millie guilty?" and what happened to Rachel — read our **[The Housemaid Ending Explained →](https://fadalstore.github.io/the-housemaid-ending-explained.html)**
+> For the full ending breakdown — including "Is Millie guilty?" and what happened to Rachel — read our **[The Housemaid Ending Explained →](https://fadalstore.online/the-housemaid-ending-explained.html)**
 
 ## The 2025 Film: Does It Do the Book Justice?
 
@@ -142,9 +142,9 @@ If you love *Gone Girl* (Gillian Flynn), *Behind Closed Doors* (B.A. Paris), or 
 <div style="background:#1a1a1a; color:#f5d76e; padding:24px; border-radius:12px; margin:32px 0; text-align:center;">
   <h3 style="margin-top:0; color:#f5d76e;">💡 Ma Doonaysaa Inaad Lacag Ka Samayso Internet-ka?</h3>
   <p style="color:#eee; font-size:16px;">Hel buugaag PDF ah oo ku saabsan sida AI loo isticmaalo si lacag looga sameeyo — bilaw maanta.</p>
-  <a href="https://fadalstore.github.io/ebooks/" style="display:inline-block; background:#f5d76e; color:#1a1a1a; padding:12px 28px; border-radius:8px; font-weight:bold; text-decoration:none; margin-top:8px;">Arag Ebooks-ka →</a>
+  <a href="https://fadalstore.online/ebooks/" style="display:inline-block; background:#f5d76e; color:#1a1a1a; padding:12px 28px; border-radius:8px; font-weight:bold; text-decoration:none; margin-top:8px;">Arag Ebooks-ka →</a>
 </div>
 
 ---
 
-*Read next: [The Housemaid Ending Explained →](https://fadalstore.github.io/the-housemaid-ending-explained.html) · [Movie vs. Book →](https://fadalstore.github.io/the-housemaid-movie-vs-book.html) · [Character Guide →](https://fadalstore.github.io/the-housemaid-characters-explained.html)*
+*Read next: [The Housemaid Ending Explained →](https://fadalstore.online/the-housemaid-ending-explained.html) · [Movie vs. Book →](https://fadalstore.online/the-housemaid-movie-vs-book.html) · [Character Guide →](https://fadalstore.online/the-housemaid-characters-explained.html)*

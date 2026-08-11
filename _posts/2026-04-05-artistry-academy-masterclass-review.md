@@ -11,7 +11,7 @@ hidden: false
 rating: 4.8
 toc: true
 beforetoc: "I spent 5+ hours researching the Paula Callan Artistry Academy Masterclass so you don't have to. Here is my completely honest verdict."
-canonical_url: "https://fadalstore.github.io/artistry-academy-masterclass-review.html"
+canonical_url: "https://fadalstore.online/artistry-academy-masterclass-review.html"
 ---
 
 <script type="application/ld+json">
@@ -21,7 +21,7 @@ canonical_url: "https://fadalstore.github.io/artistry-academy-masterclass-review
   "itemReviewed": {
     "@type": "Product",
     "name": "Artistry Academy Masterclass",
-    "image": "https://fadalstore.github.io/assets/images/artistry-academy-paula-callan.png",
+    "image": "https://fadalstore.online/assets/images/artistry-academy-paula-callan.png",
     "brand": {
       "@type": "Brand",
       "name": "Artistry Academy"

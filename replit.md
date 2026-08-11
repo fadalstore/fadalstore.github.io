@@ -7,7 +7,7 @@ Jekyll blog site built on the [Mediumish theme](https://github.com/wowthemesnet/
 - **Jekyll 4.4** (static site generator)
 - **Ruby 3.2** (runtime)
 - **Plugins:** jekyll-paginate, jekyll-feed, jekyll-seo-tag, jekyll-archives
-- **Hosting target:** GitHub Pages (`https://fadalstore.github.io`)
+- **Hosting target:** GitHub Pages (`https://fadalstore.online`)
 
 ## How to run
 
@@ -31,7 +31,7 @@ The "Start application" workflow runs this automatically.
 
 ## Sitemap
 
-A custom `sitemap.xml` in the root generates the sitemap at build time. The `jekyll-sitemap` plugin is intentionally **not** used (custom file takes priority and has per-category priority/changefreq logic). Submit `https://fadalstore.github.io/sitemap.xml` to Google Search Console.
+A custom `sitemap.xml` in the root generates the sitemap at build time. The `jekyll-sitemap` plugin is intentionally **not** used (custom file takes priority and has per-category priority/changefreq logic). Submit `https://fadalstore.online/sitemap.xml` to Google Search Console.
 
 ## User preferences
 

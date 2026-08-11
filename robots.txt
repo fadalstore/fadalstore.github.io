@@ -16,4 +16,4 @@ Disallow: /_site/
 Disallow: /vendor/
 
 # Wadada khariidadda maqaalladaada (Sitemap)
-Sitemap: https://fadalstore.github.io/sitemap.xml
+Sitemap: https://fadalstore.online/sitemap.xml

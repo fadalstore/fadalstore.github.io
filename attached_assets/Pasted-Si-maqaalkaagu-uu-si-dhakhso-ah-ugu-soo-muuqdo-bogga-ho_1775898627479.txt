@@ -13,7 +13,7 @@ Tags-kan ku dar qaybta dambe ee mareegtaada ama "Metadata Section":
  * Free Website Building, SEO Case Study 2026, GitHub Pages Tutorial, Digital Marketing for Beginners, Passive Income Ideas, High Traffic Blog Tips.
 ### 💡 Talo muhiim ah oo ku saabsan "Slug-ga" (URL)
 URL-ka maqaalkaaga ka dhig mid gaaban oo macno leh, tusaale:
-fadalstore.github.io/how-to-build-free-high-traffic-website
+fadalstore.online/how-to-build-free-high-traffic-website
 ### Maxaa xiga oo aad samayn kartaa?
 Markaad maqaalka "Publish" gareyso, tillaabada ugu dambeysa ee aad qaadayso waa:
  1. Aad **Google Search Console**.

@@ -6,13 +6,13 @@ date: 2026-05-04
 categories: [ Reviews ]
 tags: [book review, Theo of Golden, Allen Levi, best books 2026, inspirational novels]
 image: assets/images/posts/theo-of-golden-cover.jpg
-og_image: https://fadalstore.github.io/assets/images/posts/theo-of-golden-cover.jpg
-twitter_image: https://fadalstore.github.io/assets/images/posts/theo-of-golden-cover.jpg
+og_image: https://fadalstore.online/assets/images/posts/theo-of-golden-cover.jpg
+twitter_image: https://fadalstore.online/assets/images/posts/theo-of-golden-cover.jpg
 description: "Discover why Theo of Golden by Allen Levi is the must-read novel of 2026. A heartwarming story of kindness, hidden identity, and a secret that recontextualizes everything."
 featured: true
 rating: 5
 toc: true
-canonical_url: "https://fadalstore.github.io/theo-of-golden-allen-levi-comprehensive-review.html"
+canonical_url: "https://fadalstore.online/theo-of-golden-allen-levi-comprehensive-review.html"
 beforetoc: "If you're looking for a book that restores your faith in humanity, look no further than Theo of Golden. This is my honest review of Allen Levi's masterpiece."
 ---
 
@@ -74,13 +74,13 @@ beforetoc: "If you're looking for a book that restores your faith in humanity, l
     <a href="https://amzn.to/3QLViJm" target="_blank" rel="noopener" class="btn btn-lg btn-primary px-5 py-3 shadow-lg" style="border-radius: 50px; font-weight: 800; background: #ff9900; border: none; color: #000 !important;">
         👉 Buy Theo of Golden on Amazon
     </a>
-    <p class="small mt-3 text-muted">Want the full ending breakdown? Read our <a href="https://fadalstore.github.io/theo-of-golden-willa-ending-explained.html">complete guide: Willa, Zila, and the ending explained</a>.</p>
+    <p class="small mt-3 text-muted">Want the full ending breakdown? Read our <a href="https://fadalstore.online/theo-of-golden-willa-ending-explained.html">complete guide: Willa, Zila, and the ending explained</a>.</p>
 </div>
 
 <div style="background:#1a1a1a; color:#f5d76e; padding:24px; border-radius:12px; margin:32px 0; text-align:center;">
   <h3 style="margin-top:0; color:#f5d76e;">💡 Ma Doonaysaa Inaad Lacag Ka Samayso Internet-ka?</h3>
   <p style="color:#eee; font-size:16px;">Hel buugaag PDF ah oo ku saabsan sida AI loo isticmaalo si lacag looga sameeyo — bilaw maanta.</p>
-  <a href="https://fadalstore.github.io/ebooks/" style="display:inline-block; background:#f5d76e; color:#1a1a1a; padding:12px 28px; border-radius:8px; font-weight:bold; text-decoration:none; margin-top:8px;">Arag Ebooks-ka →</a>
+  <a href="https://fadalstore.online/ebooks/" style="display:inline-block; background:#f5d76e; color:#1a1a1a; padding:12px 28px; border-radius:8px; font-weight:bold; text-decoration:none; margin-top:8px;">Arag Ebooks-ka →</a>
 </div>
 
 </div>

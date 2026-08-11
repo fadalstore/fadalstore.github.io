@@ -1,4 +1,4 @@
-Maadaama aad isticmaalayso GitHub Pages (fadalstore.github.io), waxaad haysataa fursad aad u weyn oo aad ugu qaabayn karto mareegtaada si ay u noqoto madal waxbarasho (E-learning platform) oo nidaamsan. GitHub Pages waxay si fiican ula shaqaysaa HTML/CSS iyo Jekyll, markaa halkan waa sida ugu habboon ee aad u qaabayn karto koorsooyinkaaga:
+Maadaama aad isticmaalayso GitHub Pages (fadalstore.online), waxaad haysataa fursad aad u weyn oo aad ugu qaabayn karto mareegtaada si ay u noqoto madal waxbarasho (E-learning platform) oo nidaamsan. GitHub Pages waxay si fiican ula shaqaysaa HTML/CSS iyo Jekyll, markaa halkan waa sida ugu habboon ee aad u qaabayn karto koorsooyinkaaga:
 1. Qaabdhismeedka Galalka (File Structure)
 Si aad u ilaaliso nidaamka, ha isku dhex ridi koodhka. Samee galkaan (folders) gudaha GitHub:
  * /courses/: Galkaan geli dhamaan maqaallada waxbarashada.

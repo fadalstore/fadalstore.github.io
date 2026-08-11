@@ -117,7 +117,7 @@ beforetoc: "If you are starting your freelance journey in 2026 and wondering whe
 <p>If you are a complete beginner, start with <strong>Fiverr</strong> to build your confidence. If you are a seasoned pro with a strong portfolio, <strong>Upwork</strong> will offer you the highest ROI for your time.</p>
 
 <div class="text-center my-5">
-    <a href="https://fadalstore.github.io/courses/freelancing/" class="course-btn prog">Start Our Free Freelancing Course →</a>
+    <a href="https://fadalstore.online/courses/freelancing/" class="course-btn prog">Start Our Free Freelancing Course →</a>
 </div>
 
 </div>

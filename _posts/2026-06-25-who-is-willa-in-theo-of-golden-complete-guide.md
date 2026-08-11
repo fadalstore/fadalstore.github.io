@@ -9,7 +9,7 @@ image: assets/images/posts/theo-of-golden-cover.jpg
 description: "Who is Willa in Theo of Golden? Full character analysis of Willa Francesca, Ellen's lost daughter — plus the ending, Theo's true identity as Zila, and the Asher twist fully explained."
 featured: true
 toc: true
-canonical_url: "https://fadalstore.github.io/who-is-willa-in-theo-of-golden.html"
+canonical_url: "https://fadalstore.online/who-is-willa-in-theo-of-golden.html"
 ---
 
 <script type="application/ld+json">
@@ -314,7 +314,7 @@ Because of Theo. Because of one old man who saw her, who asked the right questio
 <div style="background:#1a1a1a; color:#f5d76e; padding:24px; border-radius:12px; margin:32px 0; text-align:center;">
   <h3 style="margin-top:0; color:#f5d76e;">💡 Ma Doonaysaa Inaad Lacag Ka Samayso Internet-ka?</h3>
   <p style="color:#eee; font-size:16px;">Hel buugaag PDF ah oo ku saabsan sida AI loo isticmaalo si lacag looga sameeyo — bilaw maanta.</p>
-  <a href="https://fadalstore.github.io/ebooks/" style="display:inline-block; background:#f5d76e; color:#1a1a1a; padding:12px 28px; border-radius:8px; font-weight:bold; text-decoration:none; margin-top:8px;">Arag Ebooks-ka →</a>
+  <a href="https://fadalstore.online/ebooks/" style="display:inline-block; background:#f5d76e; color:#1a1a1a; padding:12px 28px; border-radius:8px; font-weight:bold; text-decoration:none; margin-top:8px;">Arag Ebooks-ka →</a>
 </div>
 
 </div>

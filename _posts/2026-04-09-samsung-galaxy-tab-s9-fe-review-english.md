@@ -19,7 +19,7 @@ beforetoc: "If you're looking for a high-quality yet affordable tablet, the Sams
   "itemReviewed": {
     "@type": "Product",
     "name": "Samsung Galaxy Tab S9 FE",
-    "image": "https://fadalstore.github.io/assets/images/samsung-tab-s9-fe.jpg",
+    "image": "https://fadalstore.online/assets/images/samsung-tab-s9-fe.jpg",
     "brand": {
       "@type": "Brand",
       "name": "Samsung"

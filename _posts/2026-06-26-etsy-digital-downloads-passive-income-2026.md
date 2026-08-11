@@ -6,12 +6,12 @@ date: 2026-06-26
 categories: [ Make Money Online ]
 tags: [Etsy, digital products, passive income, printables, Canva, side hustle, 2026]
 image: assets/images/etsy-digital-downloads-guide-cover.jpg
-og_image: https://fadalstore.github.io/assets/images/etsy-digital-downloads-guide-cover.jpg
-twitter_image: https://fadalstore.github.io/assets/images/etsy-digital-downloads-guide-cover.jpg
+og_image: https://fadalstore.online/assets/images/etsy-digital-downloads-guide-cover.jpg
+twitter_image: https://fadalstore.online/assets/images/etsy-digital-downloads-guide-cover.jpg
 description: "Learn how to start an Etsy digital downloads business in 2026 and make $2,000/month selling printables, templates, and planners — zero inventory, zero shipping."
 featured: true
 toc: true
-canonical_url: "https://fadalstore.github.io/etsy-digital-downloads-passive-income-2026.html"
+canonical_url: "https://fadalstore.online/etsy-digital-downloads-passive-income-2026.html"
 ---
 
 <script type="application/ld+json">
@@ -317,4 +317,4 @@ No. New products enter underserved niches every day. The key is specificity — 
 
 ---
 
-*Related: [How to Build a High-Traffic Website for Free in 2026](https://fadalstore.github.io/build-high-traffic-website-for-free-2026.html) · [High-Ticket Affiliate Marketing Guide 2026](https://fadalstore.github.io/high-ticket-affiliate-marketing-2026.html)*
+*Related: [How to Build a High-Traffic Website for Free in 2026](https://fadalstore.online/build-high-traffic-website-for-free-2026.html) · [High-Ticket Affiliate Marketing Guide 2026](https://fadalstore.online/high-ticket-affiliate-marketing-2026.html)*

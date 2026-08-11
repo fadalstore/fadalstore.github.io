@@ -8,7 +8,7 @@ permalink: /disclaimer/
 
 **Last Updated: April 2026**
 
-The information provided by **Fadal Store** on [fadalstore.github.io](https://fadalstore.github.io) is for general informational and educational purposes only. All information on the site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the site.
+The information provided by **Fadal Store** on [fadalstore.online](https://fadalstore.online) is for general informational and educational purposes only. All information on the site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the site.
 
 ## 1. Professional Disclaimer
 The site cannot and does not contain professional financial or legal advice. The information is provided for general informational and educational purposes only and is not a substitute for professional advice. Accordingly, before taking any actions based upon such information, we encourage you to consult with the appropriate professionals. The use or reliance of any information contained on this site is solely at your own risk.

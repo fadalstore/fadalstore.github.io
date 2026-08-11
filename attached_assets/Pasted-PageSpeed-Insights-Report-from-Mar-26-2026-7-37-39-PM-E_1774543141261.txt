@@ -124,7 +124,7 @@ Google/Doubleclick Ads Ad
 178 KiB
 GitHub Utility 1st Party
 6 KiB
-/features.js(fadalstore.github.io)
+/features.js(fadalstore.online)
 10m
 6 KiB
 a-ads.com
@@ -158,7 +158,7 @@ Google Tag Manager Tag-Manager
 68.0 KiB
 Google FundingChoices Consent-Provider 
 68.5 KiB	36.1 KiB
-/i/ca-pub-97…?href=https%3A%2F%2Ffadalstore.github.io&ers=2(fundingchoicesmessages.google.com)
+/i/ca-pub-97…?href=https%3A%2F%2Ffadalstore.online&ers=2(fundingchoicesmessages.google.com)
 68.5 KiB
 36.1 KiB
 nap5k.com
@@ -235,10 +235,10 @@ Errors logged to the console indicate unresolved problems. They can come from ne
 Source
 Description
 GitHub Utility 1st Party
-https://fadalstore.github.io:1:0
-Access to link element resource at 'https://6.adsco.re:2087/' from origin 'https://fadalstore.github.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
-https://fadalstore.github.io:1:0
-Access to link element resource at 'https://6.adsco.re/' from origin 'https://fadalstore.github.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+https://fadalstore.online:1:0
+Access to link element resource at 'https://6.adsco.re:2087/' from origin 'https://fadalstore.online' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+https://fadalstore.online:1:0
+Access to link element resource at 'https://6.adsco.re/' from origin 'https://fadalstore.online' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 AdScore Ad 
 https://6.adsco.re:2087:1:0
 Failed to load resource: net::ERR_FAILED

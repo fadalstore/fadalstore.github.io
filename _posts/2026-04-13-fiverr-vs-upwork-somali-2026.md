@@ -147,7 +147,7 @@ Ma jirto "ugu fiican" — midka aad u xirfad badan tahay ayaad ka bilaabaysaa.
 **Tillaabadaada xigta:**
 - 👉 [Fiverr bilaash ka bilaabo](https://www.fiverr.com)
 - 👉 [Upwork bilaash ka bilaabo](https://www.upwork.com)
-- 👉 [Koorso Freelancing Bilaash — 6 Casharo](https://fadalstore.github.io/courses/freelancing/)
+- 👉 [Koorso Freelancing Bilaash — 6 Casharo](https://fadalstore.online/courses/freelancing/)
 
 <script type="application/ld+json">
 {

@@ -238,12 +238,12 @@
   <h2>Final Thoughts</h2>
   <p>In 2026, making money online with AI is more accessible than ever — but it still requires execution. The methods above are real, tested, and used by people earning $1K–$10K/month. The difference between those who succeed and those who don't isn't intelligence or experience — it's simply <strong>starting and staying consistent</strong>.</p>
   <p>Pick one method. Start this week. The PDF guide will show you exactly how.</p>
-  <p style="margin-top: 24px; color: #6B7280; font-size: 0.9rem;">Published by <strong>Fadal Store</strong> — fadalstore.github.io | June 2026</p>
+  <p style="margin-top: 24px; color: #6B7280; font-size: 0.9rem;">Published by <strong>Fadal Store</strong> — fadalstore.online | June 2026</p>
 
 </div>
 
 <footer>
-  © 2026 Fadal Store — <a href="https://fadalstore.github.io">fadalstore.github.io</a> | All rights reserved
+  © 2026 Fadal Store — <a href="https://fadalstore.online">fadalstore.online</a> | All rights reserved
 </footer>
 
 </body>

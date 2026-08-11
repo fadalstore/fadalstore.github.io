@@ -67,5 +67,5 @@ When Allen Levi wrote *Theo of Golden*, he created more than just a story; he cr
 <div style="background:#1a1a1a; color:#f5d76e; padding:24px; border-radius:12px; margin:32px 0; text-align:center;">
   <h3 style="margin-top:0; color:#f5d76e;">💡 Ma Doonaysaa Inaad Maqaallo Kan la mid ah Qorto?</h3>
   <p style="color:#eee; font-size:16px;">Baro sida loo dhisao blog guuleysta oo lacag laga sameeyo adigoo isticmaalaya AI. Booqo bogga fadalstore si aad u hesho hage dhamaystiran.</p>
-  <a href="https://fadalstore.github.io/ebooks/" style="display:inline-block; background:#f5d76e; color:#1a1a1a; padding:12px 28px; border-radius:8px; font-weight:bold; text-decoration:none; margin-top:8px;">Arag Ebooks-ka →</a>
+  <a href="https://fadalstore.online/ebooks/" style="display:inline-block; background:#f5d76e; color:#1a1a1a; padding:12px 28px; border-radius:8px; font-weight:bold; text-decoration:none; margin-top:8px;">Arag Ebooks-ka →</a>
 </div>

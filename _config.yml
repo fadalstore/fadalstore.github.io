@@ -5,7 +5,7 @@ description: "Maqaallo, Tababaro iyo Agabka Ganacsiga Online-ka."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ""
-url: "https://fadalstore.github.io" # Halkan ayaan ka saxnay .com
+url: "https://fadalstore.online" # Domain-ka rasmiga ah ee cusub
 google_analytics: ''
 disqus: ''
 mailchimp-list: ''
@@ -19,7 +19,7 @@ authors:
     display_name: Fadal
     avatar: 'assets/images/avatar.jpg'
     email: fadalstore7@gmail.com # Kan waad iska deyn kartaa haddii uu shaqaynayo
-    web: https://fadalstore.github.io
+    web: https://fadalstore.online
     twitter: https://x.com/fadalsheekh?s=21
     telegram: https://t.me/fadalsheekh
     facebook: https://www.facebook.com/share/1Cd2CGo1W1/?mibextid=wwXIfr

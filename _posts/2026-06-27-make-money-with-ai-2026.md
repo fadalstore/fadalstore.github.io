@@ -6,12 +6,12 @@ date: 2026-06-27
 categories: [ Make Money Online ]
 tags: [AI, make money online, ChatGPT, passive income, freelancing, digital products, 2026]
 image: assets/images/make-money-ai-2026-cover.jpg
-og_image: https://fadalstore.github.io/assets/images/make-money-ai-2026-cover.jpg
-twitter_image: https://fadalstore.github.io/assets/images/make-money-ai-2026-cover.jpg
+og_image: https://fadalstore.online/assets/images/make-money-ai-2026-cover.jpg
+twitter_image: https://fadalstore.online/assets/images/make-money-ai-2026-cover.jpg
 description: "Discover 7 real ways to make money with AI in 2026. From selling ebooks to AI automation agencies — complete guide with tools, platforms, and step-by-step methods."
 featured: true
 toc: true
-canonical_url: "https://fadalstore.github.io/make-money-with-ai-2026.html"
+canonical_url: "https://fadalstore.online/make-money-with-ai-2026.html"
 ---
 
 <script type="application/ld+json">

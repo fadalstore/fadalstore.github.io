@@ -118,10 +118,10 @@ Errors logged to the console indicate unresolved problems. They can come from ne
 Source
 Description
 GitHub Utility 1st Party
-https://fadalstore.github.io:1:0
-Access to link element resource at 'https://6.adsco.re:2087/' from origin 'https://fadalstore.github.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
-https://fadalstore.github.io:1:0
-Access to link element resource at 'https://6.adsco.re/' from origin 'https://fadalstore.github.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+https://fadalstore.online:1:0
+Access to link element resource at 'https://6.adsco.re:2087/' from origin 'https://fadalstore.online' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+https://fadalstore.online:1:0
+Access to link element resource at 'https://6.adsco.re/' from origin 'https://fadalstore.online' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 AdScore Ad 
 https://6.adsco.re:2087:1:0
 Failed to load resource: net::ERR_FAILED
@@ -163,7 +163,7 @@ Descriptive link text helps search engines understand your content. Learn how to
 Link destination
 Link Text
 GitHub Utility 1st Party
-/about.html(fadalstore.github.io)
+/about.html(fadalstore.online)
 LEARN MORE
 Format your HTML in a way that enables crawlers to better understand your app’s content.
 ADDITIONAL ITEMS TO MANUALLY CHECK (1)

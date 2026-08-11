@@ -23,7 +23,7 @@ Waan si fiican u eegay websidka. Hadda kugu siin doona review buuxa oo faahfaahs
 
 **Dhibaatada:**
 - **Sawirrada homepage-ka waxay soo baxayaan blank** (data:image/png base64 1x1 pixel) — sawirada maqaalladu ma soo muuqdaan, taas oo **weyn u tahay dhibaato** soo jiidashada booqdayaasha
-- Magaca domain-ku waa **fadalstore.github.io** — domain gaar ah (fadal.com ama fadalstore.com) kii ka wanaagsan lahaa professionalism-ka iyo SEO-da
+- Magaca domain-ku waa **fadalstore.online** — domain gaar ah (fadal.com ama fadalstore.com) kii ka wanaagsan lahaa professionalism-ka iyo SEO-da
 
 ---
 

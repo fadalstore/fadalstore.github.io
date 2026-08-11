@@ -6,12 +6,12 @@ date: 2026-07-05
 categories: [ Reviews, Books ]
 tags: [The Housemaid, Freida McFadden, movie vs book, Sydney Sweeney, Amanda Seyfried, film adaptation 2025]
 image: assets/images/posts/the-housemaid-cover.jpg
-og_image: https://fadalstore.github.io/assets/images/posts/the-housemaid-cover.jpg
-twitter_image: https://fadalstore.github.io/assets/images/posts/the-housemaid-cover.jpg
+og_image: https://fadalstore.online/assets/images/posts/the-housemaid-cover.jpg
+twitter_image: https://fadalstore.online/assets/images/posts/the-housemaid-cover.jpg
 description: "The Housemaid movie vs book: every major difference between Freida McFadden's novel and the 2025 Sydney Sweeney film. Which is better — and what does the movie change about the ending?"
 featured: false
 toc: true
-canonical_url: "https://fadalstore.github.io/the-housemaid-movie-vs-book.html"
+canonical_url: "https://fadalstore.online/the-housemaid-movie-vs-book.html"
 ---
 
 ### Quick Answer
@@ -125,9 +125,9 @@ A sequel has been confirmed following the film's commercial success. Given that 
 <div style="background:#1a1a1a; color:#f5d76e; padding:24px; border-radius:12px; margin:32px 0; text-align:center;">
   <h3 style="margin-top:0; color:#f5d76e;">💡 Ma Doonaysaa Inaad Lacag Ka Samayso Internet-ka?</h3>
   <p style="color:#eee; font-size:16px;">Hel buugaag PDF ah oo ku saabsan sida AI loo isticmaalo si lacag looga sameeyo — bilaw maanta.</p>
-  <a href="https://fadalstore.github.io/ebooks/" style="display:inline-block; background:#f5d76e; color:#1a1a1a; padding:12px 28px; border-radius:8px; font-weight:bold; text-decoration:none; margin-top:8px;">Arag Ebooks-ka →</a>
+  <a href="https://fadalstore.online/ebooks/" style="display:inline-block; background:#f5d76e; color:#1a1a1a; padding:12px 28px; border-radius:8px; font-weight:bold; text-decoration:none; margin-top:8px;">Arag Ebooks-ka →</a>
 </div>
 
 ---
 
-*Read next: [The Housemaid Ending Explained →](https://fadalstore.github.io/the-housemaid-ending-explained.html) · [Full Review →](https://fadalstore.github.io/the-housemaid-review.html) · [Is Millie Guilty? →](https://fadalstore.github.io/is-millie-guilty-the-housemaid.html)*
+*Read next: [The Housemaid Ending Explained →](https://fadalstore.online/the-housemaid-ending-explained.html) · [Full Review →](https://fadalstore.online/the-housemaid-review.html) · [Is Millie Guilty? →](https://fadalstore.online/is-millie-guilty-the-housemaid.html)*
