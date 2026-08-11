@@ -3,7 +3,7 @@ layout: post
 title: "Sida Looga Sameeyo Dakhli Website-ka: AADS vs AdSense (Hage 2026)"
 description: "Baro sida loo bilaabo dakhliga xayaysiiska ee website-kaaga. Isbarbar dhig u dhexeeya AADS iyo Google AdSense iyo sida looga faa'iidaysto 2026."
 date: 2026-08-07
-image: assets/images/digital-nomad.jpg
+image: assets/images/monetization-aads-adsense.png
 author: fadal
 categories: [ Make Money Online, SEO Tips ]
 tags: [AADS, Google AdSense, Make Money Online, Website Monetization, Passive Income]

@@ -3,7 +3,7 @@ layout: post
 title: "Sida Loo Helo Macaamiil Caalami ah Upwork iyo Fiverr (Hage 2026)"
 description: "Baro xeeladaha ugu cusub ee lagu bilaabo freelancing ee Upwork iyo Fiverr adoo jooga Soomaaliya. Sida loo helo shaqooyin caalami ah iyo lacag bixinta."
 date: 2026-08-07
-image: assets/images/digital-nomad.jpg
+image: assets/images/freelancing-somali.png
 author: fadal
 categories: [ Make Money Online, Remote Work ]
 tags: [Freelancing, Upwork, Fiverr, Remote Work, Make Money Online]
