@@ -45,7 +45,7 @@ Nidaamyada casriga ah ee maanta jira, waxaa jira xalal badan oo la isku halayn k
 
 ---
 
-**Ma rabtaa inaad si degdeg ah u bilowdo freelancing adigoo haysta hage dhamaystiran?** Eeg buuggeena gaarka ah ee [Al Freelancer Starter Pack](https://fadalstore.online/ebooks/) oo ay ku jiraan tusaalooyin *Prompts*, *Proposals*, iyo xeelado qiimo-goyn ah. Sidoo kale, baro sida loo adeegsado [qalabka AI ee shaqada fog](https://fadalstore.online/fursadaha-ai-ee-shaqada-fog-2026.html) si aad uga dhex muuqato tartanka Upwork iyo Fiverr.
+**Ma rabtaa inaad si degdeg ah u bilowdo freelancing adigoo haysta hage dhamaystiran?** Eeg buuggeena gaarka ah ee [Al Freelancer Starter Pack](https://fadalstore.online/ebooks.html) oo ay ku jiraan tusaalooyin *Prompts*, *Proposals*, iyo xeelado qiimo-goyn ah. Sidoo kale, baro sida loo adeegsado [qalabka AI ee shaqada fog](https://fadalstore.online/fursadaha-ai-ee-shaqada-fog-2026.html) si aad uga dhex muuqato tartanka Upwork iyo Fiverr.
 
 <script type="application/ld+json">
 {

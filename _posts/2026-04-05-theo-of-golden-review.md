@@ -92,7 +92,7 @@ Willa's presence in the novel is mostly an ache — a private grief Ellen carrie
 
 The heart of the novel is the town itself. Golden is a place where ordinary people — a night-shift custodian, a street musician, an unhoused woman, a graduate cello student — turn out to be carrying extraordinary private histories. Allen Levi uses the town almost as a character in its own right, showing how one act of attention can open the door to dozens of others.
 
-If you enjoy reading about how small, deliberate actions can ripple outward, you might also be interested in our guide on [how to build a high-traffic website for free in 2026](https://fadalstore.online/build-high-traffic-website-for-free-2026/), which explores similar ideas of growth and community impact in the digital world.
+If you enjoy reading about how small, deliberate actions can ripple outward, you might also be interested in our guide on [how to build a high-traffic website for free in 2026](https://fadalstore.online/how-to-build-free-high-traffic-website.html), which explores similar ideas of growth and community impact in the digital world.
 
 ## The Truth: Is it a True Story?
 
@@ -129,7 +129,7 @@ For those looking to turn their passion for reading or writing into a career, ch
 <div style="background:#1a1a1a; color:#f5d76e; padding:24px; border-radius:12px; margin:32px 0; text-align:center;">
   <h3 style="margin-top:0; color:#f5d76e;">💡 Ma Doonaysaa Inaad Lacag Ka Samayso Internet-ka?</h3>
   <p style="color:#eee; font-size:16px;">Hel buugaag PDF ah oo ku saabsan sida AI loo isticmaalo si lacag looga sameeyo — bilaw maanta.</p>
-  <a href="https://fadalstore.online/ebooks/" style="display:inline-block; background:#f5d76e; color:#1a1a1a; padding:12px 28px; border-radius:8px; font-weight:bold; text-decoration:none; margin-top:8px;">Arag Ebooks-ka →</a>
+  <a href="https://fadalstore.online/ebooks.html" style="display:inline-block; background:#f5d76e; color:#1a1a1a; padding:12px 28px; border-radius:8px; font-weight:bold; text-decoration:none; margin-top:8px;">Arag Ebooks-ka →</a>
 </div>
 
 ---

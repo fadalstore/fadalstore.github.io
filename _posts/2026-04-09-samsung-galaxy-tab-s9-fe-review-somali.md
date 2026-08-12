@@ -148,4 +148,4 @@ iPad Air wuxuu leeyahay processor ka xoog badan, laakiin Tab S9 FE wuxuu kaga fi
 
 ---
 
-*Ma rabtaa inaad akhriso dib-u-eegisyo kale? Booqo qaybta [Reviews](/category/reviews/) ee mareegtayada.*
+*Ma rabtaa inaad akhriso dib-u-eegisyo kale? Booqo qaybta [Reviews](/category-reviews.html) ee mareegtayada.*

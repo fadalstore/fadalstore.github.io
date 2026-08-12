@@ -240,5 +240,5 @@ You do not need a million subscribers. You need **the right method, applied cons
 Now stop reading. Pick one method above. Start today.
 
 <div class="highlight-box">
-  <strong>Want more guides like this?</strong> Browse the <a href="/category/make-money-online/">Make Money Online category</a> for in-depth strategies on freelancing, affiliate marketing, and building income online — or check the <a href="/daily/">Daily Reading List</a> for today's hand-picked articles.
+  <strong>Want more guides like this?</strong> Browse the <a href="/category-make-money-online.html">Make Money Online category</a> for in-depth strategies on freelancing, affiliate marketing, and building income online — or check the <a href="/daily/">Daily Reading List</a> for today's hand-picked articles.
 </div>

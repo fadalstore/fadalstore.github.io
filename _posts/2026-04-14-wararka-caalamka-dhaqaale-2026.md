@@ -102,7 +102,7 @@ Dhaqaaluhu hoos u dhacay wuxuu kiciyay dad badan oo u jeeda ganacsiga online. Ta
 ---
 
 <div style="background:#fef3c7;border-left:4px solid #f59e0b;padding:20px;border-radius:8px;margin-top:32px;">
-  <strong>✅ Talada Fadal Store:</strong> Haddaad rabto inaad ka faa'iidaysato dhaqaalaha cusub, bilow waxbarashadda online-ka maanta. Waxaad heli kartaa maqaallo faahfaahsan <a href="/category/make-money-online/">Make Money Online</a> qaybteena.
+  <strong>✅ Talada Fadal Store:</strong> Haddaad rabto inaad ka faa'iidaysato dhaqaalaha cusub, bilow waxbarashadda online-ka maanta. Waxaad heli kartaa maqaallo faahfaahsan <a href="/category-make-money-online.html">Make Money Online</a> qaybteena.
 </div>
 
 **Wixii dheeraad ah:** Boqo [Wararka Caalamka](/world-news.html) boggeena.

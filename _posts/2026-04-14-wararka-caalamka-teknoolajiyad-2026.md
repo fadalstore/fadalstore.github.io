@@ -103,7 +103,7 @@ AI-ga wuxuu kaloo faa'idaysanayaan hackers-ka. Dhacdooyinkii ugu waaweyn ee 2026
 ---
 
 <div style="background:#f0f9ff;border-left:4px solid #0ea5e9;padding:20px;border-radius:8px;margin-top:32px;">
-  <strong>💡 Fadal Store Talada:</strong> Teknoolajiyadu waa fursad — haddaad barato AI, cybersecurity, ama coding, waxaad noqon kartaa mid ka mid ah shaqaalaha ugu baahan ee caalamka. Eeg <a href="/category/programming/">Programming</a> iyo <a href="/category/cybersecurity/">Cybersecurity</a> qaybaha.
+  <strong>💡 Fadal Store Talada:</strong> Teknoolajiyadu waa fursad — haddaad barato AI, cybersecurity, ama coding, waxaad noqon kartaa mid ka mid ah shaqaalaha ugu baahan ee caalamka. Eeg <a href="/category-programming.html">Programming</a> iyo <a href="/category-cybersecurity.html">Cybersecurity</a> qaybaha.
 </div>
 
 **Wixii dheeraad ah:** Boqo [Wararka Caalamka](/world-news.html) boggeena.

@@ -37,7 +37,7 @@ Si aad uga dhex muuqato suuqa caalamiga ah ee shaqada fog, waa inaadan u arkin A
 
 ---
 
-**Ma rabtaa inaad si dhab ah u barato sida loo isticmaalo qalabka iyo Prompt-yada AI si aad lacag uga samayso?** Eeg buuggeena [Al Freelancer Starter Pack](https://fadalstore.online/ebooks/) ee ku yaal qaybta E-books-ka. Sidoo kale, haddii aad leedahay website, baro [sida dakhli looga sameeyo website-ka adoo adeegsanaya AADS ama AdSense](https://fadalstore.online/sida-looga-sameeyo-dakhli-website-ka-aads-adsense.html).
+**Ma rabtaa inaad si dhab ah u barato sida loo isticmaalo qalabka iyo Prompt-yada AI si aad lacag uga samayso?** Eeg buuggeena [Al Freelancer Starter Pack](https://fadalstore.online/ebooks.html) ee ku yaal qaybta E-books-ka. Sidoo kale, haddii aad leedahay website, baro [sida dakhli looga sameeyo website-ka adoo adeegsanaya AADS ama AdSense](https://fadalstore.online/sida-looga-sameeyo-dakhli-website-ka-aads-adsense.html).
 
 <script type="application/ld+json">
 {

@@ -148,4 +148,4 @@ The iPad Air has a more powerful processor, but the Tab S9 FE offers better valu
 
 ---
 
-*Want to read more reviews? Visit our [Reviews category](/category/reviews/) on our website.*
+*Want to read more reviews? Visit our [Reviews category](/category-reviews.html) on our website.*

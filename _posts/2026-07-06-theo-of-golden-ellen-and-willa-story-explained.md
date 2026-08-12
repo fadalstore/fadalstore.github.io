@@ -63,5 +63,5 @@ The story of Ellen and Willa is the soul of *Theo of Golden*. It reminds us that
 <div style="background:#1a1a1a; color:#f5d76e; padding:24px; border-radius:12px; margin:32px 0; text-align:center;">
   <h3 style="margin-top:0; color:#f5d76e;">💡 Maqaaladan oo kale Ma Rabtaa?</h3>
   <p style="color:#eee; font-size:16px;">Hadii aad rabto inaad barato sida loo qoro maqaallo traffic badan keena oo AI loo isticmaalo, nagala soo xiriir bogga fadalstore.</p>
-  <a href="https://fadalstore.online/contact/" style="display:inline-block; background:#f5d76e; color:#1a1a1a; padding:12px 28px; border-radius:8px; font-weight:bold; text-decoration:none; margin-top:8px;">Nala Soo Xiriir →</a>
+  <a href="https://fadalstore.online/contact.html" style="display:inline-block; background:#f5d76e; color:#1a1a1a; padding:12px 28px; border-radius:8px; font-weight:bold; text-decoration:none; margin-top:8px;">Nala Soo Xiriir →</a>
 </div>
