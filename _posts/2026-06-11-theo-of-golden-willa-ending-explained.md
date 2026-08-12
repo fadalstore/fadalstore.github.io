@@ -89,6 +89,14 @@ If you want the full textual evidence for this reading — plus the epilogue det
         "@type": "Answer",
         "text": "The novel confirms Willa's identity and her arrival in Golden through a letter left by Theo, but it does not show an on-page reunion scene between her and Ellen. The reunion is implied and set in motion rather than depicted directly, which many readers see as a deliberate stylistic choice consistent with how the novel handles other major revelations."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is Olivia Reese in Theo of Golden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Olivia Reese is the name Willa was given after being adopted. She is Ellen's long-lost daughter who returns to Golden at the end of the book to find her mother, thanks to the arrangements made by Theo."
+      }
     }
   ]
 }
