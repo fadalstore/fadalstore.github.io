@@ -51,4 +51,4 @@ Agentic AI wuxuu si toos ah ula shaqeyn karaa barnaamijyadaada kale, sida iimeel
 
 Sannadka **2026**, aqoonta ku saabsan sida loo isticmaalo Agentic AI ma aha kaliya mid raaxo leh, balse waa mid lagama maarmaan u ah qof kasta oo doonaya inuu la tartamo suuqa caalamiga ah. Hadda waa waqtigii la baran lahaa qalabkan cusub si aad shaqadaada uga dhigto mid hufan oo dakhli badan soo xareyisa.
 
-Haddii aad rabto inaad wax badan ka ogaato horumarka tiknoolajiyadda iyo sida looga shaqeeyo internetka, ha iloobin inaad booqato mareegahaaga [Fadal Store](https://fadalstore.online) si aad u akhriso hageyaasheenna kale ee xiisaha leh.
+Haddii aad rabto inaad wax badan ka ogaato horumarka tiknoolajiyadda iyo sida looga shaqeeyo internetka, ha iloobin inaad booqato mareegahaaga [Fadal Store](https://fadalstore.online) si aad u akhriso hageyaasheenna kale ee xiisaha leh sida [Xiriirka Willa iyo Ellen](https://fadalstore.online/willa-ellen-theo-of-golden-relationship.html).
