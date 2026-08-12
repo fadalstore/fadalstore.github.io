@@ -38,7 +38,10 @@ paginate: 6
 paginate_path: /page:num/
     
 # Other
-markdown: kramdown
+41	markdown: kramdown
+42	
+43	sass:
+44	  style: compressed
 
 kramdown:
   input: GFM
