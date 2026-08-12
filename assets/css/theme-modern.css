@@ -1,7 +1,7 @@
 /* Fadal Store modern theme — Minimal Mistakes-inspired editorial layout */
 :root {
   --fs-ink: #172033;
-  --fs-muted: #667085;
+  --fs-muted: #475467; /* Darker for better contrast */
   --fs-soft: #f5f7fb;
   --fs-card: #ffffff;
   --fs-border: #e6eaf0;
@@ -47,9 +47,9 @@ body::selection { background: rgba(37, 99, 235, .18); }
 }
 .navbar-light .navbar-nav .nav-link {
   color: #344054;
-  font-size: .86rem;
+  font-size: .95rem; /* Larger font */
   font-weight: 650;
-  padding: .65rem .62rem;
+  padding: .85rem 1rem; /* Larger touch target */
   transition: color .2s ease, transform .2s ease;
 }
 .navbar-light .navbar-nav .nav-link:hover,
