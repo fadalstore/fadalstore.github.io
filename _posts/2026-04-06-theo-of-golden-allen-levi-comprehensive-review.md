@@ -93,6 +93,10 @@ Thirty years before the novel begins, authorities removed infant Willa from Elle
 
 Willa appears only at the very end — grown into a young woman named **Olivia Reese**, carrying a letter that leads her back to the mother she never knew. That letter was arranged by Theo before his death. He had located Ellen's lost daughter quietly, without telling anyone, and set the reunion in motion himself.
 
+<div class="info-box">
+  <strong>🔍 Related Reading:</strong> For a deep dive into Willa's story, check out our <a href="/who-is-willa-in-theo-of-golden-complete-guide.html">Complete Guide to Willa in Theo of Golden</a>.
+</div>
+
 ---
 
 ## Who is Theo? The Central Mystery
@@ -108,6 +112,10 @@ What Golden doesn't know — and what readers don't learn until after Theo's dea
 More devastating still: Theo came to Golden specifically because **Asher Glissen — whose 92 portraits started the entire mission — is Theo's biological son**. Decades before the novel begins, Theo had a relationship with a woman in Golden. He never knew she was pregnant. Asher grew up without knowing his father.
 
 Rather than reveal himself and disrupt the life Asher had built, Theo chose to love him from the outside: honoring his art by buying back every portrait, caring for his son's town, and never once claiming the relationship while he was alive. Every bestowal, in hindsight, was a father's act of love for a son he could not claim.
+
+<div class="info-box">
+  <strong>💡 Deep Dive:</strong> Read our detailed analysis of <a href="/theo-of-golden-willa-ending-explained.html">The Twist Ending and Theo's Identity</a>.
+</div>
 
 ---
 
