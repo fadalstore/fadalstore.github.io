@@ -1,1 +1,5 @@
 google.com, pub-9732596199385216, DIRECT, f08c47fec0942fa0
+a-ads.com, 2431382, DIRECT
+a-ads.com, 2449846, DIRECT
+a-ads.com, 2451596, DIRECT
+a-ads.com, 2452048, DIRECT
