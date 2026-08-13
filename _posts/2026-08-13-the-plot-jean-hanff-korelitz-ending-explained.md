@@ -30,7 +30,7 @@ beforetoc: "What would you do if you discovered a plot so perfect it was guarant
     "image": "https://fadalstore.online/assets/images/posts/the-plot-cover.jpg",
     "offers": {
       "@type": "Offer",
-      "url": "https://amzn.to/the-plot",
+      "url": "https://a.co/d/0edYUGuN",
       "priceCurrency": "USD",
       "price": "17.99",
       "availability": "https://schema.org/InStock"
@@ -66,8 +66,8 @@ beforetoc: "What would you do if you discovered a plot so perfect it was guarant
 <p>Everything is perfect until Jake receives an anonymous message: <em>"You are a thief."</em> The rest of the novel follows Jake's desperate attempt to find out who knows his secret and what the "real" story behind the plot was.</p>
 
 <div class="text-center my-4">
-    <a href="https://fadalstore.online/booking.html" class="btn btn-lg btn-primary px-5 py-3 shadow-lg" style="border-radius: 50px; font-weight: 800; background: #2563eb; border: none; color: #fff !important;">
-        📅 Book a Digital Strategy Session
+    <a href="https://a.co/d/0edYUGuN" target="_blank" rel="noopener" class="btn btn-lg btn-warning px-5 py-3 shadow-lg" style="border-radius: 50px; font-weight: 800; color: #000 !important; background-color: #ff9900; border: none;">
+        🛒 Buy "The Plot" on Amazon
     </a>
 </div>
 
@@ -92,6 +92,13 @@ beforetoc: "What would you do if you discovered a plot so perfect it was guarant
     <li><strong>Who is the real villain?</strong> Diana Parker (Anna Williams) is the primary antagonist, though Jake is also guilty of literary theft.</li>
     <li><strong>What is the sequel called?</strong> The sequel is titled <em>The Sequel: A Novel</em>.</li>
 </ul>
+
+<div class="text-center my-5">
+    <p class="lead font-weight-bold">Ready to read the most acclaimed thriller of the decade?</p>
+    <a href="https://a.co/d/0edYUGuN" target="_blank" rel="noopener" class="btn btn-lg btn-primary px-5 py-3 shadow-lg" style="border-radius: 50px; font-weight: 800; background: #ff9900; border: none; color: #000 !important;">
+        👉 Get "The Plot" on Amazon Now
+    </a>
+</div>
 
 <div style="background:#1a1a1a; color:#f5d76e; padding:24px; border-radius:12px; margin:32px 0; text-align:center;">
   <h3 style="margin-top:0; color:#f5d76e;">📚 Baro Sida Loo Qoro Maqaallo SEO ah</h3>
