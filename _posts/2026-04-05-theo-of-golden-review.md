@@ -18,6 +18,38 @@ canonical_url: "https://fadalstore.online/theo-of-golden-allen-levi-comprehensiv
 ---
 
 <script type="application/ld+json">
+[
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Book",
+    "name": "Theo of Golden",
+    "author": {
+      "@type": "Person",
+      "name": "Allen Levi"
+    },
+    "image": "https://fadalstore.online/assets/images/theo-of-golden-cover.jpg",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://amzn.to/4seiUDm",
+      "priceCurrency": "USD",
+      "price": "14.99",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4.8",
+    "bestRating": "5"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Fadal Store"
+  },
+  "datePublished": "2026-04-05",
+  "reviewBody": "Theo of Golden is a masterfully written novel that explores themes of community, generosity, and secret identity in a small Southern town. Highly recommended for readers who love literary fiction with heart."
+},
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -56,6 +88,7 @@ canonical_url: "https://fadalstore.online/theo-of-golden-allen-levi-comprehensiv
     }
   ]
 }
+]
 </script>
 
 ### Summary
