@@ -23,6 +23,14 @@ beforetoc: "Haddii aad raadinayso tablet tayo leh oo qiimihiisu macquul yahay, S
     "brand": {
       "@type": "Brand",
       "name": "Samsung"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://amzn.to/3OtZqwI",
+      "priceCurrency": "USD",
+      "price": "349.00",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition"
     }
   },
   "reviewRating": {

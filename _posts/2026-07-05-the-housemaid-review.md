@@ -31,6 +31,13 @@ beforetoc: "If you are looking for a thriller that keeps you reading at 2am and 
     "author": {
       "@type": "Person",
       "name": "Freida McFadden"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://amzn.to/housemaid",
+      "priceCurrency": "USD",
+      "price": "12.99",
+      "availability": "https://schema.org/InStock"
     }
   },
   "reviewRating": {

@@ -36,6 +36,13 @@ beforetoc: "If you are looking for a story that restores your faith in humanity,
     "publisher": {
       "@type": "Organization",
       "name": "Atria Books"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://amzn.to/3O9CiDE",
+      "priceCurrency": "USD",
+      "price": "14.99",
+      "availability": "https://schema.org/InStock"
     }
   },
   "reviewRating": {

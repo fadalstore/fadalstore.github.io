@@ -25,6 +25,13 @@ canonical_url: "https://fadalstore.online/artistry-academy-masterclass-review.ht
     "brand": {
       "@type": "Brand",
       "name": "Artistry Academy"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://artistry-academy.com/lp/#aff=fadalsheekh281f8",
+      "priceCurrency": "USD",
+      "price": "197.00",
+      "availability": "https://schema.org/InStock"
     }
   },
   "reviewRating": {
