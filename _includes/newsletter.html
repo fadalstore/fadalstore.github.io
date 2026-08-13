@@ -3,8 +3,8 @@
   <div class="fs-news-inner">
     <div class="fs-news-icon">📬</div>
     <div class="fs-news-text">
-      <h3 id="fs-newsletter-title">Ku biir Newsletter-ka Fadal Store</h3>
-      <p>Hel maqaallada ugu cusub, tababarrada bilaashka ah, iyo fursadaha ganacsiga online-ka — toos email-kaaga.</p>
+      <h3 id="fs-newsletter-title" class="lang-txt" data-en="Join Fadal Store Newsletter" data-so="Ku biir Newsletter-ka Fadal Store">Ku biir Newsletter-ka Fadal Store</h3>
+      <p class="lang-txt" data-en="Get the latest articles, free tutorials, and online business opportunities — directly to your inbox." data-so="Hel maqaallada ugu cusub, tababarrada bilaashka ah, iyo fursadaha ganacsiga online-ka — toos email-kaaga.">Hel maqaallada ugu cusub, tababarrada bilaashka ah, iyo fursadaha ganacsiga online-ka — toos email-kaaga.</p>
     </div>
     <form class="fs-news-form" data-action="{{ site.newsletter_endpoint }}" novalidate>
       <input type="hidden" name="access_key" value="{{ site.newsletter_access_key }}">
@@ -12,8 +12,8 @@
       <input type="hidden" name="from_name" value="Fadal Store Newsletter">
       <input type="checkbox" name="botcheck" style="display:none;" tabindex="-1" autocomplete="off">
       <label for="fs-news-email" class="sr-only">Email address</label>
-      <input type="email" id="fs-news-email" name="email" required placeholder="aragta@email.com" autocomplete="email">
-      <button type="submit">Diiwaan-geli →</button>
+      <input type="email" id="fs-news-email" name="email" required placeholder="your@email.com" data-en-placeholder="your@email.com" data-so-placeholder="aragta@email.com" autocomplete="email">
+      <button type="submit" class="lang-txt" data-en="Subscribe →" data-so="Diiwaan-geli →">Diiwaan-geli →</button>
       <p class="fs-news-msg" role="status" aria-live="polite"></p>
     </form>
   </div>

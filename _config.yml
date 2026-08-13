@@ -55,6 +55,10 @@ adsense: "enabled"
 adsense_data_ad_client: "ca-pub-9732596199385216"
 adsense_data_ad_slot: "auto"
 
+# Newsletter (e.g., Web3Forms or Formspree)
+newsletter_endpoint: "" # Link-ga Form-ka (tusaale: https://api.web3forms.com/submit)
+newsletter_access_key: "" # Furaha Access Key-gaaga
+
 # Lazy Images
 lazyimages: "enabled"
 
