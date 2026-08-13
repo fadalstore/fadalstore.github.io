@@ -121,56 +121,55 @@ ga('send', 'pageview');
 
             <ul class="navbar-nav ml-auto">
 
-                {% if page.url == "/" %}
-                <li class="nav-item active">
-                {% else %}
-                <li class="nav-item">
-                {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
+                <li class="nav-item {% if page.url == '/' %}active{% endif %}">
+                    <a class="nav-link lang-txt" href="{{ site.baseurl }}/" data-en="Home" data-so="Blog">Blog</a>
+                </li>
+
+                <!-- Articles Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle lang-txt" href="#" id="navbarDropdownArticles" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-en="Articles" data-so="Maqaallada">
+                        Maqaallada
+                    </a>
+                    <div class="dropdown-menu shadow-sm border-0" aria-labelledby="navbarDropdownArticles">
+                        <a class="dropdown-item lang-txt" href="{{ site.baseurl }}/posts/" data-en="All Stories" data-so="Dhammaan">Dhammaan</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/category-remote-work.html">Remote Work</a>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/category-make-money-online.html">Make Money Online</a>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/category-programming.html">Programming</a>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/category-cybersecurity.html">Cybersecurity</a>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/category-reviews.html">Reviews</a>
+                    </div>
+                </li>
+
+                <!-- Learning Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle lang-txt" href="#" id="navbarDropdownLearning" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-en="Learning" data-so="Barashada">
+                        Barashada
+                    </a>
+                    <div class="dropdown-menu shadow-sm border-0" aria-labelledby="navbarDropdownLearning">
+                        <a class="dropdown-item lang-txt" href="{{ site.baseurl }}/courses/" data-en="Courses" data-so="Koorsooyin">Koorsooyin</a>
+                        <a class="dropdown-item lang-txt" href="{{ site.baseurl }}/ebooks/" data-en="E-books" data-so="Buugaag">Buugaag</a>
+                    </div>
+                </li>
+
+                <!-- Services Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle lang-txt" href="#" id="navbarDropdownServices" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-en="Services" data-so="Adeegyada">
+                        Adeegyada
+                    </a>
+                    <div class="dropdown-menu shadow-sm border-0" aria-labelledby="navbarDropdownServices">
+                        <a class="dropdown-item lang-txt" href="{{ site.baseurl }}/booking.html" style="color: #059669; font-weight: 700;" data-en="Booking" data-so="Boos Qabasho">Boos Qabasho</a>
+                        <a class="dropdown-item lang-txt" href="{{ site.baseurl }}/llms-generator/" style="color: #2563eb; font-weight: 700;" data-en="LLMS.txt" data-so="LLMS.txt">LLMS.txt</a>
+                    </div>
                 </li>
 
                 <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/posts/">Maqaallada</a>
+                    <a class="nav-link lang-txt" href="{{ site.baseurl }}/about/" data-en="About" data-so="Ku saabsan">Ku saabsan</a>
                 </li>
 
-<li class="nav-item">
-	                <a class="nav-link" href="{{ site.baseurl }}/about/">Ku saabsan</a>
-	                </li>
-
-	                <li class="nav-item">
-	                <a class="nav-link" href="{{ site.baseurl }}/booking.html" style="color: #059669; font-weight: 700;">Booking</a>
-	                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/category-remote-work.html">Remote Work</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/category-make-money-online.html">Make Money Online</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/category-programming.html">Programming</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/category-cybersecurity.html">Cybersecurity</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/category-reviews.html">Reviews</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/courses/">Courses</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/ebooks/">E-books</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/llms-generator/" style="color: #2563eb; font-weight: 700;">LLMS.txt</a>
+                <!-- Language Switcher -->
+                <li class="nav-item ml-lg-3">
+                    <button id="lang-switcher" class="btn btn-outline-primary btn-sm mt-1" style="border-radius: 20px; font-weight: 700; min-width: 60px;">EN</button>
                 </li>
 
                 {% include search-lunr.html %}
@@ -246,9 +245,9 @@ ga('send', 'pageview');
 ================================================== -->
 <div class="alertbar">
         <div class="container text-center">
-                <span style="font-family:'Righteous',sans-serif;font-weight:900;font-size:1.1rem;">FS</span> &nbsp; Nagala soco <b>Telegram-ka</b> si aadan u seegin maqaallada cusub
+                <span style="font-family:'Righteous',sans-serif;font-weight:900;font-size:1.1rem;">FS</span> &nbsp; <span class="lang-txt" data-en="Follow us on Telegram so you don't miss new articles" data-so="Nagala soco Telegram-ka si aadan u seegin maqaallada cusub">Nagala soco Telegram-ka si aadan u seegin maqaallada cusub</span>
                 <div class="mt-2">
-                    <a href="https://t.me/fadalsheekh" target="_blank" class="btn btn-primary btn-sm" style="border-radius:20px; padding: 5px 25px; background-color: #0088cc; border: none;">Subscribe on Telegram</a>
+                    <a href="https://t.me/fadalsheekh" target="_blank" class="btn btn-primary btn-sm lang-txt" style="border-radius:20px; padding: 5px 25px; background-color: #0088cc; border: none;" data-en="Subscribe on Telegram" data-so="Subscribe on Telegram">Subscribe on Telegram</a>
                 </div>
         </div>
 </div>
@@ -300,7 +299,7 @@ ga('send', 'pageview');
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 mb-3 mb-md-0">
-                <h6 class="font-weight-bold mb-3">Hageyaasha Ugu Muhiimsan</h6>
+                <h6 class="font-weight-bold mb-3 lang-txt" data-en="Top Guides" data-so="Hageyaasha Ugu Muhiimsan">Hageyaasha Ugu Muhiimsan</h6>
                 <ul class="list-unstyled small">
                     <li class="mb-1"><a href="{{ site.baseurl }}/amazon-kdp-2026.html" class="text-muted">📦 Amazon KDP Guide 2026</a></li>
                     <li class="mb-1"><a href="{{ site.baseurl }}/partnerstack-somali.html" class="text-muted">🤝 PartnerStack Soomaali</a></li>
@@ -311,9 +310,9 @@ ga('send', 'pageview');
                 </ul>
             </div>
             <div class="col-md-4 col-sm-6">
-                <h6 class="font-weight-bold mb-3">Bogagga</h6>
+                <h6 class="font-weight-bold mb-3 lang-txt" data-en="Pages" data-so="Bogagga">Bogagga</h6>
                 <ul class="list-unstyled small">
-                    <li class="mb-1"><a href="{{ site.baseurl }}/about/" class="text-muted">ℹ️ Ku saabsan</a></li>
+                    <li class="mb-1"><a href="{{ site.baseurl }}/about/" class="text-muted lang-txt" data-en="ℹ️ About" data-so="ℹ️ Ku saabsan">ℹ️ Ku saabsan</a></li>
                     <li class="mb-1"><a href="{{ site.baseurl }}/privacy-policy/" class="text-muted">🔒 Privacy Policy</a></li>
                     <li class="mb-1"><a href="{{ site.baseurl }}/disclaimer/" class="text-muted">⚠️ Disclaimer</a></li>
                     <li class="mb-1"><a href="{{ site.baseurl }}/terms-of-service/" class="text-muted">📄 Terms of Service</a></li>
@@ -324,7 +323,7 @@ ga('send', 'pageview');
         <hr style="border-color: #e2e8f0;">
         <div class="row">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                <small class="text-muted">Copyright © {{ site.time | date: "%Y" }} {{ site.name }} — Xuquuqda waa Dhawrantahay</small>
+                <small class="text-muted">Copyright © {{ site.time | date: "%Y" }} {{ site.name }} — <span class="lang-txt" data-en="All Rights Reserved" data-so="Xuquuqda waa Dhawrantahay">Xuquuqda waa Dhawrantahay</span></small>
             </div>
             <div class="col-md-6 col-sm-6 text-center text-lg-right">
                 <small class="text-muted">Designed by Master Fadal</small>
@@ -349,9 +348,46 @@ ga('send', 'pageview');
 {% endif %}
 <script src="https://gumroad.com/js/gumroad.js" defer></script>
 
-{% if page.layout == 'post' and site.disqus %}
-<script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
-{% endif %}
+	{% if page.layout == 'post' and site.disqus %}
+	<script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
+	{% endif %}
 
-</body>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const langBtn = document.getElementById('lang-switcher');
+        const langTxts = document.querySelectorAll('.lang-txt');
+        
+        function setLanguage(lang) {
+            langTxts.forEach(el => {
+                // Update text content
+                if (el.dataset[lang]) {
+                    el.innerText = el.dataset[lang];
+                }
+                // Update placeholder if it exists
+                if (el.tagName === 'INPUT' && el.dataset[lang + 'Placeholder']) {
+                    el.placeholder = el.dataset[lang + 'Placeholder'];
+                }
+                // Update title attribute if it exists
+                if (el.dataset[lang + 'Title']) {
+                    el.title = el.dataset[lang + 'Title'];
+                }
+            });
+            langBtn.innerText = lang === 'en' ? 'SO' : 'EN';
+            localStorage.setItem('preferred-lang', lang);
+            document.documentElement.lang = lang;
+        }
+
+        // Initialize from local storage or default to 'so'
+        const savedLang = localStorage.getItem('preferred-lang') || 'so';
+        setLanguage(savedLang);
+
+        langBtn.addEventListener('click', function() {
+            const currentLang = localStorage.getItem('preferred-lang') || 'so';
+            const newLang = currentLang === 'so' ? 'en' : 'so';
+            setLanguage(newLang);
+        });
+    });
+    </script>
+	
+	</body>
 </html>

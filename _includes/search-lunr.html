@@ -7,8 +7,8 @@
 </style>
 
 <form class="bd-search" onsubmit="return (typeof lunr_search === 'function') && lunr_search(document.getElementById('lunrsearch').value);">
-    <label for="lunrsearch" class="sr-only">Raadi maqaal</label>
-    <input type="search" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..." aria-label="Raadi maqaal" onfocus="window.__loadLunr && window.__loadLunr()"/>
+    <label for="lunrsearch" class="sr-only lang-txt" data-en="Search articles" data-so="Raadi maqaal">Raadi maqaal</label>
+    <input type="search" class="form-control text-small launch-modal-search lang-txt" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..." data-en-placeholder="Search..." data-so-placeholder="Raadi maqaal..." aria-label="Search" onfocus="window.__loadLunr && window.__loadLunr()"/>
 </form>
 
 <div id="lunrsearchresults">

@@ -199,3 +199,33 @@ article, .article-post, .page-content {
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+
+/* Language Switcher Button Styling */
+#lang-switcher {
+    transition: all 0.3s ease;
+    border-color: var(--fs-primary);
+    color: var(--fs-primary);
+}
+#lang-switcher:hover {
+    background-color: var(--fs-primary);
+    color: #fff;
+}
+
+/* Mobile Dropdown Fix */
+@media (max-width: 991.98px) {
+    .dropdown-menu {
+        border: none;
+        box-shadow: none;
+        padding-left: 1.5rem;
+        background: transparent;
+    }
+    .dropdown-item {
+        padding: 0.5rem 0;
+        font-size: 0.95rem;
+        color: var(--fs-muted) !important;
+    }
+    .dropdown-item:hover {
+        background: transparent;
+        color: var(--fs-primary) !important;
+    }
+}
