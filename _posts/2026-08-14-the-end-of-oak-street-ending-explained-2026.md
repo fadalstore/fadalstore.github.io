@@ -36,6 +36,7 @@ beforetoc: "Released on August 14, 2026, David Robert Mitchell's 'The End of Oak
     "bestRating": "5",
     "worstRating": "1"
   },
+  "description": "The End of Oak Street (2026) is a high-concept sci-fi survival thriller starring Anne Hathaway and Ewan McGregor.",
   "author": {
     "@type": "Organization",
     "name": "Fadal Store"

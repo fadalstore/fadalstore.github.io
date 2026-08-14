@@ -33,7 +33,27 @@ beforetoc: "What would you do if you discovered a plot so perfect it was guarant
       "url": "https://a.co/d/0edYUGuN",
       "priceCurrency": "USD",
       "price": "17.99",
-      "availability": "https://schema.org/InStock"
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnPeriod",
+        "merchantReturnDays": 30,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/FreeReturn"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": 0,
+          "currency": "USD"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+        }
+      }
     }
   },
   "reviewRating": {
@@ -42,6 +62,7 @@ beforetoc: "What would you do if you discovered a plot so perfect it was guarant
     "bestRating": "5",
     "worstRating": "1"
   },
+  "description": "The Plot by Jean Hanff Korelitz is a brilliant, multi-layered thriller that explores the ethics of storytelling and literary theft.",
   "author": {
     "@type": "Organization",
     "name": "Fadal Store"

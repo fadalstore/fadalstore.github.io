@@ -33,7 +33,27 @@ beforetoc: "If you thought Millie from The Housemaid was unhinged, wait until yo
       "url": "https://amzn.to/dear-debbie",
       "priceCurrency": "USD",
       "price": "15.99",
-      "availability": "https://schema.org/InStock"
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnPeriod",
+        "merchantReturnDays": 30,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/FreeReturn"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": 0,
+          "currency": "USD"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+        }
+      }
     }
   },
   "reviewRating": {
@@ -42,6 +62,7 @@ beforetoc: "If you thought Millie from The Housemaid was unhinged, wait until yo
     "bestRating": "5",
     "worstRating": "1"
   },
+  "description": "Dear Debbie by Freida McFadden is a dark, twisted, and gleefully sadistic psychological thriller that introduces a new kind of antihero.",
   "author": {
     "@type": "Organization",
     "name": "Fadal Store"
