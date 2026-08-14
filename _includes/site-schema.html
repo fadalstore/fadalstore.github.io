@@ -1,0 +1,35 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.name }}",
+  "alternateName": "Fadal Store Online",
+  "url": "{{ site.url }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ site.url }}/search.html?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "{{ site.name }}",
+  "url": "{{ site.url }}",
+  "logo": "{{ site.url }}/assets/images/logo.png",
+  "sameAs": [
+    "{{ site.authors.fadal.facebook }}",
+    "{{ site.authors.fadal.twitter }}",
+    "{{ site.authors.fadal.youtube }}",
+    "{{ site.authors.fadal.telegram }}"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "{{ site.authors.fadal.email }}",
+    "contactType": "customer service"
+  }
+}
+</script>

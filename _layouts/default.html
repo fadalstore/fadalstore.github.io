@@ -19,6 +19,14 @@
 <link rel="canonical" href="{% if page.canonical_url %}{{ page.canonical_url }}{% else %}{{ site.url }}{{ page.url | replace:'index.html','' }}{% endif %}" />
 {% seo %}
 
+<!-- SEO Enhancements for Google Search & Images -->
+<meta name="robots" content="max-image-preview:large">
+{% include open-graph.html %}
+{% include schema.html %}
+{% if page.url == "/" or page.url == "/index.html" %}
+  {% include site-schema.html %}
+{% endif %}
+
 {% if site.adsense == "enabled" and site.adsense_data_ad_client != "ca-pub-xxxxxxxxxxxxxxxx" %}
 <meta name="google-adsense-account" content="{{ site.adsense_data_ad_client }}">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense_data_ad_client }}" crossorigin="anonymous"></script>
