@@ -37,7 +37,27 @@ beforetoc: "If you are looking for a thriller that keeps you reading at 2am and 
       "url": "https://amzn.to/housemaid",
       "priceCurrency": "USD",
       "price": "12.99",
-      "availability": "https://schema.org/InStock"
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnPeriod",
+        "merchantReturnDays": 30,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/FreeReturn"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": 0,
+          "currency": "USD"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+        }
+      }
     }
   },
   "reviewRating": {
@@ -45,7 +65,8 @@ beforetoc: "If you are looking for a thriller that keeps you reading at 2am and 
     "ratingValue": "4.9",
     "bestRating": "5"
   },
-  "reviewBody": "The Housemaid is a masterclass in psychological suspense. McFadden builds dread so gradually and so precisely that you don't realize how deep in you are until the final twist lands — and then you can't stop thinking about it."
+  "reviewBody": "The Housemaid is a masterclass in psychological suspense. McFadden builds dread so gradually and so precisely that you don't realize how deep in you are until the final twist lands — and then you can't stop thinking about it.",
+  "description": "The Housemaid is a masterclass in psychological suspense. McFadden builds dread so gradually and so precisely that you don't realize how deep in you a"
 }
 </script>
 

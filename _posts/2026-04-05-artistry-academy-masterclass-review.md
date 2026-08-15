@@ -31,7 +31,27 @@ canonical_url: "https://fadalstore.online/artistry-academy-masterclass-review.ht
       "url": "https://artistry-academy.com/lp/#aff=fadalsheekh281f8",
       "priceCurrency": "USD",
       "price": "197.00",
-      "availability": "https://schema.org/InStock"
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnPeriod",
+        "merchantReturnDays": 30,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/FreeReturn"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": 0,
+          "currency": "USD"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+        }
+      }
     }
   },
   "reviewRating": {
@@ -45,7 +65,8 @@ canonical_url: "https://fadalstore.online/artistry-academy-masterclass-review.ht
     "name": "Fadal Store"
   },
   "datePublished": "2026-04-05",
-  "reviewBody": "The Artistry Academy Masterclass by Paula Callan is a comprehensive professional makeup course with 80 modules, lifetime access, and a 60-day money-back guarantee. Highly recommended for aspiring artists and beauty enthusiasts."
+  "reviewBody": "The Artistry Academy Masterclass by Paula Callan is a comprehensive professional makeup course with 80 modules, lifetime access, and a 60-day money-back guarantee. Highly recommended for aspiring artists and beauty enthusiasts.",
+  "description": "The Artistry Academy Masterclass by Paula Callan is a comprehensive professional makeup course with 80 modules, lifetime access, and a 60-day money-ba"
 }
 </script>
 

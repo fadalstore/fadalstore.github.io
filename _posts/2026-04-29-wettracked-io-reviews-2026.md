@@ -27,7 +27,27 @@ categories: [ Reviews ]
       "url": "https://www.wetracked.io/reviews",
       "priceCurrency": "USD",
       "price": "199.00",
-      "availability": "https://schema.org/InStock"
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnPeriod",
+        "merchantReturnDays": 30,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/FreeReturn"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": 0,
+          "currency": "USD"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+        }
+      }
     }
   },
   "reviewRating": {
@@ -41,7 +61,8 @@ categories: [ Reviews ]
     "name": "Fadal Store"
   },
   "datePublished": "2026-04-29",
-  "reviewBody": "Wettracked.io is a powerful ad tracking and attribution software designed specifically for e-commerce entrepreneurs. It provides server-side tracking that captures every click and conversion with precision."
+  "reviewBody": "Wettracked.io is a powerful ad tracking and attribution software designed specifically for e-commerce entrepreneurs. It provides server-side tracking that captures every click and conversion with precision.",
+  "description": "Wettracked.io is a powerful ad tracking and attribution software designed specifically for e-commerce entrepreneurs. It provides server-side tracking "
 }
 </script>
 

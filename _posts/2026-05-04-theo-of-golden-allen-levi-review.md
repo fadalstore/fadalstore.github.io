@@ -33,7 +33,27 @@ beforetoc: "If you're looking for a book that restores your faith in humanity, l
       "url": "https://amzn.to/3QLViJm",
       "priceCurrency": "USD",
       "price": "14.99",
-      "availability": "https://schema.org/InStock"
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnPeriod",
+        "merchantReturnDays": 30,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/FreeReturn"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": 0,
+          "currency": "USD"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+        }
+      }
     }
   },
   "reviewRating": {
@@ -47,7 +67,8 @@ beforetoc: "If you're looking for a book that restores your faith in humanity, l
     "name": "Fadal Store"
   },
   "datePublished": "2026-05-04",
-  "reviewBody": "Theo of Golden is a beautifully crafted novel about the power of creative generosity, hidden identity, and what it costs to love someone from a distance. A 5-star read that earns its ending."
+  "reviewBody": "Theo of Golden is a beautifully crafted novel about the power of creative generosity, hidden identity, and what it costs to love someone from a distance. A 5-star read that earns its ending.",
+  "description": "Theo of Golden is a beautifully crafted novel about the power of creative generosity, hidden identity, and what it costs to love someone from a distan"
 }
 </script>
 

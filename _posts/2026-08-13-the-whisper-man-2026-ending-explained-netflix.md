@@ -41,7 +41,8 @@ beforetoc: "Netflix's The Whisper Man (2026) is the most anticipated thriller of
     "name": "Fadal Store"
   },
   "datePublished": "2026-08-13",
-  "reviewBody": "A chilling and emotionally resonant adaptation. The change to the father-son dynamic between Pete and Tom adds a new layer of depth that the book lacked. Robert De Niro delivers his best performance in years."
+  "reviewBody": "A chilling and emotionally resonant adaptation. The change to the father-son dynamic between Pete and Tom adds a new layer of depth that the book lacked. Robert De Niro delivers his best performance in years.",
+  "description": "A chilling and emotionally resonant adaptation. The change to the father-son dynamic between Pete and Tom adds a new layer of depth that the book lack"
 }
 </script>
 

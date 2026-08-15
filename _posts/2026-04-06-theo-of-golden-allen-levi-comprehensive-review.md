@@ -42,7 +42,27 @@ beforetoc: "If you are looking for a story that restores your faith in humanity,
       "url": "https://amzn.to/3O9CiDE",
       "priceCurrency": "USD",
       "price": "14.99",
-      "availability": "https://schema.org/InStock"
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnPeriod",
+        "merchantReturnDays": 30,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/FreeReturn"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": 0,
+          "currency": "USD"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+        }
+      }
     }
   },
   "reviewRating": {
@@ -51,7 +71,8 @@ beforetoc: "If you are looking for a story that restores your faith in humanity,
     "bestRating": "5",
     "worstRating": "1"
   },
-  "reviewBody": "Theo of Golden is a quietly devastating novel about a man who arrives in a small Southern town to spend a year returning 92 pencil portraits to the people depicted in them — only for the final chapters to reveal that every act of generosity was a father secretly loving his unknown son."
+  "reviewBody": "Theo of Golden is a quietly devastating novel about a man who arrives in a small Southern town to spend a year returning 92 pencil portraits to the people depicted in them — only for the final chapters to reveal that every act of generosity was a father secretly loving his unknown son.",
+  "description": "Theo of Golden is a quietly devastating novel about a man who arrives in a small Southern town to spend a year returning 92 pencil portraits to the pe"
 }
 </script>
 

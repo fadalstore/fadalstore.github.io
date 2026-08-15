@@ -19,75 +19,96 @@ canonical_url: "https://fadalstore.online/theo-of-golden-allen-levi-comprehensiv
 
 <script type="application/ld+json">
 [
-{
-  "@context": "https://schema.org",
-  "@type": "Review",
-  "itemReviewed": {
-    "@type": "Book",
-    "name": "Theo of Golden",
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "itemReviewed": {
+      "@type": "Book",
+      "name": "Theo of Golden",
+      "author": {
+        "@type": "Person",
+        "name": "Allen Levi"
+      },
+      "image": "https://fadalstore.online/assets/images/theo-of-golden-cover.jpg",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://amzn.to/4seiUDm",
+        "priceCurrency": "USD",
+        "price": "14.99",
+        "availability": "https://schema.org/InStock",
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnPeriod",
+          "merchantReturnDays": 30,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": 0,
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          }
+        }
+      }
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "4.8",
+      "bestRating": "5"
+    },
     "author": {
-      "@type": "Person",
-      "name": "Allen Levi"
+      "@type": "Organization",
+      "name": "Fadal Store"
     },
-    "image": "https://fadalstore.online/assets/images/theo-of-golden-cover.jpg",
-    "offers": {
-      "@type": "Offer",
-      "url": "https://amzn.to/4seiUDm",
-      "priceCurrency": "USD",
-      "price": "14.99",
-      "availability": "https://schema.org/InStock"
-    }
+    "datePublished": "2026-04-05",
+    "reviewBody": "Theo of Golden is a masterfully written novel that explores themes of community, generosity, and secret identity in a small Southern town. Highly recommended for readers who love literary fiction with heart.",
+    "description": "Theo of Golden is a masterfully written novel that explores themes of community, generosity, and secret identity in a small Southern town. Highly reco"
   },
-  "reviewRating": {
-    "@type": "Rating",
-    "ratingValue": "4.8",
-    "bestRating": "5"
-  },
-  "author": {
-    "@type": "Organization",
-    "name": "Fadal Store"
-  },
-  "datePublished": "2026-04-05",
-  "reviewBody": "Theo of Golden is a masterfully written novel that explores themes of community, generosity, and secret identity in a small Southern town. Highly recommended for readers who love literary fiction with heart."
-},
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is Theo of Golden based on a true story?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Theo of Golden is a work of fiction. Allen Levi created Golden, its 92 pencil portraits, and all its characters from his imagination — though the novel's emotional core draws on real feelings about community, grief, and anonymous generosity."
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Theo of Golden based on a true story?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Theo of Golden is a work of fiction. Allen Levi created Golden, its 92 pencil portraits, and all its characters from his imagination — though the novel's emotional core draws on real feelings about community, grief, and anonymous generosity."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who is Willa in Theo of Golden?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Willa is the long-lost daughter of Ellen, an unhoused woman in Golden. Authorities removed infant Willa from Ellen thirty years before the novel begins. She reappears at the very end as a grown woman named Olivia Reese, reunited with Ellen through a letter Theo quietly arranged before his death."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the twist ending of Theo of Golden?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "After Theo's death, letters reveal he was secretly Zila, a world-famous reclusive artist, and — most importantly — the biological father of Asher Glissen, the young artist whose 92 pencil portraits started Theo's entire mission in Golden."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where can I buy Theo of Golden?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can find Theo of Golden on Amazon at https://amzn.to/4seiUDm for easy purchase and fast delivery."
+        }
       }
-    },
-    {
-      "@type": "Question",
-      "name": "Who is Willa in Theo of Golden?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Willa is the long-lost daughter of Ellen, an unhoused woman in Golden. Authorities removed infant Willa from Ellen thirty years before the novel begins. She reappears at the very end as a grown woman named Olivia Reese, reunited with Ellen through a letter Theo quietly arranged before his death."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the twist ending of Theo of Golden?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "After Theo's death, letters reveal he was secretly Zila, a world-famous reclusive artist, and — most importantly — the biological father of Asher Glissen, the young artist whose 92 pencil portraits started Theo's entire mission in Golden."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Where can I buy Theo of Golden?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You can find Theo of Golden on Amazon at https://amzn.to/4seiUDm for easy purchase and fast delivery."
-      }
-    }
-  ]
-}
+    ]
+  }
 ]
 </script>
 
