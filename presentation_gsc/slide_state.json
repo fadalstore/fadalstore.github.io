@@ -1,0 +1,72 @@
+{
+  "project_info": {
+    "title": "Sida Loosoo Jiito Traffic Badan: Istiraatiijiyadda GSC",
+    "created": 1786985959.122,
+    "last_updated": 1786986031.518,
+    "total_slides": 6
+  },
+  "slides": [
+    {
+      "id": "title_slide",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "intro_slide",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "metrics_slide",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "low_hanging_fruit_slide",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "technical_seo_slide",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "conclusion_slide",
+      "state": "edited",
+      "pageNum": 6
+    }
+  ],
+  "outline": [
+    {
+      "id": "title_slide",
+      "title": "Sida Loosoo Jiito Traffic Badan: Istiraatiijiyadda GSC",
+      "summary": "Main title slide introducing the presentation topic and Fadal Store."
+    },
+    {
+      "id": "intro_slide",
+      "title": "1. Hordhac: Maxay GSC u Tahay Qalabka Dahabiga ah?",
+      "summary": "Explaining the importance of Google Search Console as a goldmine for data."
+    },
+    {
+      "id": "metrics_slide",
+      "title": "2. Falanqaynta Ere-baadhisaha (Queries & Impressions)",
+      "summary": "Organizing key metrics like Impressions, Clicks, and Position in a table."
+    },
+    {
+      "id": "low_hanging_fruit_slide",
+      "title": "3. Xeeladda \\\"Low-Hanging Fruit\\\" (Fursadaha Degdeg ah)",
+      "summary": "Explaining the strategy to get quick traffic by optimizing existing content."
+    },
+    {
+      "id": "technical_seo_slide",
+      "title": "4. Xallinta Cilladaha Farsamada (Technical SEO)",
+      "summary": "Discussing the impact of technical SEO on traffic."
+    },
+    {
+      "id": "conclusion_slide",
+      "title": "5. Gabagabo & Tallaabooyinka Xiga",
+      "summary": "Concluding with actionable next steps for Fadal Store."
+    }
+  ]
+}

@@ -61,7 +61,7 @@ permalink: /sitemap.xml
     <priority>{{ post_priority }}</priority>
     {% if post.image %}
     <image:image>
-      <image:loc>{% if post.image contains "://" %}{{ post.image | xml_escape }}{% else %}{{ site.url }}{{ post.image | xml_escape }}{% endif %}</image:loc>
+      <image:loc>{% if post.image contains "://" %}{{ post.image | xml_escape }}{% else %}{{ site.url }}/{{ post.image | lstrip | xml_escape | replace: '//', '/' }}{% endif %}</image:loc>
       <image:title>{{ post.title | xml_escape }}</image:title>
     </image:image>
     {% endif %}

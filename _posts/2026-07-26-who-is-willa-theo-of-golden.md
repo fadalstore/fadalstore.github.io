@@ -6,7 +6,7 @@ date: 2026-07-26
 categories: [book-explainers]
 tags: [theo-of-golden, willa, allen-levi, ending-explained]
 permalink: /who-is-willa-theo-of-golden.html
-canonical_url: "https://fadalstore.online/who-is-willa-theo-of-golden.html"
+canonical_url: "https://fadalstore.online/theo-of-golden-willa-ending-explained.html"
 ---
 
 ## Short Answer

@@ -14,7 +14,7 @@ featured: true
 hidden: false
 rating: 4.9
 toc: true
-canonical_url: "https://fadalstore.online/olivia-reese-willa-theo-of-golden-reunion-explained.html"
+canonical_url: "https://fadalstore.online/theo-of-golden-willa-ending-explained.html"
 ---
 
 <script type="application/ld+json">

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #FFFFFF;
+            overflow: hidden;
+        }
+
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            padding-top: 60px;
+        }
+
+        .geometric-shape {
+            position: absolute;
+            z-index: 0;
+            background: #FFC107;
+            opacity: 0.1;
+            border-radius: 50%;
+        }
+
+        .shape-1 { width: 400px; height: 400px; top: -100px; right: -100px; }
+        .shape-2 { width: 200px; height: 200px; bottom: 50px; left: 100px; background: #0056B3; }
+
+        .content {
+            z-index: 1;
+            text-align: center;
+            width: 80%;
+        }
+
+        h1 {
+            font-size: 72px;
+            font-weight: 800;
+            color: #1A1A1A;
+            line-height: 1.1;
+            margin-bottom: 24px;
+            text-transform: uppercase;
+            letter-spacing: -2px;
+        }
+
+        .divider {
+            width: 80px;
+            height: 4px;
+            background: #0056B3;
+            margin: 32px auto;
+        }
+
+        p {
+            font-size: 28px;
+            font-weight: 400;
+            color: #4A4A4A;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .branding {
+            position: absolute;
+            bottom: 60px;
+            font-size: 20px;
+            font-weight: 800;
+            color: #0056B3;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="geometric-shape shape-1"></div>
+        <div class="geometric-shape shape-2"></div>
+        
+        <div class="content">
+            <h1>Sida Loosoo Jiito Traffic Badan: Istiraatiijiyadda GSC</h1>
+            <div class="divider"></div>
+            <p>Hagaha Falanqaynta Google Search Console si loo Kordhiyo Booqdayaasha Website-ka</p>
+        </div>
+
+        <div class="branding">FADAL STORE (FADALSTORE.ONLINE)</div>
+    </div>
+</body>
+</html>
