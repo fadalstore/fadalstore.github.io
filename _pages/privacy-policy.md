@@ -4,54 +4,46 @@ title: "Privacy Policy — Fadal Store"
 permalink: /privacy-policy/
 ---
 
-## Siyaasadda Asturnaanta (Privacy Policy)
+<div class="article-post">
 
-**Cusboonaysiinta ugu dambeeyay:** Abriil 2026
+<h1>Privacy Policy</h1>
+<p><strong>Last Updated: August 18, 2026</strong></p>
 
-### 1. Hordhac
+<p>Welcome to <strong>Fadal Store</strong> (fadalstore.online). We value your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website.</p>
 
-Fadal Store ("annaga," "noo," ama "keena") waxay maamushaa website-ka fadalstore.online. Boggan wuxuu sharaxayaa siyaasadda asturnaantayada ee ku saabsan macluumaadka aan uruurino, isticmaalno, iyo shareyno marka aad booqato website-kayaga.
+<hr>
 
-### 2. Xogta Aan Uruurino
+<h2>1. Information We Collect</h2>
+<p>We collect information in the following ways:</p>
+<ul>
+    <li><strong>Information You Provide:</strong> When you leave a comment, contact us via email, or subscribe to our updates, we may collect your name and email address.</li>
+    <li><strong>Automated Information:</strong> We automatically collect certain information about your device, including your IP address, browser type, and how you interact with our site via cookies and tracking technologies.</li>
+</ul>
 
-**Xog aad nooga siinayso:**
-- Magacaaga iyo emailkaaga marka aad ku qoran tahay newsletter-ka
-- Faallooyinka aad naga reebto
+<h2>2. Google AdSense & Cookies</h2>
+<p>Fadal Store uses <strong>Google AdSense</strong> to serve advertisements. Google uses cookies to serve ads based on a user's prior visits to our website or other websites. Google's use of advertising cookies enables it and its partners to serve ads to our users based on their visit to our sites and/or other sites on the Internet.</p>
+<p>Users may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank">Ads Settings</a>.</p>
 
-**Xog si toos ah loo uruuriyo:**
-- Cinwaanka IP-ga
-- Browser-ka noociisa
-- Boggaga aad booqatay
-- Waqtiga aad website-ka ku jirtay
+<h2>3. Affiliate Disclosure</h2>
+<p>Fadal Store is a participant in the <strong>Amazon Services LLC Associates Program</strong>, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. When you click on an affiliate link and make a purchase, we may receive a small commission at no extra cost to you.</p>
 
-### 3. Sida Aan u Isticmaalno Xogta
+<h2>4. Data Security</h2>
+<p>We implement a variety of security measures to maintain the safety of your personal information. However, no method of transmission over the Internet is 100% secure.</p>
 
-Waxaan u isticmaalnaa xogta si aan u:
-- Hagaajino website-ka
-- Ku soo dirno macluumaad cusub (newsletter)
-- Fahmno sida booqashooyinka u dhacaan (analytics)
-- Isticmaalka Google AdSense ee xayeysiisyada
+<hr>
 
-### 4. Google AdSense
+<h1>Siyaasadda Asturnaanta (Somali)</h1>
 
-Fadal Store waxay isticmaashaa Google AdSense si loogu soo bandhigo xayeysiisyada. Google waxay isticmaashaa cookies si ay u soo bandhigto xayeysiisyada ku salaysan booqashadaada hore. Waxaad ka mamnuuci kartaa [Google Ads Settings](https://www.google.com/settings/ads).
+<h2>1. Xogta Aan Uruurino</h2>
+<p>Waxaan uruurinaa xogta marka aad nala soo xiriirto, faallo ka dhiibato maqaallada, ama aad booqato boggayaga. Xogtaas waxaa ka mid ah magacaaga, emailkaaga, iyo cinwaanka IP-gaaga.</p>
 
-### 5. Google Analytics
+<h2>2. Xayeysiisyada Google AdSense</h2>
+<p>Fadal Store waxay isticmaashaa Google AdSense si ay u soo bandhigto xayeysiisyada. Google waxay isticmaashaa "cookies" si ay kuu tusto xayeysiisyo ku habboon xiisahaaga. Waxaad ka bixi kartaa xayeysiisyada khaaska ah adigoo booqanaya bogga Google Ads Settings.</p>
 
-Waxaan isticmaalnaa Google Analytics si aan u fahmno sida dadku website-ka u isticmaasho. Xogtan waa arin guud oo aan lagu aqoon karin qofka.
+<h2>3. Xiriirinta Affiliate-ka</h2>
+<p>Waxaan qayb ka nahay barnaamijka <strong>Amazon Associates</strong>. Marka aad gujiso link-yada Amazon ee ku jira maqaalladayada oo aad wax iibsato, waxaan helnaa komishanka yar (commission) iyadoo aysan adiga wax lacag dheeraad ah kaaga baxayn. Tani waxay naga caawisaa inaan sii wadno bixinta macluumaadka bilaashka ah.</p>
 
-### 6. Cookies
+<h2>4. La Xiriirista</h2>
+<p>Haddii aad qabto wax su'aalo ah oo ku saabsan siyaasaddan, fadlan nagala soo xiriir: <strong>fadalstore7@gmail.com</strong></p>
 
-Website-kayagu wuxuu isticmaalaa cookies si loo hagaajiyo khibradaada booqashada. Waxaad cookies-ka joojin kartaa browser-kaaga settings-kiisa.
-
-### 7. Xuquuqdaada
-
-Waxaad xaq u leedahay inaad:
-- Ogaato xogta aan kugaga hayno
-- Codsato in la tirtiro xogta
-- Ogaato sida aan xogta u isticmaalno
-
-### 8. Xiriir Nala Soo Xidhiidh
-
-Su'aalo ku saabsan siyaasaddan? La xiriir:  
-📧 **fadalstore7@gmail.com**
+</div>

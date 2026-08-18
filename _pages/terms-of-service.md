@@ -1,45 +1,46 @@
 ---
 layout: page
-title: "Terms of Service | Shuruudaha Adeegsiga"
+title: "Terms of Service — Fadal Store"
 permalink: /terms-of-service/
 ---
 
-# Terms of Service
+<div class="article-post">
 
-**Last Updated: April 2026**
+<h1>Terms of Service</h1>
+<p><strong>Last Updated: August 18, 2026</strong></p>
 
-Welcome to **Fadal Store**! These terms and conditions outline the rules and regulations for the use of Fadal Store's Website, located at [fadalstore.online](https://fadalstore.online).
+<p>By accessing <strong>Fadal Store</strong> (fadalstore.online), you agree to be bound by these terms and conditions. Please read them carefully.</p>
 
-By accessing this website, we assume you accept these terms and conditions. Do not continue to use Fadal Store if you do not agree to take all of the terms and conditions stated on this page.
+<hr>
 
-## 1. Intellectual Property Rights
-Unless otherwise stated, Fadal Store and/or its licensors own the intellectual property rights for all material on Fadal Store. All intellectual property rights are reserved. You may access this from Fadal Store for your own personal use subjected to restrictions set in these terms and conditions.
+<h2>1. Intellectual Property</h2>
+<p>All content on this website, including text, graphics, logos, and images, is the property of Fadal Store or its content suppliers and is protected by international copyright laws. You may not reproduce, distribute, or use any content without our express written permission.</p>
 
-You must not:
-*   Republish material from Fadal Store
-*   Sell, rent, or sub-license material from Fadal Store
-*   Reproduce, duplicate or copy material from Fadal Store
-*   Redistribute content from Fadal Store
+<h2>2. Use License</h2>
+<p>Permission is granted to temporarily download one copy of the materials on Fadal Store's website for personal, non-commercial transitory viewing only. You may not modify the materials or use them for any commercial purpose.</p>
 
-## 2. User Content
-In these Website Standard Terms and Conditions, "Your Content" shall mean any audio, video text, images, or other material you choose to display on this Website. By displaying Your Content, you grant Fadal Store a non-exclusive, worldwide irrevocable, sub-licensable license to use, reproduce, adapt, publish, translate and distribute it in any and all media.
+<h2>3. Disclaimer</h2>
+<p>The materials on Fadal Store's website are provided on an 'as is' basis. Fadal Store makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability or fitness for a particular purpose.</p>
 
-## 3. No Warranties
-This Website is provided "as is," with all faults, and Fadal Store expresses no representations or warranties, of any kind related to this Website or the materials contained on this Website. Also, nothing contained on this Website shall be interpreted as advising you.
+<h2>4. Limitations</h2>
+<p>In no event shall Fadal Store or its suppliers be liable for any damages arising out of the use or inability to use the materials on Fadal Store's website.</p>
 
-## 4. Limitation of Liability
-In no event shall Fadal Store, nor any of its officers, directors, and employees, be held liable for anything arising out of or in any way connected with your use of this Website whether such liability is under contract.
+<hr>
 
-## 5. External Links
-Our website may contain links to third-party websites or services that are not owned or controlled by Fadal Store. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party websites or services.
+<h1>Xeerarka Adeegga (Somali)</h1>
 
-## 6. Governing Law & Jurisdiction
-These Terms will be governed by and interpreted in accordance with the laws of the State of Somalia, and you submit to the non-exclusive jurisdiction of the state and federal courts located in Somalia for the resolution of any disputes.
+<h2>1. Xuquuqda Qoraalka</h2>
+<p>Dhammaan macluumaadka ku jira Fadal Store, oo ay ku jiraan qoraallada, sawirrada, iyo astaamaha, waxaa iska leh Fadal Store. Lama ogola in la koobiyo ama la isticmaalo macluumaadkayaga adiga oo aan ogolaansho qoraal ah naga helin.</p>
 
----
+<h2>2. Mas'uuliyadda Macluumaadka</h2>
+<p>Macluumaadka aan bixino waa kuwo loogu talagalay aqoon kororsi iyo talooyin guud. Inkastoo aan isku dayno inaan bixino xog sax ah, ma dammaanad qaadayno in macluumaad kasta uu 100% sax yahay waqti kasta. Isticmaalka xogta website-ka waa mas'uuliyaddaada gaarka ah.</p>
 
-# Shuruudaha Adeegsiga (Somali)
+<h2>3. Xiriirinta Dibadda</h2>
+<p>Fadal Store waxaa laga yaabaa inay ku jiraan link-yo kuu geynaya website-yo kale. Ma lihin mas'uuliyadda xogta ama siyaasadda website-yadaas dibadda ah.</p>
 
-Adiga oo booqanaya Fadal Store, waxaad ogolaanaysaa shuruudahan. Fadal Store waxay bixisaa macluumaad ku saabsan ganacsiga online-ka iyo teknoolajiyada. Ma xadi kartid content-ka website-ka adiga oo aan ogolaansho haysan. Waxaan xaq u leenahay inaan bedelno shuruudahan waqti kasta.
+<h2>4. Isbeddellada Xeerarka</h2>
+<p>Waxaan xaq u leenahay inaan beddelno xeerarkan waqti kasta. Waxaan kugu dhiirigelinaynaa inaad mar walba dib u eegto boggan.</p>
 
-**Su'aalo? La xiriir:** contact@fadalstore.com
+<p>Haddii aad qabto su'aalo, nagala soo xiriir: <strong>fadalstore7@gmail.com</strong></p>
+
+</div>
