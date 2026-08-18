@@ -13,5 +13,11 @@ Fadal Store waa mareeg loogu talagalay in lagu caawiyo dhalinyarada Soomaaliyeed
 
 Hadafkayagu waa inaan dhisno bulsho Soomaaliyeed oo aqoon u leh tignoolajiyada casriga ah, isla markaana ka faa'iidaysata fursadaha aan xadka lahayn ee internet-ka.
 
+### Waa kuma aasaasaha Fadal Store?
+**Fadal Yare** waa khabiir ku takhasusay tignoolajiyada iyo ganacsiga online-ka, isagoo sanado badan ka shaqaynayay horumarinta website-yada iyo suuqgeynta dijitaalka ah. Fadal wuxuu go'aansaday inuu abuuro madashan si uu ula wadaago khibradiisa dhalinyarada kale ee Soomaaliyeed, isagoo raba inuu tuso in qof kasta oo leh internet iyo computer uu abuuri karo mustaqbal ifaya.
+
+Fadal Store ma ahan kaliya website, ee waa wehelkaaga safarka guusha ee dunida online-ka.
+
 Haddii aad qabto wax su'aalo ah ama aad u baahan tahay caawimaad, fadlan nagala soo xidhiidh:
 **Email:** fadalstore7@gmail.com
+**Telegram:** [t.me/fadalyare](https://t.me/fadalyare)
