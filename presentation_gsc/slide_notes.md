@@ -1,0 +1,23 @@
+# 1 - 5. Gabagabo & Tallaabooyinka Xiga
+
+Waxaan soo gaarnay gabagabadii istiraatiijiyaddan qiimaha badan ee kor u qaadeysa Fadal Store. Gali Google Search Console todobaad walba si aad ula socoto mowduucyada cusub ee kacaya. Isticmaal xogtaas si aad u qorto maqaallo soo jiidasho leh oo kordhiya dakhligaaga Google AdSense iyo A-Ads. Si joogto ah u dabaq qorshahan si aad u gaarto guusha ugu dambeysa.
+
+# 2 - 3. Xeeladda \"Low-Hanging Fruit\" (Fursadaha Degdeg ah)
+
+Hadda waxaan fiirinaynaa fursadaha degdegga ah ee aan ka heli karno bogagga hore u jiray. Waa xeelad aan ku kordhin karno booqdayaasha anagoon maqaallo cusub qorin. Eeg bogagga ku jira boosaska shanta ilaa shan iyo tobnaad ee Google. Ku dar faahfaahin cusub, su aalo iyo jawaabo ah, isla markaana hagaaji cinwaannada si ay dadku u gujiyaan. Markaan halkaas ka soo gudubno, waxaa muhiim ah inaan eegno dhinaca farsamada ee website-ka Fadal Store.
+
+# 3 - 4. Xallinta Cilladaha Farsamada (Technical SEO)
+
+Fursadaha degdegga ah ka dib, waxaan u baahannahay inaan hubinno in caafimaadka farsamada ee website-ku uu dhisanyahay. Hagaaji cilladaha Schema Markup si aad u hesho Rich Snippets oo soo jiita dareenka akhristaha. Hubi in taleefannada gacanta ay si habsami leh ugu shaqeynayaan oo Googlebot uu si sahal ah u gurguuran karo bogagga cusub. Aynu hadda soo gabagabeyno talooyinka muhiimka ah ee istiraatiijiyaddan.
+
+# 4 - Sida Loosoo Jiito Traffic Badan: Istiraatiijiyadda GSC
+
+Waxaan maanta ka hadlaynaa sidii Fadal Store uu u kordhin lahaa booqdayaasha website-ka isagoo isticmaalaya qalabka Google Search Console. Waa hage dhab ah oo ku tusi doona sida loo xoojiyo traffic-ka oo lagaga faa'iideysto fursadaha yaala internetka. Barnaamijkan wuxuu kuu fududaynayaa inaan fahamno xogta nuxurkeena. Aan u gudubno sababta uu qalabkani ugu qiimo badan yahay ganacsigeena.
+
+# 5 - 1. Hordhac: Maxay GSC u Tahay Qalabka Dahabiga ah?
+
+Google Search Console ma aha oo kaliya qalab lagu eego cilladaha, ee waa isha ugu muhiimsan ee xogta dhabta ah. Waxaan helaynaa ereyada dhabta ah ee dadku ay ku raadinayaan Fadal Store. Waxaan sidoo kale ogaaneynaa bogagga leh aragtiyo badan oo u baahan hagaajin. Taasi waxay noo ogolaaneysaa inaan saxno cilladaha farsamada si aan u helno natiijooyin wanaagsan. Hadda aan u gudubno halbeegyada ugu waaweyn ee aan kala socon doono qalabkan.
+
+# 6 - 2. Falanqaynta Ere-baadhisaha (Queries & Impressions)
+
+Si loo kordhiyo traffic-ka, waa inaan si dhow u eegno laba halbeeg oo waaweyn oo kala ah aragtida iyo gujinta. Aragtidu waa inta jeer ee website-kaaga la arkay, taasoo aan ku kordhin karno qorista maqaallo cusub. Gujintu waa inta jeer ee la riixay link-gaaga, taasina waxay u baahan tahay cinwaanno soo jiidasho leh. Ujeedaduna waa inaan gaarno booska koowaad ee raadinta Google. Hadda aan aragno sida aan uga faa'iidaysan karno fursadaha degdegga ah ee aan hore u haysano.

@@ -160,7 +160,7 @@ He pays for six months of rent at Ponder House, employing **James Ponder** as hi
 | **Asher Glisson** | Local portrait artist; Theo's secret biological son |
 | **James Ponder** | Broker and consultant; Theo's landlord at Ponder House |
 | **Ellen** | Homeless woman; mother of the long-lost Willa Francesca |
-| **Willa Francesca (Olivia Reese)** | Ellen's daughter; arrives in Golden after Theo's death |
+| **Willa Francesca (Olivia Reese) | Ellen's daughter; arrives in Golden after Theo's death ([Read her full story](/who-is-willa-theo-of-golden.html)) |
 | **Minette & Derrick** | High school sweethearts; first portrait recipients |
 | **Kendrick Whitaker** | Night-shift custodian; daughter Lamisha ("Scooby") in hospital |
 | **Tony** | Bookshop owner; Vietnam veteran carrying deep guilt |
@@ -198,7 +198,7 @@ Theo's final letter reveals this secret to James Ponder after his death.
 
 ---
 
-## How Does Theo Die? The Ending Explained
+## How Does Theo Die? [The Ending Explained](/theo-of-golden-willa-ending-explained.html)
 
 James Ponder had noticed early in the novel that the balcony railing on Theo's third-floor apartment at Ponder House was **not up to code**.
 
@@ -299,7 +299,7 @@ Our full **PDF Companion Guide** to *Theo of Golden* goes even deeper — with c
 
 ---
 
-## Conclusion: Why Willa Matters
+## Conclusion: Why [Willa Matters](/who-is-willa-theo-of-golden.html)
 
 Willa Francesca never speaks a word in the main body of *Theo of Golden*. But she is the living proof of its central argument:
 
