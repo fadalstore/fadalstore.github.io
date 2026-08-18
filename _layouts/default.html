@@ -100,6 +100,7 @@ ga('send', 'pageview');
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body class="{{layout}}">
+	<div id="progress-bar"></div>
         <!-- defer loading of font and font awesome -->
         <noscript id="deferred-styles">
                 <link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i&display=swap" rel="stylesheet">
@@ -371,12 +372,20 @@ ga('send', 'pageview');
         setLanguage(savedLang);
 
         langBtn.addEventListener('click', function() {
-            const currentLang = localStorage.getItem('preferred-lang') || 'so';
-            const newLang = currentLang === 'so' ? 'en' : 'so';
-            setLanguage(newLang);
-        });
-    });
-    </script>
+	            const currentLang = localStorage.getItem('preferred-lang') || 'so';
+	            const newLang = currentLang === 'so' ? 'en' : 'so';
+	            setLanguage(newLang);
+	        });
+
+	        // Reading Progress Bar Logic
+	        window.onscroll = function() {
+	            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+	            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+	            const scrolled = (winScroll / height) * 100;
+	            document.getElementById("progress-bar").style.width = scrolled + "%";
+	        };
+	    });
+	    </script>
 	
 	</body>
 </html>
