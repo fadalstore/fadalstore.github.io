@@ -5,12 +5,12 @@
         <div class="row h-100">
             <div class="col-12 col-md-12 col-lg-5 pr-lg-0">
                 <div class="h-100">
-                    <div class="wrapthumbnail">
+                    <div class="wrapthumbnail fs-featured-media">
                         <a href="{{ site.baseurl }}{{ post.url }}">
                             {% if site.lazyimages == "enabled" %}
-                            <img class="featured-box-img-cover" loading="eager" fetchpriority="high" width="600" height="400" alt="{{ post.title }}" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}">
+                            <img class="featured-box-img-cover" loading="eager" fetchpriority="high" width="1200" height="675" alt="{{ post.image_alt | default: post.title | escape }}" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}">
                             {% else %}
-                            <img class="featured-box-img-cover" loading="eager" fetchpriority="high" width="600" height="400" alt="{{ post.title }}" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}">
+                            <img class="featured-box-img-cover" loading="eager" fetchpriority="high" width="1200" height="675" alt="{{ post.image_alt | default: post.title | escape }}" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}">
                             {% endif %}
                         </a>
                     </div>
