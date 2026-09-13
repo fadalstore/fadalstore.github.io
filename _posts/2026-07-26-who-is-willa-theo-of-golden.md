@@ -6,7 +6,7 @@ date: 2026-07-26
 categories: [book-explainers]
 tags: [theo-of-golden, willa, allen-levi, ending-explained]
 permalink: /who-is-willa-theo-of-golden.html
-canonical_url: "https://fadalstore.online/theo-of-golden-willa-ending-explained.html"
+canonical_url: "https://fadalstore.online/who-is-willa-theo-of-golden.html"
 ---
 
 ## Short Answer
@@ -35,7 +35,7 @@ If you're drawn to novels built around a hidden identity and a twist ending, you
 
 ## Want to Understand the Whole Book?
 
-**Theo of Golden: The Complete Reader's Companion** is a PDF guide covering every character, hidden theme, and a full set of book club discussion questions. [Get it here](https://sheikhly74.gumroad.com/l/omalt).
+**Theo of Golden: The Complete Reader's Companion** is a PDF guide covering every character, hidden theme, and a full set of book club discussion questions. [Get it here](https://sheikhly74.gumroad.com/l/kjrvs).
 
 <script type="application/ld+json">
 {
