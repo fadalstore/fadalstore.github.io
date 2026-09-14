@@ -26,7 +26,7 @@ permalink: /who-is-willa-in-theo-of-golden.html
 <div style="background:#0B1D3A;color:#FAF7F0;padding:24px 22px;border:1px solid #C9A227;border-radius:6px;margin:28px 0;">
   <p style="margin:0 0 10px 0;font-size:1.15em;color:#C9A227;font-weight:bold;">📖 Get the Full Willa &amp; Ending Companion Guide</p>
   <p style="margin:0 0 14px 0;">Every reveal explained in order — Willa's identity, Theo's hidden fatherhood, and the ending's deliberate ambiguity — plus the symbolism you likely missed and 20 discussion questions for your book club. An 8-page reader's companion built specifically for people who just finished the book and want the full picture, not another half-answer.</p>
-  <a href="https://sheikhly74.gumroad.com/l/omalt" style="display:inline-block;background:#C9A227;color:#0B1D3A;padding:10px 20px;border-radius:4px;text-decoration:none;font-weight:bold;">Get the Companion Guide on Gumroad →</a>
+  <a href="https://sheikhly74.gumroad.com/l/kjrvs" target="_blank" rel="nofollow sponsored noopener" style="display:inline-block;background:#C9A227;color:#0B1D3A;padding:10px 20px;border-radius:4px;text-decoration:none;font-weight:bold;">Get the Companion Guide on Gumroad →</a>
 </div>
 
 <h2>Why This Matters More Than a Plot Point</h2>
@@ -76,4 +76,4 @@ Theo learns Willa's story from Ellen during the year he spends in Golden, and pr
 }
 </script>
 
-<p style="margin-top:30px;"><em>Want the answer to every remaining question — including what Theo's own secret reveals about why he really came to Golden? <a href="https://sheikhly74.gumroad.com/l/omalt">The complete companion guide is available now on Gumroad</a>, with the full timeline, symbolism breakdown, and 20 discussion questions in one 8-page PDF you can read in one sitting.</em></p>
+<p style="margin-top:30px;"><em>Want the answer to every remaining question — including what Theo's own secret reveals about why he really came to Golden? <a href="https://sheikhly74.gumroad.com/l/kjrvs" target="_blank" rel="nofollow sponsored noopener">The complete companion guide is available now on Gumroad</a>, with the full timeline, symbolism breakdown, and 20 discussion questions in one 8-page PDF you can read in one sitting.</em></p>
