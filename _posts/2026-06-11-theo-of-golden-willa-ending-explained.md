@@ -24,11 +24,11 @@ canonical_url: "https://fadalstore.online/theo-of-golden-ending-explained.html"
 <div class="my-5 p-4 border rounded shadow-sm" style="background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9 !important;">
     <div class="row align-items-center">
         <div class="col-md-8">
-            <h4 class="font-weight-bold mb-2">📚 Ma doonaysaa inaad si qoto dheer u fahanto Theo of Golden?</h4>
-            <p class="mb-0">Soo deji <strong>Reader's Companion</strong> — hage dhamaystiran oo ku saabsan dhammaadka buugga, sirta Willa, iyo su'aalaha kooxda buugaagta.</p>
+            <h4 class="font-weight-bold mb-2">📚 Want to understand Theo of Golden more deeply?</h4>
+            <p class="mb-0">Download the <strong>Reader's Companion PDF</strong> — a complete guide to the ending, Willa's identity, Theo's secret, and book-club discussion questions.</p>
         </div>
         <div class="col-md-4 text-center mt-3 mt-md-0">
-            <a href="https://sheikhly74.gumroad.com/l/kjrvs" target="_blank" class="btn btn-primary btn-lg" style="border-radius: 30px; background-color: #0ea5e9; border: none; padding: 10px 25px;">Hadda Hel PDF-ka</a>
+            <a href="https://sheikhly74.gumroad.com/l/kjrvs" target="_blank" rel="nofollow sponsored noopener" class="btn btn-primary btn-lg" style="border-radius: 30px; background-color: #0ea5e9; border: none; padding: 10px 25px;">Get the PDF Guide</a>
         </div>
     </div>
 </div>

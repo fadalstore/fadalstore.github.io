@@ -112,6 +112,12 @@ canonical_url: "https://fadalstore.online/theo-of-golden-willa-ending-explained.
   The most-searched question about this breakout novel: <strong>"Who is Willa in Theo of Golden?"</strong> — This complete guide answers every question, from Willa's identity to Theo's shocking secret, with full ending explained. No guessing. Only the truth of the book.
 </div>
 
+<div class="text-center my-4 p-3 border rounded" style="background:#eff6ff;border-color:#bfdbfe !important;">
+  <strong>Want the complete Willa timeline and ending companion?</strong><br>
+  <span>Get the downloadable PDF with character profiles, themes, and 20 book-club questions.</span><br>
+  <a href="https://sheikhly74.gumroad.com/l/kjrvs" target="_blank" rel="nofollow sponsored noopener" class="btn btn-primary mt-2" style="border-radius:24px;padding:10px 24px;">Get the PDF Companion →</a>
+</div>
+
 ---
 
 ## Who Is Willa in Theo of Golden? (The Complete, Accurate Answer)
@@ -164,7 +170,7 @@ He pays for six months of rent at Ponder House, employing **James Ponder** as hi
 | **Asher Glisson** | Local portrait artist; Theo's secret biological son |
 | **James Ponder** | Broker and consultant; Theo's landlord at Ponder House |
 | **Ellen** | Homeless woman; mother of the long-lost Willa Francesca |
-| **Willa Francesca (Olivia Reese) | Ellen's daughter; arrives in Golden after Theo's death ([Read her full story](/who-is-willa-theo-of-golden.html)) |
+| **Willa Francesca (Olivia Reese)** | Ellen's daughter; arrives in Golden after Theo's death ([Read her full story](/who-is-willa-theo-of-golden.html)) |
 | **Minette & Derrick** | High school sweethearts; first portrait recipients |
 | **Kendrick Whitaker** | Night-shift custodian; daughter Lamisha ("Scooby") in hospital |
 | **Tony** | Bookshop owner; Vietnam veteran carrying deep guilt |
