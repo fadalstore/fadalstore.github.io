@@ -18,8 +18,16 @@
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "{{ site.name }}",
+  "description": "{{ site.description | escape }}",
   "url": "{{ site.url }}",
   "logo": "{{ site.url }}/assets/images/logo.png",
+  "email": "{{ site.authors.fadal.email }}",
+  "founder": {
+    "@type": "Person",
+    "name": "{{ site.authors.fadal.name }}",
+    "url": "{{ site.url }}/about/"
+  },
+  "publishingPrinciples": "{{ site.url }}/editorial-policy/",
   "sameAs": [
     "{{ site.authors.fadal.facebook }}",
     "{{ site.authors.fadal.twitter }}",

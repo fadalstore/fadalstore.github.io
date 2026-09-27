@@ -1,58 +1,20 @@
 ---
 layout: page
-title: "Private Vault"
+title: "Private Vault Disabled | Fadal Store"
 permalink: /private-vault/
+description: "The insecure client-side private vault has been disabled."
+robots: noindex, nofollow
+sitemap: false
 ---
 
-<div class="container" style="max-width: 600px; margin: 50px auto; padding: 20px; border: 1px solid #ddd; border-radius: 10px; background: #f9f9f9; text-align: center;">
-    <div id="login-section">
-        <h3>🔒 Qaybta Qarsoon</h3>
-        <p>Fadlan geli furaha sirta ah si aad u aragto xogta.</p>
-        <input type="password" id="password-input" placeholder="Geli Password-ka" style="padding: 10px; width: 80%; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;">
-        <br>
-        <button onclick="checkPassword()" style="padding: 10px 20px; background: #333; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Furan</button>
-        <p id="error-msg" style="color: red; margin-top: 10px; display: none;">Password-ku waa khalad!</p>
-    </div>
+# Qaybta Private Vault waa la xiray
 
-    <div id="content-section" style="display: none; text-align: left;">
-        <h3>✅ Xogtaada Gaarka Ah</h3>
-        <hr>
-        <div style="background: #fff; padding: 15px; border-radius: 5px; border: 1px solid #eee;">
-            <p><strong>Note:</strong> Halkan waxaad ku kaydsan kartaa xog kasta oo aad rabto inaad adigu kaliya aragto.</p>
-            <ul>
-                <li><strong>Username-yada:</strong> [Halkan ku qor]</li>
-                <li><strong>Password-yada:</strong> [Halkan ku qor]</li>
-                <li><strong>Xogta Search Console:</strong> [Halkan ku qor]</li>
-                <li><strong>Qorshayaasha Mustaqbalka:</strong> [Halkan ku qor]</li>
-            </ul>
-        </div>
-        <br>
-        <button onclick="logout()" style="padding: 5px 10px; background: #ddd; border: none; border-radius: 3px; cursor: pointer;">Ka Bax</button>
-    </div>
-</div>
+Boggii hore wuxuu ku hayay password-ka gudaha JavaScript-ka browser-ka, taas oo aan ahayn kaydin ammaan ah. Fadlan **ha ku qorin passwords, API keys, ama xog gaar ah bog static ah**.
 
-<script>
-    // FADLAN BEDDEL PASSWORD-KA HOOSE (Default: 1234)
-    const SECRET_PASSWORD = "fadal"; 
+Isticmaal password manager la aamini karo, oo haddii aad hore ugu qortay xog xasaasi ah boggan, isla markiiba beddel passwords-kaas.
 
-    function checkPassword() {
-        const input = document.getElementById('password-input').value;
-        const errorMsg = document.getElementById('error-msg');
-        const loginSection = document.getElementById('login-section');
-        const contentSection = document.getElementById('content-section');
+## The private vault is disabled
 
-        if (input === SECRET_PASSWORD) {
-            loginSection.style.display = 'none';
-            contentSection.style.display = 'block';
-            errorMsg.style.display = 'none';
-        } else {
-            errorMsg.style.display = 'block';
-        }
-    }
+The previous page stored its password in browser JavaScript, which is not secure storage. Do **not** enter passwords, API keys, or private information into a static website page.
 
-    function logout() {
-        document.getElementById('login-section').style.display = 'block';
-        document.getElementById('content-section').style.display = 'none';
-        document.getElementById('password-input').value = '';
-    }
-</script>
+If you previously entered sensitive information there, change those credentials immediately and use a reputable password manager instead.

@@ -1,0 +1,4 @@
+Contact: mailto:fadalstore7@gmail.com
+Canonical: https://fadalstore.online/.well-known/security.txt
+Preferred-Languages: so, en
+Expires: 2027-09-27T00:00:00.000Z

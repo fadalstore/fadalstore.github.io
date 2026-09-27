@@ -14,6 +14,11 @@ Allow: /*.js$
 Disallow: /admin/
 Disallow: /_site/
 Disallow: /vendor/
+Disallow: /attached_assets/
+Disallow: /presentation_gsc/
+Disallow: /private-vault/
+Disallow: /slide_content.html
+Disallow: /ereaders-2026-research.html
 
 # Wadada khariidadda maqaalladaada (Sitemap)
 Sitemap: https://fadalstore.online/sitemap.xml

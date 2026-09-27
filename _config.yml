@@ -9,7 +9,7 @@ url: "https://fadalstore.online" # Domain-ka rasmiga ah ee cusub
 google_analytics: ''
 disqus: ''
 mailchimp-list: ''
-include: ["_pages"]
+include: ["_pages", ".well-known"]
 permalink: /:title.html
 
 # Authors
@@ -62,4 +62,4 @@ newsletter_access_key: "" # Furaha Access Key-gaaga
 # Lazy Images
 lazyimages: "enabled"
 
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, backup_fadal, attached_assets, check_links.py, check_orphans.py, fix_and_generate.js, generate_articles.js, generate_english.js, generate_programming.js, generate_sitemap.py, package-lock.json, package.json, serve.json, .local, .replit, replit.nix]
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, backup_fadal, attached_assets, presentation_gsc, slide_content.md, ereaders-2026-research.md, replit.md, replit.nix, skills-lock.json, check_links.py, check_orphans.py, fix_and_generate.js, generate_articles.js, generate_english.js, generate_programming.js, generate_sitemap.py, package-lock.json, package.json, serve.json, .local, .replit]

@@ -16,7 +16,7 @@ permalink: /sitemap.xml
 
   <!-- ===== Static Pages ===== -->
   {% for page in site.pages %}
-    {% unless page.sitemap == false or page.url contains 'sitemap' or page.url contains 'feed' or page.url contains 'robots' or page.url == '/' or page.url contains '404' %}
+    {% unless page.sitemap == false or page.url contains 'sitemap' or page.url contains 'feed' or page.url contains 'robots' or page.url contains 'private-vault' or page.url contains 'presentation_gsc' or page.url contains 'attached_assets' or page.url contains 'slide_content' or page.url contains 'ereaders-2026-research' or page.url contains '.css' or page.url contains '.js' or page.url contains '.json' or page.url contains '.txt' or page.url == '/' or page.url contains '404' %}
     <url>
       <loc>{{ site.url }}{{ page.url }}</loc>
       <lastmod>{{ site.time | date: '%Y-%m-%dT%H:%M:%S+00:00' }}</lastmod>
