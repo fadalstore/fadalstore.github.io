@@ -3,7 +3,7 @@ layout: post
 title: "Sida Google Search Console Loogu Diro Sitemap: Hagaha Website-yada"
 description: "Hagaha tallaabo-tallaabo ee sitemap, robots.txt, URL Inspection, iyo waxa la sameeyo marka maqaal cusub uusan weli Google ka muuqan."
 keywords: "Google Search Console Somali, sida sitemap loo diro, URL Inspection, robots.txt, website indexing"
-date: 2026-10-10 18:30:00 +0300
+date: 2026-10-10 17:30:00 +0300
 author: Fadal Yare
 categories: [SEO Tips, Programming]
 tags: [Google Search Console, SEO, Sitemap, Indexing, Website Guide]
