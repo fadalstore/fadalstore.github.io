@@ -56,14 +56,14 @@
 .stat-card .number { font-size: 1.5rem; font-weight: 800; color: #0ea5e9; display: block; }
 .stat-card .label { font-size: 0.8rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em; }
 .info-box { background: #f1f5f9; border-radius: 8px; padding: 15px; margin: 20px 0; font-size: 0.95rem; }
-.tip-box { background: #fffbeb; border-left: 5px solid #f59e0b; padding: 15px; margin: 20px 0; border-radius: 0 8px 8px 0; }
+.tip-box { background: #fffbeb; border-left: 5px solid #f59e0b; padding: 15px; margin: 20px 0; border-radius: 8px; }
 .code-box, pre { background: #1e293b; color: #f8fafc; padding: 15px; border-radius: 8px; overflow-x: auto; font-family: 'Courier New', Courier, monospace; margin: 20px 0; }
 .course-btn { display: inline-block; padding: 10px 20px; border-radius: 5px; color: #fff !important; font-weight: 700; text-decoration: none !important; margin-top: 10px; }
 .course-btn.prog { background: #2563eb; }
 .course-btn.sec { background: #059669; }
 .lesson-list { list-style: none; padding: 0; margin: 20px 0; }
 .lesson-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; display: flex; align-items: center; }
-.lesson-num { width: 24px; height: 24px; border-radius: 50%; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: 700; margin-right: 10px; flex-shrink: 0; }
+.lesson-num { width: 24px; height: 24px; border-radius: 50%; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: 700; margin-right: 10px; }
 .lesson-num.prog { background: #2563eb; }
 .lesson-num.sec { background: #059669; }
 .courses-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 30px; }
@@ -76,23 +76,10 @@
 .course-icon { font-size: 2rem; margin-bottom: 10px; }
 .course-title { font-size: 1.25rem; font-weight: 800; margin-bottom: 5px; }
 .course-meta { display: flex; gap: 10px; font-size: 0.8rem; color: #64748b; margin-bottom: 15px; }
-/* Sidebar Styles */
-.lesson-wrap { display: flex; flex-wrap: wrap; gap: 30px; }
-.lesson-wrap main { flex: 1; min-width: 300px; }
-.lesson-sidebar { width: 300px; }
-.sidebar-box { background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; margin-bottom: 20px; overflow: hidden; }
-.sidebar-box-head { background: #f8fafc; padding: 10px 15px; font-weight: 700; border-bottom: 1px solid #e2e8f0; }
-.sidebar-box-body { padding: 15px; }
-.sidebar-lesson-link { display: flex; align-items: center; padding: 8px 0; color: #475569; text-decoration: none !important; font-size: 0.9rem; border-bottom: 1px solid #f1f5f9; }
-.sidebar-lesson-link:last-child { border-bottom: none; }
-.sidebar-lesson-link.current { color: #2563eb; font-weight: 700; }
-.sidebar-num { width: 20px; height: 20px; border-radius: 50%; background: #e2e8f0; color: #64748b; display: flex; align-items: center; justify-content: center; font-size: 0.65rem; margin-right: 10px; flex-shrink: 0; }
-.sidebar-num.active { background: #2563eb; color: #fff; }
-@media (max-width: 768px) {
-  .lesson-sidebar { width: 100%; }
-}
 </style>
 
+<!-- Adsterra Social Bar -->
+<script data-cfasync="false" src="https://bicea.org/14/6cf5fb87b3a9f1fd7b10d368e5981d7f"></script>
 
 </head>
 
@@ -117,241 +104,34 @@ ga('send', 'pageview');
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         </noscript>
 
-
-<!-- Begin Menu Navigation
-================================================== -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
-
-    <div class="container pr-0">
-
-    <!-- Begin Logo -->
-    <a class="navbar-brand" href="{{ site.baseurl }}/" style="font-family:'Righteous',sans-serif;font-size:1.5rem;font-weight:900;color:#333;letter-spacing:1px;">
-    FS
-    </a>
-    <!-- End Logo -->
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarMediumish">
-
-        <!-- Begin Menu -->
-
-            <ul class="navbar-nav ml-auto">
-
-                <li class="nav-item {% if page.url == '/' %}active{% endif %}">
-                    <a class="nav-link lang-txt" href="{{ site.baseurl }}/" data-en="Home" data-so="Blog">Blog</a>
-                </li>
-
-                <!-- Articles Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle lang-txt" href="#" id="navbarDropdownArticles" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-en="Articles" data-so="Maqaallada">
-                        Maqaallada
-                    </a>
-                    <div class="dropdown-menu shadow-sm border-0" aria-labelledby="navbarDropdownArticles">
-                        <a class="dropdown-item lang-txt" href="{{ site.baseurl }}/posts/" data-en="All Stories" data-so="Dhammaan">Dhammaan</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="{{ site.baseurl }}/category-remote-work.html">Remote Work</a>
-                        <a class="dropdown-item" href="{{ site.baseurl }}/category-make-money-online.html">Make Money Online</a>
-                        <a class="dropdown-item" href="{{ site.baseurl }}/category-programming.html">Programming</a>
-                        <a class="dropdown-item" href="{{ site.baseurl }}/category-cybersecurity.html">Cybersecurity</a>
-	                        <a class="dropdown-item" href="{{ site.baseurl }}/category-reviews.html">Reviews</a>
-	                    </div>
-	                </li>
-
-	                <!-- Wisdom & Stories Dropdown -->
-	                <li class="nav-item dropdown">
-	                    <a class="nav-link dropdown-toggle lang-txt" href="#" id="navbarDropdownWisdom" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-en="Stories & Wisdom" data-so="Qisooyin & Xigmad">
-	                        Qisooyin & Xigmad
-	                    </a>
-	                    <div class="dropdown-menu shadow-sm border-0" aria-labelledby="navbarDropdownWisdom">
-	                        <a class="dropdown-item lang-txt" href="{{ site.baseurl }}/category-true-stories.html" data-en="True Stories" data-so="Qisooyin Dhab Ah">Qisooyin Dhab Ah</a>
-	                        <a class="dropdown-item lang-txt" href="{{ site.baseurl }}/category-wisdom-truth.html" data-en="Wisdom & Truth" data-so="Xigmad & Run">Xigmad & Run</a>
-	                        <a class="dropdown-item lang-txt" href="{{ site.baseurl }}/category-inspiration.html" data-en="Inspiration" data-so="Dhiirigelin">Dhiirigelin</a>
-	                        <a class="dropdown-item lang-txt" href="{{ site.baseurl }}/category-world-facts.html" data-en="World Facts" data-so="Xaqiiqooyinka Dunida">Xaqiiqooyinka Dunida</a>
-	                    </div>
-	                </li>
-
-                <!-- Learning Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle lang-txt" href="#" id="navbarDropdownLearning" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-en="Learning" data-so="Barashada">
-                        Barashada
-                    </a>
-                    <div class="dropdown-menu shadow-sm border-0" aria-labelledby="navbarDropdownLearning">
-                        <a class="dropdown-item lang-txt" href="{{ site.baseurl }}/courses/" data-en="Courses" data-so="Koorsooyin">Koorsooyin</a>
-                        <a class="dropdown-item lang-txt" href="{{ site.baseurl }}/ebooks/" data-en="E-books" data-so="Buugaag">Buugaag</a>
-                    </div>
-                </li>
-
-                <!-- Services Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle lang-txt" href="#" id="navbarDropdownServices" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-en="Services" data-so="Adeegyada">
-                        Adeegyada
-                    </a>
-                    <div class="dropdown-menu shadow-sm border-0" aria-labelledby="navbarDropdownServices">
-                        <a class="dropdown-item lang-txt" href="{{ site.baseurl }}/booking.html" style="color: #059669; font-weight: 700;" data-en="Booking" data-so="Boos Qabasho">Boos Qabasho</a>
-                        <a class="dropdown-item lang-txt" href="{{ site.baseurl }}/llms-generator/" style="color: #2563eb; font-weight: 700;" data-en="LLMS.txt" data-so="LLMS.txt">LLMS.txt</a>
-                    </div>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link lang-txt" href="{{ site.baseurl }}/about/" data-en="About" data-so="Ku saabsan">Ku saabsan</a>
-                </li>
-
-                <!-- Language Switcher -->
-                <li class="nav-item ml-lg-3">
-                    <button id="lang-switcher" class="btn btn-outline-primary btn-sm mt-1" style="border-radius: 20px; font-weight: 700; min-width: 60px;">EN</button>
-                </li>
-
-                {% include search-lunr.html %}
-
-            </ul>
-
-        <!-- End Menu -->
-
-    </div>
-
-    </div>
-</nav>
-<!-- End Navigation
-================================================== -->
-
 <div class="site-content">
 
 <div class="container">
 
-<!-- Site Title
-================================================== -->
 <div class="mainheading">
     <h1 class="sitetitle">{{ site.name }}</h1>
-    <p class="lead">
-        {{ site.description }}
-    </p>
+    <p class="lead">{{ site.description }}</p>
 </div>
 
-<!-- Adsense if enabled from _config.yml -->
 {% if site.adsense == "enabled" and site.adsense_data_ad_client != "ca-pub-xxxxxxxxxxxxxxxx" %}
 <div class="my-3">
     {% include adsense-under-header.html %}
 </div>
 {% endif %}
-<!-- End Adsense -->
 
-<!-- Content
-================================================== -->
 <div class="main-content">
     {{ content }}
 </div>
 
-<!-- AADS Ad removed temporarily for AdSense review -->
-
-<!-- Adsense Bottom if enabled -->
 {% if site.adsense == "enabled" and site.adsense_data_ad_client != "ca-pub-xxxxxxxxxxxxxxxx" %}
 <div class="my-4">
     {% include adsense-under-header.html %}
 </div>
 {% endif %}
-<!-- End Adsense Bottom -->
 
-<!-- Bottom Alert Bar
-================================================== -->
-<div class="alertbar">
-    <div class="container text-center">
-        <span style="font-family:'Righteous',sans-serif;font-weight:900;font-size:1.1rem;">FS</span> &nbsp; 
-        <span class="lang-txt" data-en="Follow us on Telegram so you don't miss new articles and exclusive updates." data-so="Nagala soco Telegram-ka si aadan u seegin maqaallada cusub iyo xogaha gaarka ah.">Nagala soco Telegram-ka si aadan u seegin maqaallada cusub iyo xogaha gaarka ah.</span>
-        <div class="d-inline-block ml-2">
-            <a href="https://t.me/fadalsheekh" target="_blank" class="btn btn-primary btn-sm lang-txt" style="border-radius:20px; padding: 5px 25px; background-color: #0088cc; border: none;" data-en="Join Telegram" data-so="Ku biir Telegram">Ku biir Telegram</a>
-        </div>
-    </div>
-</div>
-    
 </div>
 
-<!-- Categories Jumbotron
-================================================== -->
-<div class="jumbotron fortags">
-        <div class="d-md-flex h-100">
-                <div class="col-md-4 transpdark align-self-center text-center h-100">
-            <div class="d-md-flex align-items-center justify-content-center h-100">
-                <h2 class="d-md-block align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2>
-            </div>
-                </div>
-                <div class="col-md-8 p-5 align-self-center text-center">
-            {% assign categories_list = site.categories %}
-            {% if categories_list.first[0] == null %}
-                {% for category in categories_list %}
-                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a>
-                {% endfor %}
-            {% else %}
-                {% for category in categories_list %}
-                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a>
-                {% endfor %}
-            {% endif %}
-            {% assign categories_list = nil %}
-                </div>
-        </div>
 </div>
-
-<!-- Begin Footer
-================================================== -->
-<footer class="footer">
-    <div class="container">
-        <div class="row mb-4">
-            <div class="col-md-4 col-sm-6 mb-3 mb-md-0">
-                <h6 class="font-weight-bold mb-3">{{ site.name }}</h6>
-                <p class="small text-muted">{{ site.description }}</p>
-                <p class="small text-muted">📧 fadalstore7@gmail.com</p>
-                <div class="mt-3">
-                    {% assign author = site.authors.fadal %}
-                    {% if author.telegram %}<a href="{{ author.telegram }}" target="_blank" rel="noopener" class="mr-3" style="color:#0088cc;font-size:1.3rem;" title="Telegram"><i class="fab fa-telegram-plane"></i></a>{% endif %}
-                    {% if author.facebook %}<a href="{{ author.facebook }}" target="_blank" rel="noopener" class="mr-3" style="color:#1877f2;font-size:1.3rem;" title="Facebook"><i class="fab fa-facebook-f"></i></a>{% endif %}
-                    {% if author.twitter %}<a href="{{ author.twitter }}" target="_blank" rel="noopener" class="mr-3" style="color:#1da1f2;font-size:1.3rem;" title="X / Twitter"><i class="fab fa-twitter"></i></a>{% endif %}
-                    {% if author.whatsapp %}<a href="{{ author.whatsapp }}" target="_blank" rel="noopener" class="mr-3" style="color:#25d366;font-size:1.3rem;" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>{% endif %}
-                    {% if author.youtube %}<a href="{{ author.youtube }}" target="_blank" rel="noopener" class="mr-3" style="color:#ff0000;font-size:1.3rem;" title="YouTube"><i class="fab fa-youtube"></i></a>{% endif %}
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 mb-3 mb-md-0">
-                <h6 class="font-weight-bold mb-3 lang-txt" data-en="Top Guides" data-so="Hageyaasha Ugu Muhiimsan">Hageyaasha Ugu Muhiimsan</h6>
-                <ul class="list-unstyled small">
-                    <li class="mb-1"><a href="{{ site.baseurl }}/amazon-kdp-2026.html" class="text-muted">📦 Amazon KDP Guide 2026</a></li>
-                    <li class="mb-1"><a href="{{ site.baseurl }}/partnerstack-somali.html" class="text-muted">🤝 PartnerStack Soomaali</a></li>
-                    <li class="mb-1"><a href="{{ site.baseurl }}/cash-giraffe-app.html" class="text-muted">📱 Cash Giraffe Review</a></li>
-                    <li class="mb-1"><a href="{{ site.baseurl }}/ai-tools.html" class="text-muted">🤖 Best AI Tools 2026</a></li>
-                    <li class="mb-1"><a href="{{ site.baseurl }}/fiverr-seller-levels-2026.html" class="text-muted">🟢 Fiverr Seller Levels</a></li>
-                    <li class="mb-1"><a href="{{ site.baseurl }}/youtube-monetization-2026.html" class="text-muted">🎥 YouTube Monetization</a></li>
-                </ul>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <h6 class="font-weight-bold mb-3 lang-txt" data-en="Pages" data-so="Bogagga">Bogagga</h6>
-                <ul class="list-unstyled small">
-                    <li class="mb-1"><a href="{{ site.baseurl }}/about/" class="text-muted lang-txt" data-en="ℹ️ About" data-so="ℹ️ Ku saabsan">ℹ️ Ku saabsan</a></li>
-                    <li class="mb-1"><a href="{{ site.baseurl }}/privacy-policy/" class="text-muted">🔒 Privacy Policy</a></li>
-                    <li class="mb-1"><a href="{{ site.baseurl }}/disclaimer/" class="text-muted">⚠️ Disclaimer</a></li>
-                    <li class="mb-1"><a href="{{ site.baseurl }}/terms-of-service/" class="text-muted">📄 Terms of Service</a></li>
-                    <li class="mb-1"><a href="{{ site.baseurl }}/editorial-policy/" class="text-muted">✅ Editorial Policy</a></li>
-                    <li class="mb-1"><a href="{{ site.baseurl }}/sitemap.xml" class="text-muted">🗺️ Sitemap</a></li>
-                </ul>
-            </div>
-        </div>
-        <hr style="border-color: #e2e8f0;">
-        <div class="row">
-            <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                <small class="text-muted">Copyright © {{ site.time | date: "%Y" }} {{ site.name }} — <span class="lang-txt" data-en="All Rights Reserved" data-so="Xuquuqda waa Dhawrantahay">Xuquuqda waa Dhawrantahay</span></small>
-            </div>
-            <div class="col-md-6 col-sm-6 text-center text-lg-right">
-                <small class="text-muted">Designed by Master Fadal</small>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- End Footer
-================================================== -->
-
-</div> <!-- /.site-content -->
-
-<!-- Scripts
-================================================== -->
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" crossorigin="anonymous" defer></script>
@@ -362,54 +142,38 @@ ga('send', 'pageview');
 {% endif %}
 <script src="https://gumroad.com/js/gumroad.js" defer></script>
 
-	{% if page.layout == 'post' and site.disqus %}
-	<script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
-	{% endif %}
+{% if page.layout == 'post' and site.disqus %}
+<script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
+{% endif %}
 
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const langBtn = document.getElementById('lang-switcher');
-        const langTxts = document.querySelectorAll('.lang-txt');
-        
-        function setLanguage(lang) {
-            langTxts.forEach(el => {
-                // Update text content
-                if (el.dataset[lang]) {
-                    el.innerText = el.dataset[lang];
-                }
-                // Update placeholder if it exists
-                if (el.tagName === 'INPUT' && el.dataset[lang + 'Placeholder']) {
-                    el.placeholder = el.dataset[lang + 'Placeholder'];
-                }
-                // Update title attribute if it exists
-                if (el.dataset[lang + 'Title']) {
-                    el.title = el.dataset[lang + 'Title'];
-                }
-            });
-            langBtn.innerText = lang === 'en' ? 'SO' : 'EN';
-            localStorage.setItem('preferred-lang', lang);
-            document.documentElement.lang = lang;
-        }
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const langBtn = document.getElementById('lang-switcher');
+    const langTxts = document.querySelectorAll('.lang-txt');
 
-        // Initialize from local storage or default to 'so'
-        const savedLang = localStorage.getItem('preferred-lang') || 'so';
-        setLanguage(savedLang);
+    function setLanguage(lang) {
+        langTxts.forEach(el => {
+            if (el.dataset[lang]) el.innerText = el.dataset[lang];
+            if (el.tagName === 'INPUT' && el.dataset[lang + 'Placeholder']) el.placeholder = el.dataset[lang + 'Placeholder'];
+            if (el.dataset[lang + 'Title']) el.title = el.dataset[lang + 'Title'];
+        });
+        if (langBtn) langBtn.innerText = lang === 'en' ? 'SO' : 'EN';
+        localStorage.setItem('preferred-lang', lang);
+        document.documentElement.lang = lang;
+    }
 
+    const savedLang = localStorage.getItem('preferred-lang') || 'so';
+    setLanguage(savedLang);
+
+    if (langBtn) {
         langBtn.addEventListener('click', function() {
-	            const currentLang = localStorage.getItem('preferred-lang') || 'so';
-	            const newLang = currentLang === 'so' ? 'en' : 'so';
-	            setLanguage(newLang);
-	        });
+            const currentLang = localStorage.getItem('preferred-lang') || 'so';
+            const newLang = currentLang === 'so' ? 'en' : 'so';
+            setLanguage(newLang);
+        });
+    }
+});
+</script>
 
-	        // Reading Progress Bar Logic
-	        window.onscroll = function() {
-	            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-	            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-	            const scrolled = (winScroll / height) * 100;
-	            document.getElementById("progress-bar").style.width = scrolled + "%";
-	        };
-	    });
-	    </script>
-	
-	</body>
+</body>
 </html>
