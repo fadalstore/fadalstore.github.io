@@ -10,170 +10,139 @@
 <meta name="application-name" content="{{ site.name | escape }}">
 <!-- mylead-verification: 4121f5f34428ff6d2c18427422790c72 -->
 <meta name="mylead-verification" content="4121f5f34428ff6d2c18427422790c72">
-
 <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="preconnect" href="https://pagead2.googlesyndication.com">
-	<link rel="preconnect" href="https://googleads.g.doubleclick.net">
-	<link rel="preconnect" href="https://adservice.google.com">
-	<link rel="preconnect" href="https://www.googletagservices.com">
-	<link rel="dns-prefetch" href="https://fonts.googleapis.com">
-	<link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
-	<link rel="dns-prefetch" href="https://googleads.g.doubleclick.net">
-	<link rel="dns-prefetch" href="https://m.media-amazon.com">
-	<link rel="dns-prefetch" href="https://z-na.amazon-adsystem.com">
-
-<title>{{ page.title }} | {{site.name}}</title>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://pagead2.googlesyndication.com">
+<link rel="preconnect" href="https://googleads.g.doubleclick.net">
+<link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
+<title>{{ page.title }} | {{ site.name }}</title>
 <link rel="canonical" href="{% if page.canonical_url %}{{ page.canonical_url }}{% else %}{{ site.url }}{{ page.url | replace:'index.html','' }}{% endif %}" />
 {% seo %}
-
-<!-- SEO Enhancements for Google Search & Images -->
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 {% include open-graph.html %}
 {% include schema.html %}
-{% if page.url == "/" or page.url == "/index.html" %}
-  {% include site-schema.html %}
-{% endif %}
-
+{% if page.url == "/" or page.url == "/index.html" %}{% include site-schema.html %}{% endif %}
 {% if site.adsense == "enabled" and site.adsense_data_ad_client != "ca-pub-xxxxxxxxxxxxxxxx" %}
 <meta name="google-adsense-account" content="{{ site.adsense_data_ad_client }}">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense_data_ad_client }}" crossorigin="anonymous"></script>
 {% endif %}
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" crossorigin="anonymous" media="print" onload="this.media='all'">
-    
-<link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet" media="print" onload="this.media='all'">
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" crossorigin="anonymous">
+<link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
 <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
 <link href="{{ site.baseurl }}/assets/css/theme-modern.css" rel="stylesheet">
 <style>
-/* Course & Article Custom Styles */
-.highlight-box { background: #f0f9ff; border-left: 5px solid #0ea5e9; padding: 20px; margin: 20px 0; border-radius: 0 8px 8px 0; }
-.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin: 25px 0; }
-.stat-card { background: #fff; border: 1px solid #e2e8f0; padding: 15px; border-radius: 10px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
-.stat-card .number { font-size: 1.5rem; font-weight: 800; color: #0ea5e9; display: block; }
-.stat-card .label { font-size: 0.8rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em; }
-.info-box { background: #f1f5f9; border-radius: 8px; padding: 15px; margin: 20px 0; font-size: 0.95rem; }
-.tip-box { background: #fffbeb; border-left: 5px solid #f59e0b; padding: 15px; margin: 20px 0; border-radius: 8px; }
-.code-box, pre { background: #1e293b; color: #f8fafc; padding: 15px; border-radius: 8px; overflow-x: auto; font-family: 'Courier New', Courier, monospace; margin: 20px 0; }
-.course-btn { display: inline-block; padding: 10px 20px; border-radius: 5px; color: #fff !important; font-weight: 700; text-decoration: none !important; margin-top: 10px; }
-.course-btn.prog { background: #2563eb; }
-.course-btn.sec { background: #059669; }
-.lesson-list { list-style: none; padding: 0; margin: 20px 0; }
-.lesson-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; display: flex; align-items: center; }
-.lesson-num { width: 24px; height: 24px; border-radius: 50%; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: 700; margin-right: 10px; }
-.lesson-num.prog { background: #2563eb; }
-.lesson-num.sec { background: #059669; }
-.courses-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 30px; }
-.course-card { border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.2s; }
-.course-card:hover { transform: translateY(-5px); }
-.course-card-header { padding: 20px; color: #fff; text-align: center; }
-.course-card-header.prog { background: linear-gradient(135deg, #1d4ed8, #2563eb); }
-.course-card-header.sec { background: linear-gradient(135deg, #065f46, #059669); }
-.course-card-body { padding: 20px; flex: 1; display: flex; flex-direction: column; }
-.course-icon { font-size: 2rem; margin-bottom: 10px; }
-.course-title { font-size: 1.25rem; font-weight: 800; margin-bottom: 5px; }
-.course-meta { display: flex; gap: 10px; font-size: 0.8rem; color: #64748b; margin-bottom: 15px; }
+.highlight-box { background:#f0f9ff; border-left:5px solid #0ea5e9; padding:20px; margin:20px 0; border-radius:0 8px 8px 0; }
+.stat-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:15px; margin:25px 0; }
+.stat-card { background:#fff; border:1px solid #e2e8f0; padding:15px; border-radius:10px; text-align:center; box-shadow:0 2px 4px rgba(0,0,0,.05); }
+.stat-card .number { font-size:1.5rem; font-weight:800; color:#0ea5e9; display:block; }
+.stat-card .label { font-size:.8rem; color:#64748b; text-transform:uppercase; letter-spacing:.05em; }
+.info-box { background:#f1f5f9; border-radius:8px; padding:15px; margin:20px 0; font-size:.95rem; }
+.tip-box { background:#fffbeb; border-left:5px solid #f59e0b; padding:15px; margin:20px 0; border-radius:0 8px 8px 0; }
+.code-box, pre { background:#1e293b; color:#f8fafc; padding:15px; border-radius:8px; overflow-x:auto; font-family:'Courier New',Courier,monospace; margin:20px 0; }
+.course-btn { display:inline-block; padding:10px 20px; border-radius:5px; color:#fff !important; font-weight:700; text-decoration:none !important; margin-top:10px; }
+.course-btn.prog { background:#2563eb; } .course-btn.sec { background:#059669; }
+.lesson-list { list-style:none; padding:0; margin:20px 0; }
+.lesson-list li { padding:8px 0; border-bottom:1px solid #f1f5f9; display:flex; align-items:center; }
+.lesson-num { width:24px; height:24px; border-radius:50%; color:#fff; display:flex; align-items:center; justify-content:center; font-size:.7rem; font-weight:700; margin-right:10px; flex-shrink:0; }
+.lesson-num.prog { background:#2563eb; } .lesson-num.sec { background:#059669; }
+.courses-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:25px; margin-top:30px; }
+.course-card { border:1px solid #e2e8f0; border-radius:12px; overflow:hidden; display:flex; flex-direction:column; transition:transform .2s; }
+.course-card:hover { transform:translateY(-5px); }
+.course-card-header { padding:20px; color:#fff; text-align:center; }
+.course-card-header.prog { background:linear-gradient(135deg,#1d4ed8,#2563eb); }
+.course-card-header.sec { background:linear-gradient(135deg,#065f46,#059669); }
+.course-card-body { padding:20px; flex:1; display:flex; flex-direction:column; }
+.course-icon { font-size:2rem; margin-bottom:10px; } .course-title { font-size:1.25rem; font-weight:800; margin-bottom:5px; }
+.course-meta { display:flex; gap:10px; font-size:.8rem; color:#64748b; margin-bottom:15px; }
 </style>
-
 <!-- Adsterra Social Bar -->
 <script data-cfasync="false" src="https://bicea.org/14/6cf5fb87b3a9f1fd7b10d368e5981d7f"></script>
-
 </head>
-
 {% if jekyll.environment == 'production' and site.google_analytics %}
-<!-- change your GA id in _config.yml -->
 <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', '{{site.google_analytics}}', 'auto');
-ga('send', 'pageview');
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create','{{ site.google_analytics }}','auto'); ga('send','pageview');
 </script>
 {% endif %}
-
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
-<body class="{{layout}}">
-	<div id="progress-bar"></div>
-        <!-- defer loading of font and font awesome -->
-        <noscript id="deferred-styles">
-                <link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i&display=swap" rel="stylesheet">
-                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-        </noscript>
-
+<body class="{{ layout }}">
+<div id="progress-bar"></div>
+<noscript id="deferred-styles">
+<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" crossorigin="anonymous">
+</noscript>
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+  <div class="container pr-0">
+    <a class="navbar-brand" href="{{ site.baseurl }}/" style="font-family:'Righteous',sans-serif;font-size:1.5rem;font-weight:900;color:#333;letter-spacing:1px;">FS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarMediumish" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarMediumish">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item {% if page.url == '/' %}active{% endif %}"><a class="nav-link lang-txt" href="{{ site.baseurl }}/" data-en="Home" data-so="Blog">Blog</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle lang-txt" href="#" id="navbarDropdownArticles" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-en="Articles" data-so="Maqaallada">Maqaallada</a>
+          <div class="dropdown-menu shadow-sm border-0" aria-labelledby="navbarDropdownArticles">
+            <a class="dropdown-item lang-txt" href="{{ site.baseurl }}/posts/" data-en="All Stories" data-so="Dhammaan">Dhammaan</a><div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="{{ site.baseurl }}/category-remote-work.html">Remote Work</a><a class="dropdown-item" href="{{ site.baseurl }}/category-make-money-online.html">Make Money Online</a><a class="dropdown-item" href="{{ site.baseurl }}/category-programming.html">Programming</a><a class="dropdown-item" href="{{ site.baseurl }}/category-cybersecurity.html">Cybersecurity</a><a class="dropdown-item" href="{{ site.baseurl }}/category-reviews.html">Reviews</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle lang-txt" href="#" id="navbarDropdownWisdom" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-en="Stories &amp; Wisdom" data-so="Qisooyin &amp; Xigmad">Qisooyin &amp; Xigmad</a>
+          <div class="dropdown-menu shadow-sm border-0" aria-labelledby="navbarDropdownWisdom">
+            <a class="dropdown-item lang-txt" href="{{ site.baseurl }}/category-true-stories.html" data-en="True Stories" data-so="Qisooyin Dhab Ah">Qisooyin Dhab Ah</a><a class="dropdown-item lang-txt" href="{{ site.baseurl }}/category-wisdom-truth.html" data-en="Wisdom &amp; Truth" data-so="Xigmad &amp; Run">Xigmad &amp; Run</a><a class="dropdown-item lang-txt" href="{{ site.baseurl }}/category-inspiration.html" data-en="Inspiration" data-so="Dhiirigelin">Dhiirigelin</a><a class="dropdown-item lang-txt" href="{{ site.baseurl }}/category-world-facts.html" data-en="World Facts" data-so="Xaqiiqooyinka Dunida">Xaqiiqooyinka Dunida</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle lang-txt" href="#" id="navbarDropdownLearning" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-en="Learning" data-so="Barashada">Barashada</a>
+          <div class="dropdown-menu shadow-sm border-0" aria-labelledby="navbarDropdownLearning"><a class="dropdown-item lang-txt" href="{{ site.baseurl }}/courses/" data-en="Courses" data-so="Koorsooyin">Koorsooyin</a><a class="dropdown-item lang-txt" href="{{ site.baseurl }}/ebooks/" data-en="E-books" data-so="Buugaag">Buugaag</a></div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle lang-txt" href="#" id="navbarDropdownServices" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-en="Services" data-so="Adeegyada">Adeegyada</a>
+          <div class="dropdown-menu shadow-sm border-0" aria-labelledby="navbarDropdownServices"><a class="dropdown-item lang-txt" href="{{ site.baseurl }}/booking.html" style="color:#059669;font-weight:700;" data-en="Booking" data-so="Boos Qabasho">Boos Qabasho</a><a class="dropdown-item lang-txt" href="{{ site.baseurl }}/llms-generator/" style="color:#2563eb;font-weight:700;" data-en="LLMS.txt" data-so="LLMS.txt">LLMS.txt</a></div>
+        </li>
+        <li class="nav-item"><a class="nav-link lang-txt" href="{{ site.baseurl }}/about/" data-en="About" data-so="Ku saabsan">Ku saabsan</a></li>
+        <li class="nav-item ml-lg-3"><button id="lang-switcher" class="btn btn-outline-primary btn-sm mt-1" style="border-radius:20px;font-weight:700;min-width:60px;">EN</button></li>
+        {% include search-lunr.html %}
+      </ul>
+    </div>
+  </div>
+</nav>
 <div class="site-content">
-
-<div class="container">
-
-<div class="mainheading">
-    <h1 class="sitetitle">{{ site.name }}</h1>
-    <p class="lead">{{ site.description }}</p>
+  <div class="container">
+    <div class="mainheading"><h1 class="sitetitle">{{ site.name }}</h1><p class="lead">{{ site.description }}</p></div>
+    {% if site.adsense == "enabled" and site.adsense_data_ad_client != "ca-pub-xxxxxxxxxxxxxxxx" %}<div class="my-3">{% include adsense-under-header.html %}</div>{% endif %}
+    <div class="main-content">{{ content }}</div>
+    {% if site.adsense == "enabled" and site.adsense_data_ad_client != "ca-pub-xxxxxxxxxxxxxxxx" %}<div class="my-4">{% include adsense-under-header.html %}</div>{% endif %}
+    <div class="alertbar"><div class="container text-center"><span style="font-family:'Righteous',sans-serif;font-weight:900;font-size:1.1rem;">FS</span> &nbsp; <span class="lang-txt" data-en="Follow us on Telegram so you don't miss new articles and exclusive updates." data-so="Nagala soco Telegram-ka si aadan u seegin maqaallada cusub iyo xogaha gaarka ah">Nagala soco Telegram-ka si aadan u seegin maqaallada cusub iyo xogaha gaarka ah.</span> <div class="d-inline-block ml-2"><a href="https://t.me/fadalsheekh" target="_blank" rel="noopener" class="btn btn-primary btn-sm lang-txt" style="border-radius:20px;padding:5px 25px;background-color:#0088cc;border:none;" data-en="Join Telegram" data-so="Ku biir Telegram">Ku biir Telegram</a></div></div></div>
+  </div>
+  <div class="jumbotron fortags"><div class="d-md-flex h-100"><div class="col-md-4 transpdark align-self-center text-center h-100"><div class="d-md-flex align-items-center justify-content-center h-100"><h2 class="d-md-block align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2></div></div><div class="col-md-8 p-5 align-self-center text-center">{% assign categories_list = site.categories %}{% for category in categories_list %}<a class="mt-1 mb-1" href="{{ site.baseurl }}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a>{% endfor %}{% assign categories_list = nil %}</div></div></div>
+  <footer class="footer"><div class="container"><div class="row mb-4"><div class="col-md-4 col-sm-6 mb-3"><h6 class="font-weight-bold mb-3">{{ site.name }}</h6><p class="small text-muted">{{ site.description }}</p><p class="small text-muted">📧 fadalstore7@gmail.com</p><div class="mt-3">{% assign author = site.authors.fadal %}{% if author.telegram %}<a href="{{ author.telegram }}" target="_blank" rel="noopener" class="mr-3" title="Telegram">Telegram</a>{% endif %}{% if author.facebook %}<a href="{{ author.facebook }}" target="_blank" rel="noopener" class="mr-3" title="Facebook">Facebook</a>{% endif %}{% if author.twitter %}<a href="{{ author.twitter }}" target="_blank" rel="noopener" class="mr-3" title="X / Twitter">X</a>{% endif %}</div></div><div class="col-md-4 col-sm-6 mb-3"><h6 class="font-weight-bold mb-3 lang-txt" data-en="Top Guides" data-so="Hageyaasha Ugu Muhiimsan">Hageyaasha Ugu Muhiimsan</h6><ul class="list-unstyled small"><li><a href="{{ site.baseurl }}/amazon-kdp-2026.html">Amazon KDP Guide 2026</a></li><li><a href="{{ site.baseurl }}/partnerstack-somali.html">PartnerStack Soomaali</a></li><li><a href="{{ site.baseurl }}/cash-giraffe-app.html">Cash Giraffe Review</a></li><li><a href="{{ site.baseurl }}/ai-tools.html">Best AI Tools 2026</a></li><li><a href="{{ site.baseurl }}/fiverr-seller-levels-2026.html">Fiverr Seller Levels</a></li><li><a href="{{ site.baseurl }}/youtube-monetization-2026.html">YouTube Monetization</a></li></ul></div><div class="col-md-4 col-sm-6"><h6 class="font-weight-bold mb-3 lang-txt" data-en="Pages" data-so="Bogagga">Bogagga</h6><ul class="list-unstyled small"><li><a href="{{ site.baseurl }}/about/">Ku saabsan</a></li><li><a href="{{ site.baseurl }}/privacy-policy/">Privacy Policy</a></li><li><a href="{{ site.baseurl }}/disclaimer/">Disclaimer</a></li><li><a href="{{ site.baseurl }}/terms-of-service/">Terms of Service</a></li><li><a href="{{ site.baseurl }}/editorial-policy/">Editorial Policy</a></li><li><a href="{{ site.baseurl }}/sitemap.xml">Sitemap</a></li></ul></div></div><hr><div class="row"><div class="col-md-6 text-center text-lg-left"><small class="text-muted">Copyright © {{ site.time | date: "%Y" }} {{ site.name }} — All Rights Reserved</small></div><div class="col-md-6 text-center text-lg-right"><small class="text-muted">Designed by Master Fadal</small></div></div></div></footer>
 </div>
-
-{% if site.adsense == "enabled" and site.adsense_data_ad_client != "ca-pub-xxxxxxxxxxxxxxxx" %}
-<div class="my-3">
-    {% include adsense-under-header.html %}
-</div>
-{% endif %}
-
-<div class="main-content">
-    {{ content }}
-</div>
-
-{% if site.adsense == "enabled" and site.adsense_data_ad_client != "ca-pub-xxxxxxxxxxxxxxxx" %}
-<div class="my-4">
-    {% include adsense-under-header.html %}
-</div>
-{% endif %}
-
-</div>
-
-</div>
-
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" crossorigin="anonymous" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" crossorigin="anonymous" defer></script>
 <script src="{{ site.baseurl }}/assets/js/mediumish.js" defer></script>
-{% if site.lazyimages == "enabled" %}
-<script src="{{ site.baseurl }}/assets/js/lazyload.js" defer></script>
-{% endif %}
+{% if site.lazyimages == "enabled" %}<script src="{{ site.baseurl }}/assets/js/lazyload.js" defer></script>{% endif %}
 <script src="https://gumroad.com/js/gumroad.js" defer></script>
-
-{% if page.layout == 'post' and site.disqus %}
-<script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
-{% endif %}
-
+{% if page.layout == 'post' and site.disqus %}<script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js"></script>{% endif %}
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    const langBtn = document.getElementById('lang-switcher');
-    const langTxts = document.querySelectorAll('.lang-txt');
-
-    function setLanguage(lang) {
-        langTxts.forEach(el => {
-            if (el.dataset[lang]) el.innerText = el.dataset[lang];
-            if (el.tagName === 'INPUT' && el.dataset[lang + 'Placeholder']) el.placeholder = el.dataset[lang + 'Placeholder'];
-            if (el.dataset[lang + 'Title']) el.title = el.dataset[lang + 'Title'];
-        });
-        if (langBtn) langBtn.innerText = lang === 'en' ? 'SO' : 'EN';
-        localStorage.setItem('preferred-lang', lang);
-        document.documentElement.lang = lang;
-    }
-
-    const savedLang = localStorage.getItem('preferred-lang') || 'so';
-    setLanguage(savedLang);
-
-    if (langBtn) {
-        langBtn.addEventListener('click', function() {
-            const currentLang = localStorage.getItem('preferred-lang') || 'so';
-            const newLang = currentLang === 'so' ? 'en' : 'so';
-            setLanguage(newLang);
-        });
-    }
+  const langBtn = document.getElementById('lang-switcher');
+  const langTxts = document.querySelectorAll('.lang-txt');
+  function setLanguage(lang) {
+    langTxts.forEach(function(el) {
+      if (el.dataset[lang]) el.innerText = el.dataset[lang];
+      if (el.tagName === 'INPUT' && el.dataset[lang + 'Placeholder']) el.placeholder = el.dataset[lang + 'Placeholder'];
+      if (el.dataset[lang + 'Title']) el.title = el.dataset[lang + 'Title'];
+    });
+    if (langBtn) langBtn.innerText = lang === 'en' ? 'SO' : 'EN';
+    localStorage.setItem('preferred-lang', lang);
+    document.documentElement.lang = lang;
+  }
+  setLanguage(localStorage.getItem('preferred-lang') || 'so');
+  if (langBtn) langBtn.addEventListener('click', function() { setLanguage((localStorage.getItem('preferred-lang') || 'so') === 'so' ? 'en' : 'so'); });
+  window.onscroll = function() { var height = document.documentElement.scrollHeight - document.documentElement.clientHeight; var scrolled = height ? ((document.documentElement.scrollTop || document.body.scrollTop) / height) * 100 : 0; var bar = document.getElementById('progress-bar'); if (bar) bar.style.width = scrolled + '%'; };
 });
 </script>
-
 </body>
 </html>
