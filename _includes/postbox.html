@@ -9,12 +9,12 @@
 
                     {% if site.lazyimages == "enabled" %}
                         {% if forloop.index <= 3 %}
-                            <img class="img-fluid" loading="eager" fetchpriority="high" width="1200" height="675" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.image_alt | default: post.title | escape }}">
+                            <img class="img-fluid" loading="eager" fetchpriority="high" width="1200" height="675" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}{{ post.image | prepend: '/' | replace: '//', '/' }}{% endif %}" alt="{{ post.image_alt | default: post.title | escape }}">
                         {% else %}
-                            <img class="img-fluid lazyimg" loading="lazy" width="1200" height="675" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.image_alt | default: post.title | escape }}">
+                            <img class="img-fluid lazyimg" loading="lazy" width="1200" height="675" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}{{ post.image | prepend: '/' | replace: '//', '/' }}{% endif %}" alt="{{ post.image_alt | default: post.title | escape }}">
                         {% endif %}
                     {% else %}
-                        <img class="img-fluid" loading="lazy" width="1200" height="675" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.image_alt | default: post.title | escape }}">
+                        <img class="img-fluid" loading="lazy" width="1200" height="675" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}{{ post.image | prepend: '/' | replace: '//', '/' }}{% endif %}" alt="{{ post.image_alt | default: post.title | escape }}">
                     {% endif %}
 
                 {% endif %}
