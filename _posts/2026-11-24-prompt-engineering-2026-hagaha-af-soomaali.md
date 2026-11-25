@@ -8,7 +8,7 @@ date: 2026-11-24 09:00:00 +0300
 categories: [Artificial Intelligence, Remote Work]
 tags: [prompt engineering, AI, ChatGPT, Claude, Gemini, shaqada online, 2026]
 author: fadal
-image: "/assets/images/wa-maxay-agentic-ai-guide.jpg"
+image: "/assets/images/ai-tools-2026.jpg"
 featured: true
 canonical_url: "https://fadalstore.online/prompt-engineering-2026-hagaha-af-soomaali.html"
 excerpt: "Hagaha dhameystiran ee Prompt Engineering 2026: sida prompts sax ah loo qoro, shaqooyin AI loo sameeyo, iyo qaladadka lagu qabo loo yareeyo."

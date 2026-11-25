@@ -62,19 +62,17 @@ post_class: post-template
             {% endif %}
             <!-- End Adsense -->
 
+            {% include monetization-native.html %}
+
             <!-- Post Featured Image -->
             {% if page.image %}
 
-            {% if site.lazyimages == "enabled" %}
-            <img class="featured-image img-fluid lazyimg" loading="eager" fetchpriority="high" width="1200" height="675" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
-            {% else %}
-            <img class="featured-image img-fluid" loading="eager" fetchpriority="high" width="1200" height="675" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
-            {% endif %}
+            <img class="featured-image img-fluid" loading="eager" fetchpriority="high" width="1200" height="675" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}{{ page.image | prepend: '/' | replace: '//', '/' }}{% endif %}" alt="{{ page.image_alt | default: page.title | escape }}">
 
             {% endif %}
             <!-- End Featured Image -->
 
-            <!-- AADS Ads removed temporarily for AdSense review -->
+            {% include monetization-aads-inline.html %}
 
             <!-- Post Content -->
             <div class="article-post">
@@ -92,7 +90,7 @@ post_class: post-template
                 {{content}}
             </div>
 
-            <!-- AADS Ads removed temporarily for AdSense review -->
+            {% include monetization-smartlink.html %}
 
             <!-- Rating -->
             {% if page.rating %}
